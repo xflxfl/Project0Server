@@ -1,0 +1,21 @@
+﻿疯狗魂魄:
+  Type: WOLF
+  Display: '&2疯狗 魂魄'
+  Health: 30
+  Damage: 4
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    Despawn: false
+  Disguise:
+    Type: WOLF
+    Burning: true
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Skills:
+  - leap{v=100} @Target ~onDamaged 0.3

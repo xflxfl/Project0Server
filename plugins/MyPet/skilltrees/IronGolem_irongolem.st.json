@@ -1,0 +1,107 @@
+{
+  "ID": "IronGolem_irongolem",
+  "Order": 11,
+  "Name": "铁傀儡",
+  "Requirements": [
+    "Permission:IronGolem"
+  ],
+  "Icon": {
+    "Material": "iron_block"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c近战攻击型宠物",
+    "\u0026f最大宠物攻击12",
+    "\u0026f最大宠物血量170",
+    "\u0026f宠物技能：",
+    "\u0026f -骑乘(5级获得)",
+    "\u0026f -冲刺(20级获得)",
+    "\u0026f -击退(30级获得)",
+    "\u0026f -践踏(50级获得,最大概率25%,最大伤害8)"
+  ],
+  "MobTypes": [
+    "IronGolem"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {
+          "Active": true
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Damage": "+0.3"
+        },
+        "%1>11<30": {
+          "Damage": "+0.2"
+        },
+        "%1>31<100": {
+          "Damage": "+0.071"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<30": {
+          "Health": "+2"
+        },
+        "%1>31<60": {
+          "Health": "+1.5"
+        },
+        "%1>61<100": {
+          "Health": "+1.125"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "5": {
+          "Active": true,
+          "Speed": "+5",
+          "JumpHeight": "+1.25"
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "20": {
+          "Active": true
+        }
+      }
+    },
+    "Stomp": {
+      "Upgrades": {
+        "50": {
+          "Damage": "+5",
+          "Chance": "+10"
+        },
+        "60": {
+          "Damage": "+1",
+          "Chance": "+5"
+        },
+        "80": {
+          "Damage": "+1",
+          "Chance": "+5"
+        },
+        "100": {
+          "Damage": "+1",
+          "Chance": "+5"
+        }
+      }
+    }
+  }
+}

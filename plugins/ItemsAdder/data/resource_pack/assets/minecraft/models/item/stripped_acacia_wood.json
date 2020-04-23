@@ -1,0 +1,11 @@
+{
+  "parent": "block/stripped_acacia_wood",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/nice_wood"
+    }
+  ]
+}

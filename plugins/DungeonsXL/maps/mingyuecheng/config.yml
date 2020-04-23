@@ -1,0 +1,98 @@
+timeToNextPlayAfterFinish: 2
+timeToFinish: 1800
+initialLives: 3
+
+title:
+  title: "&4明月城"
+  subtitle: "&6你共有3条命"
+  
+time: 6000
+
+dungeonManager:
+  minPlayers: 1
+  maxPlayers: 4
+  minLevel: 15
+  icon:
+    id: STICK
+    model: 70
+    
+dps:
+  exp: 30-90
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:riyue_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5日月剑"
+      model: 30
+  '2':
+    cmd: ph giveitem %player% mjy:wushi_chest
+    chance: 0.09
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&f武士胸甲"
+      model: 11
+  '3':
+    cmd: ph giveitem %player% mjy:wushi_leg
+    chance: 0.09
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&f武士护腿"
+      model: 11
+  '4':
+    cmd: ph giveitem %player% mjy:wushi_feet
+    chance: 0.09
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&f武士靴子"
+      model: 11
+  '5':
+    cmd: give %player% iron_ingot 16
+    chance: 0.14
+    icon:
+      id: IRON_INGOT
+      displayName: "&f铁锭16个"
+      model: 0
+  '6':
+    cmd: ph giveitem %player% mjy:wushi_head
+    chance: 0.09
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&f武士头盔"
+      model: 10
+  '7':
+    cmd: give %player% diamond 7
+    chance: 0.11
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石7个"
+      model: 0
+  '8':
+    cmd: eco give %player% 260
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6260金币"
+      model: 29
+  '9':
+    cmd: ph giveitem %player% mjy:xinglun_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5星轮剑"
+      model: 32
+  '10':
+    cmd: give %player% diamond 14
+    chance: 0.08
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石14个"
+      model: 0
+  '11':
+    cmd: cc give p 快速 1 %player%
+    chance: 0.04
+    icon:
+      id: PAPER
+      displayName: "&5快速抽奖箱钥匙"
+      model: 36

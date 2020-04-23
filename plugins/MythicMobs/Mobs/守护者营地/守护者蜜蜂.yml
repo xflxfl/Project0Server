@@ -1,0 +1,24 @@
+﻿守护者蜜蜂:
+  Type: Bee
+  Display: '&2守护者蜜蜂'
+  Health: 60
+  Damage: 10
+  Armor: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+    Silent: true
+    Despawn: false
+    FollowRange: 20
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - leap{v=200} @Target ~onTimer:100 0.5

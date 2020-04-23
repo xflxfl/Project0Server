@@ -1,0 +1,62 @@
+﻿shilian1:
+  Type: ZOMBIE
+  Display: '弱小的僵尸'
+  Health: 30
+  Damage: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventSunburn: true
+    FollowRange: 20
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - mujian:0
+
+shilian1T1:
+  Type: ZOMBIE
+  Display: '弱小的僵尸'
+  Health: 30
+  Damage: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventSunburn: true
+    FollowRange: 20
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - mujian:0
+
+shilian1T2:
+  Type: ZOMBIE
+  Display: '弱小的僵尸'
+  Health: 30
+  Damage: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventSunburn: true
+    FollowRange: 20
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - mujian:0

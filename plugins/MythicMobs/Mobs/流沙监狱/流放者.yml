@@ -1,0 +1,46 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+流放者:
+  Type: Stray
+  Display: '&e&l流放者'
+  Health: 150
+  Damage: 12
+  Riding: 流放者坐骑
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Skills:
+  #- potion{type=WEAKNESS;duration=200;lvl=1} @Target ~onAttack
+  #- effect:particlering{particle=flame;radius=2;points=32;amount=2;hS=1;vS=0} @Self
+  - remove @MIR{r=5;t=流放者坐骑} ~onDeath
+  Equipment:
+  - tie4:4
+  - huangjin3:3
+  - tie2:2
+  - tie1:1
+  - tiejian:0
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+流放者坐骑:
+  Type: CAVE_SPIDER
+  Display: '&e流放者坐骑'
+  Health: 40
+  Damage: 4
+  Armor: 1
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    #Angry: true
+    HorseTamed: true
+    HorseSaddled: true
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players

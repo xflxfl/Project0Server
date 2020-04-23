@@ -1,0 +1,1518 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    ruby_block:
+      permission: itemsadder.ruby_block
+      enabled: true
+      pattern:
+      - MMM
+      - MMM
+      - MMM
+      ingredients:
+        M: itemsadder:ruby
+      result:
+        item: itemsadder:ruby_block
+        amount: 1
+    crystal_block:
+      permission: itemsadder.crystal_block
+      enabled: true
+      pattern:
+      - MMM
+      - MMM
+      - MMM
+      ingredients:
+        M: itemsadder:crystal
+      result:
+        item: itemsadder:crystal_block
+        amount: 1
+    spinel_block:
+      permission: itemsadder.spinel_block
+      enabled: true
+      pattern:
+      - MMM
+      - MMM
+      - MMM
+      ingredients:
+        M: itemsadder:spinel
+      result:
+        item: itemsadder:spinel_block
+        amount: 1
+    turquoise_block:
+      permission: itemsadder.turquoise_block
+      enabled: true
+      pattern:
+      - MMM
+      - MMM
+      - MMM
+      ingredients:
+        M: itemsadder:turquoise
+      result:
+        item: itemsadder:turquoise_block
+        amount: 1
+    aqua_aura_block:
+      permission: itemsadder.aqua_aura_block
+      enabled: true
+      pattern:
+      - MMM
+      - MMM
+      - MMM
+      ingredients:
+        M: itemsadder:aqua_aura
+      result:
+        item: itemsadder:aqua_aura_block
+        amount: 1
+    amethyst_block:
+      permission: itemsadder.amethyst_block
+      enabled: true
+      pattern:
+      - MMM
+      - MMM
+      - MMM
+      ingredients:
+        M: itemsadder:amethyst
+      result:
+        item: itemsadder:amethyst_block
+        amount: 1
+    amethyst_prism_block:
+      permission: itemsadder.amethyst_prism_block
+      enabled: true
+      pattern:
+      - MMM
+      - MMM
+      - MMM
+      ingredients:
+        M: itemsadder:amethyst_prism
+      result:
+        item: itemsadder:amethyst_prism_block
+        amount: 1
+    crying_obsidian:
+      permission: itemsadder.crying_obsidian
+      enabled: true
+      pattern:
+      - LLL
+      - XCO
+      - XXX
+      ingredients:
+        O: OBSIDIAN
+        L: LAPIS_LAZULI
+        C: itemsadder:chisel
+      result:
+        item: itemsadder:crying_obsidian
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    nice_stone:
+      permission: itemsadder.nice_stone
+      enabled: true
+      pattern:
+      - XXX
+      - XCO
+      - XXX
+      ingredients:
+        O: STONE
+        C: itemsadder:chisel
+      result:
+        item: itemsadder:nice_stone
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    nice_wood:
+      permission: itemsadder.nice_wood
+      enabled: true
+      pattern:
+      - XXX
+      - XCO
+      - XXX
+      ingredients:
+        O: OAK_PLANKS
+        C: itemsadder:chisel
+      result:
+        item: itemsadder:nice_wood
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    modern_stone:
+      permission: itemsadder.modern_stone
+      enabled: true
+      pattern:
+      - XXX
+      - XCO
+      - XXX
+      ingredients:
+        O: COBBLESTONE
+        C: itemsadder:chisel
+      result:
+        item: itemsadder:modern_stone
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    modern_sandstone:
+      permission: itemsadder.modern_sandstone
+      enabled: true
+      pattern:
+      - XXX
+      - XCO
+      - XXX
+      ingredients:
+        O: SANDSTONE
+        C: itemsadder:chisel
+      result:
+        item: itemsadder:modern_sandstone
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    modern_quartz:
+      permission: itemsadder.modern_quartz
+      enabled: true
+      pattern:
+      - XXX
+      - XCO
+      - XXX
+      ingredients:
+        O: QUARTZ_BLOCK
+        C: itemsadder:chisel
+      result:
+        item: itemsadder:modern_quartz
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    restoration_table:
+      permission: itemsadder.restoration_table
+      enabled: true
+      pattern:
+      - RRR
+      - XCX
+      - XXX
+      ingredients:
+        C: CRAFTING_TABLE
+        R: itemsadder:knowledge_fragment
+      result:
+        item: itemsadder:restoration_table
+        amount: 1
+      return_items:
+        replace:
+          CRAFTING_TABLE: alchemy_candles
+    customization_table:
+      permission: itemsadder.customization_table
+      enabled: true
+      pattern:
+      - RGB
+      - XCX
+      - XXX
+      ingredients:
+        C: CRAFTING_TABLE
+        R: RED_DYE
+        G: GREEN_DYE
+        B: BLUE_DYE
+      result:
+        item: itemsadder:customization_table
+        amount: 1
+    iron_dirt_ore:
+      enabled: true
+      permission: itemsadder.iron_dirt_ore
+      pattern:
+      - XXX
+      - XCO
+      - XXX
+      ingredients:
+        O: itemsadder:iron_dirt_ore
+        C: itemsadder:chisel
+      result:
+        item: IRON_NUGGET
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    gold_dirt_ore:
+      enabled: true
+      permission: itemsadder.gold_dirt_ore
+      pattern:
+      - XXX
+      - XCO
+      - XXX
+      ingredients:
+        O: itemsadder:gold_dirt_ore
+        C: itemsadder:chisel
+      result:
+        item: GOLD_NUGGET
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    coal_dirt_ore:
+      enabled: true
+      permission: itemsadder.coal_dirt_ore
+      pattern:
+      - XXX
+      - XCO
+      - XXX
+      ingredients:
+        O: itemsadder:coal_dirt_ore
+        C: itemsadder:chisel
+      result:
+        item: itemsadder:coal_nugget
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+    blaze_powder_ore:
+      enabled: true
+      permission: itemsadder.blaze_powder_ore
+      pattern:
+      - XXX
+      - XCO
+      - XXX
+      ingredients:
+        O: itemsadder:blaze_powder_ore
+        C: itemsadder:chisel
+      result:
+        item: BLAZE_POWDER
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 1
+items:
+  ruby_block:
+    display_name: Block of Ruby
+    permission: ruby_block
+    resource:
+      material: REDSTONE_BLOCK
+      generate: true
+      textures:
+      - block/ruby_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  crystal_block:
+    display_name: Block of Crystal
+    permission: crystal_block
+    resource:
+      material: PRISMARINE_BRICKS
+      generate: true
+      textures:
+      - block/crystal_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  spinel_block:
+    display_name: Block of Spinel
+    permission: spinel_block
+    resource:
+      material: REDSTONE_BLOCK
+      generate: true
+      textures:
+      - block/spinel_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  turquoise_block:
+    display_name: Block of Turquoise
+    permission: turquoise_block
+    resource:
+      material: PRISMARINE_BRICKS
+      generate: true
+      textures:
+      - block/turquoise_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  aqua_aura_block:
+    display_name: Block of Aqua Aura
+    permission: aqua_aura_block
+    resource:
+      material: PRISMARINE_BRICKS
+      generate: true
+      textures:
+      - block/aqua_aura_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  amethyst_block:
+    display_name: Block of Amethyst
+    permission: amethyst_block
+    resource:
+      material: PURPLE_CONCRETE
+      generate: true
+      textures:
+      - block/amethyst_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  amethyst_prism_block:
+    display_name: Block of Amethyst Prism
+    permission: PURPLE_CONCRETE
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/amethyst_prism_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  crying_obsidian:
+    display_name: '&9Crying Obsidian'
+    permission: crying_obsidian
+    resource:
+      material: OBSIDIAN
+      generate: true
+      textures:
+      - block/crying_obsidian.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  nice_stone:
+    display_name: Nice Stone
+    permission: nice_stone
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - block/nice_stone.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - AXE
+        - axe
+  nice_wood:
+    display_name: Nice Wood
+    permission: nice_wood
+    resource:
+      material: STRIPPED_ACACIA_WOOD
+      generate: true
+      textures:
+      - block/nice_wood.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - HAND
+        - AXE
+        - axe
+  modern_stone:
+    display_name: Modern Stone
+    permission: modern_stone
+    resource:
+      material: COBBLESTONE
+      generate: true
+      textures:
+      - block/modern_stone.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  modern_sandstone:
+    display_name: Modern Sandstone
+    permission: modern_sandstone
+    resource:
+      material: SANDSTONE
+      generate: true
+      textures:
+      - block/modern_sandstone.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  modern_quartz:
+    display_name: Modern Quartz
+    permission: modern_quartz
+    resource:
+      material: QUARTZ_BLOCK
+      generate: true
+      textures:
+      - block/modern_quartz.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  ruby_ore:
+    display_name: Ruby Ore
+    permission: ruby_ore
+    resource:
+      material: REDSTONE_ORE
+      generate: true
+      textures:
+      - block/ruby_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  spinel_ore:
+    display_name: Spinel Ore
+    permission: spinel_ore
+    resource:
+      material: REDSTONE_ORE
+      generate: true
+      textures:
+      - block/spinel_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  turquoise_ore:
+    display_name: Turquoise Ore
+    permission: turquoise_ore
+    resource:
+      material: DIAMOND_ORE
+      generate: true
+      textures:
+      - block/turquoise_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  aqua_aura_ore:
+    display_name: Aqua Aura Ore
+    permission: aqua_aura_ore
+    resource:
+      material: DIAMOND_ORE
+      generate: true
+      textures:
+      - block/aqua_aura_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  amethyst_ore:
+    display_name: Amethyst Ore
+    permission: amethyst_ore
+    resource:
+      material: COAL_ORE
+      generate: true
+      textures:
+      - block/amethyst_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  bronze_ore:
+    display_name: Bronze Ore
+    permission: bronze_ore
+    resource:
+      material: IRON_ORE
+      generate: true
+      textures:
+      - block/bronze_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: false
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mysterious_ore:
+    display_name: Mysterious Ore
+    permission: mysterious_ore
+    resource:
+      material: OBSIDIAN
+      generate: true
+      textures:
+      - block/mysterious_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: false
+        light_level: 9
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        - IRON_PICKAXE
+        break_tools_whitelist:
+        - DIAMOND_PICKAXE
+        - PICKAXE
+        - pickaxe
+  end_ore:
+    display_name: End Ore
+    permission: end_ore
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/end_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        light_level: 12
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        - IRON_PICKAXE
+        break_tools_whitelist:
+        - DIAMOND_PICKAXE
+        - PICKAXE
+        - pickaxe
+  restoration_table:
+    display_name: Restoration Table
+    permission: restoration_table
+    resource:
+      material: SMITHING_TABLE
+      generate: false
+      model_path: block/restoration_table
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        light_level: 6
+    behaviours:
+      block_trade_machine:
+        trades_list:
+          mysterious_amulet:
+            ingredients:
+              slot1:
+                item: mysterious_ore
+                amount: 1
+              slot2:
+                item: knowledge_fragment
+                amount: 15
+            result:
+              item: mysterious_amulet
+              amount: 1
+          arcane_ring:
+            ingredients:
+              slot1:
+                item: mysterious_ore
+                amount: 1
+              slot2:
+                item: knowledge_fragment
+                amount: 20
+            result:
+              item: arcane_ring
+              amount: 1
+          mysterious_sword:
+            ingredients:
+              slot1:
+                item: mysterious_artifact
+                amount: 32
+              slot2:
+                item: knowledge_fragment
+                amount: 64
+            result:
+              item: mysterious_sword
+              amount: 1
+          mysterious_book:
+            ingredients:
+              slot1:
+                item: mysterious_ore
+                amount: 1
+              slot2:
+                item: knowledge_fragment
+                amount: 32
+            result:
+              item: mysterious_book
+              amount: 1
+          mysterious_book_decrypted:
+            ingredients:
+              slot1:
+                item: mysterious_book
+                amount: 1
+              slot2:
+                item: knowledge_fragment
+                amount: 64
+            result:
+              item: mysterious_book_decrypted
+              amount: 1
+          mysterious_stone:
+            ingredients:
+              slot1:
+                item: mysterious_book_decrypted
+                amount: 1
+              slot2:
+                item: STONE
+                amount: 1
+            result:
+              item: mysterious_stone
+              amount: 1
+          mysterious_hood:
+            ingredients:
+              slot1:
+                item: mysterious_book_decrypted
+                amount: 1
+              slot2:
+                item: knowledge_fragment
+                amount: 64
+            result:
+              item: mysterious_hood
+              amount: 1
+          mysterious_chest:
+            ingredients:
+              slot1:
+                item: mysterious_book_decrypted
+                amount: 1
+              slot2:
+                item: knowledge_fragment
+                amount: 30
+            result:
+              item: mysterious_chest
+              amount: 1
+          mysterious_legs:
+            ingredients:
+              slot1:
+                item: mysterious_book_decrypted
+                amount: 1
+              slot2:
+                item: knowledge_fragment
+                amount: 25
+            result:
+              item: mysterious_legs
+              amount: 1
+          mysterious_boots:
+            ingredients:
+              slot1:
+                item: mysterious_book_decrypted
+                amount: 1
+              slot2:
+                item: knowledge_fragment
+                amount: 21
+            result:
+              item: mysterious_boots
+              amount: 1
+          fossil:
+            ingredients:
+              slot1:
+                item: STONE
+                amount: 2
+            result:
+              item: fossil
+              amount: 5
+          fossil_2:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 4
+            result:
+              item: fossil
+              amount: 5
+  customization_table:
+    display_name: Customization Table
+    permission: customization_table
+    resource:
+      material: SMITHING_TABLE
+      generate: false
+      model_path: block/customization_table
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+    behaviours:
+      block_trade_machine:
+        trades_list:
+          black_fishing_rod:
+            ingredients:
+              slot1:
+                item: FISHING_ROD
+                amount: 1
+              slot2:
+                item: BLACK_DYE
+                amount: 1
+            result:
+              item: black_fishing_rod
+              amount: 1
+          red_fishing_rod:
+            ingredients:
+              slot1:
+                item: FISHING_ROD
+                amount: 1
+              slot2:
+                item: RED_DYE
+                amount: 1
+            result:
+              item: red_fishing_rod
+              amount: 1
+          green_fishing_rod:
+            ingredients:
+              slot1:
+                item: FISHING_ROD
+                amount: 1
+              slot2:
+                item: GREEN_DYE
+                amount: 1
+            result:
+              item: green_fishing_rod
+              amount: 1
+          blue_fishing_rod:
+            ingredients:
+              slot1:
+                item: FISHING_ROD
+                amount: 1
+              slot2:
+                item: BLUE_DYE
+                amount: 1
+            result:
+              item: blue_fishing_rod
+              amount: 1
+          purple_fishing_rod:
+            ingredients:
+              slot1:
+                item: FISHING_ROD
+                amount: 1
+              slot2:
+                item: PURPLE_DYE
+                amount: 1
+            result:
+              item: purple_fishing_rod
+              amount: 1
+          cyan_fishing_rod:
+            ingredients:
+              slot1:
+                item: FISHING_ROD
+                amount: 1
+              slot2:
+                item: CYAN_DYE
+                amount: 1
+            result:
+              item: cyan_fishing_rod
+              amount: 1
+          black_shears:
+            ingredients:
+              slot1:
+                item: SHEARS
+                amount: 1
+              slot2:
+                item: BLACK_DYE
+                amount: 1
+            result:
+              item: black_shears
+              amount: 1
+          red_shears:
+            ingredients:
+              slot1:
+                item: SHEARS
+                amount: 1
+              slot2:
+                item: RED_DYE
+                amount: 1
+            result:
+              item: red_shears
+              amount: 1
+          green_shears:
+            ingredients:
+              slot1:
+                item: SHEARS
+                amount: 1
+              slot2:
+                item: GREEN_DYE
+                amount: 1
+            result:
+              item: green_shears
+              amount: 1
+          blue_shears:
+            ingredients:
+              slot1:
+                item: SHEARS
+                amount: 1
+              slot2:
+                item: BLUE_DYE
+                amount: 1
+            result:
+              item: blue_shears
+              amount: 1
+          purple_shears:
+            ingredients:
+              slot1:
+                item: SHEARS
+                amount: 1
+              slot2:
+                item: PURPLE_DYE
+                amount: 1
+            result:
+              item: purple_shears
+              amount: 1
+          cyan_shears:
+            ingredients:
+              slot1:
+                item: SHEARS
+                amount: 1
+              slot2:
+                item: CYAN_DYE
+                amount: 1
+            result:
+              item: cyan_shears
+              amount: 1
+          black_bow:
+            ingredients:
+              slot1:
+                item: BOW
+                amount: 1
+              slot2:
+                item: BLACK_DYE
+                amount: 1
+            result:
+              item: black_bow
+              amount: 1
+          red_bow:
+            ingredients:
+              slot1:
+                item: BOW
+                amount: 1
+              slot2:
+                item: RED_DYE
+                amount: 1
+            result:
+              item: red_bow
+              amount: 1
+          green_bow:
+            ingredients:
+              slot1:
+                item: BOW
+                amount: 1
+              slot2:
+                item: GREEN_DYE
+                amount: 1
+            result:
+              item: green_bow
+              amount: 1
+          blue_bow:
+            ingredients:
+              slot1:
+                item: BOW
+                amount: 1
+              slot2:
+                item: BLUE_DYE
+                amount: 1
+            result:
+              item: blue_bow
+              amount: 1
+          purple_bow:
+            ingredients:
+              slot1:
+                item: BOW
+                amount: 1
+              slot2:
+                item: PURPLE_DYE
+                amount: 1
+            result:
+              item: purple_bow
+              amount: 1
+          cyan_bow:
+            ingredients:
+              slot1:
+                item: BOW
+                amount: 1
+              slot2:
+                item: CYAN_DYE
+                amount: 1
+            result:
+              item: cyan_bow
+              amount: 1
+          black_chandeliers:
+            ingredients:
+              slot1:
+                item: white_chandeliers
+                amount: 1
+              slot2:
+                item: BLACK_DYE
+                amount: 16
+            result:
+              item: black_chandeliers
+              amount: 1
+          black_and_red_chandeliers:
+            ingredients:
+              slot1:
+                item: black_chandeliers
+                amount: 1
+              slot2:
+                item: RED_DYE
+                amount: 16
+            result:
+              item: black_and_red_chandeliers
+              amount: 1
+          orage_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: ORANGE_DYE
+                amount: 16
+            result:
+              item: orange_go_cart
+              amount: 1
+          magenta_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: MAGENTA_DYE
+                amount: 16
+            result:
+              item: magenta_go_cart
+              amount: 1
+          light_blue_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: LIGHT_BLUE_DYE
+                amount: 16
+            result:
+              item: light_blue_go_cart
+              amount: 1
+          yellow_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: YELLOW_DYE
+                amount: 16
+            result:
+              item: yellow_go_cart
+              amount: 1
+          lime_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: LIME_DYE
+                amount: 16
+            result:
+              item: lime_go_cart
+              amount: 1
+          pink_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: PINK_DYE
+                amount: 16
+            result:
+              item: pink_go_cart
+              amount: 1
+          gray_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: GRAY_DYE
+                amount: 16
+            result:
+              item: gray_go_cart
+              amount: 1
+          light_gray_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: LIGHT_GRAY_DYE
+                amount: 16
+            result:
+              item: light_gray_go_cart
+              amount: 1
+          cyan_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: CYAN_DYE
+                amount: 16
+            result:
+              item: cyan_go_cart
+              amount: 1
+          purple_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: PURPLE_DYE
+                amount: 16
+            result:
+              item: purple_go_cart
+              amount: 1
+          blue_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: BLUE_DYE
+                amount: 16
+            result:
+              item: blue_go_cart
+              amount: 1
+          brown_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: BROWN_DYE
+                amount: 16
+            result:
+              item: brown_go_cart
+              amount: 1
+          green_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: GREEN_DYE
+                amount: 16
+            result:
+              item: green_go_cart
+              amount: 1
+          red_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: RED_DYE
+                amount: 16
+            result:
+              item: red_go_cart
+              amount: 1
+          black_go_cart:
+            ingredients:
+              slot1:
+                item: white_go_cart
+                amount: 1
+              slot2:
+                item: BLACK_DYE
+                amount: 16
+            result:
+              item: black_go_cart
+              amount: 1
+  iron_dirt_ore:
+    display_name: Iron Dirt Ore
+    permission: iron_dirt_ore
+    resource:
+      material: DIRT
+      generate: true
+      textures:
+      - block/iron_dirt_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: false
+        break_tools_blacklist:
+        - HAND
+        break_tools_whitelist:
+        - PICKAXE
+        - SHOVEL
+        - pickaxe
+        - shovel
+  gold_dirt_ore:
+    display_name: Gold Dirt Ore
+    permission: gold_dirt_ore
+    resource:
+      material: DIRT
+      generate: true
+      textures:
+      - block/gold_dirt_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: false
+        break_tools_blacklist:
+        - HAND
+        break_tools_whitelist:
+        - PICKAXE
+        - SHOVEL
+        - pickaxe
+        - shovel
+  coal_dirt_ore:
+    display_name: Coal Dirt Ore
+    permission: coal_dirt_ore
+    resource:
+      material: DIRT
+      generate: true
+      textures:
+      - block/coal_dirt_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: false
+        break_tools_blacklist:
+        - HAND
+        break_tools_whitelist:
+        - PICKAXE
+        - SHOVEL
+        - pickaxe
+        - shovel
+  blaze_powder_ore:
+    display_name: Blaze Powder Ore
+    permission: blaze_powder_ore
+    resource:
+      material: NETHERRACK
+      generate: true
+      textures:
+      - block/blaze_powder_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: false
+        break_tools_blacklist:
+        - HAND
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  nether_alchemy_ore:
+    display_name: Nether Alchemy Ore
+    permission: nether_alchemy_ore
+    resource:
+      material: NETHERRACK
+      generate: true
+      textures:
+      - block/nether_alchemy_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        break_tools_blacklist:
+        - HAND
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        - IRON_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+# worlds_populators:
+  # ruby_ore:
+    # block: itemsadder:ruby_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 70.0
+    # max_height: 45
+    # min_height: 25
+    # amount: 6
+    # iterations: 1
+  # spinel_ore:
+    # block: itemsadder:spinel_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 90.0
+    # max_height: 45
+    # min_height: 35
+    # amount: 6
+    # iterations: 1
+  # turquoise_ore:
+    # block: itemsadder:turquoise_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 50.0
+    # max_height: 25
+    # min_height: 15
+    # amount: 6
+    # iterations: 1
+  # aqua_aura_ore:
+    # block: itemsadder:aqua_aura_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 50.0
+    # max_height: 15
+    # min_height: 10
+    # amount: 6
+    # iterations: 1
+  # amethyst_ore:
+    # block: itemsadder:amethyst_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 40.0
+    # max_height: 15
+    # min_height: 10
+    # amount: 4
+    # iterations: 1
+  # bronze_ore:
+    # block: itemsadder:bronze_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 50.0
+    # max_height: 50
+    # min_height: 30
+    # amount: 4
+    # iterations: 1
+  # mysterious_ore:
+    # block: itemsadder:mysterious_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 20.0
+    # max_height: 6
+    # min_height: 1
+    # amount: 2
+    # iterations: 1
+  # end_ore:
+    # block: itemsadder:end_ore
+    # worlds:
+    # - world_the_end
+    # replaceable_blocks:
+    # - END_STONE
+    # chance: 100.0
+    # max_height: 40
+    # min_height: 10
+    # amount: 4
+    # iterations: 1
+  # iron_dirt_ore:
+    # block: itemsadder:iron_dirt_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 60.0
+    # max_height: 59
+    # min_height: 5
+    # amount: 6
+    # iterations: 1
+  # gold_dirt_ore:
+    # block: itemsadder:gold_dirt_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 50.0
+    # max_height: 59
+    # min_height: 5
+    # amount: 6
+    # iterations: 1
+  # coal_dirt_ore:
+    # block: itemsadder:coal_dirt_ore
+    # worlds:
+    # - world
+    # replaceable_blocks:
+    # - STONE
+    # - DIRT
+    # - ANDESITE
+    # - GRANITE
+    # - COBBLESTONE
+    # - GRAVEL
+    # chance: 80.0
+    # max_height: 59
+    # min_height: 5
+    # amount: 6
+    # iterations: 1
+  # blaze_powder_ore:
+    # block: itemsadder:blaze_powder_ore
+    # worlds:
+    # - world_nether
+    # replaceable_blocks:
+    # - NETHERRACK
+    # chance: 10.0
+    # max_height: 255
+    # min_height: 5
+    # amount: 6
+    # iterations: 1
+  # nether_alchemy_ore:
+    # block: itemsadder:nether_alchemy_ore
+    # worlds:
+    # - world_nether
+    # replaceable_blocks:
+    # - NETHERRACK
+    # chance: 1.0
+    # max_height: 255
+    # min_height: 5
+    # amount: 4
+    # iterations: 1

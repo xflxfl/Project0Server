@@ -1,0 +1,132 @@
+{
+  "ID": "polarbear_polarbear",
+  "Order": 9,
+  "Name": "北极熊",
+  "Requirements": [
+    "Permission:polarbear"
+  ],
+  "Icon": {
+    "Material": "snow_block"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c近战攻击型宠物",
+    "\u0026f最大宠物攻击12",
+    "\u0026f最大宠物血量150",
+    "\u0026f宠物技能：",
+    "\u0026f -骑乘(5级获得)",
+    "\u0026f -冲刺(10级获得)",
+    "\u0026f -践踏(40级获得,最大几率30%, 最大伤害8)",
+    "\u0026f -护盾(30级获得,最大几率25%,最大承伤25%)"
+  ],
+  "MobTypes": [
+    "PolarBear"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {
+          "Active": true
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Damage": "+0.3"
+        },
+        "%2>11<30": {
+          "Damage": "+0.4"
+        },
+        "%1>31<100": {
+          "Damage": "+0.0714"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+3"
+        },
+        "%1>11<40": {
+          "Health": "+1.33333"
+        },
+        "%1>41<100": {
+          "Health": "+1"
+        }
+      }
+    },
+    "Knockback": {
+      "Upgrades": {
+        "40": {
+          "Chance": "+5"
+        },
+        "45": {
+          "Chance": "+5"
+        },
+        "50": {
+          "Chance": "+5"
+        },
+        "55": {
+          "Chance": "+5"
+        },
+        "80": {
+          "Chance": "+5"
+        },
+        "100": {
+          "Chance": "+5"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "5": {
+          "Active": true,
+          "Speed": "+2",
+          "JumpHeight": "+1.25"
+        }
+      }
+    },
+    "Shield": {
+      "Upgrades": {
+        "55": {
+          "Redirect": "+5",
+          "Chance": "+5"
+        },
+        "%1>30<50": {
+          "Redirect": "+1",
+          "Chance": "+1"
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "10": {
+          "Active": true
+        }
+      }
+    },
+    "Stomp": {
+      "Upgrades": {
+        "75": {
+          "Damage": "+2"
+        },
+        "%10>40<70": {
+          "Damage": "+2",
+          "Chance": "+10"
+        }
+      }
+    }
+  }
+}

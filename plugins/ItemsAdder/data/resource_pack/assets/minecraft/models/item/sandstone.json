@@ -1,0 +1,11 @@
+{
+  "parent": "block/sandstone",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/modern_sandstone"
+    }
+  ]
+}

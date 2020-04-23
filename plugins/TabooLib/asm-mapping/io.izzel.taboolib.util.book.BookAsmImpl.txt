@@ -1,0 +1,8 @@
+net/minecraft/server/v1_14_R1/IChatBaseComponent$ChatSerializer        -> net/minecraft/server/v1_15_R1/IChatBaseComponent$ChatSerializer
+net/minecraft/server/v1_14_R1/IChatBaseComponent                       -> net/minecraft/server/v1_15_R1/IChatBaseComponent
+org/bukkit/craftbukkit/v1_14_R1/inventory/CraftMetaBook                -> org/bukkit/craftbukkit/v1_15_R1/inventory/CraftMetaBook
+org/bukkit/craftbukkit/v1_14_R1/inventory/CraftMetaBook                -> org/bukkit/craftbukkit/v1_15_R1/inventory/CraftMetaBook
+org/bukkit/craftbukkit/v1_14_R1/inventory/CraftMetaBook                -> org/bukkit/craftbukkit/v1_15_R1/inventory/CraftMetaBook
+org/bukkit/craftbukkit/v1_14_R1/inventory/CraftMetaBook                -> org/bukkit/craftbukkit/v1_15_R1/inventory/CraftMetaBook
+net/minecraft/server/v1_14_R1/IChatBaseComponent$ChatSerializer        -> net/minecraft/server/v1_15_R1/IChatBaseComponent$ChatSerializer
+(Ljava/lang/String;)Lnet/minecraft/server/v1_14_R1/IChatBaseComponent; -> (Ljava/lang/String;)Lnet/minecraft/server/v1_15_R1/IChatBaseComponent;

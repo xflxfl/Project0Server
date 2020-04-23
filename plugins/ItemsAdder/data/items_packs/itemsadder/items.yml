@@ -1,0 +1,970 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    empty_cup:
+      permission: itemsadder.empty_cup
+      enabled: true
+      pattern:
+      - XXX
+      - CXC
+      - CCC
+      ingredients:
+        C: CLAY
+      result:
+        item: itemsadder:empty_cup
+        amount: 1
+    flour:
+      permission: itemsadder.flour
+      enabled: true
+      pattern:
+      - XXX
+      - XWX
+      - XXX
+      ingredients:
+        W: WHEAT
+      result:
+        item: itemsadder:flour
+        amount: 4
+    dough:
+      permission: itemsadder.dough
+      enabled: true
+      pattern:
+      - XFX
+      - XFX
+      - XWX
+      ingredients:
+        F: itemsadder:flour
+        W: WATER_BUCKET
+      result:
+        item: itemsadder:dough
+        amount: 8
+      return_items:
+        replace:
+          WATER_BUCKET: BUCKET
+    cup_of_water:
+      permission: itemsadder.cup_of_water
+      enabled: true
+      pattern:
+      - XXX
+      - XWX
+      - XCX
+      ingredients:
+        C: itemsadder:empty_cup
+        W: WATER_BUCKET
+      result:
+        item: itemsadder:cup_of_water
+        amount: 1
+      return_items:
+        replace:
+          WATER_BUCKET: BUCKET
+    projectile:
+      permission: itemsadder.projectile
+      enabled: true
+      pattern:
+      - XXX
+      - XRX
+      - XGX
+      ingredients:
+        R: REDSTONE
+        G: GOLD_INGOT
+      result:
+        item: itemsadder:projectile
+        amount: 16
+    plastic_plate:
+      permission: itemsadder.plastic_plate
+      enabled: true
+      pattern:
+      - XXX
+      - XXX
+      - PPP
+      ingredients:
+        P: itemsadder:plastic
+      result:
+        item: itemsadder:plastic_plate
+        amount: 1
+    clip:
+      permission: itemsadder.clip
+      enabled: true
+      pattern:
+      - XRX
+      - XGX
+      - XPX
+      ingredients:
+        R: REDSTONE
+        G: GOLD_INGOT
+        P: itemsadder:plastic_plate
+      result:
+        item: itemsadder:clip
+        amount: 16
+    blank_disc:
+      permission: itemsadder.blank_disc
+      enabled: true
+      pattern:
+      - PPP
+      - PXP
+      - PPP
+      ingredients:
+        P: itemsadder:plastic
+      result:
+        item: itemsadder:blank_disc
+        amount: 1
+    music_disc_electric_keys:
+      permission: itemsadder.music_disc_electric_keys
+      enabled: true
+      pattern:
+      - XXX
+      - XBD
+      - XXX
+      ingredients:
+        B: itemsadder:blank_disc
+        D: DIAMOND
+      result:
+        item: itemsadder:music_disc_electric_keys
+        amount: 1
+    music_disc_cdk_sunday:
+      permission: itemsadder.music_disc_cdk_sunday
+      enabled: true
+      pattern:
+      - XXX
+      - XBD
+      - XXX
+      ingredients:
+        B: itemsadder:blank_disc
+        D: itemsadder:amethyst_prism
+      result:
+        item: itemsadder:music_disc_cdk_sunday
+        amount: 1
+    music_disc_vidian_aether_theories:
+      permission: itemsadder.music_disc_vidian_aether_theories
+      enabled: true
+      pattern:
+      - XXX
+      - XBD
+      - XXX
+      ingredients:
+        B: itemsadder:blank_disc
+        D: itemsadder:ruby
+      result:
+        item: itemsadder:music_disc_vidian_aether_theories
+        amount: 1
+    ketchup_bottle:
+      permission: itemsadder.ketchup_bottle
+      enabled: true
+      pattern:
+      - PTP
+      - PTP
+      - PTP
+      ingredients:
+        P: itemsadder:plastic_plate
+        T: itemsadder:tomato
+      result:
+        item: itemsadder:ketchup_bottle
+        amount: 1
+    ketchup:
+      permission: itemsadder.ketchup
+      enabled: true
+      pattern:
+      - XXX
+      - XBX
+      - XXX
+      ingredients:
+        B: itemsadder:ketchup_bottle
+      result:
+        item: itemsadder:ketchup
+        amount: 16
+    chili_powder:
+      permission: itemsadder.chili_powder
+      enabled: true
+      pattern:
+      - XXX
+      - XXX
+      - XBX
+      ingredients:
+        B: itemsadder:chili_pepper
+      result:
+        item: itemsadder:chili_powder
+        amount: 4
+    drink_glass:
+      permission: itemsadder.drink_glass
+      enabled: true
+      pattern:
+      - XXX
+      - XGX
+      - XXX
+      ingredients:
+        G: GLASS
+      result:
+        item: itemsadder:drink_glass
+        amount: 4
+    energy_orb:
+      permission: itemsadder.energy_orb
+      enabled: true
+      pattern:
+      - XXX
+      - XGX
+      - XXX
+      ingredients:
+        G: itemsadder:energy_capsule
+      result:
+        item: itemsadder:energy_orb
+        amount: 64
+    energy_orb_1:
+      enabled: true
+      permission: itemsadder.energy_orb
+      pattern:
+      - XXX
+      - XSX
+      - XXX
+      ingredients:
+        S: itemsadder:small_energy_capsule
+      result:
+        item: itemsadder:energy_orb
+        amount: 8
+    energy_orb_2:
+      enabled: true
+      permission: itemsadder.energy_orb
+      pattern:
+      - XXX
+      - XSX
+      - XXX
+      ingredients:
+        S: itemsadder:energy_capsule
+      result:
+        item: itemsadder:energy_orb
+        amount: 64
+    small_energy_capsule:
+      permission: itemsadder.small_energy_capsule
+      enabled: true
+      pattern:
+      - GGG
+      - GXG
+      - GGG
+      ingredients:
+        G: itemsadder:energy_orb
+      result:
+        item: itemsadder:small_energy_capsule
+        amount: 1
+    energy_capsule:
+      permission: itemsadder.energy_capsule
+      enabled: true
+      pattern:
+      - GGG
+      - GXG
+      - GGG
+      ingredients:
+        G: itemsadder:small_energy_capsule
+      result:
+        item: itemsadder:energy_capsule
+        amount: 1
+    iron_plate:
+      permission: itemsadder.iron_plate
+      enabled: true
+      pattern:
+      - XXX
+      - XIX
+      - XIX
+      ingredients:
+        I: IRON_INGOT
+      result:
+        item: itemsadder:iron_plate
+        amount: 1
+    EGGS:
+      permission: itemsadder.eggs_nest
+      enabled: true
+      pattern:
+      - XXX
+      - XNX
+      - XXX
+      ingredients:
+        N: itemsadder:eggs_nest
+      result:
+        item: EGG
+        amount: 3
+      return_items:
+        replace:
+          eggs_nest: nest
+    eggs_nest:
+      permission: itemsadder.eggs_nest
+      enabled: true
+      pattern:
+      - XXX
+      - EEE
+      - XNX
+      ingredients:
+        N: itemsadder:nest
+        E: EGG
+      result:
+        item: "itemsadder:eggs_nest"
+        amount: 1
+    mysterious_artifact:
+      permission: itemsadder.mysterious_artifact
+      enabled: true
+      pattern:
+      - XXL
+      - XCM
+      - XXL
+      ingredients:
+        C: itemsadder:chisel
+        M: itemsadder:mysterious_ore
+        L: LAPIS_LAZULI
+      result:
+        item: itemsadder:mysterious_artifact
+        amount: 1
+      return_items:
+        decrement_durability:
+          chisel:
+            item: "itemsadder:chisel"
+            amount: 3
+        play_sound:
+          name: itemsadder:ambient.angelic
+          volume: 1
+          pitch: 1
+    jar:
+      permission: itemsadder.jar
+      enabled: true
+      pattern:
+      - PPP
+      - XGX
+      - XXX
+      ingredients:
+        G: GLASS
+        P: itemsadder:plastic_plate
+      result:
+        item: itemsadder:jar
+        amount: 1
+    carton_box:
+      permission: itemsadder.carton_box
+      enabled: true
+      pattern:
+      - OOO
+      - PPP
+      - PPP
+      ingredients:
+        P: PAPER
+        O: itemsadder:plastic_plate
+      result:
+        item: itemsadder:carton_box
+        amount: 1
+    cut_spruce_log:
+      permission: itemsadder.cut_spruce_log
+      enabled: true
+      pattern:
+      - XXX
+      - XWX
+      - XWX
+      ingredients:
+        W: SPRUCE_LOG
+      result:
+        item: itemsadder:cut_spruce_log
+        amount: 6
+    shotgun_cartridge:
+      permission: itemsadder.shotgun_cartridge
+      enabled: true
+      pattern:
+      - XXX
+      - PRP
+      - XGX
+      ingredients:
+        R: REDSTONE
+        G: GOLD_INGOT
+        P: itemsadder:plastic_plate
+      result:
+        item: itemsadder:shotgun_cartridge
+        amount: 1
+  cooking:
+    cup_of_hot_water:
+      permission: itemsadder.cup_of_hot_water
+      ingredient:
+        item: itemsadder:cup_of_water
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:cup_of_hot_water
+        amount: 1
+    plastic:
+      permission: itemsadder.plastic
+      ingredient:
+        item: itemsadder:fossil
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:plastic
+        amount: 2
+items:
+  empty_cup:
+    display_name: Empty cup
+    permission: empty_cup
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/empty_cup.png
+  flour:
+    display_name: Flour
+    permission: flour
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/flour.png
+  dough:
+    display_name: Dough
+    permission: dough
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/dough.png
+  cup_of_water:
+    display_name: Cup of water
+    permission: cup_of_water
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/cup_of_water.png
+  cup_of_hot_water:
+    display_name: Cup of hot water
+    permission: cup_of_hot_water
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/cup_of_hot_water.png
+  projectile:
+    display_name: Projectile
+    permission: projectile
+    lore:
+    - '&7Hold it in the left'
+    - '&7hand while shooting'
+    - '&7with a gun'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/projectile.png
+  plastic:
+    display_name: Plastic
+    permission: plastic
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/plastic.png
+  plastic_plate:
+    display_name: Plastic plate
+    permission: plastic_plate
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/plastic_plate.png
+  clip:
+    display_name: Clip
+    permission: clip
+    lore:
+    - '&7Hold it in the left'
+    - '&7hand while shooting'
+    - '&7with an ak-47'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/clip.png
+  blank_disc:
+    display_name: Blank Disc
+    permission: blank_disc
+    lore:
+    - '&7Can be used to craft'
+    - '&7music discs'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/blank_disc.png
+  music_disc_electric_keys:
+    display_name: '&bMusic Disc'
+    permission: music_disc_electric_keys
+    lore:
+    - '&7Electric keys'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/music_disc_electric_keys.png
+    behaviours:
+      music_disc:
+        song:
+          name: "itemsadder:music_disc.electric_keys"
+          description: "Electric keys"
+  music_disc_cdk_sunday:
+    display_name: '&bMusic Disc'
+    permission: music_disc_cdk_sunday
+    lore:
+    - '&7Cdk - Sunday'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/music_disc_cdk_sunday.png
+    behaviours:
+      music_disc:
+        song:
+          name: "itemsadder:music_disc.cdk_sunday"
+          description: "Cdk - Sunday"
+  music_disc_vidian_aether_theories:
+    display_name: '&bMusic Disc'
+    permission: music_disc_vidian_aether_theories
+    lore:
+    - '&7Vidian - Aether Theories'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/music_disc_vidian_aether_theories.png
+    behaviours:
+      music_disc:
+        song:
+          name: "itemsadder:music_disc.vidian_aether_theories"
+          description: "Vidian - Aether Theories"
+  ketchup_bottle:
+    display_name: Ketchup Bottle
+    permission: ketchup_bottle
+    lore:
+    - '&7Put in the crafting table'
+    - '&7middle slot to get'
+    - '&7some Ketchup'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/ketchup_bottle.png
+  ketchup:
+    display_name: Ketchup
+    permission: ketchup
+    lore:
+    - '&7Obtained from'
+    - '&7ketchup bottle'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/ketchup.png
+  chili_powder:
+    display_name: Chili Powder
+    permission: chili_powder
+    lore:
+    - '&7Obtained from'
+    - '&7chili pepper'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/chili_powder.png
+  drink_glass:
+    display_name: Drink Glass
+    permission: drink_glass
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/drink_glass.png
+  bug_medal:
+    display_name: '&6BugFinder medal'
+    permission: bug_medal
+    lore:
+    - '&7Medal won by'
+    - '&7a very good'
+    - '&7bug finder.'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/bug_medal.png
+  cute_medal:
+    display_name: '&6Cuteness medal'
+    permission: cute_medal
+    lore:
+    - '&7Medal won by'
+    - '&7the cutest person.'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/cute_medal.png
+  donator_medal:
+    display_name: '&6Donator medal'
+    permission: donator_medal
+    lore:
+    - '&7Medal won by'
+    - '&7the most generous.'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/donator_medal.png
+  energy_orb:
+    display_name: '&5Energy Orb'
+    permission: energy_orb
+    lore:
+    - '&7Obtained from Energy Extractor'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/energy_orb.png
+  small_energy_capsule:
+    display_name: '&dSmall Energy Capsule'
+    permission: small_energy_capsule
+    lore:
+    - '&7Contains &5Energy Orbs &fx8'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/small_energy_capsule.png
+  energy_capsule:
+    display_name: '&6Energy Capsule'
+    permission: energy_capsule
+    lore:
+    - '&7Contains &dSmall Energy Capsule &fx8'
+    - '&7(&5Energy Orbs &fx64&7)'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/energy_capsule.png
+  iron_plate:
+    display_name: Iron Plate
+    permission: iron_plate
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/iron_plate.png
+  tobacco:
+    display_name: Tobacco
+    permission: tobacco
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/tobacco.png
+  nest:
+    display_name: Nest
+    permission: nest
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/nest.png
+  eggs_nest:
+    display_name: Eggs Nest
+    permission: eggs_nest
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/eggs_nest.png
+  mysterious_artifact:
+    display_name: Mysterious Artifact
+    permission: mysterious_artifact
+    resource:
+      material: STICK
+      generate: false
+      model_path: item/mysterious_artifact
+  coin:
+    display_name: Coin
+    permission: coin
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/coin.png
+  banknote:
+    display_name: Banknote
+    permission: banknote
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/banknote.png
+  sack_of_money:
+    display_name: Sack Of Money
+    permission: sack_of_money
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/sack_of_money.png
+  plastic_bag:
+    display_name: Plastic Bag
+    permission: plastic_bag
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/plastic_bag.png
+  four_leaf_clover:
+    display_name: Four-leaf Clover
+    permission: four_leaf_clover
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/four_leaf_clover.png
+    attribute_modifiers:
+      mainhand:
+        luck: 5.0
+  light_blue_coupon:
+    display_name: Generic Coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/light_blue_coupon.png
+  turquoise_coupon:
+    display_name: Generic Coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/turquoise_coupon.png
+  purple_coupon:
+    display_name: Generic Coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/purple_coupon.png
+  green_coupon:
+    display_name: Generic Coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/green_coupon.png
+  red_coupon:
+    display_name: Generic Coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/red_coupon.png
+  black_coupon:
+    display_name: Generic Coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/black_coupon.png
+  white_coupon:
+    display_name: Generic Coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/white_coupon.png
+  golden_coupon:
+    display_name: Generic Coupon
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/golden_coupon.png
+  blue_ring:
+    display_name: Generic Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/blue_ring.png
+  light_blue_ring:
+    display_name: Generic Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/light_blue_ring.png
+  turquoise_ring:
+    display_name: Generic Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/turquoise_ring.png
+  purple_ring:
+    display_name: Generic Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/purple_ring.png
+  green_ring:
+    display_name: Generic Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/green_ring.png
+  red_ring:
+    display_name: Generic Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/red_ring.png
+  black_ring:
+    display_name: Generic Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/black_ring.png
+  white_ring:
+    display_name: Generic Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/white_ring.png
+  golden_ring:
+    display_name: Generic Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/golden_ring.png
+  marriage_ring:
+    display_name: Marriage Ring
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/marriage_ring.png
+  jar:
+    display_name: Jar
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/jar.png
+  blue_key:
+    display_name: Generic Key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/blue_key.png
+  light_blue_key:
+    display_name: Generic Key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/light_blue_key.png
+  turquoise_key:
+    display_name: Generic Key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/turquoise_key.png
+  purple_key:
+    display_name: Generic Key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/purple_key.png
+  green_key:
+    display_name: Generic Key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/green_key.png
+  red_key:
+    display_name: Generic Key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/red_key.png
+  black_key:
+    display_name: Generic Key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/black_key.png
+  white_key:
+    display_name: Generic Key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/white_key.png
+  golden_key:
+    display_name: Generic Key
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/golden_key.png
+  carton_box:
+    display_name: Carton Box
+    permission: carton_box
+    resource:
+      material: STICK
+      generate: false
+      model_path: item/carton_box
+  cut_spruce_log:
+    display_name: Cut Spruce Log
+    permission: cut_spruce_log
+    resource:
+      material: STICK
+      generate: false
+      model_path: item/cut_spruce_log
+  shotgun_cartridge:
+    display_name: Shotgun Cartridge
+    permission: shotgun_cartridge
+    lore:
+    - '&7Hold it in the left'
+    - '&7hand while shooting'
+    - '&7with a Shotgun'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/shotgun_cartridge.png
+# loots:
+  # blocks:
+    # oak_leaves:
+      # type: OAK_LEAVES
+      # items:
+        # nest:
+          # item: itemsadder:nest
+          # min_amount: 1
+          # max_amount: 2
+          # chance: 3
+        # eggs_nest:
+          # item: itemsadder:eggs_nest
+          # min_amount: 1
+          # max_amount: 2
+          # chance: 1
+    # grass:
+      # type: GRASS
+      # items:
+        # four_leaf_clover:
+          # item: itemsadder:four_leaf_clover
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 1

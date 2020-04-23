@@ -1,0 +1,13 @@
+info:
+  namespace: example
+items:
+  example_item:
+    display_name: Example Item
+    permission: example_item
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/example_item.png
+    durability:
+      max_custom_durability: 1324

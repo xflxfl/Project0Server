@@ -1,0 +1,34 @@
+﻿shiwangbaobao:
+  Type: BABY_ZOMBIE
+  Display: '&c尸王宝宝'
+  Health: 1000
+  Damage: 15
+  Armor: 1
+  BossBar:
+    Enabled: true
+    Title: '&c尸王宝宝'
+    Range: 30
+    Color: RED
+    Style: SOLID
+  Modules:
+    ThreatTable: true
+  Options:
+    Despawn: false
+    AlwaysShowName: true
+    KnockbackResistance: 0.1
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - PROJECTILE 1.5
+  Equipment:
+  - pige4:4
+  Skills:
+  - forcepull @PlayersInRadius{r=10} ~onDamaged 0.2
+  - summon{m=sw_xiaoshouwei;a=1;r=5} @Target ~onTimer:300 0.5
+  - heal{a=60;overheal=false} @Self ~onDamaged <30% 0.2
+  - potion{type=SLOW;d=40;l=3} @Target ~onTimer:100 0.3
+  - leap{v=200} @Target ~onTimer:100 0.8
+  - effect:particlesphere{p=smoke;a=40;radius=1;y=0.5} @Self ~onTimer:5

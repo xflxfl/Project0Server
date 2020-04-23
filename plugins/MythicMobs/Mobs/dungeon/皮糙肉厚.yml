@@ -1,0 +1,25 @@
+﻿picaorouhou:
+  Type: PIG_ZOMBIE
+  Display: '&2皮糙肉厚'
+  Health: 600
+  Damage: 5
+  Armor: 5
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.6
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - PROJECTILE 2.5
+  Equipment:
+  - tie4:0
+  Skills:
+  - skill{s=picaorouhou} @Self ~onDamaged =10%-40% 0.2
+  - damage{a=1;i=true} @PlayersInRadius{r=7} ~onTimer:100 <50% 0.5
+  - effect:particles{p=angryVillager;a=3;hS=0.3;vS=0.3;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8

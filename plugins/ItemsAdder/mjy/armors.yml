@@ -1,0 +1,823 @@
+info:
+  namespace: mjy
+recipes:
+  anvil_repair:
+    rongyan_head:
+      ingredient: mjy:huangshuijing
+      item: mjy:rongyan_head
+items:
+  rongyan_head:
+    display_name: 熔岩头盔
+    permission: rongyan
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: a14520
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 6.5
+        armorToughness: 2
+        maxHealth: 3
+    level: 10
+      
+  rongyan_chest:
+    display_name: 熔岩护甲
+    permission: rongyan
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: a14520
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 11.5
+        armorToughness: 2
+        maxHealth: 6
+    level: 10
+      
+  rongyan_leg:
+    display_name: 熔岩护腿
+    permission: rongyan
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: a14520
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 9.5
+        armorToughness: 2
+        maxHealth: 3
+    level: 10
+      
+  rongyan_feet:
+    display_name: 熔岩靴子
+    permission: rongyan
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: a14520
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 6.5
+        armorToughness: 2
+        maxHealth: 2
+    level: 10
+  
+  wushi_head:
+    display_name: 武士头盔
+    permission: rongyan
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: 6b6963
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 4.5
+        armorToughness: 1
+    level: 5
+      
+  wushi_chest:
+    display_name: 武士护甲
+    permission: rongyan
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: 6b6963
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 9.5
+        armorToughness: 1
+    level: 5
+      
+  wushi_leg:
+    display_name: 武士护腿
+    permission: rongyan
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: 6b6963
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 7.5
+        armorToughness: 1
+    level: 5
+      
+  wushi_feet:
+    display_name: 武士靴子
+    permission: rongyan
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: 6b6963
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 4.5
+        armorToughness: 1
+    level: 5
+    
+        
+  diaolingwang_head:
+    display_name: '&d凋零王的皇冠'
+    permission: diaolingwang
+    lore:
+    - '&6稀有的凋零王皇冠'
+    - '&6穿上它会有不可思议的效果!'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 399
+    specific_properties:
+      armor:
+        slot: head
+        color: b25cd1
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 6.5
+        armorToughness: 2
+        knockbackResistance: 0.01
+        maxHealth: 3
+    
+      
+  diaolingwang_chest:
+    display_name: '&d凋零王的护甲'
+    permission: diaolingwang
+    lore:
+    - '&6稀有的凋零王护甲'
+    - '&6穿上它会有不可思议的效果!'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 549
+    specific_properties:
+      armor:
+        slot: chest
+        color: b25cd1
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 11.5
+        armorToughness: 2
+        knockbackResistance: 0.03
+        maxHealth: 7
+    
+      
+  diaolingwang_leg:
+    display_name: '&d凋零王的护腿'
+    permission: diaolingwang
+    lore:
+    - '&6稀有的凋零王护腿'
+    - '&6穿上它会有不可思议的效果!'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: legs
+        color: b25cd1
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 9.5
+        armorToughness: 2
+        knockbackResistance: 0.02
+        maxHealth: 3
+    
+      
+  diaolingwang_feet:
+    display_name: '&d凋零王的战靴'
+    permission: diaolingwang
+    lore:
+    - '&6稀有的凋零王战靴'
+    - '&6穿上它会有不可思议的效果!'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 489
+    specific_properties:
+      armor:
+        slot: feet
+        color: b25cd1
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 6.5
+        armorToughness: 2
+        knockbackResistance: 0.02
+        maxHealth: 3
+    
+        
+  xuemo_head:
+    display_name: '&e血魔(头盔)'
+    permission: xuemo
+    lore:
+    - '&6这是一件被鲜血浸渍的头盔'
+    - '&d传说中的血魔曾拥有过它！'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: ff0000
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 3.5
+        armorToughness: 2
+        maxHealth: 4
+    
+      
+  xuemo_chest:
+    display_name: '&e血魔(盔甲)'
+    permission: xuemo
+    lore: 
+    - '&6这是一件被鲜血浸渍的盔甲'
+    - '&d传说中的血魔曾拥有过它！'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: ff0000
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 8.5
+        armorToughness: 2
+        maxHealth: 10
+    
+      
+  xuemo_leg:
+    display_name: '&e血魔(护腿)'
+    permission: xuemo
+    lore: 
+    - '&6这是一件被鲜血浸渍的护腿'
+    - '&d传说中的血魔曾拥有过它！'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: ff0000
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 6.5
+        armorToughness: 2
+        maxHealth: 3
+    
+      
+  xuemo_feet:
+    display_name: '&e血魔(战靴)'
+    permission: xuemo
+    lore: 
+    - '&6这是一件被鲜血浸渍的战靴'
+    - '&d传说中的血魔曾拥有过它！'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: ff0000
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 3.5
+        armorToughness: 2
+        maxHealth: 3
+    
+    
+  shilian_head:
+    display_name: '&8试练头盔'
+    permission: shilian
+    lore:
+    - '&8这是一件普通的头盔'
+    - '&8但却拥有着很高的耐久'
+    - '&8这使它成为试练者不可或缺的装备'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 3222
+    specific_properties:
+      armor:
+        slot: head
+        color: 00a6ff
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 2
+    
+      
+  shilian_chest:
+    display_name: '&8试练胸甲'
+    permission: shilian
+    lore:
+    - '&8这是一件普通的胸甲'  
+    - '&8但却拥有着很高的耐久'
+    - '&8这使它成为试练者不可或缺的装备'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 3555
+    specific_properties:
+      armor:
+        slot: chest
+        color: 00a6ff
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 6
+    
+      
+  shilian_leg:
+    display_name: '&8试练护腿'
+    permission: shilian
+    lore:
+    - '&8这是一件普通的护腿'  
+    - '&8但却拥有着很高的耐久'
+    - '&8这使它成为试练者不可或缺的装备'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 3444
+    specific_properties:
+      armor:
+        slot: legs
+        color: 00a6ff
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 6
+    
+      
+  shilian_feet:
+    display_name: '&8试练战靴'
+    permission: shilian
+    lore:
+    - '&8这是一件普通的战靴'  
+    - '&8但却拥有着很高的耐久'
+    - '&8这使它成为试练者不可或缺的装备'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 3333
+    specific_properties:
+      armor:
+        slot: feet
+        color: 00a6ff
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 2
+    
+        
+  bailian_head:
+    display_name: '&3百炼头盔'
+    permission: bailian
+    lore:
+    - '&7黝黑的外表可以'
+    - '&7想象他有多么坚固'
+    enchants:
+      - DURABILITY:4
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: '646464'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 3
+    
+      
+  bailian_chest:
+    display_name: '&3百炼铠甲'
+    permission: bailian
+    lore:
+    - '&7黝黑的外表可以'
+    - '&7想象他有多么坚固'
+    enchants:
+      - DURABILITY:4
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: '646464'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 7
+    
+      
+  bailian_leg:
+    display_name: '&3百炼护腿'
+    permission: bailian
+    lore:
+    - '&7黝黑的外表可以'
+    - '&7想象他有多么坚固'
+    enchants:
+      - DURABILITY:4
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: '646464'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 6
+    
+      
+  bailian_feet:
+    display_name: '&3百炼战靴'
+    permission: bailian
+    lore:
+    - '&7黝黑的外表可以'
+    - '&7想象他有多么坚固'
+    enchants:
+      - DURABILITY:4
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: '646464'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 3
+    
+        
+  putongpaoxie_feet:
+    display_name: '&3普通跑鞋'
+    permission: putongpaoxie_feet
+    lore:
+    - '&8这件鞋子很轻巧'
+    - '&8穿上它可以跑得更快'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: '547eba'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 2.5
+        movementSpeed: 0.01
+    
+        
+  gaojipaoxie_feet:
+    display_name: '&5高级跑鞋'
+    permission: gaojipaoxie_feet
+    lore:
+    - '&8特殊材料制成的跑鞋'
+    - '&8比普通的跑鞋还要快'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: feet
+        color: '31b51d'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 3
+        movementSpeed: 0.02
+    
+  
+  shouhuzhe_head:
+    display_name: '&3守护者头盔'
+    permission: shouhuzhe
+    lore:
+    - '&6守护者的魂魄承载'
+    - '&6起它永恒的使命'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: 75bebe
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 5.5
+        armorToughness: 3
+        maxHealth: 2
+    level: 10
+    
+        
+  shouhuzhe_chest:
+    display_name: '&3守护者铠甲'
+    permission: shouhuzhe
+    lore:
+    - '&6守护者的魂魄承载'
+    - '&6起它永恒的使命'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: 75bebe
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 10.5
+        armorToughness: 3
+        maxHealth: 5
+    level: 10
+    
+        
+  shouhuzhe_legs:
+    display_name: '&3守护者护腿'
+    permission: shouhuzhe
+    lore:
+    - '&6守护者的魂魄承载'
+    - '&6起它永恒的使命'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: 75bebe
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 8.5
+        armorToughness: 3
+        maxHealth: 4
+    level: 10
+    
+        
+  shouhuzhe_boots:
+    display_name: '&3守护者战靴'
+    permission: shouhuzhe
+    lore:
+    - '&6守护者的魂魄承载'
+    - '&6起它永恒的使命'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: FEET
+        color: 75bebe
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 5.5
+        armorToughness: 3
+        maxHealth: 3
+    level: 10
+    
+        
+  yongye_head:
+    display_name: '&8永夜(头盔)'
+    permission: yongye
+    lore:
+    - '&8这是黑暗的力量'  
+    - '&8正如它的名字'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: '010002'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 4
+        armorToughness: 2
+        maxHealth: 1
+    
+        
+  yongye_chest:
+    display_name: '&8永夜(铠甲)'
+    permission: yongye
+    lore:
+    - '&8这是黑暗的力量'  
+    - '&8正如它的名字'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: '010002'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 9
+        armorToughness: 2
+        maxHealth: 4
+    
+        
+  yongye_legs:
+    display_name: '&8永夜(护腿)'
+    permission: yongye
+    lore:
+    - '&8这是黑暗的力量'  
+    - '&8正如它的名字'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: '010002'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 7
+        armorToughness: 2
+        maxHealth: 2
+    
+        
+  yongye_boots:
+    display_name: '&8永夜(战靴)'
+    permission: yongye
+    lore:
+    - '&8这是黑暗的力量'
+    - '&8正如它的名字'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: FEET
+        color: '010002'
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 4
+        armorToughness: 2
+        maxHealth: 1
+    
+        
+  anjin_head:
+    display_name: '&3暗金头盔'
+    permission: anjin
+    lore:
+    - '&8暗金术士遗留'
+    - '&8下来的宝物'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 320
+    specific_properties:
+      armor:
+        slot: head
+        color: dbb014
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+        maxHealth: 1
+    level: 5
+    
+        
+  anjin_chest:
+    display_name: '&3暗金铠甲'
+    permission: anjin
+    lore:
+    - '&8暗金术士遗留'
+    - '&8下来的宝物'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 498
+    specific_properties:
+      armor:
+        slot: chest
+        color: dbb014
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      chest:
+        armor: 9
+        armorToughness: 2
+        knockbackResistance: 0.05
+        maxHealth: 4
+    level: 5
+    
+        
+  anjin_legs:
+    display_name: '&3暗金护腿'
+    permission: anjin
+    lore:
+    - '&8暗金术士遗留'
+    - '&8下来的宝物'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 445
+    specific_properties:
+      armor:
+        slot: legs
+        color: dbb014
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+        maxHealth: 2
+    level: 5
+    
+        
+  anjin_boots:
+    display_name: '&3暗金战靴'
+    permission: anjin
+    lore:
+    - '&8暗金术士遗留'
+    - '&8下来的宝物'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 402
+    specific_properties:
+      armor:
+        slot: FEET
+        color: dbb014
+      anvil_repair_item: mjy:huangshuijing
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+        maxHealth: 1
+    level: 5
+    

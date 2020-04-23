@@ -1,0 +1,72 @@
+info:
+  namespace: mjy
+items:
+  zishuijing_ore:
+    enable: true
+    display_name: 紫水晶矿石
+    permission: zishuijing_ore
+    resource:
+      material: REDSTONE_ORE
+      generate: true
+      textures:
+      - block/ore/zishuijing_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        drop_on_silktouch: true
+        break_tools_whitelist:
+        - DIAMOND_PICKAXE
+  huangshuijing_ore:
+    enable: true
+    display_name: 黄水晶矿石
+    permission: huangshuijing_ore
+    resource:
+      material: REDSTONE_ORE
+      generate: true
+      textures:
+      - block/ore/huangshuijing_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        drop_on_silktouch: true
+        break_tools_whitelist:
+        - DIAMOND_PICKAXE
+worlds_populators:
+  zishuijing_ore:
+    block: mjy:zishuijing_ore
+    worlds:
+    - kuangjie
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    chance: 10.0
+    max_height: 20
+    min_height: 5
+    amount: 3
+    iterations: 2
+  huangshuijing_ore:
+    block: mjy:huangshuijing_ore
+    worlds:
+    - kuangjie
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    chance: 15.0
+    max_height: 30
+    min_height: 5
+    amount: 3
+    iterations: 2

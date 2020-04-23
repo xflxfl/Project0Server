@@ -1,0 +1,27 @@
+﻿sw_xiaoshouwei:
+  Type: BABY_PIG_ZOMBIE
+  Display: '&a尸王小守卫 - &4<mob.level>级'
+  Health: 90
+  Damage: 9
+  Armor: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - PROJECTILE 1.8
+  Equipment:
+  - pige4:4
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer
+  - leap{v=200} @Target ~onTimer:100 0.8

@@ -1,0 +1,76 @@
+{
+  "ID": "Enderman_enderman",
+  "Order": 12,
+  "Name": "攻血型末影人",
+  "Requirements": [
+    "Permission:Enderman"
+  ],
+  "Icon": {
+    "Material": "ender_pearl"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c攻血型宠物",
+    "\u0026f最大宠物攻击15",
+    "\u0026f最大宠物血量150",
+    "\u0026f宠物技能：",
+    "\u0026f -冲刺(20级领悟)"
+  ],
+  "MobTypes": [
+    "Enderman"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": false,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {}
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Damage": "+0.4"
+        },
+        "%1>11<30": {
+          "Damage": "+0.2"
+        },
+        "%1>30<50": {
+          "Damage": "+0.2"
+        },
+        "%1>51<100": {
+          "Damage": "+0.06"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<20": {
+          "Health": "+2.5"
+        },
+        "%1>21<50": {
+          "Health": "+1.5"
+        },
+        "%1>51<100": {
+          "Health": "+0.7"
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "20": {
+          "Active": true
+        }
+      }
+    }
+  }
+}

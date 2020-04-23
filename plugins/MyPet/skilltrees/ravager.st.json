@@ -1,0 +1,93 @@
+{
+  "ID": "ravager",
+  "Order": 23,
+  "Name": "掠夺兽",
+  "Icon": {
+    "Material": "diamond_horse_armor"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c近战攻击型宠物",
+    "\u0026f最大宠物攻击13",
+    "\u0026f最大宠物血量200",
+    "\u0026f宠物技能:",
+    "\u0026f  - 冲刺(30级领悟)",
+    "\u0026f  - 践踏(40级领悟, 最大概率30%,最大伤害7)"
+  ],
+  "MobTypes": [
+    "Ravager"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {
+          "Active": true
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Damage": "+0.3"
+        },
+        "%1>11<30": {
+          "Damage": "+0.25"
+        },
+        "%1>31<60": {
+          "Damage": "+0.1666"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+4"
+        },
+        "%1>11<30": {
+          "Health": "+3"
+        },
+        "%1>31<50": {
+          "Health": "+2"
+        },
+        "%1>51<100": {
+          "Health": "+1.2"
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "30": {
+          "Active": true
+        }
+      }
+    },
+    "Stomp": {
+      "Upgrades": {
+        "40": {
+          "Damage": "+3",
+          "Chance": "+5"
+        },
+        "70": {
+          "Chance": "+3"
+        },
+        "80": {
+          "Chance": "+2"
+        },
+        "45,50,55,60": {
+          "Damage": "+1",
+          "Chance": "+4"
+        }
+      }
+    }
+  }
+}

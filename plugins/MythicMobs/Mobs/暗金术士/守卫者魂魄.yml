@@ -1,0 +1,23 @@
+﻿守卫者魂魄:
+  Type: Zombie
+  Display: '&2守卫者 魂魄'
+  Health: 60
+  Damage: 3
+  Armor: 1
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    Despawn: false
+  Disguise:
+    Type: zombie
+    Burning: true
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - huangjinjian:0

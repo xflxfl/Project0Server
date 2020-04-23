@@ -1,0 +1,90 @@
+{
+  "ID": "wither",
+  "Order": 3,
+  "Name": " 凋零",
+  "Requirements": [
+    "Permission:Skeleton2"
+  ],
+  "Icon": {
+    "Material": "wither_skeleton_skull"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c远程攻击型宠物",
+    "\u0026f最大宠物攻击14",
+    "\u0026f最大宠物血量105",
+    "\u0026f宠物技能：",
+    "\u0026f - 骑乘(30级领悟)",
+    "\u0026f - 头颅攻击(最快1.5秒1次)",
+    "\u0026f - 凋零攻击(50级领悟,最大概率35%,最长2秒)"
+  ],
+  "MobTypes": [
+    "Wither"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {
+          "Active": true
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<50": {
+          "Health": "+1"
+        },
+        "%1>51<100": {
+          "Health": "+0.6"
+        }
+      }
+    },
+    "Ranged": {
+      "Upgrades": {
+        "1": {
+          "Rate": "+60",
+          "Projectile": "WitherSkull"
+        },
+        "%1>1<10": {
+          "Damage": "+0.3",
+          "Rate": "-1"
+        },
+        "%1>11<30": {
+          "Damage": "+0.2",
+          "Rate": "-1"
+        },
+        "%1>31<100": {
+          "Damage": "+0.1"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "30": {
+          "Active": true
+        }
+      }
+    },
+    "Wither": {
+      "Upgrades": {
+        "50,55,60,65,70,80,90": {
+          "Chance": "+5"
+        },
+        "50,60": {
+          "Duration": "+1"
+        }
+      }
+    }
+  }
+}

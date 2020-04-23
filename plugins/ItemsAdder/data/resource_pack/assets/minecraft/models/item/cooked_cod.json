@@ -1,0 +1,110 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/cooked_cod"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "mjy:auto_generated/qinghua_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "mjy:auto_generated/fei_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mjy:auto_generated/haidiao_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "mjy:auto_generated/heilu_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "mjy:auto_generated/jinqiang_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "mjy:auto_generated/shrimp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "mjy:auto_generated/lansha_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "mjy:auto_generated/bimu_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "mjy:auto_generated/gu_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "mjy:auto_generated/gold_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "mjy:auto_generated/duoxushishou_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "mjy:auto_generated/fenhetun_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "mjy:auto_generated/jing_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "mjy:auto_generated/crab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "mjy:auto_generated/squid"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "mjy:auto_generated/jellyfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "mjy:auto_generated/turtle"
+    }
+  ]
+}

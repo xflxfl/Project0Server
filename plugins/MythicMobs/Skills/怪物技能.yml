@@ -1,0 +1,88 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+# 矿车炸弹技能
+kuangchezhadan:
+  Cooldown: 5
+  Skills:
+  - teleport{spreadH=10} @target 1
+  - delay 20
+  - explosion{blockdamage=false;fire=false;yield=6} @target 1
+  - effect:explosion @Self
+# 矿车司令技能
+kuangchesiling:
+  Cooldown: 25
+  Skills:
+  - message{m="<mob.name><&co> 出来吧，我的战士们!"} @PlayersInRadius{r=20}
+  - delay 20
+  - summon{mob=kc_sheshou;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=kc_zhadan;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=kc_zhanshi;amount=1;noise=5} @Self
+AngrySludgePoison:
+  Cooldown: 10
+  Skills:
+  - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=15}
+  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+# 死灵法师技能1：召唤
+死灵法师1:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name><&co> 出来吧，奴隶们!"} @PlayersInRadius{r=20}
+  - delay 20
+  - summon{mob=亡魂1;amount=1;noise=5} @Self
+# 死灵法师技能2：法术
+死灵法师2:
+  Cooldown: 5
+  Skills:
+  - message{m="<mob.name><&co> 让你尝尝黑暗魔法的力量!"} @PlayersInRadius{r=20}
+  - potion{type=BLINDNESS;d=20;l=2} @target
+  - potion{type=HARM;d=20;l=1} @target 0.2
+# 皮糙肉厚技能
+picaorouhou:
+  Cooldown: 10
+  Skills:
+  - heal{a=200;overheal=false} @Self
+# 黑寡妇技能
+heiguafu:
+  Cooldown: 20
+  Skills:
+  - summon{m=zz_zhanshi;a=1;r=5} @Target
+  - summon{m=zz_sheshou;a=1;r=5} @Target
+# 暗金术士技能1
+anjinshushi1:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name><&co> 出来吧，魂魄们!"} @PlayersInRadius{r=20}
+  - delay 20
+  - summon{mob=守卫者魂魄;amount=1;noise=5} @Self 0.5
+# 暗金术士技能2
+anjinshushi2:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name><&co> 出来吧，魂魄们!"} @PlayersInRadius{r=20}
+  - delay 20
+  - summon{mob=疯牛魂魄;amount=1;noise=5} @Self
+  - summon{mob=疯狗魂魄;amount=1;noise=5} @Self
+# 隐身技能
+隐身:
+  Skills:
+  - potion{t=INVISIBILITY;d=999999;l=0}
+# 闪电羊技能
+闪电羊:
+  Skills:
+  - lightning @Target
+  - damage{a=2;i=true} @target
+# 白眼骷髅技能
+白眼骷髅:
+  Skills:
+  - summon{mob=骷髅战士;amount=1;noise=5} @Self 0.3
+# 骑马技能
+追杀者坐骑:
+  Skills:
+  - mount{type=追杀者坐骑} @self
+# 骑蜘蛛技能
+狩猎者坐骑:
+  Skills:
+  - mount{type=狩猎者坐骑} @self

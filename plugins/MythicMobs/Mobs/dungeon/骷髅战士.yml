@@ -1,0 +1,18 @@
+﻿kulouzhanshi:
+  Type: SKELETON
+  Display: '&f邪恶法师的骷髅战士'
+  Health: 30
+  Damage: 6
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    FollowRange: 10
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Equipment:
+  - shitoujian:0

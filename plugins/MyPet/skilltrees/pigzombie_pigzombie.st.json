@@ -1,0 +1,116 @@
+{
+  "ID": "pigzombie_pigzombie",
+  "Order": 10,
+  "Name": "攻血型僵尸猪人",
+  "Requirements": [
+    "Permission:pigzombie"
+  ],
+  "Icon": {
+    "Material": "golden_sword"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c攻血型宠物",
+    "\u0026f最大宠物攻击10",
+    "\u0026f最大宠物血量140",
+    "\u0026f最大反弹伤害20%",
+    "\u0026f宠物技能：",
+    "\u0026f -剧毒攻击(最大概率20%)",
+    "\u0026f -荆棘保护(最大概率25%)"
+  ],
+  "MobTypes": [
+    "PigZombie"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {}
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Damage": "+0.3"
+        },
+        "%2>11<30": {
+          "Damage": "+0.2"
+        },
+        "%1>31<100": {
+          "Damage": "+0.0428"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+3"
+        },
+        "%1>11<30": {
+          "Health": "+2"
+        },
+        "%2>31<50": {
+          "Health": "+2"
+        },
+        "%1>51<100": {
+          "Health": "+0.6"
+        }
+      }
+    },
+    "Poison": {
+      "Upgrades": {
+        "10": {
+          "Duration": "+1",
+          "Chance": "+5"
+        },
+        "15": {
+          "Chance": "+2"
+        },
+        "19": {
+          "Chance": "+2"
+        },
+        "25": {
+          "Duration": "+1",
+          "Chance": "+2"
+        },
+        "40": {
+          "Chance": "+2"
+        },
+        "50": {
+          "Duration": "+1",
+          "Chance": "+2"
+        },
+        "60": {
+          "Chance": "+2"
+        },
+        "70": {
+          "Chance": "+3"
+        }
+      }
+    },
+    "Thorns": {
+      "Upgrades": {
+        "15": {
+          "Reflection": "+5",
+          "Chance": "+5"
+        },
+        "%1>16<30": {
+          "Reflection": "+1",
+          "Chance": "+1"
+        },
+        "%6>31<60": {
+          "Chance": "+1"
+        }
+      }
+    }
+  }
+}

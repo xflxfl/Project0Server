@@ -1,0 +1,57 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/potion_overlay",
+    "layer1": "item/potion"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/cola"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/hot_chocolate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:auto_generated/coffee"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "itemsadder:auto_generated/diamonds_finder_potion"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "itemsadder:auto_generated/emeralds_finder_potion"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "itemsadder:auto_generated/strange_potion"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "itemsadder:auto_generated/antidote"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "itemsadder:auto_generated/bloody_mary"
+    }
+  ]
+}

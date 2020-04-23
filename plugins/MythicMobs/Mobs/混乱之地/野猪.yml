@@ -1,0 +1,55 @@
+﻿yezhu:
+  Type: ZOMBIE
+  Display: '&2野猪'
+  Health: 30
+  Damage: 2
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    Despawn: false
+  Disguise:
+    Type: pig
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - pige3:3
+  Skills:
+  - leap{v=200} @Target ~onDamaged 0.3
+  - throw{v=0;vy=3} @Target ~onDamaged <50% 0.4
+  - effect:particles{p=angryVillager;a=3;hS=0.3;vS=0.3;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8
+
+yezhuT:
+  Type: ZOMBIE
+  Display: '&2野猪'
+  Health: 30
+  Damage: 2
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    Despawn: false
+  Disguise:
+    Type: pig
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - pige3:3
+  Skills:
+  - leap{v=200} @Target ~onDamaged 0.3
+  - throw{v=0;vy=3} @Target ~onDamaged <50% 0.4
+  - effect:particles{p=angryVillager;a=3;hS=0.3;vS=0.3;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8

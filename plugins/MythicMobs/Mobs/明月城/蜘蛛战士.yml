@@ -1,0 +1,43 @@
+﻿zz_zhanshi:
+  Type: SPIDER
+  Display: '&a蜘蛛战士 - &4<mob.level>级'
+  Health: 40
+  Damage: 7
+  Armor: 2
+  Options:
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer
+  
+zz_zhanshiT:
+  Type: SPIDER
+  Display: '&a蜘蛛战士 - &4<mob.level>级'
+  Health: 40
+  Damage: 7
+  Armor: 2
+  Options:
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer

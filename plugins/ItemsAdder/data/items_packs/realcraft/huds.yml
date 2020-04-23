@@ -1,0 +1,58 @@
+info:
+  namespace: "realcraft"
+huds:
+  thirst_bar:
+    enabled: true
+    show:
+      auto: true
+      creative: false
+      underwater: false
+    type: STATUS
+    x_position_pixels: 10
+    direction: LEFT
+    value:
+      player_stat_name: "thirst"
+      start: 10
+      min: 0
+      max: 10
+      triggers:
+        decrement:
+          generic_over_time_20_inside:
+            min_sky_light: 0
+            max_sky_light: 13
+            every_ticks: 24000
+            amount: 0.5
+          generic_over_time_20_outside:
+            min_sky_light: 14
+            max_sky_light: 15
+            every_ticks: 18000
+            amount: 0.5
+          biome_over_time_desert_outside:
+            min_sky_light: 14
+            max_sky_light: 15
+            biome: DESERT
+            every_ticks: 600
+            amount: 0.5
+          food_level_change:
+            each_food_level: 1
+            amount: 0.1
+        increment:
+          food_level_change:
+            each_food_level: 1
+            amount: 0.1
+          player_respawn:
+            amount: 10
+        on_min_value:
+          damange_player:
+            #min 20 ticks
+            every_ticks: 100
+            damage: 0.5
+          potion_effect:
+            every_ticks: 100
+            type: SLOW
+            amplifier: 1
+            duration: 100
+    images:
+      positive: "realcraft:thirst_bar_positive"
+      half: "realcraft:thirst_bar_half"
+      negative: "realcraft:thirst_bar_negative"

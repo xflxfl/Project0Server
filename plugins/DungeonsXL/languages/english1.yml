@@ -1,0 +1,247 @@
+announcer:
+  click: '&4&l=> &6点击此处加入 &4&l<='
+cmd:
+  break:
+    breakMode: '&c副本建筑保护取消,你可以破坏副本区域的建筑.'
+    help: /dxl break - 破坏副本区域的建筑
+    protectedMode: '&c副本建筑保护中,你不能破坏副本区域的建筑.'
+  chat:
+    dungeonChat: '&a你已进入副本聊天频道'
+    help: /dxl chat - 切换聊天频道
+    normalChat: '&a你已进入公共聊天频道'
+  chatspy:
+    help: /dxl chatspy - 开启/关闭监听副本聊天频道
+    started: '&6正在监听副本聊天频道.'
+    stopped: '&6已停止监听副本聊天频道.'
+  create:
+    help: /dxl create [name] - 创建一个新的副本地图
+  delete:
+    backups: '&6你确定要删除所有的备份吗?'
+    help: /dxl delete [name] - 删除一个副本地图
+    success: '&6成功删除地图 &4&v1&6.'
+  dungeonItem:
+    dungeonItemHelp: '&6通关副本后，无论副本是否允许玩家拿走副本用品，&4副本用品 &6都将从玩家背包中移除.'
+    globalItemHelp: '&6通关副本后, 如果该副本允许，副本内的&4全局物品 &6可以被带出副本.'
+    help: /dxl dungeonItem [true|false|info] - 将玩家手中的物品设置为不可以被带出副本
+    info:
+      dungeon: '&6这是一个 &4副本用品&6.'
+      global: '&6这是一个 &4全局物品&6.'
+    set:
+      dungeon: '&6已设置该物品为 &4副本用品&6.'
+      global: '&6已设置该物品为 &4全局用品&6.'
+  edit:
+    help: /dxl edit [map] - 编辑一个已存在的副本地图
+  enter:
+    help: /dxl enter ([队伍1]) [队伍2] - 让队伍1进入队伍2的游戏
+    success: '&6队伍 &4&v1 &6成功进入队伍 &4&v2&6的游戏.'
+  escape:
+    help: /dxl escape - 放弃保存并离开编辑中的地图
+  game:
+    help: /dxl game - 显示有关当前游戏会话的信息
+  group:
+    help:
+      create: /dxl group create [队伍名] - 创建队伍
+      disband: /dxl group disband ([队伍名]) - 解散队伍
+      invite: /dxl group invite [玩家名]- 邀请玩家加入队伍
+      join: /dxl group join [队伍名]- 加入一个队伍
+      kick: /dxl group kick [玩家名] - 移除一个队伍
+      main: /dxl group - 显示队伍帮助
+      show: /dxl group show [队伍名] - 显示一个队伍
+      uninvite: /dxl group uninvite [玩家名] - 取消邀请玩家加入队伍
+  help:
+    help: /dxl help [page] - 显示帮助信息
+  import:
+    help: /dxl import [world] - 导入一个地图
+    success: '&6成功导入地图 &4&v1&6.'
+  invite:
+    help: /dxl invite [玩家名] [副本名] - 邀请玩家编辑副本
+    success: '&6玩家 &4&v1&6 已被邀请编辑副本 &4&v2&6.'
+  join:
+    help: /dxl join [announcement] - 打开界面来加入一个即将开始游戏的队伍
+  kick:
+    help: /dxl kick [玩家名] - 踢出玩家
+    success: '&6成功将玩家 &4&v1&6 踢出队伍.'
+  leave:
+    help: /dxl leave - 离开当前队伍或者编辑中的地图
+    success: '&6已离开队伍.'
+  list:
+    help: /dxl list ([dungeon|map|loaded]) ([副本名]) - 列出所有副本
+  lives:
+    group: '&6队伍&4&v1 &6还剩 &4&v2 &6人存活.'
+    help: /dxl lives [player] - 显示玩家剩余的生命
+    player: '&6玩家&4&v1 &6还剩 &4&v2 &6条命.'
+  main:
+    compatibility: '&eInternals: &o[&v1] &eVault: &o[&v2] &eItemsXL: &o[&v3]'
+    help: /dxl - 显示帮助信息
+    helpInfo: '&7输入 &o/dxl help&r&7 获取更多帮助信息.'
+    loaded: '&e地图: &o[&v1] &e副本: &o[&v2] &e已载入: &o[&v3] &e玩家: &o[&v4]'
+    welcome: '&7欢迎来到 &4Dungeons&fXL'
+  msg:
+    added: '&6新消息 (&4&v1&6) 已增加.'
+    help: /dxl msg [id] '[msg]' - 显示或编辑信息
+    updated: '&6信息 (&4&v1&6) 已修改.'
+  play:
+    help: /dxl play [name] - 允许直接进入副本
+  portal:
+    help: /dxl portal ([material=portal]) - 创造副本传送门
+  reload:
+    help: /dxl reload - 重载插件
+    players: '&4警告: 如果你现在重载插件，所有在副本内的玩家都将被踢出游戏.'
+    success: '&7重载插件成功.'
+  rename:
+    help: /dxl rename [old name] [new name] - 改变副本名称. 本命令不会破坏地图.
+    success: '&6已将 &4&v1&6 重命名为 &4&v2&6.'
+  resourcePack:
+    help: /dxl resourcepack [ID] - 下载专用副本资源包(在config.yml内设置); 用 'reset' 来重置
+  save:
+    help: /dxl save - 保存当前副本
+    success: '&6地图已保存.'
+  status:
+    help: /dxl status - 显示插件状态
+  test:
+    help: /dxl test - 以测试模式运行副本
+  uninvite:
+    help: /dxl uninvite [player] [map] - 取消邀请该玩家编辑副本的请求
+    success: '&4&v1&6已不能再编辑副本 &4&v2&6.'
+error:
+  bed: '&4无法在副本使用床!'
+  blockOwnTeam: '&4这个方块属于你们队伍.'
+  chestIsOpened: '&4这个箱子已被打开.'
+  cmd: '&4在副本内无法使用该命令.'
+  cooldown: '&4你只能每 &6&v1&4 个小时进入该副本.'
+  dispenser: '&4无法使用这个发射器!'
+  drop: '&4无法丢弃该物品'
+  enderchest: '&4在副本中无法使用末影箱.'
+  inGroup: '&4玩家 &6&v1&4 已经是队伍成员了.'
+  joinGroup: '&4你需要先加入一个队伍.'
+  leaveDungeon: '&4你必须先离开当前的副本.'
+  leaveGame: '&4你必须先离开当前的游戏.'
+  leaveGroup: '&4你必须先离开你的队伍.'
+  msgFormat: '&4信息的开头和结尾必须使用 &6" &4将其包围起来.'
+  msgIdDoesNotExist: '&4ID为 &6&v1&4 的信息不存在.'
+  msgNoInt: '&4变量 [id] 必须是一个数字.'
+  nameInUse: '&4名字 &6&v1 &4已被使用.'
+  nameTooLong: '&4名字不能超过15个字符.'
+  noGame: '&4你目前没有参与任何游戏.'
+  noItemInMainHand: '&4你的手中没有物品.'
+  noLeaveInTutorial: '&4在教程中无法使用该命令.'
+  noPermissions: '&4你没有权限这么做.'
+  noProtectedBlock: '&4这个方块不被副本所保护.'
+  noRewardsTime: '&4在 &6&v1&4 前你无法获得奖励.'
+  noSuchDungeon: '&4这个地牢不存在.'
+  noSuchGroup: '&4这个队伍 &6&v1&4 不存在.'
+  noSuchMap: '&4这个世界 &6&v1&4 不存在.'
+  noSuchPlayer: '&4这个玩家 &6&v1&4 不存在.'
+  noSuchResourcePack: '&4该资源包 &6&v1 &4没有在配置文件中注册.'
+  noSuchShop: '&4商店 &v1 &4不存在'
+  notInDungeon: '&4你不在副本中.'
+  notInGame: '&4队伍 &6&v1&4 不在游戏中.'
+  notInGroup: '&4玩家 &6&v1&4 不是队伍 &6&v2&v4 &4的成员.'
+  notInvited: '&4你没有收到队伍 &6&v1&4 的邀请.'
+  notLeader: '&4你不是队伍的队长.'
+  notSaved: '&4地图 &6&v1&4 已被保存至 &6DungeonsXL/maps/ &4目录下.'
+  ready: '&4请先选择职业.'
+  requirements: '&4你不满足进入该副本的条件.'
+  selfNotInGroup: '&4你不在任何队伍中.'
+  signWrongFormat: '&4这个牌子书写错误.'
+  tooManyInstances: '&4有太多的副本正在运行,请稍等一会儿.'
+  tooManyTutorials: '&4有太多的教程正在运行,请稍等一会儿.'
+  tutorialDoesNotExist: '&4没有副本教程.'
+  noReadySign: '&4The world &6&v1 &4does not seem to have a ready sign. No game can
+    be started and only lobby dungeon signs will be initialized.'
+group:
+  bedDestroyed: '&6队伍 &4&v1 &6的床被 &4&v2&6摧毁了.'
+  congrats: '&6大吉大利!'
+  congratsSub: '&l&4你的队伍 &v1 &4获得了胜利.'
+  created: '&4&v1&6 创建了队伍 &4&v2&6.'
+  death: '&4&v1 &6被击杀. &4&v2 &6剩余 &4&v3 &6人存活.'
+  deathKick: '&4&v1 &6被移出游戏,因为 &4&v2 &6无人存活.'
+  defeated: '&4队伍 &4v1 &6因为失去了最后一分而失败了.'
+  disbanded: '&4&v1&6 解散了队伍 &4&v2&6.'
+  flagCaptured: '&4&v1&6 抢夺了队伍 &4&v2&6 的旗帜.'
+  flagLost: '&4&v1&6 因为死亡而丢失了 &4&v2&6 的旗帜.'
+  flagStealing: '&4&v1&6 正在夺取队伍 &4&v2&6 的旗帜.'
+  invitedPlayer: '&4&v1&6 邀请了玩家 &4&v2&6 加入队伍 &4&v3&6.'
+  joinedGame: '&6队伍已加入游戏.'
+  kickedPlayer: '&4&v1&6 从队伍 &4&v3&6 中踢出了玩家 &4&v2&6.'
+  killed: '&4&v1 &6被 &4&v2&6击杀. &4&v3&6 剩余 &4&v4 &6人存活.'
+  killedKick: '&4&v1&6 被 &4&v2&6击杀. &4&v3 无人存活.'
+  livesAdded: '&6你的队伍获得 &4&v1&6 存活的奖励.'
+  livesRemoved: '&6你队伍失去了 &4&v1&6 条生命.'
+  playerJoined: '&6玩家 &4&v1&6 加入队伍.'
+  rewardChest: '&6你的队伍找到了一个奖励箱子.'
+  uninvitedPlayer: '&4&v1&6 撤销了邀请 &4&v2&6 加入队伍 &4&v3&6 的请求.'
+  waveFinished: '&6你队伍击败了第 &4&v1&6 波怪物. 下一波怪物将在 &4&v2&6 秒后出现.'
+misc:
+  'false': '&4[ 否 ]'
+  okay: '&a[ OK ]'
+  'true': '&a[ 是 ]'
+  'no': '&4[ 否 ]'
+  'yes': '&a[ 是 ]'
+  unlimited: 无限
+player:
+  blockInfo: '&6方块ID: &2&v1'
+  checkpointReached: '&6到达检查点.'
+  death: '&4&v1 &6已经死亡,剩余 &4&v2 &6生命.'
+  deathKick: '&2&v1 &6失去所有生命,被移出副本.'
+  finishedDungeon: '&6成功通关副本.'
+  finished_Floor: '&6成功完成当前关卡.'
+  invited: '&4&v1&6 邀请你加入队伍 &4&v2&6.'
+  joinGroup: '&6已加入队伍.'
+  kicked: '&4你被移出队伍 &6&v1&4.'
+  killed: '&4&v1 &6被 &4&v2 &6击杀了,剩余 &4&v3 &6生命.'
+  killedKick: '&4&v1&6 被 &4&v2 &6击杀了并且失去了生命.'
+  leaveGroup: '&6已离开队伍.'
+  leftGroup: '&6玩家 &4&v1&6 离开了队伍.'
+  livesAdded: '&6获得了 &4&v1&6 剩余的生命.'
+  livesRemoved: '&6你失去了 &4&v1&6 条命.'
+  lootAdded: '&4&v1&6 被加入了你的奖励箱.'
+  newLeader: '&6你现在是队伍的队长.'
+  offline: '&6玩家 &4&v1&6 离线了. 在 &4&v2&6 秒后将被移出副本.'
+  offlineNever: '&6玩家 &4&v1&6 离线了. 他将 &4不会&6 被移出副本.'
+  portalAbort: '&6取消创建传送门.'
+  portalCreated: '&6已创建传送门.'
+  portalIntroduction: '&6使用木剑点击传送门的两个角.'
+  portalProgress: '&6第一个角已选取. 请选取第二个角.'
+  protectedBlockDeleted: '&6成功移除保护.'
+  ready: '&6你现在可以启动这个副本.'
+  signCopied: '&6已复制牌子信息.'
+  signCreated: '&6创建副本牌子成功.'
+  timeKick: '&2&v1&6的时间耗尽.'
+  timeLeft: '&v1你还有 &6&v2 &v1秒去完成这个副本.'
+  treasures: '&1宝藏'
+  uninvited: '&4&v1&6 取消邀请你到队伍 &4&v2&6.'
+  waitForOtherPlayers: '&6等待队伍成员...'
+  portal:
+    abort: '&6Portal creation cancelled.'
+    created: '&6Portal created.'
+    introduction: '&6Click on the two edges of the portal with the wooden sword.'
+    progress: '&6First edge successfully marked. You may now click on the other edge.'
+    rotate: '&6Do you wish to rotate the portal?'
+  unlimitedLives: unlimited
+requirement:
+  fee: '&6你花费了 &4&v1 &6金币进入副本.'
+reward:
+  general: '&6完成副本,你获得了 &4&v1 &6.'
+sign:
+  end: '&2结束'
+  floor:
+    '1': '&2进入'
+    '2': '&2下一层'
+  global:
+    full: '&4已满'
+    isPlaying: '&4正在游戏中'
+    joinGame: '&2加入游戏'
+    joinGroup: '&2加入队伍'
+    newGame: '&2新游戏'
+    newGroup: '&2新队伍'
+  leave: '&2离开'
+  ready: '&2准备'
+  resourcePack: '&2下载'
+  wave:
+    '1': '&2开始'
+    '2': '&2下一轮'
+button:
+  accept: '&a[ YES ]'
+  deny: '&4[ NO ]'
+  okay: '&a[ OK ]'

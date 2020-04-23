@@ -1,0 +1,155 @@
+{
+  "parent": "item/template_bed",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:item/shopping_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:item/white_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:item/orange_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "itemsadder:item/magenta_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "itemsadder:item/light_blue_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "itemsadder:item/yellow_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "itemsadder:item/lime_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "itemsadder:item/pink_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "itemsadder:item/gray_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "itemsadder:item/light_gray_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "itemsadder:item/cyan_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "itemsadder:item/purple_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "itemsadder:item/blue_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "itemsadder:item/brown_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "itemsadder:item/green_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "itemsadder:item/red_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "itemsadder:item/black_go_cart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "itemsadder:item/oak_wood_plane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "itemsadder:item/spruce_wood_plane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "itemsadder:item/birch_wood_plane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "itemsadder:item/jungle_wood_plane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "itemsadder:item/acacia_wood_plane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "itemsadder:item/dark_oak_wood_plane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "itemsadder:item/ufo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "itemsadder:item/broomstick"
+    }
+  ]
+}

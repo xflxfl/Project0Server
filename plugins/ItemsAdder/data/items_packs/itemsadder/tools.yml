@@ -1,0 +1,896 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    ruby_axe:
+      permission: itemsadder.ruby_axe
+      enabled: true
+      pattern:
+      - MMX
+      - MSX
+      - XSX
+      ingredients:
+        M: itemsadder:ruby
+        S: STICK
+      result:
+        item: itemsadder:ruby_axe
+        amount: 1
+    crystal_axe:
+      permission: itemsadder.crystal_axe
+      enabled: true
+      pattern:
+      - MMX
+      - MSX
+      - XSX
+      ingredients:
+        M: itemsadder:crystal
+        S: STICK
+      result:
+        item: itemsadder:crystal_axe
+        amount: 1
+    spinel_axe:
+      permission: itemsadder.spinel_axe
+      enabled: true
+      pattern:
+      - MMX
+      - MSX
+      - XSX
+      ingredients:
+        M: itemsadder:spinel
+        S: STICK
+      result:
+        item: itemsadder:spinel_axe
+        amount: 1
+    turquoise_axe:
+      permission: itemsadder.turquoise_axe
+      enabled: true
+      pattern:
+      - MMX
+      - MSX
+      - XSX
+      ingredients:
+        M: itemsadder:turquoise
+        S: STICK
+      result:
+        item: itemsadder:turquoise_axe
+        amount: 1
+    aqua_aura_axe:
+      permission: itemsadder.aqua_aura_axe
+      enabled: true
+      pattern:
+      - MMX
+      - MSX
+      - XSX
+      ingredients:
+        M: itemsadder:aqua_aura
+        S: STICK
+      result:
+        item: itemsadder:aqua_aura_axe
+        amount: 1
+    amethyst_axe:
+      permission: itemsadder.amethyst_axe
+      enabled: true
+      pattern:
+      - MMX
+      - MSX
+      - XSX
+      ingredients:
+        M: itemsadder:amethyst
+        S: STICK
+      result:
+        item: itemsadder:amethyst_axe
+        amount: 1
+    bronze_axe:
+      permission: itemsadder.bronze_axe
+      enabled: true
+      pattern:
+      - MMX
+      - MSX
+      - XSX
+      ingredients:
+        M: itemsadder:bronze_ingot
+        S: STICK
+      result:
+        item: itemsadder:bronze_axe
+        amount: 1
+    astral_pickaxe:
+      permission: itemsadder.astral_pickaxe
+      enabled: true
+      pattern:
+      - cec
+      - XrX
+      - XrX
+      ingredients:
+        c: itemsadder:ruby
+        e: EMERALD
+        r: BLAZE_ROD
+      result:
+        item: itemsadder:astral_pickaxe
+        amount: 1
+    diamond_hammer:
+      permission: itemsadder.diamond_hammer
+      enabled: true
+      pattern:
+      - ddd
+      - dsd
+      - XsX
+      ingredients:
+        s: STICK
+        d: DIAMOND
+      result:
+        item: itemsadder:diamond_hammer
+        amount: 1
+    demoniac_pickaxe:
+      permission: itemsadder.demoniac_pickaxe
+      enabled: true
+      pattern:
+      - rbr
+      - csc
+      - csc
+      ingredients:
+        s: BLAZE_ROD
+        c: COAL
+        r: itemsadder:ruby
+        b: REDSTONE_BLOCK
+      result:
+        item: itemsadder:demoniac_pickaxe
+        amount: 1
+    ruby_pickaxe:
+      permission: itemsadder.ruby_pickaxe
+      enabled: true
+      pattern:
+      - RRR
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:ruby
+        S: STICK
+      result:
+        item: itemsadder:ruby_pickaxe
+        amount: 1
+    crystal_pickaxe:
+      permission: itemsadder.crystal_pickaxe
+      enabled: true
+      pattern:
+      - RRR
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:crystal
+        S: STICK
+      result:
+        item: itemsadder:crystal_pickaxe
+        amount: 1
+    spinel_pickaxe:
+      permission: itemsadder.spinel_pickaxe
+      enabled: true
+      pattern:
+      - RRR
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:spinel
+        S: STICK
+      result:
+        item: itemsadder:spinel_pickaxe
+        amount: 1
+    turquoise_pickaxe:
+      permission: itemsadder.turquoise_pickaxe
+      enabled: true
+      pattern:
+      - RRR
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:turquoise
+        S: STICK
+      result:
+        item: itemsadder:turquoise_pickaxe
+        amount: 1
+    aqua_pickaxe:
+      permission: itemsadder.aqua_pickaxe
+      enabled: true
+      pattern:
+      - RRR
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:aqua_aura
+        S: STICK
+      result:
+        item: itemsadder:aqua_pickaxe
+        amount: 1
+    amethyst_pickaxe:
+      permission: itemsadder.amethyst_pickaxe
+      enabled: true
+      pattern:
+      - RRR
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:amethyst
+        S: STICK
+      result:
+        item: itemsadder:amethyst_pickaxe
+        amount: 1
+    bronze_pickaxe:
+      permission: itemsadder.bronze_pickaxe
+      enabled: true
+      pattern:
+      - RRR
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:bronze_ingot
+        S: STICK
+      result:
+        item: itemsadder:bronze_pickaxe
+        amount: 1
+    ruby_hoe:
+      permission: itemsadder.ruby_hoe
+      enabled: true
+      pattern:
+      - RRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:ruby
+        S: STICK
+      result:
+        item: itemsadder:ruby_hoe
+        amount: 1
+    crystal_hoe:
+      permission: itemsadder.crystal_hoe
+      enabled: true
+      pattern:
+      - RRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:crystal
+        S: STICK
+      result:
+        item: itemsadder:crystal_hoe
+        amount: 1
+    spinel_hoe:
+      permission: itemsadder.spinel_hoe
+      enabled: true
+      pattern:
+      - RRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:spinel
+        S: STICK
+      result:
+        item: itemsadder:spinel_hoe
+        amount: 1
+    turquoise_hoe:
+      permission: itemsadder.turquoise_hoe
+      enabled: true
+      pattern:
+      - RRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:turquoise
+        S: STICK
+      result:
+        item: itemsadder:turquoise_hoe
+        amount: 1
+    aqua_hoe:
+      permission: itemsadder.aqua_hoe
+      enabled: true
+      pattern:
+      - RRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:aqua_aura
+        S: STICK
+      result:
+        item: itemsadder:aqua_hoe
+        amount: 1
+    amethyst_hoe:
+      permission: itemsadder.amethyst_hoe
+      enabled: true
+      pattern:
+      - RRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:amethyst
+        S: STICK
+      result:
+        item: itemsadder:amethyst_hoe
+        amount: 1
+    bronze_hoe:
+      permission: itemsadder.bronze_hoe
+      enabled: true
+      pattern:
+      - RRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:bronze_ingot
+        S: STICK
+      result:
+        item: itemsadder:bronze_hoe
+        amount: 1
+    ruby_shovel:
+      permission: itemsadder.ruby_shovel
+      enabled: true
+      pattern:
+      - XRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:ruby
+        S: STICK
+      result:
+        item: itemsadder:ruby_shovel
+        amount: 1
+    crystal_shovel:
+      permission: itemsadder.crystal_shovel
+      enabled: true
+      pattern:
+      - XRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:crystal
+        S: STICK
+      result:
+        item: itemsadder:crystal_shovel
+        amount: 1
+    spinel_shovel:
+      permission: itemsadder.spinel_shovel
+      enabled: true
+      pattern:
+      - XRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:spinel
+        S: STICK
+      result:
+        item: itemsadder:spinel_shovel
+        amount: 1
+    turquoise_shovel:
+      permission: itemsadder.turquoise_shovel
+      enabled: true
+      pattern:
+      - XRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:turquoise
+        S: STICK
+      result:
+        item: itemsadder:turquoise_shovel
+        amount: 1
+    aqua_aura_shovel:
+      permission: itemsadder.aqua_aura_shovel
+      enabled: true
+      pattern:
+      - XRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:aqua_aura
+        S: STICK
+      result:
+        item: itemsadder:aqua_aura_shovel
+        amount: 1
+    amethyst_shovel:
+      permission: itemsadder.amethyst_shovel
+      enabled: true
+      pattern:
+      - XRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:amethyst
+        S: STICK
+      result:
+        item: itemsadder:amethyst_shovel
+        amount: 1
+    bronze_shovel:
+      permission: itemsadder.bronze_shovel
+      enabled: true
+      pattern:
+      - XRX
+      - XSX
+      - XSX
+      ingredients:
+        R: itemsadder:bronze_ingot
+        S: STICK
+      result:
+        item: itemsadder:bronze_shovel
+        amount: 1
+    demoniac_hammer:
+      permission: itemsadder.demoniac_hammer
+      enabled: true
+      pattern:
+      - BRD
+      - CCC
+      - CSC
+      ingredients:
+        S: BLAZE_ROD
+        C: COAL
+        R: itemsadder:ruby
+        B: REDSTONE_BLOCK
+        D: DIAMOND_BLOCK
+      result:
+        item: itemsadder:demoniac_hammer
+        amount: 1
+  anvil_repair:
+    ruby_axe:
+      permission: itemsadder.ruby_axe
+      ingredient: itemsadder:ruby
+      item: itemsadder:ruby_axe
+    crystal_axe:
+      permission: itemsadder.crystal_axe
+      ingredient: itemsadder:crystal
+      item: itemsadder:crystal_axe
+    spinel_axe:
+      permission: itemsadder.spinel_axe
+      ingredient: itemsadder:spinel
+      item: itemsadder:spinel_axe
+    turquoise_axe:
+      permission: itemsadder.turquoise_axe
+      ingredient: itemsadder:turquoise
+      item: itemsadder:turquoise_axe
+    aqua_aura_axe:
+      permission: itemsadder.aqua_aura_axe
+      ingredient: itemsadder:aqua_aura
+      item: itemsadder:aqua_aura_axe
+    amethyst_axe:
+      permission: itemsadder.amethyst_axe
+      ingredient: itemsadder:amethyst
+      item: itemsadder:amethyst_axe
+    bronze_axe:
+      permission: itemsadder.bronze_axe
+      ingredient: itemsadder:bronze_ingot
+      item: itemsadder:bronze_axe
+    astral_pickaxe:
+      permission: itemsadder.astral_pickaxe
+      ingredient: EMERALD
+      item: itemsadder:astral_pickaxe
+    diamond_hammer:
+      permission: itemsadder.diamond_hammer
+      ingredient: DIAMOND
+      item: itemsadder:diamond_hammer
+    demoniac_pickaxe:
+      permission: itemsadder.demoniac_pickaxe
+      ingredient: itemsadder:ruby
+      item: itemsadder:demoniac_pickaxe
+    ruby_pickaxe:
+      permission: itemsadder.ruby_pickaxe
+      ingredient: itemsadder:ruby
+      item: itemsadder:ruby_pickaxe
+    crystal_pickaxe:
+      permission: itemsadder.crystal_pickaxe
+      ingredient: itemsadder:crystal
+      item: itemsadder:crystal_pickaxe
+    spinel_pickaxe:
+      permission: itemsadder.spinel_pickaxe
+      ingredient: itemsadder:spinel
+      item: itemsadder:spinel_pickaxe
+    turquoise_pickaxe:
+      permission: itemsadder.turquoise_pickaxe
+      ingredient: itemsadder:turquoise
+      item: itemsadder:turquoise_pickaxe
+    aqua_pickaxe:
+      permission: itemsadder.aqua_pickaxe
+      ingredient: itemsadder:aqua_aura
+      item: itemsadder:aqua_pickaxe
+    amethyst_pickaxe:
+      permission: itemsadder.amethyst_pickaxe
+      ingredient: itemsadder:amethyst
+      item: itemsadder:amethyst_pickaxe
+    bronze_pickaxe:
+      permission: itemsadder.bronze_pickaxe
+      ingredient: itemsadder:bronze_ingot
+      item: itemsadder:bronze_pickaxe
+    ruby_hoe:
+      permission: itemsadder.ruby_hoe
+      ingredient: itemsadder:ruby
+      item: itemsadder:ruby_hoe
+    crystal_hoe:
+      permission: itemsadder.crystal_hoe
+      ingredient: itemsadder:crystal
+      item: itemsadder:crystal_hoe
+    spinel_hoe:
+      permission: itemsadder.spinel_hoe
+      ingredient: itemsadder:spinel
+      item: itemsadder:spinel_hoe
+    turquoise_hoe:
+      permission: itemsadder.turquoise_hoe
+      ingredient: itemsadder:turquoise
+      item: itemsadder:turquoise_hoe
+    aqua_hoe:
+      permission: itemsadder.aqua_hoe
+      ingredient: itemsadder:aqua_aura
+      item: itemsadder:aqua_hoe
+    amethyst_hoe:
+      permission: itemsadder.amethyst_hoe
+      ingredient: itemsadder:amethyst
+      item: itemsadder:amethyst_hoe
+    bronze_hoe:
+      permission: itemsadder.bronze_hoe
+      ingredient: itemsadder:bronze_ingot
+      item: itemsadder:bronze_hoe
+    ruby_shovel:
+      permission: itemsadder.ruby_shovel
+      ingredient: itemsadder:ruby
+      item: itemsadder:ruby_shovel
+    crystal_shovel:
+      permission: itemsadder.crystal_shovel
+      ingredient: itemsadder:crystal
+      item: itemsadder:crystal_shovel
+    spinel_shovel:
+      permission: itemsadder.spinel_shovel
+      ingredient: itemsadder:spinel
+      item: itemsadder:spinel_shovel
+    turquoise_shovel:
+      permission: itemsadder.turquoise_shovel
+      ingredient: itemsadder:turquoise
+      item: itemsadder:turquoise_shovel
+    aqua_aura_shovel:
+      permission: itemsadder.aqua_aura_shovel
+      ingredient: itemsadder:aqua_aura
+      item: itemsadder:aqua_aura_shovel
+    amethyst_shovel:
+      permission: itemsadder.amethyst_shovel
+      ingredient: itemsadder:amethyst
+      item: itemsadder:amethyst_shovel
+    bronze_shovel:
+      permission: itemsadder.bronze_shovel
+      ingredient: itemsadder:bronze_ingot
+      item: itemsadder:bronze_shovel
+    demoniac_hammer:
+      permission: itemsadder.demoniac_hammer
+      ingredient: itemsadder:ruby
+      item: itemsadder:demoniac_hammer
+items:
+  ruby_axe:
+    display_name: Ruby Axe
+    permission: ruby_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/ruby_axe.png
+  crystal_axe:
+    display_name: Crystal Axe
+    permission: crystal_axe
+    resource:
+      material: WOODEN_AXE
+      generate: true
+      textures:
+      - item/crystal_axe.png
+  spinel_axe:
+    display_name: Spinel Axe
+    permission: spinel_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/spinel_axe.png
+  turquoise_axe:
+    display_name: Turquoise Axe
+    permission: turquoise_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/turquoise_axe.png
+  aqua_aura_axe:
+    display_name: Aqua Aura Axe
+    permission: aqua_aura_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/aqua_aura_axe.png
+  amethyst_axe:
+    display_name: Amethyst Axe
+    permission: amethyst_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/amethyst_axe.png
+  bronze_axe:
+    display_name: Bronze Axe
+    permission: bronze_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/bronze_axe.png
+  astral_pickaxe:
+    display_name: '&3Astral Pickaxe'
+    permission: astral_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/astral_pickaxe.png
+  diamond_hammer:
+    display_name: '&3&lDiamond hammer'
+    permission: diamond_hammer
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/diamond_hammer.png
+    events:
+      block_break:
+        multiple_break:
+          keep_ores: true
+          drop_all_blocks:
+            enabled: true
+            need_silk_touch: true
+          size: 3
+  demoniac_pickaxe:
+    display_name: '&4&lDemoniac Pickaxe'
+    permission: demoniac_pickaxe
+    lore:
+    - '&7When you mine a block'
+    - '&7it drops exp orbs'
+    - '&750% of times.'
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/demoniac_pickaxe.png
+    events:
+      block_break:
+        drop_exp:
+          chance: 50
+          min_amount: 1
+          max_amount: 3
+  ruby_pickaxe:
+    display_name: Ruby Pickaxe
+    permission: ruby_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/ruby_pickaxe.png
+  crystal_pickaxe:
+    display_name: Crystal Pickaxe
+    permission: crystal_pickaxe
+    resource:
+      material: WOODEN_PICKAXE
+      generate: true
+      textures:
+      - item/crystal_pickaxe.png
+  spinel_pickaxe:
+    display_name: Spinel Pickaxe
+    permission: spinel_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/spinel_pickaxe.png
+  turquoise_pickaxe:
+    display_name: Turquoise Pickaxe
+    permission: turquoise_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/turquoise_pickaxe.png
+  aqua_pickaxe:
+    display_name: Aqua Aura Pickaxe
+    permission: aqua_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/aqua_pickaxe.png
+  amethyst_pickaxe:
+    display_name: Amethyst Pickaxe
+    permission: amethyst_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/amethyst_pickaxe.png
+  bronze_pickaxe:
+    display_name: Bronze Pickaxe
+    permission: bronze_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/bronze_pickaxe.png
+  ruby_hoe:
+    display_name: Ruby hoe
+    permission: ruby_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/ruby_hoe.png
+  crystal_hoe:
+    display_name: Crystal hoe
+    permission: crystal_hoe
+    resource:
+      material: WOODEN_HOE
+      generate: true
+      textures:
+      - item/crystal_hoe.png
+  spinel_hoe:
+    display_name: Spinel hoe
+    permission: spinel_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/spinel_hoe.png
+  turquoise_hoe:
+    display_name: Turquoise hoe
+    permission: turquoise_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/turquoise_hoe.png
+  aqua_hoe:
+    display_name: Aqua Aura hoe
+    permission: aqua_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/aqua_hoe.png
+  amethyst_hoe:
+    display_name: Amethyst hoe
+    permission: amethyst_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/amethyst_hoe.png
+  bronze_hoe:
+    display_name: Bronze hoe
+    permission: bronze_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/bronze_hoe.png
+  ruby_shovel:
+    display_name: Ruby Shovel
+    permission: ruby_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/ruby_shovel.png
+  crystal_shovel:
+    display_name: Crystal Shovel
+    permission: crystal_shovel
+    resource:
+      material: WOODEN_SHOVEL
+      generate: true
+      textures:
+      - item/crystal_shovel.png
+  spinel_shovel:
+    display_name: Spinel Shovel
+    permission: spinel_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/spinel_shovel.png
+  turquoise_shovel:
+    display_name: Turquoise Shovel
+    permission: turquoise_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/turquoise_shovel.png
+  aqua_aura_shovel:
+    display_name: Aqua Aura Shovel
+    permission: aqua_aura_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/aqua_aura_shovel.png
+  amethyst_shovel:
+    display_name: Amethyst Shovel
+    permission: amethyst_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/amethyst_shovel.png
+  bronze_shovel:
+    display_name: Bronze Shovel
+    permission: bronze_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/bronze_shovel.png
+  black_shears:
+    display_name: Black Dyed Shears
+    permission: black_shears
+    resource:
+      material: SHEARS
+      generate: true
+      textures:
+      - item/black_shears.png
+  red_shears:
+    display_name: Red Dyed Shears
+    permission: red_shears
+    resource:
+      material: SHEARS
+      generate: true
+      textures:
+      - item/red_shears.png
+  green_shears:
+    display_name: Green Dyed Shears
+    permission: green_shears
+    resource:
+      material: SHEARS
+      generate: true
+      textures:
+      - item/green_shears.png
+  blue_shears:
+    display_name: Blue Dyed Shears
+    permission: blue_shears
+    resource:
+      material: SHEARS
+      generate: true
+      textures:
+      - item/blue_shears.png
+  purple_shears:
+    display_name: Purple Dyed Shears
+    permission: purple_shears
+    resource:
+      material: SHEARS
+      generate: true
+      textures:
+      - item/purple_shears.png
+  cyan_shears:
+    display_name: Cyan Dyed Shears
+    permission: cyan_shears
+    resource:
+      material: SHEARS
+      generate: true
+      textures:
+      - item/cyan_shears.png
+  demoniac_hammer:
+    display_name: '&4&lDemoniac Hammer'
+    permission: demoniac_hammer
+    lore:
+    - '&7When you mine a block'
+    - '&7it drops exp orbs'
+    - ''
+    - '&bMines 3x3x3'
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/demoniac_hammer.png
+    events:
+      block_break:
+        multiple_break:
+          keep_ores: true
+          drop_all_blocks:
+            enabled: true
+            need_silk_touch: true
+          size: 3
+          depth: 3
+        drop_exp:
+          chance: 50
+          min_amount: 1
+          max_amount: 5

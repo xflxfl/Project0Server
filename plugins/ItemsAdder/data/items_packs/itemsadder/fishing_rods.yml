@@ -1,0 +1,51 @@
+info:
+  namespace: itemsadder
+items:
+  black_fishing_rod:
+    display_name: Black Dyed Fishing Rod
+    permission: black_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/black_fishing_rod.png
+  red_fishing_rod:
+    display_name: Red Dyed Fishing Rod
+    permission: red_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/red_fishing_rod.png
+  green_fishing_rod:
+    display_name: Green Dyed Fishing Rod
+    permission: green_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/green_fishing_rod.png
+  blue_fishing_rod:
+    display_name: Blue Dyed Fishing Rod
+    permission: blue_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/blue_fishing_rod.png
+  purple_fishing_rod:
+    display_name: Purple Dyed Fishing Rod
+    permission: purple_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/purple_fishing_rod.png
+  cyan_fishing_rod:
+    display_name: Cyan Dyed Fishing Rod
+    permission: cyan_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/cyan_fishing_rod.png

@@ -1,0 +1,112 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+# ###############
+# Normal
+# ###############
+Cave_Spider_T:
+  Type: Cave_Spider
+  Health: 30
+  Damage: 5
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+Zombie_T:
+  Type: Zombie
+  Health: 40
+  Damage: 5
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+Baby_Zombie_T:
+  Type: Baby_Zombie
+  Health: 40
+  Damage: 5
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+Spider_T:
+  Type: Spider
+  Health: 40
+  Damage: 5
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+Skeleton_T:
+  Type: Skeleton
+  Health: 30
+  Damage: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+
+Pig_Zombie_T:
+  Type: Pig_Zombie
+  Health: 60
+  Damage: 14
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+Baby_Pig_Zombie_T:
+  Type: Baby_Pig_Zombie
+  Health: 60
+  Damage: 14
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+Wither_Skeleton_T:
+  Type: Wither_Skeleton
+  Health: 60
+  Damage: 14
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players

@@ -1,0 +1,18 @@
+ScoreBoard:
+  Time: 1
+  '1':
+    Title: '&4> &c&l欢迎 %player_name% &4<'
+    Line1: '&6%vipSystem_vipGroup%'
+    Line2: '&2%vipSystem_leftTime%'
+    Line3: '&f等级:&6%levelSystem_level% &f>> &f%levelSystem_current_exp%/%levelSystem_required_exp%'
+    Line4: '今日%checkInSystem_isCheckIn%'
+    Line5: '&f共签到&2%checkInSystem_days%&f天'
+    Line6: '&f剩余日常任务:&6%dailyQuest_num_quest%'
+    Line7: '&f挖矿点数:&2%antiXray_points%'
+    Line8: '队伍:%dxl_group_name%'
+    Line9: '%pvpSwitch_status%'
+    Line10: '%peterHelper_itemInfo%'
+    Line11: 'Armor: %peterHelper_armorInfo%'
+    Line12: 'TPS:%server_tps%'
+    Line13: '金币: %vault_eco_balance_fixed%'
+    Line14: '点券: %playerpoints_points%'

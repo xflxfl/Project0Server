@@ -1,0 +1,302 @@
+########################################################################
+###                                                                    #
+###   Fiery Zombie Sorcerer v1.0                                       #
+###                                                                    #
+###   Created by jaylawl                                               #
+###   Contact: jaylawlMC@gmail.com                                     #
+###                                                                    #
+########################################################################
+亡灵战士1:
+  Type: zombie
+  Display: '&r亡灵战士 &c1级'
+  Health: 100
+  Damage: 10
+  Equipment:
+  - pumpkin:4
+  - leather_chestplate:3
+  - air:2
+  - blaze_rod:0
+  Options:
+    AlwaysShowName: true
+    FollowRange: 24
+    ReinforcementsChance: 0
+    KnockbackResistance: 0.6
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 2
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 0.25
+  - ENTITY_ATTACK 1
+  - CONTACT 0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - potion{t=FIRE_RESISTANCE;d=630720000;l=0} @self ~onSpawn
+  - pull{v=25} @Target ~onTimer:100 0.5
+  - ignite{t=630720000} @self ~onSpawn
+  - effect:sound{s=entity.zombie.hurt;v=1;p=0} @self ~onDamaged
+  #- skill{s=fiery_zombie_sorcerer_clock} @self ~onTimer:20
+########################################################################
+亡灵战士2:
+  Type: zombie
+  Display: '&r亡灵战士 &c2级'
+  Health: 110
+  Damage: 11
+  Equipment:
+  - pumpkin:4
+  - leather_chestplate:3
+  - air:2
+  - blaze_rod:0
+  Options:
+    AlwaysShowName: true
+    FollowRange: 24
+    ReinforcementsChance: 0
+    KnockbackResistance: 0.6
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 2
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 0.25
+  - ENTITY_ATTACK 1
+  - CONTACT 0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - potion{t=FIRE_RESISTANCE;d=630720000;l=0} @self ~onSpawn
+  - pull{v=25} @Target ~onTimer:100 0.5
+  - ignite{t=630720000} @self ~onSpawn
+  - effect:sound{s=entity.zombie.hurt;v=1;p=0} @self ~onDamaged
+  #- skill{s=fiery_zombie_sorcerer_clock} @self ~onTimer:20
+########################################################################
+亡灵战士3:
+  Type: zombie
+  Display: '&r亡灵战士 &c3级'
+  Health: 120
+  Damage: 12
+  Equipment:
+  - pumpkin:4
+  - leather_chestplate:3
+  - air:2
+  - blaze_rod:0
+  Options:
+    AlwaysShowName: true
+    FollowRange: 24
+    ReinforcementsChance: 0
+    KnockbackResistance: 0.6
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 2
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 0.25
+  - ENTITY_ATTACK 1
+  - CONTACT 0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - potion{t=FIRE_RESISTANCE;d=630720000;l=0} @self ~onSpawn
+  - pull{v=25} @Target ~onTimer:100 0.5
+  - ignite{t=630720000} @self ~onSpawn
+  - effect:sound{s=entity.zombie.hurt;v=1;p=0} @self ~onDamaged
+  #- skill{s=fiery_zombie_sorcerer_clock} @self ~onTimer:20
+########################################################################
+########################################################################
+急速亡灵1:
+  Type: zombie
+  Display: '&r急速亡灵 &c1级'
+  Health: 40
+  Damage: 8
+  Equipment:
+  - pumpkin:4
+  - leather_chestplate:3
+  - air:2
+  - blaze_rod:0
+  Options:
+    AlwaysShowName: true
+    FollowRange: 24
+    ReinforcementsChance: 0
+    MovementSpeed: 0.4
+    KnockbackResistance: 0.6
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 2
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 0.25
+  - ENTITY_ATTACK 1
+  - CONTACT 0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - potion{t=FIRE_RESISTANCE;d=630720000;l=0} @self ~onSpawn
+  - pull{v=25} @Target ~onTimer:100 0.5
+  - ignite{t=630720000} @self ~onSpawn
+  - effect:sound{s=entity.zombie.hurt;v=1;p=0} @self ~onDamaged
+  #- skill{s=fiery_zombie_sorcerer_clock} @self ~onTimer:20
+########################################################################
+########################################################################
+急速亡灵2:
+  Type: zombie
+  Display: '&r急速亡灵 &c2级'
+  Health: 50
+  Damage: 9
+  Equipment:
+  - pumpkin:4
+  - leather_chestplate:3
+  - air:2
+  - blaze_rod:0
+  Options:
+    AlwaysShowName: true
+    FollowRange: 24
+    ReinforcementsChance: 0
+    MovementSpeed: 0.45
+    KnockbackResistance: 0.6
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 2
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 0.25
+  - ENTITY_ATTACK 1
+  - CONTACT 0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - potion{t=FIRE_RESISTANCE;d=630720000;l=0} @self ~onSpawn
+  - pull{v=25} @Target ~onTimer:100 0.5
+  - ignite{t=630720000} @self ~onSpawn
+  - effect:sound{s=entity.zombie.hurt;v=1;p=0} @self ~onDamaged
+  #- skill{s=fiery_zombie_sorcerer_clock} @self ~onTimer:20
+########################################################################
+########################################################################
+急速亡灵3:
+  Type: zombie
+  Display: '&r急速亡灵 &c3级'
+  Health: 60
+  Damage: 10
+  Equipment:
+  - pumpkin:4
+  - leather_chestplate:3
+  - air:2
+  - blaze_rod:0
+  Options:
+    AlwaysShowName: true
+    FollowRange: 24
+    ReinforcementsChance: 0
+    MovementSpeed: 0.5
+    KnockbackResistance: 0.6
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 2
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 0.25
+  - ENTITY_ATTACK 1
+  - CONTACT 0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - potion{t=FIRE_RESISTANCE;d=630720000;l=0} @self ~onSpawn
+  - pull{v=25} @Target ~onTimer:100 0.5
+  - ignite{t=630720000} @self ~onSpawn
+  - effect:sound{s=entity.zombie.hurt;v=1;p=0} @self ~onDamaged
+  #- skill{s=fiery_zombie_sorcerer_clock} @self ~onTimer:20
+########################################################################

@@ -1,0 +1,17 @@
+LastKnownID: Test4
+QuestProgress:
+  dungeon1:
+    QuestStage: 0
+    Version: 1587335982635
+    TakeStamp: 1587449416147
+    QuestObjectProgress:
+      '0': 0
+FinishedConversation: []
+FinishedQuest:
+  newbie1:
+    FinishedTimes: 1
+    LastFinishTime: 1587444257443
+    RewardTaken: true
+FriendPoint:
+  '0': 0
+  '8': 0

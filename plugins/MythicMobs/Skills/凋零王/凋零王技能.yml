@@ -1,0 +1,33 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SmashAttack:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - speak{m="我会把你捻得粉碎!";cooldown=30} @PlayersInRadius{r=30}
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 20
+  - damage{amount=3;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  
+SummonSkeletons:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name><&co> 醒来吧，我的士兵!"} @PlayersInRadius{r=30}
+  - delay 20
+  - summon{mob=diaolingshibing;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=diaolingshibing;amount=1;noise=5} @Self
+  - delay 20
+  - summon{mob=diaolingshibing;amount=1;noise=5} @Self
+  
+SummonKnight:
+  Cooldown: 45
+  Skills:
+  - message{m="<mob.name><&co> &5我的骑士，复活吧!"} @PlayersInRadius{r=30}
+  - delay 20
+  - summon{mob=diaolingqishi;amount=1;noise=5} @Self

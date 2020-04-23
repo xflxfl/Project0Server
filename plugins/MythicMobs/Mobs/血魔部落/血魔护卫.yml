@@ -1,0 +1,53 @@
+﻿xuemohuwei:
+  Type: WITHER_SKELETON
+  Display: '&c血魔护卫'
+  Health: 100
+  Damage: 10
+  Armor: 5
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    FollowRange: 20
+    Despawn: false
+  Disguise:
+      Type: Player
+      Player: 血魔护卫
+      Skin: 9LUKE
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - tiejian: 0
+  Skills:
+  - leap{v=200} @Target ~onTimer:100 0.8
+  
+xuemohuweiT:
+  Type: WITHER_SKELETON
+  Display: '&c血魔护卫'
+  Health: 100
+  Damage: 10
+  Armor: 5
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    FollowRange: 20
+    Despawn: false
+  Disguise:
+      Type: Player
+      Player: 血魔护卫
+      Skin: 9LUKE
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - tiejian: 0
+  Skills:
+  - leap{v=200} @Target ~onTimer:100 0.8

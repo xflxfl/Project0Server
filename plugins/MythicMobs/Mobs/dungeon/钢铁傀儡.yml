@@ -1,0 +1,26 @@
+﻿gangtiekuilei:
+  Type: IRON_GOLEM
+  Display: '&2钢铁傀儡'
+  Health: 600
+  Damage: 10
+  Armor: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.15
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - throw{v=0;vy=3} @Target ~onTimer:100 >50% 0.3
+  - throw{v=0;vy=3} @PlayersInRadius{r=5} ~onTimer:100 <50% 0.5
+  - GCD{ticks=60}
+  - leap{v=200} @Target ~onTimer:100 <50% 1
+  - message{m="<mob.name><&co>你真的把我激怒了!"} @PlayersInRadius{r=10} ~onDamaged =50% 1
+  - effect:particles{p=hugeexplosion;a=5;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self =50% 0.75
+  - explosion{blockdamage=false;fire=false;yield=5} @self ~onDamaged =50% 1
+  - effect:particles{p=angryVillager;a=3;hS=0.3;vS=0.3;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8

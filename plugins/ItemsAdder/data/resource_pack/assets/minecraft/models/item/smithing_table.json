@@ -1,0 +1,17 @@
+{
+  "parent": "block/smithing_table",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:block/restoration_table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:block/customization_table"
+    }
+  ]
+}

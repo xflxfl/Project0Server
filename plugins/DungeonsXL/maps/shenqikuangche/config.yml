@@ -1,0 +1,98 @@
+timeToNextPlayAfterFinish: 2
+timeToFinish: 1200
+initialLives: 2
+
+title:
+  title: "&4神奇矿车"
+  subtitle: "&6你共有2条命"
+  
+time: 6000
+
+dungeonManager:
+  minPlayers: 1
+  maxPlayers: 4
+  minLevel: 5
+  icon:
+    id: STICK
+    model: 70
+    
+dps:
+  exp: 30-60
+  bonusRewardProb: 0.005
+  '1':
+    cmd: give %player% diamond_shovel 1
+    chance: 0.11
+    icon:
+      id: DIAMOND_SHOVEL
+      displayName: "&f钻石锹"
+      model: 0
+  '2':
+    cmd: give %player% diamond_pickaxe 1
+    chance: 0.11
+    icon:
+      id: DIAMOND_PICKAXE
+      displayName: "&f钻石镐"
+      model: 0
+  '3':
+    cmd: give %player% diamond_axe 1
+    chance: 0.11
+    icon:
+      id: DIAMOND_AXE
+      displayName: "&f钻石斧"
+      model: 0
+  '4':
+    cmd: give %player% diamond_hoe 1
+    chance: 0.11
+    icon:
+      id: DIAMOND_HOE
+      displayName: "&f钻石锄"
+      model: 0
+  '5':
+    cmd: give %player% cake 4
+    chance: 0.14
+    icon:
+      id: CAKE
+      displayName: "&f蛋糕4个"
+      model: 0
+  '6':
+    cmd: give %player% fermented_spider_eye 10
+    chance: 0.11
+    icon:
+      id: FERMENTED_SPIDER_EYE
+      displayName: "&6发酵蛛眼10个"
+      model: 0
+  '7':
+    cmd: give %player% blaze_powder 10
+    chance: 0.11
+    icon:
+      id: BLAZE_POWDER
+      displayName: "&6烈焰粉10个"
+      model: 0
+  '8':
+    cmd: give %player% enchanted_book{StoredEnchantments:[{id:efficiency,lvl:5}]} 1
+    chance: 0.04
+    icon:
+      id: BLAZE_POWDER
+      displayName: "&e效率5附魔书"
+      model: 0
+  '9':
+    cmd: give %player% enchanted_book{StoredEnchantments:[{id:unbreaking,lvl:3}]} 1
+    chance: 0.04
+    icon:
+      id: BLAZE_POWDER
+      displayName: "&e耐久3附魔书"
+      model: 0
+  '10':
+    cmd: give %player% enchanted_book{StoredEnchantments:[{id:silk_touch,lvl:1}]} 1
+    chance: 0.04
+    icon:
+      id: BLAZE_POWDER
+      displayName: "&e精准采集附魔书"
+      model: 0
+  '11':
+    cmd: ph giveitem BiShop mjy:tiechi_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&2铁齿剑"
+      model: 26

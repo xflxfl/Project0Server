@@ -1,0 +1,1003 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    ruby_head:
+      permission: itemsadder.ruby_head
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - XXX
+      ingredients:
+        r: itemsadder:ruby
+      result:
+        item: itemsadder:ruby_head
+        amount: 1
+    ruby_chest:
+      permission: itemsadder.ruby_chest
+      enabled: true
+      pattern:
+      - rXr
+      - rrr
+      - rrr
+      ingredients:
+        r: itemsadder:ruby
+      result:
+        item: itemsadder:ruby_chest
+        amount: 1
+    ruby_legs:
+      permission: itemsadder.ruby_legs
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:ruby
+      result:
+        item: itemsadder:ruby_legs
+        amount: 1
+    ruby_boots:
+      permission: itemsadder.ruby_boots
+      enabled: true
+      pattern:
+      - XXX
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:ruby
+      result:
+        item: itemsadder:ruby_boots
+        amount: 1
+    spinel_head:
+      permission: itemsadder.spinel_head
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - XXX
+      ingredients:
+        r: itemsadder:spinel
+      result:
+        item: itemsadder:spinel_head
+        amount: 1
+    spinel_chest:
+      permission: itemsadder.spinel_chest
+      enabled: true
+      pattern:
+      - rXr
+      - rrr
+      - rrr
+      ingredients:
+        r: itemsadder:spinel
+      result:
+        item: itemsadder:spinel_chest
+        amount: 1
+    spinel_legs:
+      permission: itemsadder.spinel_legs
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:spinel
+      result:
+        item: itemsadder:spinel_legs
+        amount: 1
+    spinel_boots:
+      permission: itemsadder.spinel_boots
+      enabled: true
+      pattern:
+      - XXX
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:spinel
+      result:
+        item: itemsadder:spinel_boots
+        amount: 1
+    turquoise_head:
+      permission: itemsadder.turquoise_head
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - XXX
+      ingredients:
+        r: itemsadder:turquoise
+      result:
+        item: itemsadder:turquoise_head
+        amount: 1
+    turquoise_chest:
+      permission: itemsadder.turquoise_chest
+      enabled: true
+      pattern:
+      - rXr
+      - rrr
+      - rrr
+      ingredients:
+        r: itemsadder:turquoise
+      result:
+        item: itemsadder:turquoise_chest
+        amount: 1
+    turquoise_legs:
+      permission: itemsadder.turquoise_legs
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:turquoise
+      result:
+        item: itemsadder:turquoise_legs
+        amount: 1
+    turquoise_boots:
+      permission: itemsadder.turquoise_boots
+      enabled: true
+      pattern:
+      - XXX
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:turquoise
+      result:
+        item: itemsadder:turquoise_boots
+        amount: 1
+    aqua_head:
+      permission: itemsadder.aqua_head
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - XXX
+      ingredients:
+        r: itemsadder:aqua_aura
+      result:
+        item: itemsadder:aqua_head
+        amount: 1
+    aqua_chest:
+      permission: itemsadder.aqua_chest
+      enabled: true
+      pattern:
+      - rXr
+      - rrr
+      - rrr
+      ingredients:
+        r: itemsadder:aqua_aura
+      result:
+        item: itemsadder:aqua_chest
+        amount: 1
+    aqua_legs:
+      permission: itemsadder.aqua_legs
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:aqua_aura
+      result:
+        item: itemsadder:aqua_legs
+        amount: 1
+    aqua_boots:
+      permission: itemsadder.aqua_boots
+      enabled: true
+      pattern:
+      - XXX
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:aqua_aura
+      result:
+        item: itemsadder:aqua_boots
+        amount: 1
+    amethyst_head:
+      permission: itemsadder.amethyst_head
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - XXX
+      ingredients:
+        r: itemsadder:amethyst
+      result:
+        item: itemsadder:amethyst_head
+        amount: 1
+    amethyst_chest:
+      permission: itemsadder.amethyst_chest
+      enabled: true
+      pattern:
+      - rXr
+      - rrr
+      - rrr
+      ingredients:
+        r: itemsadder:amethyst
+      result:
+        item: itemsadder:amethyst_chest
+        amount: 1
+    amethyst_legs:
+      permission: itemsadder.amethyst_legs
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:amethyst
+      result:
+        item: itemsadder:amethyst_legs
+        amount: 1
+    amethyst_boots:
+      permission: itemsadder.amethyst_boots
+      enabled: true
+      pattern:
+      - XXX
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:amethyst
+      result:
+        item: itemsadder:amethyst_boots
+        amount: 1
+    emerald_head:
+      permission: itemsadder.emerald_head
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - XXX
+      ingredients:
+        r: EMERALD
+      result:
+        item: itemsadder:emerald_head
+        amount: 1
+    emerald_chest:
+      permission: itemsadder.emerald_chest
+      enabled: true
+      pattern:
+      - rXr
+      - rrr
+      - rrr
+      ingredients:
+        r: EMERALD
+      result:
+        item: itemsadder:emerald_chest
+        amount: 1
+    emerald_legs:
+      permission: itemsadder.emerald_legs
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - rXr
+      ingredients:
+        r: EMERALD
+      result:
+        item: itemsadder:emerald_legs
+        amount: 1
+    emerald_boots:
+      permission: itemsadder.emerald_boots
+      enabled: true
+      pattern:
+      - XXX
+      - rXr
+      - rXr
+      ingredients:
+        r: EMERALD
+      result:
+        item: itemsadder:emerald_boots
+        amount: 1
+    obsidian_head:
+      permission: itemsadder.obsidian_head
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - XXX
+      ingredients:
+        r: OBSIDIAN
+      result:
+        item: itemsadder:obsidian_head
+        amount: 1
+    obsidian_chest:
+      permission: itemsadder.obsidian_chest
+      enabled: true
+      pattern:
+      - rXr
+      - rrr
+      - rrr
+      ingredients:
+        r: OBSIDIAN
+      result:
+        item: itemsadder:obsidian_chest
+        amount: 1
+    obsidian_legs:
+      permission: itemsadder.obsidian_legs
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - rXr
+      ingredients:
+        r: OBSIDIAN
+      result:
+        item: itemsadder:obsidian_legs
+        amount: 1
+    obsidian_boots:
+      permission: itemsadder.obsidian_boots
+      enabled: true
+      pattern:
+      - XXX
+      - rXr
+      - rXr
+      ingredients:
+        r: OBSIDIAN
+      result:
+        item: itemsadder:obsidian_boots
+        amount: 1
+    bronze_head:
+      permission: itemsadder.bronze_head
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - XXX
+      ingredients:
+        r: itemsadder:bronze_ingot
+      result:
+        item: itemsadder:bronze_head
+        amount: 1
+    bronze_chest:
+      permission: itemsadder.bronze_chest
+      enabled: true
+      pattern:
+      - rXr
+      - rrr
+      - rrr
+      ingredients:
+        r: itemsadder:bronze_ingot
+      result:
+        item: itemsadder:bronze_chest
+        amount: 1
+    bronze_legs:
+      permission: itemsadder.bronze_legs
+      enabled: true
+      pattern:
+      - rrr
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:bronze_ingot
+      result:
+        item: itemsadder:bronze_legs
+        amount: 1
+    bronze_boots:
+      permission: itemsadder.bronze_boots
+      enabled: true
+      pattern:
+      - XXX
+      - rXr
+      - rXr
+      ingredients:
+        r: itemsadder:bronze_ingot
+      result:
+        item: itemsadder:bronze_boots
+        amount: 1
+items:
+  ruby_head:
+    display_name: Ruby helmet
+    permission: rubyarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        color: ff0000
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 1
+  ruby_chest:
+    display_name: Ruby chestplate
+    permission: rubyarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        color: ff0000
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+  ruby_legs:
+    display_name: Ruby leggings
+    permission: rubyarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        color: ff0000
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+  ruby_boots:
+    display_name: Ruby boots
+    permission: rubyarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        color: ff0000
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 1
+  spinel_head:
+    display_name: Spinel helmet
+    permission: spinelarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 175
+    specific_properties:
+      armor:
+        slot: head
+        color: ff7e7e
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 1
+  spinel_chest:
+    display_name: Spinel chestplate
+    permission: spinelarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 300
+    specific_properties:
+      armor:
+        slot: chest
+        color: ff7e7e
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+  spinel_legs:
+    display_name: Spinel leggings
+    permission: spinelarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: legs
+        color: ff7e7e
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+  spinel_boots:
+    display_name: Spinel boots
+    permission: spinelarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 225
+    specific_properties:
+      armor:
+        slot: FEET
+        color: ff7e7e
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 1
+  turquoise_head:
+    display_name: '&3守护者头盔'
+    permission: turquoisearmor
+    lore:
+    - '&6守护者的魂魄承载'
+    - '&6起它永恒的使命'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: 75bebe
+    attribute_modifiers:
+      head:
+        armor: 5
+        armorToughness: 3
+        maxHealth: 1
+  turquoise_chest:
+    display_name: '&3守护者铠甲'
+    permission: turquoisearmor
+    lore:
+    - '&6守护者的魂魄承载'
+    - '&6起它永恒的使命'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: 75bebe
+    attribute_modifiers:
+      chest:
+        armor: 10
+        armorToughness: 3
+        maxHealth: 5
+  turquoise_legs:
+    display_name: '&3守护者护腿'
+    permission: turquoisearmor
+    lore:
+    - '&6守护者的魂魄承载'
+    - '&6起它永恒的使命'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: 75bebe
+    attribute_modifiers:
+      legs:
+        armor: 8
+        armorToughness: 3
+        maxHealth: 2
+  turquoise_boots:
+    display_name: '&3守护者战靴'
+    permission: turquoisearmor
+    lore:
+    - '&6守护者的魂魄承载'
+    - '&6起它永恒的使命'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: FEET
+        color: 75bebe
+    attribute_modifiers:
+      feet:
+        armor: 5
+        armorToughness: 3
+        maxHealth: 1
+  aqua_head:
+    display_name: Aqua Aura helmet
+    permission: aquaarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 175
+    specific_properties:
+      armor:
+        slot: head
+        color: 16d4ff
+    attribute_modifiers:
+      head:
+        armor: 9
+  aqua_chest:
+    display_name: Aqua Aura chestplate
+    permission: aquaarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 300
+    specific_properties:
+      armor:
+        slot: chest
+        color: 16d4ff
+    attribute_modifiers:
+      chest:
+        armor: 7
+  aqua_legs:
+    display_name: Aqua Aura leggings
+    permission: aquaarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: legs
+        color: 16d4ff
+    attribute_modifiers:
+      legs:
+        armor: 5
+  aqua_boots:
+    display_name: Aqua Aura boots
+    permission: aquaarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 225
+    specific_properties:
+      armor:
+        slot: FEET
+        color: 16d4ff
+    attribute_modifiers:
+      feet:
+        armor: 3
+  amethyst_head:
+    display_name: Amethyst helmet
+    permission: amethystarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 475
+    specific_properties:
+      armor:
+        slot: head
+        color: '530766'
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 2
+  amethyst_chest:
+    display_name: Amethyst chestplate
+    permission: amethystarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 700
+    specific_properties:
+      armor:
+        slot: chest
+        color: '530766'
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 2
+  amethyst_legs:
+    display_name: Amethyst leggings
+    permission: amethystarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 575
+    specific_properties:
+      armor:
+        slot: legs
+        color: '530766'
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 2
+  amethyst_boots:
+    display_name: Amethyst boots
+    permission: amethystarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 525
+    specific_properties:
+      armor:
+        slot: FEET
+        color: '530766'
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+  emerald_head:
+    display_name: Emerald helmet
+    permission: emeraldhead
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 276
+    specific_properties:
+      armor:
+        slot: head
+        color: 00ff72
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 1
+  emerald_chest:
+    display_name: Emerald chestplate
+    permission: emeraldarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 156
+    specific_properties:
+      armor:
+        slot: chest
+        color: 00ff72
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+  emerald_legs:
+    display_name: Emerald leggings
+    permission: emeraldarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 395
+    specific_properties:
+      armor:
+        slot: legs
+        color: 00ff72
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+  emerald_boots:
+    display_name: Emerald boots
+    permission: emeraldarmor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 329
+    specific_properties:
+      armor:
+        slot: FEET
+        color: 00ff72
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 1
+  obsidian_head:
+    display_name: '&8永夜(头盔)'
+    permission: obsidianhead
+    lore:
+    - '&8这是黑暗的力量'  
+    - '&8正如它的名字'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 364
+    specific_properties:
+      armor:
+        slot: head
+        color: '010002'
+    attribute_modifiers:
+      head:
+        armor: 3.5
+        armorToughness: 2
+        maxHealth: 1
+  obsidian_chest:
+    display_name: '&8永夜(铠甲)'
+    permission: obsidianarmor
+    lore:
+    - '&8这是黑暗的力量'  
+    - '&8正如它的名字'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 529
+    specific_properties:
+      armor:
+        slot: chest
+        color: '010002'
+    attribute_modifiers:
+      chest:
+        armor: 8.5
+        armorToughness: 2
+        maxHealth: 2
+  obsidian_legs:
+    display_name: '&8永夜(护腿)'
+    permission: obsidianarmor
+    lore:
+    - '&8这是黑暗的力量'  
+    - '&8正如它的名字'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 496
+    specific_properties:
+      armor:
+        slot: legs
+        color: '010002'
+    attribute_modifiers:
+      legs:
+        armor: 6.5
+        armorToughness: 2
+        maxHealth: 1
+  obsidian_boots:
+    display_name: '&8永夜(战靴)'
+    permission: obsidianarmor
+    lore:
+    - '&8这是黑暗的力量'  
+    - '&8正如它的名字'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 430
+    specific_properties:
+      armor:
+        slot: FEET
+        color: '010002'
+    attribute_modifiers:
+      feet:
+        armor: 3.5
+        armorToughness: 2
+        maxHealth: 1
+  mysterious_chest:
+    display_name: Mysterious chestplate
+    permission: mysterious_armor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 928
+    specific_properties:
+      armor:
+        slot: chest
+        color: '570e11'
+    attribute_modifiers:
+      chest:
+        armor: 6
+        armorToughness: 1
+    events:
+      wear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+      unwear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+  mysterious_legs:
+    display_name: Mysterious leggings
+    permission: mysterious_armor
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 895
+    specific_properties:
+      armor:
+        slot: legs
+        color: '570e11'
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+    events:
+      wear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+      unwear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+  mysterious_boots:
+    display_name: Mysterious boots
+    permission: mysterious_armor
+    lore:
+    - '&6[ &eSpecial effects &6]'
+    - '&9Speed II (**:**)'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 829
+    specific_properties:
+      armor:
+        slot: FEET
+        color: '570e11'
+    attribute_modifiers:
+      feet:
+        armor: 2
+        armorToughness: 1
+    events:
+      wear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+        potion_effect:
+          type: SPEED
+          duration: 1000000
+          amplifier: 1
+        play_particle:
+          name: ENCHANTMENT_TABLE
+        decrement_durability:
+          amount: 5
+      unwear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+        remove_potion_effect:
+          type: SPEED
+        play_particle:
+          name: ENCHANTMENT_TABLE
+  bronze_head:
+    display_name: '&3暗金头盔'
+    permission: bronzearmor
+    lore:
+    - '&8暗金术士遗留'
+    - '&8下来的宝物'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 320
+    specific_properties:
+      armor:
+        slot: head
+        color: dbb014
+    attribute_modifiers:
+      head:
+        armor: 4.5
+        armorToughness: 2
+  bronze_chest:
+    display_name: '&3暗金铠甲'
+    permission: bronzearmor
+    lore:
+    - '&8暗金术士遗留'
+    - '&8下来的宝物'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 498
+    specific_properties:
+      armor:
+        slot: chest
+        color: dbb014
+    attribute_modifiers:
+      chest:
+        armor: 9.5
+        armorToughness: 2
+        knockbackResistance: 0.05
+  bronze_legs:
+    display_name: '&3暗金护腿'
+    permission: bronzearmor
+    lore:
+    - '&8暗金术士遗留'
+    - '&8下来的宝物'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 445
+    specific_properties:
+      armor:
+        slot: legs
+        color: dbb014
+    attribute_modifiers:
+      legs:
+        armor: 7.5
+        armorToughness: 2
+  bronze_boots:
+    display_name: '&3暗金战靴'
+    permission: bronzearmor
+    lore:
+    - '&8暗金术士遗留'
+    - '&8下来的宝物'
+    resource:
+      generate: true
+    durability:
+      max_custom_durability: 402
+    specific_properties:
+      armor:
+        slot: FEET
+        color: dbb014
+    attribute_modifiers:
+      feet:
+        armor: 4.5
+        armorToughness: 2

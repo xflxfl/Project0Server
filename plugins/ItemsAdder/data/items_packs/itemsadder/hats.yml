@@ -1,0 +1,584 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    deadmau5_hat:
+      permission: itemsadder.deadmau5_hat
+      enabled: true
+      pattern:
+      - BXB
+      - XBX
+      - XXX
+      ingredients:
+        B: LIGHT_BLUE_WOOL
+      result:
+        item: itemsadder:deadmau5_hat
+        amount: 1
+    top_hat:
+      permission: itemsadder.top_hat
+      enabled: true
+      pattern:
+      - XWX
+      - XWX
+      - WWW
+      ingredients:
+        W: BLACK_WOOL
+      result:
+        item: itemsadder:top_hat
+        amount: 1
+    welding_mask:
+      permission: itemsadder.welding_mask
+      enabled: true
+      pattern:
+      - GGG
+      - GTG
+      - XXX
+      ingredients:
+        G: IRON_INGOT
+        T: OBSIDIAN
+      result:
+        item: itemsadder:welding_mask
+        amount: 1
+    mining_helmet:
+      permission: itemsadder.mining_helmet
+      enabled: true
+      pattern:
+      - GGG
+      - GTG
+      - XXX
+      ingredients:
+        G: GOLD_INGOT
+        T: TORCH
+      result:
+        item: itemsadder:mining_helmet
+        amount: 1
+    dog_mask:
+      permission: itemsadder.dog_mask
+      enabled: true
+      pattern:
+      - WWW
+      - WIW
+      - WWW
+      ingredients:
+        W: YELLOW_WOOL
+        I: BONE
+      result:
+        item: itemsadder:dog_mask
+        amount: 1
+    ruby_pickaxe_hat:
+      permission: itemsadder.ruby_pickaxe_hat
+      enabled: true
+      pattern:
+      - RRR
+      - LSL
+      - XSX
+      ingredients:
+        R: itemsadder:ruby
+        S: STICK
+        L: LEATHER
+      result:
+        item: itemsadder:ruby_pickaxe_hat
+        amount: 1
+    straw_hat:
+      permission: itemsadder.straw_hat
+      enabled: true
+      pattern:
+      - XWX
+      - XSX
+      - WWW
+      ingredients:
+        W: WHEAT
+        S: STRING
+      result:
+        item: itemsadder:straw_hat
+        amount: 1
+    cool_sunglasses:
+      permission: itemsadder.cool_sunglasses
+      enabled: true
+      pattern:
+      - XXX
+      - GSG
+      - XXX
+      ingredients:
+        G: BLACK_STAINED_GLASS_PANE
+        S: STICK
+      result:
+        item: itemsadder:cool_sunglasses
+        amount: 1
+    cigar:
+      permission: itemsadder.cigar
+      enabled: true
+      pattern:
+      - XXX
+      - TTT
+      - PPP
+      ingredients:
+        P: PAPER
+        T: itemsadder:tobacco
+      result:
+        item: itemsadder:cigar
+        amount: 1
+    glasses:
+      permission: itemsadder.glasses
+      enabled: true
+      pattern:
+      - XXX
+      - GSG
+      - XXX
+      ingredients:
+        G: GLASS_PANE
+        S: STICK
+      result:
+        item: itemsadder:glasses
+        amount: 1
+    biker_helmet:
+      permission: itemsadder.biker_helmet
+      enabled: true
+      pattern:
+      - PPP
+      - BBB
+      - PPP
+      ingredients:
+        P: itemsadder:plastic_plate
+        B: BLACK_STAINED_GLASS_PANE
+      result:
+        item: itemsadder:biker_helmet
+        amount: 1
+    cat_ears:
+      permission: itemsadder.cat_ears
+      enabled: true
+      pattern:
+      - BWB
+      - PWP
+      - XXX
+      ingredients:
+        P: PINK_WOOL
+        B: BLACK_WOOL
+        W: WHITE_WOOL
+      result:
+        item: itemsadder:cat_ears
+        amount: 1
+items:
+  deadmau5_hat:
+    display_name: '&9deadmau5_hat'
+    permission: deadmau5_hat
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/deadmau5_hat
+    behaviours:
+      hat: true
+    events:
+      block_break:
+        drop_exp:
+          chance: 50
+          min_amount: 1
+          max_amount: 3
+  top_hat:
+    display_name: Top Hat
+    permission: top_hat
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/top_hat
+    behaviours:
+      hat: true
+  welding_mask:
+    display_name: Welding Mask
+    permission: welding_mask
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/welding_mask
+    behaviours:
+      hat: true
+  mining_helmet:
+    display_name: Mining Helmet
+    permission: mining_helmet
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/mining_helmet
+    behaviours:
+      hat: true
+  dog_mask:
+    display_name: Dog Mask
+    permission: dog_mask
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/dog_mask
+    behaviours:
+      hat: true
+  ruby_pickaxe_hat:
+    display_name: Ruby Pickaxe Hat
+    permission: ruby_pickaxe_hat
+    resource:
+      material: FEATHER
+      generate: true
+      textures:
+      - item/ruby_pickaxe_hat.png
+    behaviours:
+      hat: true
+  straw_hat:
+    display_name: Straw Hat
+    permission: straw_hat
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/straw_hat
+    behaviours:
+      hat: true
+  cool_sunglasses:
+    display_name: Cool Sunglasses
+    permission: cool_sunglasses
+    resource:
+      material: FEATHER
+      generate: true
+      textures:
+      - item/cool_sunglasses.png
+    behaviours:
+      hat: true
+  cigar:
+    display_name: Cigar
+    permission: cigar
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/cigar
+    durability:
+      usages: 5
+    behaviours:
+      hat: true
+    events:
+      interact:
+        right:
+          play_effect:
+            name: SMOKE
+          play_sound:
+            name: itemsadder:entity.creeper.primed
+            volume: 1
+            pitch: 1
+          decrement_usages:
+            amount: 1
+  glasses:
+    display_name: Glasses
+    permission: glasses
+    resource:
+      material: FEATHER
+      generate: true
+      textures:
+      - item/glasses.png
+    behaviours:
+      hat: true
+  biker_helmet:
+    display_name: Biker Helmet
+    permission: biker_helmet
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/biker_helmet
+    behaviours:
+      hat: true
+  cat_ears:
+    display_name: Cat Ears
+    permission: cat_ears
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/cat_ears
+    behaviours:
+      hat: true
+  mysterious_hood:
+    display_name: Mysterios Hood
+    permission: mysterious_hood
+    lore:
+    - '&6[ &eSpecial effects &6]'
+    - '&9Night Vision (**:**)'
+    - '&9Unluck (**:**)'
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/mysterious_hood
+    behaviours:
+      hat: true
+    events:
+      wear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+        potion_effect:
+          type: NIGHT_VISION
+          duration: 1000000
+          amplifier: 0
+        potion_effect_2:
+          type: UNLUCK
+          duration: 1000000
+          amplifier: 0
+        remove_potion_effect_1:
+          type: UNLUCK
+        play_particle:
+          name: ENCHANTMENT_TABLE
+      unwear:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+        potion_effect:
+          type: UNLUCK
+          duration: 100
+          amplifier: 0
+        decrement_durability:
+          amount: 10
+        remove_potion_effect:
+          type: NIGHT_VISION
+        remove_potion_effect_2:
+          type: UNLUCK
+        play_particle:
+          name: ENCHANTMENT_TABLE
+  demoniac_red_wings:
+    display_name: Demoniac Red Wings
+    permission: demoniac_red_wings
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/demoniac_red_wings
+    behaviours:
+      hat: true
+  demoniac_turquoise_wings:
+    display_name: Demoniac Turquoise Wings
+    permission: demoniac_turquoise_wings
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/demoniac_turquoise_wings
+    behaviours:
+      hat: true
+  demoniac_purple_wings:
+    display_name: Demoniac Purple Wings
+    permission: demoniac_purple_wings
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/demoniac_purple_wings
+    behaviours:
+      hat: true
+  demoniac_blue_wings:
+    display_name: Demoniac Blue Wings
+    permission: demoniac_blue_wings
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/demoniac_blue_wings
+    behaviours:
+      hat: true
+  demoniac_black_wings:
+    display_name: Demoniac Black Wings
+    permission: demoniac_black_wings
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/demoniac_black_wings
+    behaviours:
+      hat: true
+  all_black_cat_tail:
+    display_name: All Black Cat Tail
+    permission: all_black_cat_tail
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/all_black_cat_tail
+    behaviours:
+      hat: true
+  black_cat_tail:
+    display_name: Black Cat Tail
+    permission: black_cat_tail
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/black_cat_tail
+    behaviours:
+      hat: true
+  white_cat_tail:
+    display_name: White Cat Tail
+    permission: white_cat_tail
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/white_cat_tail
+    behaviours:
+      hat: true
+  ender_dragon_wings:
+    display_name: Ender Dragon Wings
+    permission: ender_dragon_wings
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/ender_dragon_wings
+    behaviours:
+      hat: true
+    events:
+      interact:
+        right:
+          play_effect:
+            name: DRAGON_BREATH
+  red_backpack:
+    display_name: Red Backpack
+    permission: red_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/red_backpack
+    behaviours:
+      hat: true
+  turquoise_backpack:
+    display_name: Turquoise Backpack
+    permission: turquoise_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/turquoise_backpack
+    behaviours:
+      hat: true
+  purple_backpack:
+    display_name: Purple Backpack
+    permission: purple_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/purple_backpack
+    behaviours:
+      hat: true
+  blue_backpack:
+    display_name: Blue Backpack
+    permission: blue_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/blue_backpack
+    behaviours:
+      hat: true
+  black_backpack:
+    display_name: Black Backpack
+    permission: black_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/black_backpack
+    behaviours:
+      hat: true
+  brown_backpack:
+    display_name: Brown Backpack
+    permission: brown_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/brown_backpack
+    behaviours:
+      hat: true
+  jack_o_lantern_backpack:
+    display_name: '&6Jack o''Lantern &fBackpack'
+    permission: jack_o_lantern_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/jack_o_lantern_backpack
+    behaviours:
+      hat: true
+  dark_jack_o_lantern_backpack:
+    display_name: '&4Dark &6Jack o''Lantern &fBackpack'
+    permission: dark_jack_o_lantern_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/dark_jack_o_lantern_backpack
+    behaviours:
+      hat: true
+  spider_backpack:
+    display_name: Spider &fBackpack
+    permission: spider_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/spider_backpack
+    behaviours:
+      hat: true
+  cave_spider_backpack:
+    display_name: Cave Spider &fBackpack
+    permission: cave_spider_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/cave_spider_backpack
+    behaviours:
+      hat: true
+  bones_backpack:
+    display_name: Bones &fBackpack
+    permission: bones_backpack
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/bones_backpack
+    behaviours:
+      hat: true
+  witch_hat:
+    display_name: Witch Hat
+    permission: witch_hat
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/witch_hat
+    behaviours:
+      hat: true
+  bat_wings:
+    display_name: Bat Wings
+    permission: witch_hat
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/bat_wings
+    behaviours:
+      hat: true
+  axe_hat:
+    display_name: Axe Hat
+    permission: axe_hat
+    resource:
+      material: FEATHER
+      generate: true
+      textures:
+      - item/axe_hat.png
+    behaviours:
+      hat: true
+  santa_hat:
+    display_name: '&cSanta Hat'
+    permission: santa_hat
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/santa_hat
+    behaviours:
+      hat: true
+# loots:
+  # mobs:
+    # villager:
+      # type: VILLAGER
+      # nbt:
+        # profession:
+          # path: VillagerData.profession
+          # value: minecraft:farmer
+          # type: string
+      # items:
+        # item_1:
+          # item: itemsadder:straw_hat
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 100
+    # ender_dragon:
+      # type: ENDER_DRAGON
+      # items:
+        # item_1:
+          # item: itemsadder:ender_dragon_wings
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 100

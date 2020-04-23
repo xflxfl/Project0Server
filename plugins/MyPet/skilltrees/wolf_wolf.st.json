@@ -1,0 +1,99 @@
+{
+  "ID": "wolf_wolf",
+  "Order": 1,
+  "Name": "攻击型狼",
+  "Requirements": [
+    "Permission:wolf"
+  ],
+  "Icon": {
+    "Material": "352"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c攻击型宠物",
+    "\u0026f最大宠物攻击14",
+    "\u0026f最大宠物血量140",
+    "\u0026f宠物技能：",
+    "\u0026f -冲刺攻击(20级领悟)",
+    "\u0026f -击退攻击(20级领悟,最大概率25%)"
+  ],
+  "MobTypes": [
+    "Wolf"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {}
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Damage": "+0.4"
+        },
+        "%1>11<30": {
+          "Damage": "+0.2"
+        },
+        "%1>31<50": {
+          "Damage": "+0.1"
+        },
+        "%1>51<100": {
+          "Damage": "+0.08"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+3"
+        },
+        "%1>11<30": {
+          "Health": "+2"
+        },
+        "%1>31<50": {
+          "Health": "+1"
+        },
+        "%1>51<100": {
+          "Health": "+0.6"
+        }
+      }
+    },
+    "Knockback": {
+      "Upgrades": {
+        "20": {
+          "Chance": "+5"
+        },
+        "25": {
+          "Chance": "+5"
+        },
+        "40": {
+          "Chance": "+5"
+        },
+        "60": {
+          "Chance": "+5"
+        },
+        "70": {
+          "Chance": "+5"
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "20": {
+          "Active": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "ID": "snowman_snowman",
+  "Order": 2,
+  "Name": "雪人",
+  "Requirements": [
+    "Permission:snowman"
+  ],
+  "Icon": {
+    "Material": "snowball"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c综合型宠物",
+    "\u0026f最大宠物攻击12",
+    "\u0026f最大宠物血量100",
+    "\u0026f宠物技能：",
+    "\u0026f -雪球攻击(最快每1.5秒1个雪球)",
+    "\u0026f -9格箱子(20级领悟)",
+    "\u0026f -自动拾取(30级领悟,最远5格)"
+  ],
+  "MobTypes": [
+    "Snowman"
+  ],
+  "Skills": {
+    "Backpack": {
+      "Upgrades": {
+        "20": {
+          "rows": "+1",
+          "drop": false
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {
+          "Active": true
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<30": {
+          "Health": "+1.5"
+        },
+        "%2>31<100": {
+          "Health": "+1"
+        }
+      }
+    },
+    "Pickup": {
+      "Upgrades": {
+        "30": {
+          "Range": "+2",
+          "Exp": true
+        },
+        "40": {
+          "Range": "+1",
+          "Exp": false
+        },
+        "50": {
+          "Range": "+1"
+        },
+        "60": {
+          "Range": "+1",
+          "Exp": false
+        }
+      }
+    },
+    "Ranged": {
+      "Upgrades": {
+        "1": {
+          "Rate": "+60",
+          "Projectile": "Snowball"
+        },
+        "%1>1<30": {
+          "Damage": "+0.25",
+          "Rate": "-1"
+        },
+        "%1>31<80": {
+          "Damage": "+0.09"
+        }
+      }
+    }
+  }
+}

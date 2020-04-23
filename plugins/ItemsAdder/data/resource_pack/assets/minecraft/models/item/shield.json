@@ -1,0 +1,132 @@
+{
+  "parent": "item/base/shield",
+  "textures": {
+    "particle": "block/dark_oak_planks"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 0
+      },
+      "model": "item/shield"
+    },
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "item/shield_blocking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1,
+        "blocking": 0
+      },
+      "model": "itemsadder:item/ender_shield"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1,
+        "blocking": 1
+      },
+      "model": "itemsadder:item/ender_shield_blocking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2,
+        "blocking": 0
+      },
+      "model": "itemsadder:item/obsidian_shield"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2,
+        "blocking": 1
+      },
+      "model": "itemsadder:item/obsidian_shield_blocking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3,
+        "blocking": 0
+      },
+      "model": "itemsadder:item/bronze_shield"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3,
+        "blocking": 1
+      },
+      "model": "itemsadder:item/bronze_shield_blocking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4,
+        "blocking": 0
+      },
+      "model": "itemsadder:item/ruby_shield"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4,
+        "blocking": 1
+      },
+      "model": "itemsadder:item/ruby_shield_blocking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5,
+        "blocking": 0
+      },
+      "model": "itemsadder:item/spinel_shield"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5,
+        "blocking": 1
+      },
+      "model": "itemsadder:item/spinel_shield_blocking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6,
+        "blocking": 0
+      },
+      "model": "itemsadder:item/turquoise_shield"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6,
+        "blocking": 1
+      },
+      "model": "itemsadder:item/turquoise_shield_blocking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7,
+        "blocking": 0
+      },
+      "model": "itemsadder:item/amethyst_shield"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7,
+        "blocking": 1
+      },
+      "model": "itemsadder:item/amethyst_shield_blocking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8,
+        "blocking": 0
+      },
+      "model": "itemsadder:item/fossil_shield"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8,
+        "blocking": 1
+      },
+      "model": "itemsadder:item/fossil_shield_blocking"
+    }
+  ]
+}

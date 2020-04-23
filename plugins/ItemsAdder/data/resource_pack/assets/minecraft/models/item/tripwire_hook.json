@@ -1,0 +1,41 @@
+{
+  "parent": "block/tripwire_hook",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "mjy:auto_generated/key1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "mjy:auto_generated/key2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mjy:auto_generated/key3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "mjy:auto_generated/key4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "mjy:auto_generated/key5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "mjy:auto_generated/key6"
+    }
+  ]
+}

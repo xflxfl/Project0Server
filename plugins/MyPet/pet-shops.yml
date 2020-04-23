@@ -1,0 +1,526 @@
+#####################################################################
+#             This is the shop configuration of MyPet               #
+#               You can find more info on the wiki:                 #
+#  https://wiki.mypet-plugin.de/setup/configurations/pet-shops.yml  #
+#####################################################################
+
+Shops:
+  all:
+# When Default is set to true /petshop will open the sop instead of the shop selection GUI
+#    Default: true
+    Name: "普通宠物"
+    Balance:
+      Type: Private
+    Position: 0
+    Icon:
+      Material: "chest"
+      Glowing: false
+    Pets:
+#      a_unique_name:
+#        Position: 0
+#        Name: "Ingame Name"
+#        Description:
+#        - <green>This is a description!
+#        PetType: PetTypeName
+#        EXP: 0
+#        Price: 100
+#        Skilltree: "skilltreename"
+#        Options:
+#          - baby
+#          - saddle
+      bat:
+        Name: 蝙蝠
+        PetType: Bat
+        EXP: 0
+        Price: 600
+      blaze:
+        Name: 烈焰人
+        PetType: Blaze
+        EXP: 0
+        Price: 3000
+      cavespider:
+        Name: 洞穴蜘蛛
+        PetType: CaveSpider
+        EXP: 0
+        Price: 1200
+      chicken:
+        Name: 小鸡
+        PetType: Chicken
+        EXP: 0
+        Price: 600
+      cow:
+        Name: 奶牛
+        PetType: Cow
+        EXP: 0
+        Price: 1200
+      creeper:
+        Name: 苦力怕
+        PetType: Creeper
+        EXP: 0
+        Price: 1200
+      donkey:
+        Name: 驴
+        PetType: Donkey
+        EXP: 0
+        Price: 600
+      # elder_guardian:
+        # Name: Elder Guardian
+        # Description:
+          # - <green>It's an Elder Guardian!
+        # PetType: ElderGuardian
+        # EXP: 0
+        # Price: 100
+      enderman:
+        Name: 末影人
+        PetType: Enderman
+        EXP: 0
+        Price: 3000
+      # endermite:
+        # Name: Endermite
+        # Description:
+          # - <green>It's an Endermite!
+        # PetType: Endermite
+        # EXP: 0
+        # Price: 100
+      # evoker:
+        # Name: Evoker
+        # Description:
+          # - <green>It's an Evoker!
+        # PetType: Evoker
+        # EXP: 0
+        # Price: 100
+      # guardian:
+        # Name: Guardian
+        # Description:
+          # - <green>It's a Guardian!
+        # PetType: Guardian
+        # EXP: 0
+        # Price: 100
+      horse:
+        Name: 马
+        PetType: Horse
+        EXP: 0
+        Price: 600
+      iron_golem:
+        Name: 铁傀儡
+        PetType: IronGolem
+        EXP: 0
+        Price: 3000
+      # illusioner:
+        # Name: Illusioner
+        # Description:
+          # - <green>It's an Illusioner!
+        # PetType: Illusioner
+        # EXP: 0
+        # Price: 100
+      llama:
+        Name: 羊驼
+        PetType: Llama
+        EXP: 0
+        Price: 3000
+      # magmacube:
+        # Name: MagmaCube
+        # Description:
+          # - <green>It's a MagmaCube!
+        # PetType: MagmaCube
+        # EXP: 0
+        # Price: 100
+        # Options:
+          # - size:2
+      # mooshroom:
+        # Name: Mooshroom
+        # Description:
+          # - <green>It's a Mooshroom!
+        # PetType: Mooshroom
+        # EXP: 0
+        # Price: 100
+      mule:
+        Name: 骡子
+        PetType: Mule
+        EXP: 0
+        Price: 1200
+      ocelot:
+        Name: 豹猫
+        PetType: Ocelot
+        EXP: 0
+        Price: 3000
+      parrot:
+        Name: 鹦鹉
+        PetType: Parrot
+        EXP: 0
+        Price: 2400
+      # pig:
+        # Name: 猪
+        # PetType: Pig
+        # EXP: 0
+        # Price: 100
+      pigzombie:
+        Name: 僵尸猪人
+        PetType: PigZombie
+        EXP: 0
+        Price: 3000
+      polarbear:
+        Name: 北极熊
+        PetType: PolarBear
+        EXP: 0
+        Price: 3000
+      rabbit:
+        Name: 兔子
+        PetType: Rabbit
+        EXP: 0
+        Price: 1200
+      sheep:
+        Name: 羊
+        PetType: Sheep
+        EXP: 0
+        Price: 600
+      silverfish:
+        Name: 蠹虫
+        PetType: Silverfish
+        EXP: 0
+        Price: 3000
+      skeleton:
+        Name: 骷髅
+        PetType: Skeleton
+        EXP: 0
+        Price: 600
+      skeleton_horse:
+        Name: 骷髅马
+        PetType: SkeletonHorse
+        EXP: 0
+        Price: 3000
+      # slime:
+        # Name: Slime
+        # Description:
+          # - <green>It's a Slime!
+        # PetType: Slime
+        # EXP: 0
+        # Price: 100
+        # Options:
+          # - size:2
+      snowman:
+        Name: 雪人
+        PetType: Snowman
+        EXP: 0
+        Price: 3000
+      spider:
+        Name: 蜘蛛
+        PetType: Spider
+        EXP: 0
+        Price: 600
+      # squid:
+        # Name: Squid
+        # Description:
+          # - <green>It's a Squid!
+        # PetType: Squid
+        # EXP: 0
+        # Price: 100
+      stray:
+        Name: 流浪者
+        PetType: Stray
+        EXP: 0
+        Price: 3000
+      # witch:
+        # Name: Witch
+        # Description:
+          # - <green>It's a Witch!
+        # PetType: Witch
+        # EXP: 0
+        # Price: 100
+      wither:
+        Name: 凋零
+        PetType: Wither
+        EXP: 0
+        Price: 6000
+      wither_skeleton:
+        Name: 凋零骷髅
+        PetType: WitherSkeleton
+        EXP: 0
+        Price: 3000
+      wolf:
+        Name: 狼
+        PetType: Wolf
+        EXP: 0
+        Price: 1200
+        Options:
+          - tamed
+      # vex:
+        # Name: Vex
+        # Description:
+          # - <green>It's a Vex!
+        # PetType: Vex
+        # EXP: 0
+        # Price: 100
+      # villager:
+        # Name: Villager
+        # Description:
+          # - <green>It's a Villager!
+        # PetType: Villager
+        # EXP: 0
+        # Price: 100
+      # vindicator:
+        # Name: Vindicator
+        # Description:
+          # - <green>It's a Vindicator!
+        # PetType: Vindicator
+        # EXP: 0
+        # Price: 100
+      zombie:
+        Name: 僵尸
+        PetType: Zombie
+        EXP: 0
+        Price: 600
+      zombie_horse:
+        Name: 僵尸马
+        PetType: ZombieHorse
+        EXP: 0
+        Price: 3000
+      phantom:
+        Name: 幻翼
+        PetType: Phantom
+        EXP: 0
+        Price: 3000
+      drowned:
+        Name: 溺尸
+        PetType: Drowned
+        EXP: 0
+        Price: 3000
+      bee:
+        Name: 蜜蜂
+        PetType: Bee
+        EXP: 0
+        Price: 3000
+      ravager:
+        Name: 掠夺兽
+        PetType: Ravager
+        EXP: 0
+        Price: 6000
+      panda:
+        Name: 熊猫
+        PetType: Panda
+        EXP: 0
+        Price: 3000
+      # zombie_villager:
+        # Name: Zombie Villager
+        # Description:
+          # - <green>It's a Zombie Villager!
+        # PetType: ZombieVillager
+        # EXP: 0
+        # Price: 100
+#      enderdragon:
+#        Name: EnderDragon
+#        Description:
+#        - <green>It's an EnderDragon!
+#        PetType: EnderDragon
+#        EXP: 0
+#        Price: 100
+#      ghast:
+#        Name: Ghast
+#        Description:
+#        - <green>It's a Ghast!
+#        PetType: Ghast
+#        EXP: 0
+#        Price: 100
+#      giant:
+#        Name: Giant
+#        Description:
+#        - <green>It's a Giant!
+#        PetType: Giant
+#        EXP: 0
+#        Price: 100
+  babies:
+    Name: "宝宝宠物"
+    Balance:
+      Type: Private
+    Position: 1
+    Pets:
+      baby_chicken:
+        Name: "鸡"
+        Description:
+          - <green>这是鸡宝宝!
+        PetType: Chicken
+        EXP: 0
+        Price: 600
+        Options:
+          - baby
+      baby_cow:
+        Name: "牛"
+        Description:
+          - <green>这是牛宝宝!
+        PetType: Cow
+        EXP: 0
+        Price: 1200
+        Options:
+          - baby
+      baby_donkey:
+        Name: 驴
+        Description:
+          - <green>这是驴宝宝!
+        PetType: Donkey
+        EXP: 0
+        Price: 600
+        Options:
+          - baby
+      baby_horse:
+        Name: "马"
+        Description:
+          - <green>这是马宝宝!
+        PetType: Horse
+        EXP: 0
+        Price: 600
+        Options:
+          - baby
+      baby_llama:
+        Name: 羊驼
+        Description:
+          - <green>这是羊驼宝宝!
+        PetType: Llama
+        EXP: 0
+        Price: 3000
+        Options:
+          - baby
+      # baby_mooshroom:
+        # Name: "Mooshroom"
+        # Description:
+          # - <green>It's a baby Mooshroom!
+        # PetType: Mooshroom
+        # EXP: 0
+        # Price: 50
+        # Options:
+          # - baby
+      baby_mule:
+        Name: 骡子
+        Description:
+          - <green>这是骡子宝宝!
+        PetType: Mule
+        EXP: 0
+        Price: 1200
+        Options:
+          - baby
+      baby_ocelot:
+        Name: "豹猫"
+        Description:
+          - <green>这是豹猫宝宝!
+        PetType: Ocelot
+        EXP: 0
+        Price: 3000
+        Options:
+          - baby
+      # baby_pig:
+        # Name: "Pig"
+        # Description:
+          # - <green>It's a baby Pig!
+        # PetType: Pig
+        # EXP: 0
+        # Price: 50
+        # Options:
+          # - baby
+      baby_pig_zombie:
+        Name: "僵尸猪人"
+        Description:
+          - <green>这是僵尸猪人宝宝!
+        PetType: PigZombie
+        EXP: 0
+        Price: 3000
+        Options:
+          - baby
+      baby_polar_bear:
+        Name: "北极熊"
+        Description:
+          - <green>这是北极熊宝宝!
+        PetType: PolarBear
+        EXP: 0
+        Price: 3000
+        Options:
+          - baby
+      baby_rabbit:
+        Name: "兔子"
+        Description:
+          - <green>这是兔子宝宝!
+        PetType: Rabbit
+        EXP: 0
+        Price: 1200
+        Options:
+          - baby
+      baby_sheep:
+        Name: "羊"
+        Description:
+          - <green>这是羊宝宝!
+        PetType: Sheep
+        EXP: 0
+        Price: 600
+        Options:
+          - baby
+      baby_skeleton_horse:
+        Name: 骷髅马
+        Description:
+          - <green>这是骷髅马宝宝!
+        PetType: SkeletonHorse
+        EXP: 0
+        Price: 3000
+        Options:
+          - baby
+      # baby_villager:
+        # Name: "Villager"
+        # Description:
+          # - <green>It's a baby Villager!
+        # PetType: Villager
+        # EXP: 0
+        # Price: 50
+        # Options:
+          # - baby
+      baby_wither:
+        Name: "凋零"
+        Description:
+          - <green>这是凋零宝宝!
+        PetType: Wither
+        EXP: 0
+        Price: 6000
+        Options:
+          - baby
+      baby_wolf:
+        Name: "狼"
+        Description:
+          - <green>这是狼宝宝!
+        PetType: Wolf
+        EXP: 0
+        Price: 1200
+        Options:
+          - tamed
+          - baby
+      baby_zombie:
+        Name: "僵尸"
+        Description:
+          - <green>这是僵尸宝宝!
+        PetType: Zombie
+        EXP: 0
+        Price: 600
+        Options:
+          - baby
+      baby_zombie_horse:
+        Name: 僵尸马
+        Description:
+          - <green>这是僵尸马宝宝!
+        PetType: ZombieHorse
+        EXP: 0
+        Price: 3000
+        Options:
+          - baby
+      baby_panda:
+        Name: 熊猫
+        Description:
+          - <green>这是熊猫宝宝!
+        PetType: Panda
+        EXP: 0
+        Price: 3000
+        Options:
+          - baby
+      # baby_zombie_villager:
+        # Name: Zombie Villager
+        # Description:
+          # - <green>It's a baby Zombie Villager!
+        # PetType: ZombieVillager
+        # EXP: 0
+        # Price: 50
+        # Options:
+          # - baby

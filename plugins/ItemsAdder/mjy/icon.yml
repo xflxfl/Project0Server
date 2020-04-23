@@ -1,0 +1,113 @@
+info:
+  namespace: mjy
+items:
+  flag:
+    display_name: '&2旗帜'
+    permission: flag
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon/flag.png
+  key1:
+    display_name: '&2钥匙'
+    permission: key1
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon/key_1.png
+  key2:
+    display_name: '&2钥匙'
+    permission: key2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon/key_2.png
+  key3:
+    display_name: '&2钥匙'
+    permission: key3
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon/key_3.png
+  key4:
+    display_name: '&2钥匙'
+    permission: key4
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon/key_4.png
+  key5:
+    display_name: '&2钥匙'
+    permission: key5
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon/key_5.png
+  key6:
+    display_name: '&2钥匙'
+    permission: key6
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon/key_6.png
+      
+  palm:
+    display_name: '&2上拳头'
+    permission: palm
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/icon/palm.png
+      
+  treasure_chest:
+    display_name: '&2宝箱'
+    permission: treasure_chest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/pixelbuddha/treasure_chest.png
+      
+  chest:
+    display_name: '&2箱子'
+    permission: chest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/pixelbuddha/chest.png
+      
+  chest2:
+    display_name: '&2箱子'
+    permission: chest2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/pixelbuddha/chest2.png
+      
+  open_chest:
+    display_name: '&2打开的箱子'
+    permission: open_chest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/pixelbuddha/open_chest.png
+      
+  unicorn:
+    display_name: '&2独角兽'
+    permission: unicorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/pixelbuddha/unicorn.png

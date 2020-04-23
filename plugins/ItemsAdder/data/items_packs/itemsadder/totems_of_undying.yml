@@ -1,0 +1,37 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    arcane_ring:
+      permission: itemsadder.arcane_ring
+      enabled: true
+      pattern:
+      - XXX
+      - XPD
+      - XTX
+      ingredients:
+        P: itemsadder:philosopher_stone
+        D: DIAMOND
+        T: TOTEM_OF_UNDYING
+      result:
+        item: itemsadder:arcane_ring
+        amount: 1
+      return_items:
+        decrement_durability:
+          philosopher_stone:
+            item: philosopher_stone
+            amount: 8
+        replace:
+          DIAMOND: crystal
+items:
+  arcane_ring:
+    display_name: Arcane Ring
+    permission: arcane_ring
+    lore:
+    - '&6[ &eSpecial effects &6]'
+    - '&7Return to life'
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - item/arcane_ring.png

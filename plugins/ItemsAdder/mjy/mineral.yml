@@ -1,0 +1,20 @@
+info:
+  namespace: mjy
+items:
+  zishuijing:
+    display_name: '&f紫水晶'
+    permission: zishuijing
+    resource:
+      material: GLOWSTONE_DUST
+      generate: true
+      textures:
+      - item/mineral/zishuijing.png
+      
+  huangshuijing:
+    display_name: '&f黄水晶'
+    permission: huangshuijing
+    resource:
+      material: GLOWSTONE_DUST
+      generate: true
+      textures:
+      - item/mineral/huangshuijing.png

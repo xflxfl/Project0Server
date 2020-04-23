@@ -1,0 +1,27 @@
+﻿kc_siling:
+  Type: ZOMBIE
+  Display: '&a矿车司令'
+  Health: 200
+  Damage: 6
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: minecart_chest
+  Options:
+    FollowRange: 10
+    AlwaysShowName: true
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - tie4:4
+  - tie3:3
+  Skills:
+  - skill{s=kuangchesiling} @Self ~onCombat 0.1
+  - summon{m=kc_zhanshi;a=1;r=5} @self ~onSpawn 1
+  - summon{m=kc_zhadan;a=1;r=5} @self ~onSpawn 1
+  - summon{m=kc_sheshou;a=1;r=5} @self ~onSpawn 1

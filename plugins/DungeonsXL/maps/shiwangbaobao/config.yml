@@ -1,0 +1,76 @@
+timeToNextPlayAfterFinish: 2
+timeToFinish: 1800
+initialLives: 5
+
+title:
+  title: "&4尸王宝宝"
+  subtitle: "&6你共有5条命"
+  
+time: 6000
+
+dps:
+  exp: 100-350
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:tulong_sword
+    chance: 0.07
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c屠龙刀"
+      model: 38
+  '2':
+    cmd: give %player% diamond 16
+    chance: 0.13
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石16个"
+      model: 0
+  '3':
+    cmd: give %player% diamond 10
+    chance: 0.19
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石10个"
+      model: 0
+  '4':
+    cmd: give %player% emerald 7
+    chance: 0.16
+    icon:
+      id: EMERALD
+      displayName: "&6绿宝石7个"
+      model: 0
+  '5':
+    cmd: ph giveitem %player% mjy:xuemo_chest
+    chance: 0.10
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&e血魔胸甲"
+      model: 13
+  '6':
+    cmd: ph giveitem %player% mjy:yeren_sword
+    chance: 0.17
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&8夜刃"
+      model: 33
+  '7':
+    cmd: ph giveitem %player% mjy:tiaozhanzhe_axe
+    chance: 0.1
+    icon:
+      id: DIAMOND_AXE
+      displayName: "&5挑战者之斧"
+      model: 13
+  '8':
+    cmd: ph giveitem %player% mjy:putongpaoxie_feet
+    chance: 0.03
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&3普通跑鞋"
+      model: 16
+  '9':
+    cmd: cc give p 烟花 1 %player%
+    chance: 0.04
+    icon:
+      id: PAPER
+      displayName: "&5烟花抽奖箱钥匙"
+      model: 39

@@ -1,0 +1,889 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+last-created-npc-id: 16
+npc:
+  '0':
+    name: §6指引者
+    uuid: dde0542e-597a-4459-bf80-a6d4f4a62f2a
+    traits:
+      type: PLAYER
+      location:
+        headYaw: -148.84596
+        world: world
+        x: '104.5088'
+        y: '31.0'
+        z: '-102.552'
+        yaw: '-148.846'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      gravity:
+        enabled: false
+      spawned: true
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,gravity,location,spawned,owner,equipment,lookclose,type,scoreboardtrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      nameplate-visible: 'true'
+      player-skin-name: '775934764'
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODc0MTkzODk1MzAsInByb2ZpbGVJZCI6IjJkYzc3YWU3OTQ2MzQ4MDI5NDI4MGM4NDIyNzRiNTY3IiwicHJvZmlsZU5hbWUiOiJzYWR5MDYxMCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk2ZmViZWI2YTk0MTllOTQzOWM3ZTVlYzM4ZmVkZWYxMDlmZTk2ODM3MGJiNTM0N2MyMWUwNDJiOGU3OTE5YiIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '775934764'
+      player-skin-signature: sFO1QXoWY2iyUqMYJMxfkzaDjCpounkF0gblSODzgyzEHZG4Ii/QS0MAvocxByYwcDdvrmQIuDcG4nqfy928qCakw+K53s46hfpe/y1+Qc+7OW/RcmZZQfiqRzZLm/ht1tf26QJ5hPEvlFtl+Ztt3W9EeDFmh5tMSdYdfTJ6RVtaKznBI3VceNOhG1qFEHZ2VK4AIcFcRKTw9hXCEK6wWJQ0OaS94i3G5oP1nw8zGmdnyzgQrv2PJEGJskTGlMlMfC66FrHQ33DYv9huaoja1mvWynf2c7XfMOHo9zuWfZmXOX7Kq/MMhm+8J+HvnLd6C/Q3Art876wXYYJNndGaK6ztHoW3K5meFm4B3/+uqi9xGUqdoOEK3fy14M/X1Hz0vKHxajWzW4nRIM0h/6lj9LvB2HpF7SyFrsvQnckDJe22FdId6S5oV6Bxto6FTVa1AuwFejxeEO8PIJrwYQzMRV6cht/2Z+A4oYLBrHOknvMsO99Lxirfz6rxzfyg1hDymheoCVPR8gUcFx+Elay6cQWjrnLa4RqEyXJNDapd4HGJXovQVXJKpAKcs837KW15LLhcerjxEIgboUosER169yeqkK6bbN5MhMG+ROdjTrP4+k8DzV7iQR8MK1AgyiQTyRPEYQlQD82N3JmVKliiSH2mUHPy4zvKvZ+7GYpIaaY=
+  '1':
+    name: §6鱼贩
+    uuid: edac2078-35af-4c67-bcb6-6a96a6e4e175
+    traits:
+      spawned: true
+      type: PLAYER
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        headYaw: 0.0
+        world: world
+        x: '143.5371'
+        y: '15.5'
+        z: '-60.532'
+        yaw: '0.0'
+        pitch: '0.0'
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: fishing_rod
+          amount: 1
+          durability: 0
+          mdata: 0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: fishing_rod
+          amount: 1
+          durability: 0
+          mdata: 0
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,gravity,location,spawned,owner,equipment,fishshop,lookclose,type,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-name: '130165293'
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NjIxMTg2Mjc1NjgsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDViYTIxM2Y0ZWU4Njk1MDZmODgyN2RjNTBhODc0YzYzODhjMDUyMzFjMzMyMjAwZWY0MDczYzRlZjAxNTBiNSJ9fX0=
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '130165293'
+      player-skin-signature: NM92e095JvJDTWhPfNUd9gV3DhLBeiZYM0mhQ5WDL+H4YKyg4AW+a68dlQmJOxB20g6IxsNGkZ+Dg8n/uGdiPH5ITgFMjHtJZxKwOLPR6h4EeUhKV44bdQVp070PHP7biZvWXrvjQ4HqL3HzR6qdq4QMsuQx/r0VzyXzjk+cqG7zBxYKFXs5DKLD+jG0+wAyrW5JhzpPTj0RBE4Zni2+kCVA1o3ghg7TLXThkhPgCAD7PESFE6vKqdTHvxFX4Nm/+jqBskO3H8kzipIz8pkdU0YxDjGltDvLIevugFRpB7WDQb8IJnI9hJL5w9EJHRfaShJyipjOI83IX/1o6WKySi4iXooNJ6V8zLgPlMlFF9gpKOAiL3NGaJR7V3+IcWQ9/uC3e9I4RnU1uky/4AUwKKTzSpTne4BHmsF4KvT0lfbyWCFF2YBq0j7ZVDcXA6W5548hTXq7v/IC3rhFBr/LNJ3spGN4dMI8jjI90/IxEsbjTiu96YQxyTutWVcOhslmvERmOlvACRrQVOWkQn/PpAEGUPgP547ygqOTH9YxNiV8rv92zBg6Oco+gmAP2C2z+b67K8MWOr3Zwy4KrEVsmZQV/UljgL9ya2O8dWsirh+nlWyDuyD+4M5ybxDkcDPoysObip2iHM2HDBOqE8l0c1leHzfPInh4a4DeIJsC7Ls=
+  '3':
+    name: §6宠物助手
+    uuid: 99ec9a2f-88e2-4bda-ba3f-4d0c9a3140cc
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        commands:
+          '0':
+            command: petshop
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            n: -1
+      spawned: true
+      type: PLAYER
+      location:
+        headYaw: 0.0
+        world: world
+        x: '106.5575'
+        y: '29.5'
+        z: '-69.4912'
+        yaw: '0.0'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: salmon
+          amount: 1
+          durability: 0
+          mdata: 1
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: salmon
+          amount: 1
+          durability: 0
+          mdata: 1
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,location,gravity,spawned,commandtrait,owner,equipment,lookclose,type,scoreboardtrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODc0MjQ1OTczMjksInByb2ZpbGVJZCI6IjcyMzI0Mzk4MzEzOTQ0MDJhNGE3NWM5NTlmMjI2NWMwIiwicHJvZmlsZU5hbWUiOiJNaW1lbGluZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFkNzczYTg3MDVmZmJlNGE1N2U4OTY0NjcwN2FmNGI3OTllZjRjODUxNWM0NjlkN2NmNzU4OTZmYTJlMDMwYiJ9fX0=
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '1897781594'
+      player-skin-name: '1897781594'
+      player-skin-signature: oaYSbOwIkbWBi1g4xvZ12bAxWRal47iGpPmmo56URnGix45vhxQqLCgsBHewQfhCX+4A2zPP2g+2SSk6rLJwMlTaDo8hNGh9JrVB+UsmGilSmLJIW6jFxzRoUf9p52z0V3I4EtAdKZuoBZTqkDkufTdS45B4X8QgXxf6xaFwdsFmX50pOUesXuZI9ibo4kK7N+R3DcJzJL+2NxJkU56fxGTnxw92jrst21MwcVat34UTQz1qQBcNiSKjpVid548fstcZ+8iFLKAGcE7lhhxWPglI8QM6Yijel2en6CFqwRO8Odc65lPwzHSoYXgmssY/WCTIsw3Cj9hzZd3FE6FklM71ib/dL+1x/isTXzzO1FJtLuG8DRi6opKDNLYm2FKrGufrG+/Y+/IXDtcEulwWUwvp82LXMGuawdUwpbFhi68sPy7JsiTA54hqVft1TOfGqp/mXv7FJpdv+qCcr5Nv+iGFlKXBLLTPQCf4AqSiHbxW5MRto80SF88XDTT0uHTZl3gdzKf6esaVgEtBuMSKCtKecv7ThgGwTzosxYeiaDhYBYi+Vhnp3kXWocfq9OKWIAqRatxpWMQaq5KATuGJbAKecuL/Tp2KL4cH262Z/HFBD3CnTKYXb9qLljjlpB8Js24cuT54hSUM9uJt+fii35KXkZ/7YRZbsC/GCs5wP7A=
+  '2':
+    name: §6副本使者
+    uuid: 9e999137-5635-4000-b5c2-49dbabfc30ee
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        commands:
+          '0':
+            command: dm
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+      spawned: true
+      type: PLAYER
+      location:
+        headYaw: 0.0
+        world: world
+        x: '88.4423'
+        y: '26.0'
+        z: '-111.4712'
+        yaw: '0.0'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,gravity,location,commandtrait,spawned,owner,equipment,lookclose,type,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODIzNDMyMTA3NjgsInByb2ZpbGVJZCI6ImRlNTcxYTEwMmNiODQ4ODA4ZmU3YzlmNDQ5NmVjZGFkIiwicHJvZmlsZU5hbWUiOiJNSEZfTWluZXNraW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhZGFkYjIzOGQzYzFhYzNmNzg3ZDkwYTJiZTQ0M2E4NmYwYjcyNDgyYjA1ZjUxMjRiZTBjYTBiNjAyYjM5MWMifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '1558548344'
+      player-skin-name: '1558548344'
+      player-skin-signature: X7YCJxH0SJ/lr6rkm4w1xUMX5K3FMebdSsv6KSPJk/8NxRw+QwCVwAXQSPSoqFPLE6DognOFWF1NtU/EmX8ZdZmi/MLunJnQq9AmWC4l9EudpspwfZqTBWgjVVGB5OU3LAVlqkC0G7wle/pGo7ca/9kGdgGJa6KZzT5IVjwN1UZl7b1us+WVBQ8Bi6Pv2M8wY8YpzXskB8k3UJN2PimND8NMMaJXXCQNLX5/YsZYtgdL0DbVc6eJ0dpUjfFFw8ATD0z+hT5sNp5fG1aPZ8g9o+zP/yjtmy63rvLvSjw7sT+ln69ucQm4EyygRw054j+RFgppdZ7swfNGcl9W5jvVU+ix9Quk5iAFysY8OYsU9x1L7SgZVDZfBb0CF+Osfpd8LfHCiZUxIGf78St3Aqkk11yxlJyN4JvbApUx7Pe3fn5aVXhp3WCH9FW7QSHdiZHTYK9B+6zWBYkTM+KDfqoDpMSWbjQxkxzN2XVBbNpsJQDlw7yXgxHmtVvznj+xWVChjSRITMjaryDwdckyfjhzGzvmNnwZDwOrV3gMd1CXPV8pnp5H0sqKG4IvGoHAxD0J0L2yErCKObuFJlPoHkzvrQACgYUgiFOfKmtNquDzF0NtaaaPU1G3a2Pyz1NaLtqrOJMqb2pmv4Avmimy7NqwxcGmVU3n8dEpkDQsvC4fGR8=
+  '5':
+    name: §6商人
+    uuid: 2d0b655a-48e9-4414-9abc-1a53b64c2132
+    traits:
+      commandtrait:
+        commands:
+          '0':
+            command: shop
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      type: PLAYER
+      location:
+        headYaw: 0.0
+        world: world
+        x: '18.4732'
+        y: '18.0'
+        z: '-77.4845'
+        yaw: '0.0'
+        pitch: '-44.499'
+      gravity:
+        enabled: false
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,location,gravity,spawned,commandtrait,owner,equipment,lookclose,type,scoreboardtrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzY3MDU1MDU0MDAsInByb2ZpbGVJZCI6IjE5MjUyMWI0ZWZkYjQyNWM4OTMxZjAyYTg0OTZlMTFiIiwicHJvZmlsZU5hbWUiOiJTZXJpYWxpemFibGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhYjE3ZDM1ZWRhYzA5NTYyODMwYTUwMmNlZjM1YjJhNDM4ZTkxNTg3MTkxOTZjZWJkOTIwYzJmMzU0MjA2ZGIifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '416851251'
+      player-skin-name: '416851251'
+      player-skin-signature: uD+YRg7X0M0tUHuBIKNhj1jeR1n6nSrsYt03RbDqbM2b4dwjcOZZ7P/MujrLYldVNlY1rWvL3gNeo3i4laCYp0M2an72zcV5OYDqbPfHFECnMeUGHFepUqK5EYKhARa3wiG0mblAX68o2WfwuFUnsDVUcxjder9daMNwoazF+1fcl8XvmUUKraziWgvGY38xeyKpBLwpiz3PPxBhBOL9XzISDIj0XvcbWzHOr6z0jzxjNTkWbfiGKpe6XVuh1YoPW0rMeGQwtSVJQeel8iFjlgRabLSMUHgh8pSI9ImYDxDSL5O6Q8SXFnU38k8dyq2SCOSOd0pvSh1Yqz22FBnHSRRdl/nhx9DA7tpnlYXeEa2BLUFld2dz2sAcqh8p8o3M4G+AEYQWPNZXKph09iUzdAfa1r2HOontlZlWBxE2FD8d/coOH/KML52OOR4J9NCWWr8cGkhRwRVPIXd9eVCfavelZWfFtp4MFVbAynQk4P9A9+CGfP44AyLQ7JdN7VxW9g4AvlTLkMZBEJxokJc1XWGJiwb6lZfAmd8ztfABKbTgYNEBFHHx2nFZJYONi+Nh4H0rxkuz2eRrJLGit7jMb0h8KqGK9lfb1Mx5bLM2Bfitzp5Ai6MiH4PErxHIejmSzNMDWS0x9KvMPkZ3gj9bZHmZTs/LwJisIJDfmQj8I4s=
+  '4':
+    name: §6全球市场管理员
+    uuid: a05e6e30-1715-438b-ac37-a68b23ba2ea8
+    traits:
+      commandtrait:
+        commands:
+          '0':
+            command: ca gui
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      type: PLAYER
+      location:
+        headYaw: 0.0
+        world: world
+        x: '18.449'
+        y: '18.0'
+        z: '-79.5889'
+        yaw: '0.0'
+        pitch: '-39.8136'
+      gravity:
+        enabled: false
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,location,gravity,commandtrait,spawned,owner,equipment,lookclose,type,scoreboardtrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzMyNTY2ODMyNDQsInByb2ZpbGVJZCI6ImRlNTcxYTEwMmNiODQ4ODA4ZmU3YzlmNDQ5NmVjZGFkIiwicHJvZmlsZU5hbWUiOiJNSEZfTWluZXNraW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0YzY1ZjlhYWI1MmRmOGE1NTk2YTQ1NmQxNWNjYTc5MDdkOGQwNGY2NmRlNzlhNjdmOWM4NDQzZmNiM2M2MDEifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '1026449373'
+      player-skin-name: '1026449373'
+      player-skin-signature: uxG3VVJgrdRolfnMsvE+FI55fv2xxyL4MOi8h7pdlSMkikEj3CwORy1DNhT+Kz0pKCR5K6YUChOxHTTapZDGUcpYXwIFrrnXq3vgOIYD8XS4dQA+mh2vlHqAD1GfpXvF29EQ9SpgmTZMdnER3KJYw9Nt4GH0lncN1jfnOr9eA8MSDMWXY93y3DLjug2jvv/HMLgI+BFOs/fudUrYJ0MBwD/rsgXf6cL/Iw2g+3ke1PNAQpLURZidcY4hfv4bNCuXI84NUgbt2qq16AemqfHxXyd4nrYvqgu9S2homNGzW599yPc47W0V9j33wq8BM40poaIBnTzBzvWRMWNu8+xb6VYaC6uM+U+TIE3hLg8HyjCMUaN/l+2WfRzJOqktoozFiMWMN3Eug9/mcjdaPHQ2c6cMO4mM+mHZ7sW8hh20Qiz7kmNqYiRhmzJkfQfJQDivyP1GKVHVxoxBGtlMfhBrmqWD5n9Ty1iVbQxeZpMHo2ugJYe7FrnkzJKhiYUXpOXyYlOGBDjAdu6LVYYdJgtV1WYkrifg9yfkZeK3S7qZ8+o5EWJim/f0wQmzfbDkjdADytEUOKOQvptW+PpzSsVII16c+MxnAzGIlCdAEPeopGJsK1FiQzt+7tiKxITuezmokJdMbMRjU+bsvvNVnSqz3S7BZ/Bi3Ir2QC8qF9GJctM=
+  '9':
+    name: §6小花
+    uuid: 2e3a7e8e-a1d2-44ae-ae51-f470fa08434f
+    traits:
+      location:
+        headYaw: 0.0
+        world: world
+        x: '92.3475'
+        y: '30.0'
+        z: '-104.5182'
+        yaw: '0.0'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      type: PLAYER
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,location,gravity,spawned,owner,equipment,lookclose,type,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODYyNTU2MDc3NTQsInByb2ZpbGVJZCI6Ijc3MjdkMzU2NjlmOTQxNTE4MDIzZDYyYzY4MTc1OTE4IiwicHJvZmlsZU5hbWUiOiJsaWJyYXJ5ZnJlYWsiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI0YWI5ZmM1NTM4ZjA5OWUwNDhhYTY3OGYyYjIyNDkwYWNkZmEwOTI0MGY0ODU5ZTFmYmY2YWJhNGE1NGYxNWQifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '651703093'
+      player-skin-name: '651703093'
+      player-skin-signature: SmNz4Py9YKYl9SoMo4LMLaiRG0qTlhOBScLBH6vVTYYR4tbITJRxRpKZZugNyDMqUwH45wR3CAXYG0eLNVTqv6qTWAmgUyR9xfUuDomrja9tnToNou4X/O9f3tyTRhD0mJlJjd6u8hq6J911djn00Q2KPH4GW9a8IR7htqMGIpM6l5n7uPHv2W6U6CSLB70oyhAaJzY6Arb572lG6GmVy8MRLMFHdGeBtyfXiMf0q2z4Yh/oNKaQHi3LaoBNIp964sIqGqWdOK+YtE/JutbrCbtvMVNN1nxtnToIBcsYdr/i1Ma9QiIzQ5Xu992H4d2//aREk2A72Tsny0RDK+U18KhHpJ/RtPrUuDYqwt5k1YzrhKO0XenL984vTrsFSYau6l+17Izt+pspKUNl9mnQEyF+TpAUMvFUUF1X3FeCcrCDR/WfjRD5nJNBAAUrdwVKslGXapDofEMJgtUzUEOHMx7MVFAQ2VQeREKBT9LwjsJHm5gHG9kQLKHkuR1pmDr0/wILDt7MvpeawCJTZhrpkqXt0W4SkwM/WpvhGNHUCFR1yMUl3C9uqoGruObK3cT8VNNEm8Yhq6LUWJvC6luXIUnNsKAYbEWS7oGpsDLTc3cLgL591zrmOGCT5Bi8zrm1jjzyR4/IP4Uek6DhqmkcoKARcu/PmWFqO2t8w6661TI=
+  '8':
+    name: §6任务使者
+    uuid: dd9e0251-eed5-4d21-81be-077967c94595
+    traits:
+      location:
+        headYaw: 0.0
+        world: world
+        x: '115.3839'
+        y: '29.5'
+        z: '-79.5199'
+        yaw: '0.0'
+        pitch: '-13.3045'
+      gravity:
+        enabled: false
+      type: PLAYER
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: book
+          amount: 1
+          durability: 0
+          mdata: 0
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: book
+          amount: 1
+          durability: 0
+          mdata: 0
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,gravity,location,spawned,owner,equipment,lookclose,type,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODIwMDE3MDQzODYsInByb2ZpbGVJZCI6ImRkZWQ1NmUxZWY4YjQwZmU4YWQxNjI5MjBmN2FlY2RhIiwicHJvZmlsZU5hbWUiOiJEaXNjb3JkQXBwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNDI5ZTQ4NmFiYWRhYmE0YzE4MzhiOWY1N2I1MDI4ZTRmYjgxYzM1OTA1MTAyZDEwM2RmMTNjNmFlNjEwMzY3In19fQ==
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '512425364'
+      player-skin-name: '512425364'
+      player-skin-signature: T6fHH/kX6HUBPg8glzjVmXhuHtf7qP01HAXuhJts5/1WYwdaQth0EE+T0gCsUY+Jk9NezBpx/P73z+sCIGRenRL1PruQY5w0IFARfpB8/+PCtATsRyNtN7RzHadFlUCzou+nG7slXn8Ws3jCsx/NoVO5/BzN+Bqo4Kp75Jcw1nHogvJxzeh822Z3/WfdlU7moEUxUHeeGgmTTCnkUZ+UEnq/WF4EELAcG1vMpoG3i67QALGCN8zYZ875w9Bf5gjRFqFYj/enxEAlqpVk/W72RkpqssB8EEuERPixO6OUWyZmd/vGWcQrvj7vA+/yUzgrkwHYI8vm0KiM3vR0fVtYtE9Rz859YDysQ/NNiUS5BpBCJftzk5NED9xV26b4b+PsulebXtO4ymHhq8NtbreHg28Qix/20AtKbPcqYMOTWkKZHGuGP1+sXEygzp63qLFIEBSMloQ+670XvgtNGZHZAPV2/ZBkmmLLiFSnHqSriV2wxaqi9YIvkEscN3CF9aW9iX7xLc4Hy+cy4aRes/tCew+I5TBXSkhy9p3guAB8+jMwnNaN+hVSrMHZDjTmmeZkDk1YpslaN5sFsGWKW0oTHaJVBBB+0UgaXQsT1MSlJDlz+GRQ32uJESOt0fBCZcUFcCg2IsCtPCxsRjhNfpHFk4IdX2eCtknc5IclN3DkWW4=
+  '7':
+    name: §6日常任务发派员
+    uuid: 51e08537-643a-4733-bd65-cfef220a1d79
+    traits:
+      location:
+        headYaw: 0.0
+        world: world
+        x: '93.5489'
+        y: '31.0'
+        z: '-80.3'
+        yaw: '0.0'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      type: PLAYER
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,gravity,location,spawned,owner,equipment,lookclose,type,scoreboardtrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzY0OTMzNjc3MzAsInByb2ZpbGVJZCI6ImZkNjBmMzZmNTg2MTRmMTJiM2NkNDdjMmQ4NTUyOTlhIiwicHJvZmlsZU5hbWUiOiJSZWFkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NWQyZmZkNmEzZDRmZDQyOTU5ODg0ZGFlYWEyZTVhYWMxOWZjNzQyZGI5YzAzMWZkZDUzOTFlYWJjODQ5MjNkIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '847418884'
+      player-skin-name: '847418884'
+      player-skin-signature: gVmbtrcBl2/me53neW8rgOuOA3c2tHaGmf4MTjZNjOO1s0zbFfj4JDymztrVnh/Uv6e0so7V6YNklXEa+jcXyuUWTIVyIpXf6896Ayz37cN4tuSgCpYLvA2KLKopK1ezlVFGDJ7qgmJAyzblgqkDnaDLB5rwl8a8DfRiiuIzP3wSW/t9koIt4swdpNVvVE3GyMbJpEZ+7xBwgQuH8HMdg+NsndFosbWL1/thLYyguk5PglTJvZSIBUC/g5GIU+7IaBxwKwrShFflATOimtcoSeEAvlX8f4muC6FzbTK4MBsEgu+PP8tmrTx54lPIHGYZDnlHszKlTVpN8egIMCfBvTkKSDmlXZD1ixM3A986iXsISiipDx21BGdW1eiF0uK4ho2hXKTxeZMBRSEk4ex47ezOWUZ/Y5uIS9j09i+iY5TdcZvRnQuQyves67PLdkQlYfqconmJvqbpnIy28JV3dA8quOq031LrE5FENlqWjNSblcnqLYuoqpabQpwNAAo021pbCI+RND5aHRS6RQfBOopBmOeWOSFoID8qHcoeM7ic03viUSHvJ487jSWf9uF6fm21VF0UaW6nTAYvqewv+54LuQw9No0I+40VHyg8jiGvVZp0tq2SN+yziP9O8lJleAGzqrYXy0qzC2WPFk4fxK25kdVOShXOv6aRw2gXF0A=
+  '14':
+    name: §6北门守卫
+    uuid: eee4e974-97b2-4a51-8bb0-a7fe1dec5f22
+    traits:
+      location:
+        headYaw: 0.0
+        world: world
+        x: '100.5607'
+        y: '20.0'
+        z: '-133.4507'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      type: PLAYER
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          mdata: 0
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          mdata: 0
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,location,gravity,spawned,owner,equipment,lookclose,type,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzcwMjk3OTIxNTEsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2MTI2YTZmOTkyYWU4OGI2MDMzYmMyMTJjYTExMmZmM2RkM2Y3MjdlYWE3ZWQ5MWM3NTRlNjk1NWIwMWNiNTAifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '1777623654'
+      player-skin-name: '1777623654'
+      player-skin-signature: d5S9KMfL7ZzsOTVILgNdh6GeJjgzaRa5Vp7vJCoUkCbA0hrzR80YEZyiVefH2rrgpcEzruuPRvKqi9Q/NlDAzCT9JH449JzS2sKoHiG8v+21XdUkjihaLQpLcCFt2lDCKNctUo/Y7qNs5mVcNb2Z5IrCyrrqRfyCIPiqdqhv7ia85ZwVPuJlOy7oP07McKe89RlJ4EhA+NiWM/IT4zIlME/N6JDDYvVcTPiWl/54XK0oGGCV42KI9umhoqXrMYV3mNjF15iLZ/MIGb1rZMXGpZaxCQ0Ofttb/4UBnlFwDk48ecJ32YyOLa//AhBqWw7R8e0ARPa2XpA9DEALmqIgyS2ZPdL915AVAvlA5Vo3bBVCPFXQp+Ooqro3uCf/rcL9GlT7sl6GTDssr3YDQ1y3S9sn+oZzZ54jmUyivm9R5P2zNU3ISn4Fnve9ijzegnLGsgmuD/jTiZckEzaQyVI3C9cdakI3BhoZlLRm1TbxtlrbGkKR066HectEwRlg+ugk5HCFNRYg8JteGY2p2gtT1cBL68IgmYZRrBODBPoH54FVImddDT95TO51Zq/c6lQ72I8YfbFsPu4PeBbWr22Qdq/z4rHypwgbRb7v91g8Kz6J6SV3AHa6ZxnGI9nxz0PQPRbWBp9VrPTW/JCRENYF74iSBXHq5AEdItHvzzhqkEQ=
+  '13':
+    name: §6东门守卫
+    uuid: ef8d558d-539f-470e-9c4a-00ebb5d709dc
+    traits:
+      location:
+        headYaw: 0.0
+        world: world
+        x: '141.7248'
+        y: '20.0'
+        z: '-85.4829'
+        yaw: '0.0'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      type: PLAYER
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          mdata: 0
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          mdata: 0
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,gravity,location,spawned,owner,equipment,lookclose,type,scoreboardtrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzcwMjk3OTIxNTEsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2MTI2YTZmOTkyYWU4OGI2MDMzYmMyMTJjYTExMmZmM2RkM2Y3MjdlYWE3ZWQ5MWM3NTRlNjk1NWIwMWNiNTAifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '1777623654'
+      player-skin-name: '1777623654'
+      player-skin-signature: d5S9KMfL7ZzsOTVILgNdh6GeJjgzaRa5Vp7vJCoUkCbA0hrzR80YEZyiVefH2rrgpcEzruuPRvKqi9Q/NlDAzCT9JH449JzS2sKoHiG8v+21XdUkjihaLQpLcCFt2lDCKNctUo/Y7qNs5mVcNb2Z5IrCyrrqRfyCIPiqdqhv7ia85ZwVPuJlOy7oP07McKe89RlJ4EhA+NiWM/IT4zIlME/N6JDDYvVcTPiWl/54XK0oGGCV42KI9umhoqXrMYV3mNjF15iLZ/MIGb1rZMXGpZaxCQ0Ofttb/4UBnlFwDk48ecJ32YyOLa//AhBqWw7R8e0ARPa2XpA9DEALmqIgyS2ZPdL915AVAvlA5Vo3bBVCPFXQp+Ooqro3uCf/rcL9GlT7sl6GTDssr3YDQ1y3S9sn+oZzZ54jmUyivm9R5P2zNU3ISn4Fnve9ijzegnLGsgmuD/jTiZckEzaQyVI3C9cdakI3BhoZlLRm1TbxtlrbGkKR066HectEwRlg+ugk5HCFNRYg8JteGY2p2gtT1cBL68IgmYZRrBODBPoH54FVImddDT95TO51Zq/c6lQ72I8YfbFsPu4PeBbWr22Qdq/z4rHypwgbRb7v91g8Kz6J6SV3AHa6ZxnGI9nxz0PQPRbWBp9VrPTW/JCRENYF74iSBXHq5AEdItHvzzhqkEQ=
+  '12':
+    name: §6大叔
+    uuid: 911ae82a-32f8-42e4-a8bb-47d195ecab21
+    traits:
+      location:
+        headYaw: 0.0
+        world: world
+        x: '126.5475'
+        y: '24.0'
+        z: '-71.4814'
+        yaw: '0.0'
+        pitch: '-75.1933'
+      spawned: true
+      gravity:
+        enabled: false
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,gravity,location,spawned,owner,equipment,lookclose,type,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1Nzc5NDQyNDI2MjcsInByb2ZpbGVJZCI6ImMxYWYxODI5MDYwZTQ0OGRhNjYwOWRmZGM2OGEzOWE4IiwicHJvZmlsZU5hbWUiOiJCQVJLeDQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkYzZhOTlmZTFjY2VhOGIxN2JlZDVlNDRkMmY4MjE1Y2YwMDI3YmNiYjFjYjE0ZjkxYWE1OWFhNGM2Y2UyNTMifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '1344799650'
+      player-skin-name: '1344799650'
+      player-skin-signature: lVjvF18XhoqOtmd1oZnHccrh9qSP806Cpbd9hvJMCidwJo9z5yN9IPoWiij5aaKAmxJw6rhO5qVokcP1nXWSClCjhOYm72xx744R6sJuYceUYtEgryoa2MWOIRaoSa1a1QLjh9SAJU8FPGq9P5N/rCmo+MrtB0N4r18h+9rUNQn+qsCgfBaAmSt4D4VfvdK2fa/KaUuMB1aiH2xzgiyQYiIYgyLjN+e/r+zP3HvAhhYo4eeqTcCat+28t6tDLjlL3Jq+sjc2wznUfDfelAGOLRANoNFDk+O7VvTJ6WEbtJ2X0Io2Nrjy+3v4XUxZZ1yPz+Uag30pM2IfqoVUGn9t3OIf42DfUrUtdGVDLEzbb3Ln2lwPeR0ugDi5Rd9HAgKUV9VIcMhFqAm3ZywlZuMsfxefFBx0fFG1YThbTCscbya0ssKEYw6net2xqzmd30+/VnGxiiEDzVB7jm7g/Ssdgv3uJXZe6v20Q5gmTKezm2kqiEvGfWUR+l1ObWz2HamGv43y6NUEipI1Somk9wNTK22J58AbCttvIRCKGvnHA3COZEoVk7eptRpGgKSvWWCDsKnGzuiPVq28sI59J3lIr7OxDQMJtWrLMtvjGZgZlkavy0MtuvQnFgZhOD2/283dTcXlfWCJAmM/Cu4oEJL4xASZZBL9jBYdZyv8RiQYuDA=
+  '11':
+    name: §6铁匠
+    uuid: 11d4b1bf-4aea-4bd8-91d4-6914ff738bb3
+    traits:
+      location:
+        headYaw: 0.0
+        world: world
+        x: '87.5165'
+        y: '19.5'
+        z: '-120.4544'
+        yaw: '0.0'
+        pitch: '-3.8236'
+      spawned: true
+      gravity:
+        enabled: false
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: diamond_pickaxe
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            custommodel: 2
+            unbreakable: false
+            repaircost: 0
+            lore:
+              '0': '§7耐久度: 1561 / 1561'
+            displayname: §3§lDiamond hammer
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: diamond_pickaxe
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            custommodel: 2
+            unbreakable: false
+            repaircost: 0
+            lore:
+              '0': '§7耐久度: 1561 / 1561'
+            displayname: §3§lDiamond hammer
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,gravity,location,spawned,owner,equipment,lookclose,type,scoreboardtrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1ODI0NTYwNzY3ODYsInByb2ZpbGVJZCI6ImMxYWYxODI5MDYwZTQ0OGRhNjYwOWRmZGM2OGEzOWE4IiwicHJvZmlsZU5hbWUiOiJCQVJLeDQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlhNDg4NmQ0OGUxN2YzZGY0NjM4ZTNlYmZjZjdjMDU1MTdmOGVjMGI4NzE4MzI3Yjg4YTEyYjcwZDhjMmU4MDAifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '843641145'
+      player-skin-name: '843641145'
+      player-skin-signature: M0r/aiK1ViefEh+NWyCGAJ+GDilCNjgc1RHAXkvTrhNGDDiNnugrwBQCQWLYV0GDr0weS9i5Ytyvfb3xYrDy+QOlCcPaaD8ohmO8i4NhATH5JCfRGdza15hB/d+LHlrhSBwDmeH7Zg+45vaSQ9lSCFtNPe4PBUlo+uxv4z/gq17yjBv9TZ1r92RuFMqYd7ZqR3jnlmva49UTZZdgZzFTWpiTZ6o09xb3/ZIPmot3t9aoVqK7DWe0PmCUFjpcgiGiqc1StJgkVYehM97INWWmLxjHml6A+xO5yx0D11pFubNGdgLvDXZ5hptyazu+6sPwgWD6WhKNzEl8We1hwJipQjbaXeaZmmZjb7R9hPDojC/Zi/rngcYkE7W6Rv9yeBK1Hlckgb8bHwSwNoF9kMMpFLbLzmpnKb1KE4zmBvBjab1rjlwEiNHVwCtcPBQF/MikPP2I4dEemjP8NERouyAAaV8zV1Xp3C3+3Sij9kCjCUjymz04gO87PwzxWv5l1IBx2WVUvG27dVzqn/lpgm9fZyxe4uQnE8APCOe5jhPoC1TklNhGgqrcRYKwoqju24rPpCPGEc5YZqKrAo+mUelCPQKzkYhW7RGrQnb+/sxOw/ZH7V5rgfKSRSulzuqQkYcZCyjpYpXtohq7/nRY5LXl9tkHcm5BnRvGief6GN23caw=
+  '10':
+    name: §6巫婆
+    uuid: 12cd1e7e-c932-4ab7-8e34-0552d5a7c688
+    traits:
+      location:
+        headYaw: 0.0
+        world: world
+        x: '81.4741'
+        y: '26.0'
+        z: '-76.5281'
+        yaw: '0.0'
+        pitch: '-67.2452'
+      spawned: true
+      gravity:
+        enabled: false
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,location,gravity,spawned,owner,equipment,lookclose,type,scoreboardtrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzcwMjk3OTIxNTEsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2MTI2YTZmOTkyYWU4OGI2MDMzYmMyMTJjYTExMmZmM2RkM2Y3MjdlYWE3ZWQ5MWM3NTRlNjk1NWIwMWNiNTAifX19
+      player-skin-use-latest-skin: false
+      cached-skin-uuid-name: '1777623654'
+      player-skin-name: '1777623654'
+      player-skin-signature: d5S9KMfL7ZzsOTVILgNdh6GeJjgzaRa5Vp7vJCoUkCbA0hrzR80YEZyiVefH2rrgpcEzruuPRvKqi9Q/NlDAzCT9JH449JzS2sKoHiG8v+21XdUkjihaLQpLcCFt2lDCKNctUo/Y7qNs5mVcNb2Z5IrCyrrqRfyCIPiqdqhv7ia85ZwVPuJlOy7oP07McKe89RlJ4EhA+NiWM/IT4zIlME/N6JDDYvVcTPiWl/54XK0oGGCV42KI9umhoqXrMYV3mNjF15iLZ/MIGb1rZMXGpZaxCQ0Ofttb/4UBnlFwDk48ecJ32YyOLa//AhBqWw7R8e0ARPa2XpA9DEALmqIgyS2ZPdL915AVAvlA5Vo3bBVCPFXQp+Ooqro3uCf/rcL9GlT7sl6GTDssr3YDQ1y3S9sn+oZzZ54jmUyivm9R5P2zNU3ISn4Fnve9ijzegnLGsgmuD/jTiZckEzaQyVI3C9cdakI3BhoZlLRm1TbxtlrbGkKR066HectEwRlg+ugk5HCFNRYg8JteGY2p2gtT1cBL68IgmYZRrBODBPoH54FVImddDT95TO51Zq/c6lQ72I8YfbFsPu4PeBbWr22Qdq/z4rHypwgbRb7v91g8Kz6J6SV3AHa6ZxnGI9nxz0PQPRbWBp9VrPTW/JCRENYF74iSBXHq5AEdItHvzzhqkEQ=
+    name: §6西门守卫
+    uuid: 994ce01b-ab59-4413-8b7f-7a570c26a7d9
+    traits:
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          mdata: 0
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        headYaw: 0.0
+        world: world
+        x: '51.4395'
+        y: '19.5'
+        z: '-91.5031'
+        yaw: '0.0'
+        pitch: '-11.8999'
+      spawned: true
+      gravity:
+        enabled: false
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          mdata: 0
+      owner:
+        owner: BiShop
+        uuid: 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+    traitnames: mounttrait,location,gravity,spawned,owner,equipment,lookclose,type,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

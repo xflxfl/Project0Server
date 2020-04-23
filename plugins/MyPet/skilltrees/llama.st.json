@@ -1,0 +1,71 @@
+{
+  "ID": "llama",
+  "Order": 3,
+  "Name": "羊驼",
+  "Requirements": [
+    "Permission:Skeleton2"
+  ],
+  "Icon": {
+    "Material": "skeleton_skull"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c远程攻击型宠物",
+    "\u0026f最大宠物攻击14",
+    "\u0026f最大宠物血量105",
+    "\u0026f宠物技能：",
+    "\u0026f -口水攻击(最快1.5秒1口)"
+  ],
+  "MobTypes": [
+    "Llama"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {
+          "Active": true
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<50": {
+          "Health": "+1"
+        },
+        "%1>51<100": {
+          "Health": "+0.6"
+        }
+      }
+    },
+    "Ranged": {
+      "Upgrades": {
+        "1": {
+          "Rate": "+60",
+          "Projectile": "LlamaSpit"
+        },
+        "%1>1<10": {
+          "Damage": "+0.3",
+          "Rate": "-1"
+        },
+        "%1>11<30": {
+          "Damage": "+0.2",
+          "Rate": "-1"
+        },
+        "%1>31<100": {
+          "Damage": "+0.1"
+        }
+      }
+    }
+  }
+}

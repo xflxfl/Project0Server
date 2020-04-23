@@ -1,0 +1,66 @@
+info:
+  namespace: realcraft
+recipes:
+  cooking:
+    boiled_water_bucket:
+      permission: realcraft.boiled_water_bucket
+      ingredient:
+        item: WATER_BUCKET
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: realcraft:boiled_water_bucket
+        amount: 1
+  crafting_table:
+    waterskin:
+      permission: realcraft.waterskin
+      enabled: true
+      pattern:
+      - LXL
+      - LWL
+      - LLL
+      ingredients:
+        L: LEATHER
+        W: "realcraft:boiled_water_bucket"
+      result:
+        item: realcraft:waterskin
+        amount: 1
+items:
+  boiled_water_bucket:
+    display_name: Boiled Water Bucket
+    permission: realcraft.water_flask
+    resource:
+      material: WATER_BUCKET
+      generate: true
+      parent: item/water_bucket
+      textures:
+      - item/boiled_water_bucket.png
+  waterskin:
+    display_name: Waterskin
+    permission: realcraft.waterskin
+    resource:
+      material: WOODEN_SWORD
+      generate: true
+      parent: item/water_bucket
+      textures:
+      - item/waterskin.png
+    durability:
+      max_custom_durability: 30
+      custom_durability: 30
+      disappear_when_broken: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    events:
+      interact.right:
+        increment_player_stat:
+          name: thirst
+          amount: 0.5
+        decrement_durability:
+          amount: 1
+        play_sound:
+          name: "minecraft:entity.generic.drink"
+          volume: 1
+          pitch: 1

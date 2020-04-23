@@ -1,0 +1,91 @@
+timeToNextPlayAfterFinish: 2
+timeToFinish: 1800
+initialLives: 5
+
+title:
+  title: "&4烈焰王"
+  subtitle: "&6你共有5条命"
+  
+time: 6000
+
+dungeonManager:
+  minPlayers: 1
+  maxPlayers: 4
+  minLevel: 12
+  icon:
+    id: STICK
+    model: 70
+    
+dps:
+  exp: 30-100
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:lieyan_sword
+    chance: 0.06
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c烈焰"
+      model: 54
+  '2':
+    cmd: ph giveitem %player% mjy:rongyan_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&2熔岩剑"
+      model: 26
+  '3':
+    cmd: ph giveitem %player% mjy:shilian_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&8试炼剑"
+      model: 29
+  '4':
+    cmd: give %player% gold_ingot 32
+    chance: 0.17
+    icon:
+      id: GOLD_INGOT
+      displayName: "&f金锭32个"
+      model: 0
+  '5':
+    cmd: give %player% blaze_rod 16
+    chance: 0.13
+    icon:
+      id: BLAZE_ROD
+      displayName: "&f烈焰棒16个"
+      model: 0
+  '6':
+    cmd: give %player% diamond 10
+    chance: 0.13
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石10个"
+      model: 0
+  '7':
+    cmd: eco give %player% 400
+    chance: 0.13
+    icon:
+      id: STICK
+      displayName: "&6400金币"
+      model: 29
+  '8':
+    cmd: eco give %player% 450
+    chance: 0.08
+    icon:
+      id: STICK
+      displayName: "&6450金币"
+      model: 29
+  '9':
+    cmd: give %player% diamond 16
+    chance: 0.08
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石16个"
+      model: 0
+  '10':
+    cmd: cc give p 快速 1 %player%
+    chance: 0.04
+    icon:
+      id: PAPER
+      displayName: "&5快速抽奖箱钥匙"
+      model: 36

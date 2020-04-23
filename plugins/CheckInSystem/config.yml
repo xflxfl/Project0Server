@@ -1,0 +1,127 @@
+CheckIn:
+  Days:
+    '1':
+      Describe: §7签到奖励为§68个铁锭
+      Command:
+      - give %player% iron_ingot 8
+    '2':
+      Describe: §7签到奖励为§68个金锭
+      Command:
+      - give %player% gold_ingot 8
+    '3':
+      Describe: §7签到奖励为§616个铁锭
+      Command:
+      - give %player% iron_ingot 16
+    '4':
+      Describe: §7签到奖励为§616个金锭
+      Command:
+      - give %player% gold_ingot 16
+    '5':
+      Describe: §7签到奖励为§6九选一抽奖箱钥匙1把
+      Command:
+      - cc give p 九选一 1 %player%
+    '6':
+      Describe: §7签到奖励为§6240金币
+      Command:
+      - eco give %player% 240
+    '7':
+      Describe: §7签到奖励为§6快速抽奖箱钥匙1把
+      Command:
+      - cc give p 快速 1 %player%
+    '8':
+      Describe: §7签到奖励为§6350金币
+      Command:
+      - eco give %player% 350
+    '9':
+      Describe: §7签到奖励为§68个钻石
+      Command:
+      - give %player% diamond 8
+    '10':
+      Describe: §7签到奖励为§6快速抽奖箱钥匙2把
+      Command:
+      - cc give p 快速 2 %player%
+    '11':
+      Describe: §7签到奖励为§614个钻石
+      Command:
+      - give %player% diamond 14
+    '12':
+      Describe: §7签到奖励为§620个钻石
+      Command:
+      - give %player% diamond 20
+    '13':
+      Describe: §7签到奖励为§6600金币
+      Command:
+      - eco give %player% 600
+    '14':
+      Describe: §7签到奖励为§6老虎机抽奖箱钥匙1把
+      Command:
+      - cc give p 老虎机 1 %player%
+    '15':
+      Describe: §7签到奖励为§6800金币
+      Command:
+      - eco give %player% 800
+    '16':
+      Describe: §7签到奖励为§632个铁锭
+      Command:
+      - give %player% iron_ingot 32
+    '17':
+      Describe: §7签到奖励为§6跑马灯抽奖箱钥匙1把
+      Command:
+      - cc give p 跑马灯 1 %player%
+    '18':
+      Describe: §7签到奖励为§632个金锭
+      Command:
+      - give %player% gold_ingot 32
+    '19':
+      Describe: §7签到奖励为§66个绿宝石
+      Command:
+      - give %player% emerald 6
+    '20':
+      Describe: §7签到奖励为§6烟花抽奖箱钥匙1把
+      Command:
+      - cc give p 烟花 1 %player%
+    '21':
+      Describe: §7签到奖励为§6下界之星1个
+      Command:
+      - give %player% nether_star 1
+    '22':
+      Describe: §7签到奖励为§61000金币
+      Command:
+      - eco give %player% 1000
+    '23':
+      Describe: §7签到奖励为§612个绿宝石
+      Command:
+      - give %player% emerald 12
+    '24':
+      Describe: §7签到奖励为§6烟花抽奖箱钥匙2把
+      Command:
+      - cc give p 烟花 2 %player%
+    '25':
+      Describe: §7签到奖励为§632个钻石
+      Command:
+      - give %player% diamond 32
+    '26':
+      Describe: §7签到奖励为§6潮涌之心1个
+      Command:
+      - give %player% heart_of_the_sea 1
+    '27':
+      Describe: §7签到奖励为§6疯狂抽奖箱钥匙1把
+      Command:
+      - cc give p 疯狂 1 %player%
+    '28':
+      Describe: §7签到奖励为§632个绿宝石
+      Command:
+      - give %player% emerald 12
+    '29':
+      Describe: §7签到奖励为§6烟花抽奖箱钥匙2把
+      Command:
+      - cc give p 烟花 2 %player%
+    '30':
+      Describe: §7签到奖励为§6疯狂抽奖箱钥匙2把
+      Command:
+      - cc give p 疯狂 2 %player%
+    '31':
+      Describe: §7签到奖励为§6疯狂抽奖箱钥匙2把
+      Command:
+      - cc give p 疯狂 2 %player%
+  Database: MYSQL

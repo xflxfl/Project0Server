@@ -1,0 +1,71 @@
+{
+  "ID": "Zombie_zombie",
+  "Order": 0,
+  "Name": "攻血型僵尸",
+  "Requirements": [
+    "Permission:Zombie"
+  ],
+  "Icon": {
+    "Material": "diamond_sword"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c攻血型宠物",
+    "\u0026f最大宠物攻击10",
+    "\u0026f最大宠物血量220",
+    "\u0026f宠物技能：",
+    "\u0026f -击退攻击(最大概率30%)"
+  ],
+  "MobTypes": [
+    "Zombie"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Friend": true,
+          "Raid": false
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<20": {
+          "Damage": "+0.2"
+        },
+        "%1>21<50": {
+          "Damage": "+0.1"
+        },
+        "%1>51<100": {
+          "Damage": "+0.06"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+4"
+        },
+        "%1>11<30": {
+          "Health": "+3"
+        },
+        "%1>31<100": {
+          "Health": "+1.42"
+        }
+      }
+    },
+    "Knockback": {
+      "Upgrades": {
+        "1": {
+          "Chance": "+1"
+        },
+        "%2>1<30": {
+          "Chance": "+1"
+        },
+        "%5>31<100": {
+          "Chance": "+1"
+        }
+      }
+    }
+  }
+}

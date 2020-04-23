@@ -1,0 +1,30 @@
+FishOfDay:
+  Type: Salmon
+  Name: '0'
+  Bonus: 2
+Players:
+  BiShop:
+    AFK: 1586124518348
+  Test:
+    AFK: 1586183936660
+    Cod:
+      '0':
+        Length: 97.19
+        Weight: 1.94
+    Stats:
+      Fishes: 2
+      Fish: '0'
+      Type: Cod
+      Length: 97.19
+      Weight: 1.94
+    Points: 0.30000000000000004
+  '-':
+    Stats:
+      Tournaments: 3
+      Top:
+        '1':
+          Tournaments: 1
+        '2':
+          Tournaments: 1
+        '3':
+          Tournaments: 1

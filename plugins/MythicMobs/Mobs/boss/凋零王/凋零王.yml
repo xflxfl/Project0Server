@@ -1,0 +1,70 @@
+diaolingqishi:
+  Type: WITHER_SKELETON
+  Display: '&a凋零骑士'
+  Health: 100
+  Damage: 8
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  - IRON_SWORD HAND
+  - SHIELD OFFHAND
+  LevelModifiers:
+  - health 5
+  - damage 0.5
+  Options:
+    Despawn: false
+    MovementSpeed: 0.3
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    
+diaolingwang:
+  Type: WITHER_SKELETON
+  Display: '&6凋零王'
+  Health: 600
+  Damage: 13
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  BossBar:
+    Enabled: true
+    Title: '&6凋零王'
+    Range: 30
+    Color: RED
+    Style: SOLID
+  Skills:
+  - speak{m="没有人可以挑战凋零王!";cooldown=20} @PlayersInRadius{r=30}
+    ~onCombat >0 0.2
+  - speak{m="去死吧, <trigger.name>!"} @PlayersInRadius{r=30} ~onPlayerKill
+    >0 1
+  - skill{s=SummonSkeletons} @self 0.1
+  - skill{s=SmashAttack} @target >0 0.1
+  - skill{s=SummonKnight} @self >0 0.05
+  Equipment:
+  - KingsCrown HEAD
+  - diaolingwangjian HAND
+  Options:
+    Despawn: false
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    FollowRange: 20
+
+diaolingshibing:
+  Type: SKELETON
+  Display: '&2凋零士兵'
+  Health: 16
+  Damage: 6
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    Despawn: false
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    AlwaysShowName: true

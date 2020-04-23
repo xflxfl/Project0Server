@@ -1,0 +1,836 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "down": true,
+        "east": true,
+        "north": true,
+        "south": true,
+        "up": true,
+        "west": true
+      },
+      "apply": {
+        "model": "block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/ruby_block"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/crystal_block"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": false,
+        "north": false,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/spinel_block"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": false,
+        "north": false,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/turquoise_block"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": true,
+        "north": false,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/aqua_aura_block"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": true,
+        "north": false,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/amethyst_block"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": true,
+        "north": false,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/amethyst_prism_block"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": true,
+        "north": false,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/crying_obsidian"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": true,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/nice_stone"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": false,
+        "north": true,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/nice_wood"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": false,
+        "north": true,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/modern_stone"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": false,
+        "north": true,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/modern_sandstone"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": true,
+        "north": true,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/modern_quartz"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": true,
+        "north": true,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/ruby_ore"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": true,
+        "north": true,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/spinel_ore"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": true,
+        "north": true,
+        "east": false,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/turquoise_ore"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/aqua_aura_ore"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/amethyst_ore"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": false,
+        "north": false,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/bronze_ore"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": false,
+        "north": false,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/mysterious_ore"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": true,
+        "north": false,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/end_ore"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": true,
+        "north": false,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:block/restoration_table"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": true,
+        "north": false,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:block/customization_table"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": true,
+        "north": false,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/iron_dirt_ore"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": true,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/gold_dirt_ore"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": false,
+        "north": true,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/coal_dirt_ore"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": false,
+        "north": true,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/blaze_powder_ore"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": false,
+        "north": true,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "itemsadder:auto_generated/nether_alchemy_ore"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": true,
+        "north": true,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "mjy:auto_generated/zishuijing_ore"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": true,
+        "north": true,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "mjy:auto_generated/huangshuijing_ore"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": true,
+        "north": true,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": true,
+        "north": true,
+        "east": true,
+        "down": false
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": false,
+        "north": false,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": false,
+        "north": false,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": true,
+        "north": false,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": true,
+        "north": false,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": true,
+        "north": false,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": true,
+        "north": false,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": true,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": false,
+        "north": true,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": false,
+        "north": true,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": false,
+        "north": true,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": true,
+        "north": true,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": true,
+        "north": true,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": true,
+        "north": true,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": true,
+        "north": true,
+        "east": false,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": false,
+        "north": false,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": false,
+        "north": false,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": false,
+        "north": false,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": true,
+        "north": false,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": true,
+        "north": false,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": true,
+        "north": false,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": true,
+        "north": false,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": false,
+        "north": true,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": false,
+        "north": true,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": false,
+        "north": true,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": true,
+        "south": false,
+        "north": true,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": false,
+        "south": true,
+        "north": true,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "up": false,
+        "south": true,
+        "north": true,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "up": true,
+        "south": true,
+        "north": true,
+        "east": true,
+        "down": true
+      },
+      "apply": {
+        "model": "minecraft:block/original/brown_mushroom_block_true"
+      }
+    }
+  ]
+}

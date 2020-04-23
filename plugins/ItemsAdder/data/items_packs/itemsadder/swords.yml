@@ -1,0 +1,1338 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    blue_lightsaber:
+      permission: itemsadder.blue_lightsaber
+      enabled: true
+      pattern:
+      - XLX
+      - DLR
+      - XSX
+      ingredients:
+        L: LAPIS_BLOCK
+        S: BLAZE_ROD
+        R: REDSTONE
+        D: DIAMOND
+      result:
+        item: itemsadder:blue_lightsaber
+        amount: 1
+    green_lightsaber:
+      permission: itemsadder.green_lightsaber
+      enabled: true
+      pattern:
+      - XLX
+      - DLR
+      - XSX
+      ingredients:
+        L: EMERALD_BLOCK
+        S: BLAZE_ROD
+        R: REDSTONE
+        D: DIAMOND
+      result:
+        item: itemsadder:green_lightsaber
+        amount: 1
+    red_lightsaber:
+      permission: itemsadder.red_lightsaber
+      enabled: true
+      pattern:
+      - XLX
+      - DLR
+      - XSX
+      ingredients:
+        L: REDSTONE_BLOCK
+        S: BLAZE_ROD
+        R: REDSTONE
+        D: DIAMOND
+      result:
+        item: itemsadder:red_lightsaber
+        amount: 1
+    masters_sword:
+      permission: itemsadder.masters_sword
+      enabled: true
+      pattern:
+      - XdX
+      - sds
+      - sss
+      ingredients:
+        s: LAPIS_BLOCK
+        d: DIAMOND
+      result:
+        item: itemsadder:masters_sword
+        amount: 1
+    floating_sword:
+      permission: itemsadder.floating_sword
+      enabled: true
+      pattern:
+      - XdX
+      - sds
+      - sss
+      ingredients:
+        s: OAK_PLANKS
+        d: DIAMOND
+      result:
+        item: itemsadder:floating_sword
+        amount: 1
+    baseball_bat:
+      permission: itemsadder.baseball_bat
+      enabled: true
+      pattern:
+      - XwX
+      - XwX
+      - XwX
+      ingredients:
+        w: OAK_PLANKS
+      result:
+        item: itemsadder:baseball_bat
+        amount: 1
+    gandalf_stick:
+      permission: itemsadder.gandalf_stick
+      enabled: true
+      pattern:
+      - XDX
+      - XAX
+      - XSX
+      ingredients:
+        D: DIAMOND
+        S: STICK
+        A: STRING
+      result:
+        item: itemsadder:gandalf_stick
+        amount: 1
+    emerald_sword:
+      permission: itemsadder.emerald_sword
+      enabled: true
+      pattern:
+      - XeX
+      - XeX
+      - XsX
+      ingredients:
+        e: EMERALD
+        s: STICK
+      result:
+        item: itemsadder:emerald_sword
+        amount: 1
+    elucidator_sword:
+      permission: itemsadder.elucidator_sword
+      enabled: true
+      pattern:
+      - XoX
+      - XoX
+      - XbX
+      ingredients:
+        o: OBSIDIAN
+        b: BLAZE_ROD
+      result:
+        item: itemsadder:elucidator_sword
+        amount: 1
+    repulser_sword:
+      permission: itemsadder.repulser_sword
+      enabled: true
+      pattern:
+      - XdX
+      - ddd
+      - XbX
+      ingredients:
+        d: DIAMOND
+        b: BLAZE_ROD
+      result:
+        item: itemsadder:repulser_sword
+        amount: 1
+    firesword_sword:
+      permission: itemsadder.firesword_sword
+      enabled: true
+      pattern:
+      - XdX
+      - XdX
+      - XbX
+      ingredients:
+        d: BLAZE_POWDER
+        b: BLAZE_ROD
+      result:
+        item: itemsadder:firesword_sword
+        amount: 1
+    aqualight_sword:
+      permission: itemsadder.aqualight_sword
+      enabled: true
+      pattern:
+      - XdX
+      - dbd
+      - XsX
+      ingredients:
+        d: DIAMOND
+        b: DIAMOND_BLOCK
+        s: STICK
+      result:
+        item: itemsadder:aqualight_sword
+        amount: 1
+    rusteroth_sword:
+      permission: itemsadder.rusteroth_sword
+      enabled: true
+      pattern:
+      - XdX
+      - dbd
+      - XsX
+      ingredients:
+        d: REDSTONE
+        b: REDSTONE_BLOCK
+        s: STICK
+      result:
+        item: itemsadder:rusteroth_sword
+        amount: 1
+    bloodnite_sword:
+      permission: itemsadder.bloodnite_sword
+      enabled: true
+      pattern:
+      - XdX
+      - dbd
+      - XsX
+      ingredients:
+        d: REDSTONE
+        b: BLAZE_POWDER
+        s: STICK
+      result:
+        item: itemsadder:bloodnite_sword
+        amount: 1
+    vyderlight_sword:
+      permission: itemsadder.vyderlight_sword
+      enabled: true
+      pattern:
+      - XdX
+      - dbd
+      - XsX
+      ingredients:
+        d: EMERALD
+        b: EMERALD_BLOCK
+        s: STICK
+      result:
+        item: itemsadder:vyderlight_sword
+        amount: 1
+    ruby_sword:
+      permission: itemsadder.ruby_sword
+      enabled: true
+      pattern:
+      - XRX
+      - XRX
+      - XSX
+      ingredients:
+        R: itemsadder:ruby
+        S: STICK
+      result:
+        item: itemsadder:ruby_sword
+        amount: 1
+    crystal_sword:
+      permission: itemsadder.crystal_sword
+      enabled: true
+      pattern:
+      - XRX
+      - XRX
+      - XSX
+      ingredients:
+        R: itemsadder:crystal
+        S: STICK
+      result:
+        item: itemsadder:crystal_sword
+        amount: 1
+    spinel_sword:
+      permission: itemsadder.spinel_sword
+      enabled: true
+      pattern:
+      - XRX
+      - XRX
+      - XSX
+      ingredients:
+        R: itemsadder:spinel
+        S: STICK
+      result:
+        item: itemsadder:spinel_sword
+        amount: 1
+    turquoise_sword:
+      permission: itemsadder.turquoise_sword
+      enabled: true
+      pattern:
+      - XRX
+      - XRX
+      - XSX
+      ingredients:
+        R: itemsadder:turquoise
+        S: STICK
+      result:
+        item: itemsadder:turquoise_sword
+        amount: 1
+    aqua_sword:
+      permission: itemsadder.aqua_sword
+      enabled: true
+      pattern:
+      - XRX
+      - XRX
+      - XSX
+      ingredients:
+        R: itemsadder:aqua_aura
+        S: STICK
+      result:
+        item: itemsadder:aqua_sword
+        amount: 1
+    amethyst_sword:
+      permission: itemsadder.amethyst_sword
+      enabled: true
+      pattern:
+      - XRX
+      - XRX
+      - XSX
+      ingredients:
+        R: itemsadder:amethyst
+        S: STICK
+      result:
+        item: itemsadder:amethyst_sword
+        amount: 1
+    guitar_sword:
+      permission: itemsadder.guitar_sword
+      enabled: true
+      pattern:
+      - XXD
+      - WRX
+      - WWX
+      ingredients:
+        W: OAK_PLANKS
+        R: REDSTONE
+        D: DIAMOND
+      result:
+        item: itemsadder:guitar_sword
+        amount: 1
+    ruby_dagger:
+      permission: itemsadder.ruby_dagger
+      enabled: true
+      pattern:
+      - XXX
+      - XRX
+      - XSX
+      ingredients:
+        R: itemsadder:ruby
+        S: STICK
+      result:
+        item: itemsadder:ruby_dagger
+        amount: 1
+    sweets_sword:
+      permission: itemsadder.sweets_sword
+      enabled: true
+      pattern:
+      - XDX
+      - XDX
+      - XSX
+      ingredients:
+        D: itemsadder:sweet
+        S: itemsadder:sweet_stick
+      result:
+        item: itemsadder:sweets_sword
+        amount: 1
+    knife:
+      permission: itemsadder.knife
+      enabled: true
+      pattern:
+      - XXX
+      - XDX
+      - XSX
+      ingredients:
+        D: IRON_NUGGET
+        S: STICK
+      result:
+        item: itemsadder:knife
+        amount: 1
+    philosopher_stone:
+      permission: itemsadder.philosopher_stone
+      enabled: true
+      pattern:
+      - GRG
+      - RDR
+      - GRG
+      ingredients:
+        D: DIAMOND_BLOCK
+        R: REDSTONE
+        G: GLOWSTONE_DUST
+      result:
+        item: itemsadder:philosopher_stone
+        amount: 1
+    philosopher_stone_1:
+      enabled: true
+      permission: itemsadder.philosopher_stone
+      pattern:
+      - XXX
+      - XPE
+      - XXX
+      ingredients:
+        P: itemsadder:philosopher_stone
+        E: itemsadder:energy_orb
+      result:
+        item: DIRT
+        amount: 1
+      return_items:
+        increment_durability:
+          philosopher_stone:
+            item: philosopher_stone
+            amount: 1
+    philosopher_stone_2:
+      enabled: true
+      permission: itemsadder.philosopher_stone
+      pattern:
+      - XXX
+      - XPE
+      - XXX
+      ingredients:
+        P: itemsadder:philosopher_stone
+        E: itemsadder:small_energy_capsule
+      result:
+        item: DIRT
+        amount: 1
+      return_items:
+        increment_durability:
+          philosopher_stone:
+            item: philosopher_stone
+            amount: 8
+    philosopher_stone_3:
+      enabled: true
+      permission: itemsadder.philosopher_stone
+      pattern:
+      - XXX
+      - XPE
+      - XXX
+      ingredients:
+        P: itemsadder:philosopher_stone
+        E: itemsadder:energy_capsule
+      result:
+        item: DIRT
+        amount: 1
+      return_items:
+        increment_durability:
+          philosopher_stone:
+            item: philosopher_stone
+            amount: 64
+    chisel:
+      permission: itemsadder.chisel
+      enabled: true
+      pattern:
+      - XXX
+      - XXI
+      - XSX
+      ingredients:
+        I: IRON_INGOT
+        S: STICK
+      result:
+        item: itemsadder:chisel
+        amount: 1
+    end_sword:
+      permission: itemsadder.end_sword
+      enabled: true
+      pattern:
+      - XEX
+      - XEX
+      - XSX
+      ingredients:
+        E: itemsadder:end_ingot
+        S: STICK
+      result:
+        item: itemsadder:end_sword
+        amount: 1
+    bronze_sword:
+      permission: itemsadder.bronze_sword
+      enabled: true
+      pattern:
+      - XeX
+      - XeX
+      - XsX
+      ingredients:
+        e: itemsadder:bronze_ingot
+        s: STICK
+      result:
+        item: itemsadder:bronze_sword
+        amount: 1
+    sweet_berries_jam_jar:
+      permission: itemsadder.sweet_berries_jam_jar
+      enabled: true
+      pattern:
+      - PPP
+      - PPP
+      - PJP
+      ingredients:
+        P: SWEET_BERRIES
+        J: itemsadder:jar
+      result:
+        item: itemsadder:sweet_berries_jam_jar
+        amount: 1
+    sweet_berries_jam_jar_1:
+      enabled: true
+      permission: itemsadder.sweet_berries_jam_jar
+      pattern:
+      - SSS
+      - XJX
+      - XXX
+      ingredients:
+        J: itemsadder:sweet_berries_jam_jar
+        S: SWEET_BERRIES
+      result:
+        item: SWEET_BERRIES
+        amount: 1
+      return_items:
+        increment_durability:
+          sweet_berries_jam_jar:
+            item: sweet_berries_jam_jar
+            amount: 2
+    pear_jam_jar:
+      permission: itemsadder.pear_jam_jar
+      enabled: true
+      pattern:
+      - PPP
+      - PPP
+      - PJP
+      ingredients:
+        P: itemsadder:pear
+        J: itemsadder:jar
+      result:
+        item: itemsadder:pear_jam_jar
+        amount: 1
+    pear_jam_jar_1:
+      enabled: true
+      permission: itemsadder.pear_jam_jar
+      pattern:
+      - SSS
+      - XJX
+      - XXX
+      ingredients:
+        J: itemsadder:pear_jam_jar
+        S: itemsadder:pear
+      result:
+        item: itemsadder:pear
+        amount: 1
+      return_items:
+        increment_durability:
+          pear_jam_jar:
+            item: pear_jam_jar
+            amount: 2
+    apple_jam_jar:
+      permission: itemsadder.apple_jam_jar
+      enabled: true
+      pattern:
+      - PPP
+      - PPP
+      - PJP
+      ingredients:
+        P: APPLE
+        J: itemsadder:jar
+      result:
+        item: itemsadder:apple_jam_jar
+        amount: 1
+    apple_jam_jar_1:
+      enabled: true
+      permission: itemsadder.apple_jam_jar
+      pattern:
+      - SSS
+      - XJX
+      - XXX
+      ingredients:
+        J: itemsadder:apple_jam_jar
+        S: APPLE
+      result:
+        item: APPLE
+        amount: 1
+      return_items:
+        increment_durability:
+          apple_jam_jar:
+            item: apple_jam_jar
+            amount: 2
+  anvil_repair:
+    blue_lightsaber:
+      permission: itemsadder.blue_lightsaber
+      ingredient: DIAMOND
+      item: itemsadder:blue_lightsaber
+    green_lightsaber:
+      permission: itemsadder.green_lightsaber
+      ingredient: EMERALD
+      item: itemsadder:green_lightsaber
+    red_lightsaber:
+      permission: itemsadder.red_lightsaber
+      ingredient: REDSTONE_BLOCK
+      item: itemsadder:red_lightsaber
+    masters_sword:
+      permission: itemsadder.masters_sword
+      ingredient: DIAMOND
+      item: itemsadder:masters_sword
+    floating_sword:
+      permission: itemsadder.floating_sword
+      ingredient: DIAMOND
+      item: itemsadder:floating_sword
+    baseball_bat:
+      permission: itemsadder.baseball_bat
+      ingredient: OAK_PLANKS
+      item: itemsadder:baseball_bat
+    gandalf_stick:
+      permission: itemsadder.gandalf_stick
+      ingredient: STICK
+      item: itemsadder:gandalf_stick
+    emerald_sword:
+      permission: itemsadder.emerald_sword
+      ingredient: EMERALD
+      item: itemsadder:emerald_sword
+    elucidator_sword:
+      permission: itemsadder.elucidator_sword
+      ingredient: OBSIDIAN
+      item: itemsadder:elucidator_sword
+    repulser_sword:
+      permission: itemsadder.repulser_sword
+      ingredient: DIAMOND
+      item: itemsadder:repulser_sword
+    firesword_sword:
+      permission: itemsadder.firesword_sword
+      ingredient: BLAZE_POWDER
+      item: itemsadder:firesword_sword
+    aqualight_sword:
+      permission: itemsadder.aqualight_sword
+      ingredient: DIAMOND
+      item: itemsadder:aqualight_sword
+    rusteroth_sword:
+      permission: itemsadder.rusteroth_sword
+      ingredient: REDSTONE_BLOCK
+      item: itemsadder:rusteroth_sword
+    bloodnite_sword:
+      permission: itemsadder.bloodnite_sword
+      ingredient: BLAZE_POWDER
+      item: itemsadder:bloodnite_sword
+    vyderlight_sword:
+      permission: itemsadder.vyderlight_sword
+      ingredient: EMERALD
+      item: itemsadder:vyderlight_sword
+    ruby_sword:
+      permission: itemsadder.ruby_sword
+      ingredient: itemsadder:ruby
+      item: itemsadder:ruby_sword
+    crystal_sword:
+      permission: itemsadder.crystal_sword
+      ingredient: itemsadder:crystal
+      item: itemsadder:crystal_sword
+    spinel_sword:
+      permission: itemsadder.spinel_sword
+      ingredient: itemsadder:spinel
+      item: itemsadder:spinel_sword
+    turquoise_sword:
+      permission: itemsadder.turquoise_sword
+      ingredient: itemsadder:turquoise
+      item: itemsadder:turquoise_sword
+    aqua_sword:
+      permission: itemsadder.aqua_sword
+      ingredient: itemsadder:aqua_aura
+      item: itemsadder:aqua_sword
+    amethyst_sword:
+      permission: itemsadder.amethyst_sword
+      ingredient: itemsadder:amethyst
+      item: itemsadder:amethyst_sword
+    guitar_sword:
+      permission: itemsadder.guitar_sword
+      ingredient: REDSTONE
+      item: itemsadder:guitar_sword
+    ruby_dagger:
+      permission: itemsadder.ruby_dagger
+      ingredient: itemsadder:ruby
+      item: itemsadder:ruby_dagger
+    sweets_sword:
+      permission: itemsadder.sweets_sword
+      ingredient: itemsadder:sweet
+      item: itemsadder:sweets_sword
+    knife:
+      permission: itemsadder.knife
+      ingredient: IRON_NUGGET
+      item: itemsadder:knife
+    chisel:
+      permission: itemsadder.chisel
+      ingredient: IRON_INGOT
+      item: itemsadder:chisel
+    end_sword:
+      permission: itemsadder.end_sword
+      ingredient: itemsadder:end_ingot
+      item: itemsadder:end_sword
+    bronze_sword:
+      permission: itemsadder.bronze_sword
+      ingredient: itemsadder:bronze_ingot
+      item: itemsadder:bronze_sword
+items:
+  closed_lightsaber:
+    enabled: true
+    display_name: 'closed_lightsaber'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: "item/closed_lightsaber"
+  blue_lightsaber:
+    display_name: '&1&lBlue LightSaber'
+    permission: blue_lightsaber
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/blue_lightsaber
+    durability:
+      max_custom_durability: 2562
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.0
+        attackSpeed: 1.2
+    events:
+      attack:
+        play_sound:
+          name: itemsadder:item.lightsaber.attack
+          volume: 1
+          pitch: 1
+      interact:
+        right:
+          replace_properties:
+            custom_model_data:
+              copy_from_item: "itemsadder:closed_lightsaber"
+              restorable: true
+          play_sound:
+            name: "itemsadder:item.lightsaber.open"
+            volume: 1
+            pitch: 1
+  green_lightsaber:
+    display_name: '&2&lGreen LightSaber'
+    permission: green_lightsaber
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/green_lightsaber
+    durability:
+      max_custom_durability: 2562
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.0
+        attackSpeed: 1.2
+    events:
+      attack:
+        play_sound:
+          name: itemsadder:item.lightsaber.attack
+          volume: 1
+          pitch: 1
+      interact:
+        right:
+          replace_properties:
+            custom_model_data:
+              copy_from_item: "itemsadder:closed_lightsaber"
+              restorable: true
+          play_sound:
+            name: "itemsadder:item.lightsaber.open"
+            volume: 1
+            pitch: 1
+  red_lightsaber:
+    display_name: '&4&lRed LightSaber'
+    permission: red_lightsaber
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/red_lightsaber
+    durability:
+      max_custom_durability: 2562
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.0
+        attackSpeed: 1.2
+    events:
+      attack:
+        play_sound:
+          name: itemsadder:item.lightsaber.attack
+          volume: 1
+          pitch: 1
+      interact:
+        right:
+          replace_properties:
+            custom_model_data:
+              copy_from_item: "itemsadder:closed_lightsaber"
+              restorable: true
+          play_sound:
+            name: "itemsadder:item.lightsaber.open"
+            volume: 1
+            pitch: 1
+  masters_sword:
+    display_name: '&6&lMaster''s Sword'
+    permission: masters_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/masters_sword
+    durability:
+      max_custom_durability: 1756
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.0
+  floating_sword:
+    display_name: '&9&lFloating Sword'
+    permission: floating_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/floating_sword
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.0
+  baseball_bat:
+    display_name: Baseball bat
+    permission: baseball_bat
+    resource:
+      material: WOODEN_SWORD
+      generate: false
+      model_path: item/baseball_bat
+    durability:
+      max_custom_durability: 40
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 2.0
+        attackSpeed: 4.0
+  gandalf_stick:
+    display_name: Gandalf Stick
+    permission: gandalf_stick
+    resource:
+      material: WOODEN_SWORD
+      generate: false
+      model_path: item/gandalf_stick
+    durability:
+      max_custom_durability: 850
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.0
+        attackSpeed: 2.1
+    events:
+      interact:
+        left:
+          play_particle:
+            name: ENCHANTMENT_TABLE
+        right:
+          play_particle:
+            name: ENCHANTMENT_TABLE
+          decrement_durability:
+            amount: 1
+      attack:
+        play_particle:
+          name: ENCHANTMENT_TABLE
+  emerald_sword:
+    display_name: Emerald Sword
+    permission: emerald_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/emerald_sword.png
+    durability:
+      max_custom_durability: 1662
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+  elucidator_sword:
+    display_name: '&d凋零王的长剑'
+    permission: elucidator_sword
+    lore:
+    - '&6凋零王手中持有的剑，'
+    - '&6持有它代表着拥有比凋零王'
+    - '&6还要强大的力量!'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/elucidator_sword.png
+    durability:
+      max_custom_durability: 1756
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 12.0
+        attackSpeed: 0.7
+  repulser_sword:
+    display_name: Repulser
+    permission: repulser_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/repulser_sword.png
+    durability:
+      max_custom_durability: 1756
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9.0
+  firesword_sword:
+    display_name: '&c烈焰'
+    permission: firesword_sword
+    lore:
+    - '&6据说这曾是烈焰王'
+    - '&6身上的一根骨头'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/firesword_sword
+    enchants:
+    - FIRE_ASPECT:2
+    durability:
+      max_custom_durability: 1050
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 12.0
+        attackSpeed: 1.9
+  aqualight_sword:
+    display_name: '&3守护者之剑'
+    permission: aqualight_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/aqualight_sword.png
+    durability:
+      max_custom_durability: 1561
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 10.0
+        maxHealth: 2
+  rusteroth_sword:
+    display_name: Rusteroth
+    permission: rusteroth_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/rusteroth_sword.png
+    durability:
+      max_custom_durability: 750
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+  bloodnite_sword:
+    display_name: Bloodnite
+    permission: bloodnite_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/bloodnite_sword.png
+    durability:
+      max_custom_durability: 1250
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9.0
+  vyderlight_sword:
+    display_name: Vyderlight
+    permission: vyderlight_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/vyderlight_sword.png
+    durability:
+      max_custom_durability: 2950
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 14.0
+  ruby_sword:
+    display_name: Ruby Sword
+    permission: ruby_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/ruby_sword.png
+    durability:
+      max_custom_durability: 1362
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.0
+  crystal_sword:
+    display_name: Crystal Sword
+    permission: crystal_sword
+    resource:
+      material: WOODEN_SWORD
+      generate: true
+      textures:
+      - item/crystal_sword.png
+    durability:
+      max_custom_durability: 512
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.0
+        attackSpeed: 2.5
+  spinel_sword:
+    display_name: Spinel Sword
+    permission: spinel_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/spinel_sword.png
+    durability:
+      max_custom_durability: 1162
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.0
+  turquoise_sword:
+    display_name: Turquoise Sword
+    permission: turquoise_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/turquoise_sword.png
+    durability:
+      max_custom_durability: 1162
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.0
+  aqua_sword:
+    display_name: Aqua Aura Sword
+    permission: aqua_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/aqua_sword.png
+    durability:
+      max_custom_durability: 1162
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.0
+  amethyst_sword:
+    display_name: Amethyst Sword
+    permission: amethyst_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/amethyst_sword.png
+    durability:
+      max_custom_durability: 1662
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 13.0
+  guitar_sword:
+    display_name: Guitar Sword
+    permission: guitar_sword
+    resource:
+      material: WOODEN_SWORD
+      generate: true
+      textures:
+      - item/guitar_sword.png
+    durability:
+      max_custom_durability: 6
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 2.0
+        attackSpeed: 0.5
+    events:
+      interact:
+        right:
+          play_sound:
+            name: itemsadder:item.guitar.play
+            volume: 1
+            pitch: 1
+          play_particle:
+            name: NOTE
+  ruby_dagger:
+    display_name: Ruby dagger
+    permission: ruby_dagger
+    resource:
+      material: GOLDEN_SWORD
+      generate: true
+      textures:
+      - item/ruby_dagger.png
+    durability:
+      max_custom_durability: 860
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 4.0
+        attackSpeed: 4.2
+  sweets_sword:
+    display_name: Sweets Sword
+    permission: sweets_sword
+    resource:
+      material: WOODEN_SWORD
+      generate: true
+      textures:
+      - item/sweets_sword.png
+    durability:
+      max_custom_durability: 100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 0.1
+        attackSpeed: 5.0
+  knife:
+    display_name: Knife
+    permission: knife
+    resource:
+      material: WOODEN_SWORD
+      generate: true
+      textures:
+      - item/knife.png
+    durability:
+      max_custom_durability: 512
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 2.0
+        attackSpeed: 5.0
+  philosopher_stone:
+    display_name: Philosopher's Stone
+    permission: philosopher_stone
+    lore:
+    - '&6[ &eSpecial effects &6]'
+    - '&7Rightclick + SHIFT: '
+    - '   - &4Lava &7to &8Obsidian'
+    - '   - &cPoppy &7to &eDandelion'
+    - ' '
+    - '&7Rightclick: '
+    - '   - &eSand &7to &8Cobblestone'
+    - '   - &9Water &7to &bIce'
+    - '   - &eDandelion &7to &cPoppy'
+    - '   - &2Melon &7to &6Pumpkin'
+    - '   - &fGlass &7to &eSand'
+    - ' '
+    - '&7To recharge put it in &fCrafting table'
+    - '&7center slot and put an &5Energy Orb'
+    - '&7(or other energy containers) on the right'
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/philosopher_stone.png
+    durability:
+      max_custom_durability: 1756
+      custom_durability: 0
+      disappear_when_broken: false
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 0.0
+        attackSpeed: 4.0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    events:
+      interact:
+        right_shift:
+          play_sound:
+            name: itemsadder:item.philosopher_stone.use
+            volume: 1
+            pitch: 1
+          play_particle:
+            name: CRIT_MAGIC
+          replace_near_blocks:
+            radius:
+              x: 2
+              y: 2
+              z: 2
+            from: LAVA
+            to: OBSIDIAN
+            decrement_durability: 8
+          replace_near_blocks_1:
+            radius:
+              x: 1
+              y: 2
+              z: 1
+            from: POPPY
+            to: DANDELION
+            decrement_durability: 1
+        right:
+          play_sound:
+            name: itemsadder:item.philosopher_stone.use
+            volume: 1
+            pitch: 1
+          play_particle:
+            name: CRIT_MAGIC
+          replace_near_blocks:
+            radius:
+              x: 2
+              y: 1
+              z: 2
+            from: SAND
+            to: COBBLESTONE
+            decrement_durability: 1
+          replace_near_blocks_1:
+            radius:
+              x: 3
+              y: 2
+              z: 3
+            from: WATER
+            to: ICE
+            decrement_durability: 2
+          replace_near_blocks_2:
+            radius:
+              x: 1
+              y: 2
+              z: 1
+            from: DANDELION
+            to: POPPY
+            decrement_durability: 1
+          replace_near_blocks_3:
+            radius:
+              x: 1
+              y: 2
+              z: 1
+            from: MELON
+            to: PUMPKIN
+            decrement_durability: 2
+          replace_near_blocks_4:
+            radius:
+              x: 1
+              y: 2
+              z: 1
+            from: GLASS
+            to: SAND
+            decrement_durability: 1
+  chisel:
+    display_name: Chisel
+    permission: chisel
+    resource:
+      material: WOODEN_SWORD
+      generate: true
+      textures:
+      - item/chisel.png
+    durability:
+      max_custom_durability: 512
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 1.0
+        attackSpeed: 5.0
+  mysterious_sword:
+    display_name: Mysterious Sword
+    permission: mysterious_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/mysterious_sword.png
+    durability:
+      max_custom_durability: 2780
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 19.0
+        attackSpeed: 1.1
+    events:
+      interact:
+        left:
+          play_sound:
+            name: itemsadder:item.mysterious_sword.attack
+            volume: 1
+            pitch: 1
+      kill:
+        play_sound:
+          name: itemsadder:ambient.creepy
+          volume: 1
+          pitch: 1
+  end_sword:
+    display_name: End Sword
+    permission: end_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/end_sword.png
+    durability:
+      max_custom_durability: 2980
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.1
+    events:
+      attack:
+        play_particle:
+          name: DRAGON_BREATH
+      interact:
+        left:
+          play_particle:
+            name: DRAGON_BREATH
+  bronze_sword:
+    display_name: Bronze Sword
+    permission: bronze_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/bronze_sword.png
+    durability:
+      max_custom_durability: 1862
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9.5
+  sweet_berries_jam_jar:
+    display_name: Sweet Barries Jam Jar
+    permission: sweet_berries_jam_jar
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/sweet_berries_jam_jar.png
+    durability:
+      max_custom_durability: 8
+      custom_durability: 8
+      disappear_when_broken: false
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 0.1
+        attackSpeed: 2.0
+    item_flags:
+    - HIDE_ATTRIBUTES
+  pear_jam_jar:
+    display_name: Pear Jam Jar
+    permission: pear_jam_jar
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/pear_jam_jar.png
+    durability:
+      max_custom_durability: 8
+      custom_durability: 8
+      disappear_when_broken: false
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 0.1
+        attackSpeed: 2.0
+    item_flags:
+    - HIDE_ATTRIBUTES
+  apple_jam_jar:
+    display_name: Apple Jam Jar
+    permission: apple_jam_jar
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/apple_jam_jar.png
+    durability:
+      max_custom_durability: 8
+      custom_durability: 8
+      disappear_when_broken: false
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 0.1
+        attackSpeed: 2.0
+    item_flags:
+    - HIDE_ATTRIBUTES
+  healing_crystals:
+    display_name: Healing Crystals
+    permission: healing_crystals
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/healing_crystals.png
+    durability:
+      max_custom_durability: 6
+      custom_durability: 6
+      disappear_when_broken: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    events:
+      interact:
+        right:
+          play_particle:
+            name: HEART
+          decrement_durability:
+            amount: 1
+          potion_effect:
+            type: REGENERATION
+            duration: 70
+            amplifier: 4
+# loots:
+  # blocks:
+    # nether_alchemy_ore:
+      # type: itemsadder:nether_alchemy_ore
+      # items:
+        # healing_crystals:
+          # item: itemsadder:healing_crystals
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 10

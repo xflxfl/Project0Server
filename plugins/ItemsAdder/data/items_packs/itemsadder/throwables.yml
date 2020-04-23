@@ -1,0 +1,101 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    grenade:
+      permission: itemsadder.grenade
+      enabled: true
+      pattern:
+      - XSX
+      - PTP
+      - XPX
+      ingredients:
+        S: STRING
+        T: TNT
+        P: itemsadder:plastic_plate
+      result:
+        item: itemsadder:grenade
+        amount: 4
+    ufo_toy:
+      permission: itemsadder.ufo_toy
+      enabled: true
+      pattern:
+      - PPP
+      - PEL
+      - PRP
+      ingredients:
+        P: itemsadder:plastic_plate
+        R: REDSTONE_BLOCK
+        L: LEVER
+      result:
+        item: itemsadder:ufo_toy
+        amount: 1
+items:
+  grenade:
+    display_name: Grenade
+    permission: grenade
+    resource:
+      material: SNOWBALL
+      generate: true
+      textures:
+      - item/grenade.png
+    events:
+      item_throw:
+        play_effect:
+          name: SMOKE
+      item_hit_ground:
+        explosion:
+          power: 2
+          fire: false
+          break_blocks: true
+  mysterious_amulet:
+    display_name: Mysterious Amulet
+    permission: mysterious_amulet
+    resource:
+      material: ENDER_PEARL
+      generate: true
+      textures:
+      - item/mysterious_amulet.png
+    durability:
+      usages: 20
+    events:
+      item_throw:
+        decrement_usages:
+          amount: 1
+        increment_amount:
+          amount: 1
+        play_particle:
+          name: ENCHANTMENT_TABLE
+        play_sound:
+          name: itemsadder:item.mysterious_sword.attack
+          volume: 1
+          pitch: 1
+  ufo_toy:
+    display_name: Ufo Toy
+    permission: ufo_toy
+    lore:
+    - '&7Rightclick to make it fly'
+    resource:
+      material: ENDER_EYE
+      generate: false
+      model_path: item/ufo_toy
+    durability:
+      usages: 15
+    events:
+      interact:
+        right:
+          decrement_usages:
+            amount: 1
+      item_throw:
+        play_particle:
+          name: ENCHANTMENT_TABLE
+# loots:
+  # mobs:
+    # witch:
+      # type: WITCH
+      # items:
+        # item_1:
+          # item: itemsadder:mysterious_amulet
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 20

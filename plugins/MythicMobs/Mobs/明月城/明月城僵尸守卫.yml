@@ -1,0 +1,67 @@
+﻿明月城僵尸守卫:
+  Type: ZOMBIE
+  Display: '&3僵尸守卫'
+  Health: 50
+  Damage: 6.5
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.1
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    FollowRange: 20
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige3:3
+  - pige4:4
+  - shitoujian:0
+明月城僵尸战士:
+  Type: ZOMBIE
+  Display: '&3僵尸战士'
+  Health: 35
+  Damage: 6
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.1
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    FollowRange: 20
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - shitoujian:0
+明月城武装僵尸:
+  Type: ZOMBIE
+  Display: '&3武装僵尸'
+  Health: 80
+  Damage: 5.5
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.1
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    FollowRange: 20
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - pige3:3
+  - pige2:2
+  - pige1:1
+  - shitoujian:0

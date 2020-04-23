@@ -1,0 +1,2046 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    old_clock:
+      permission: itemsadder.old_clock
+      enabled: true
+      pattern:
+      - WCW
+      - WGW
+      - WWW
+      ingredients:
+        C: CLOCK
+        W: LEGACY_WOOD
+        G: GOLD_INGOT
+      result:
+        item: itemsadder:old_clock
+        amount: 1
+    opened_chest:
+      permission: itemsadder.opened_chest
+      enabled: true
+      pattern:
+      - XGX
+      - XCX
+      - XXX
+      ingredients:
+        C: CHEST
+        G: GLASS
+      result:
+        item: itemsadder:opened_chest
+        amount: 1
+    computer_desk:
+      permission: itemsadder.computer_desk
+      enabled: true
+      pattern:
+      - XRX
+      - WWW
+      - SXS
+      ingredients:
+        R: REDSTONE
+        W: OAK_PLANKS
+        S: STICK
+      result:
+        item: itemsadder:computer_desk
+        amount: 1
+    table:
+      permission: itemsadder.table
+      enabled: true
+      pattern:
+      - XXX
+      - WWW
+      - WXW
+      ingredients:
+        W: OAK_PLANKS
+      result:
+        item: itemsadder:table
+        amount: 1
+    lamp:
+      permission: itemsadder.lamp
+      enabled: true
+      pattern:
+      - QTQ
+      - XSX
+      - XSX
+      ingredients:
+        Q: QUARTZ_BLOCK
+        T: TORCH
+        S: STICK
+      result:
+        item: itemsadder:lamp
+        amount: 1
+    simple_chair:
+      permission: itemsadder.simple_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PPP
+      - SXS
+      ingredients:
+        W: LIGHT_BLUE_WOOL
+        P: OAK_PLANKS
+        S: STICK
+      result:
+        item: itemsadder:simple_chair
+        amount: 1
+    lava_lamp:
+      permission: itemsadder.lava_lamp
+      enabled: true
+      pattern:
+      - XXX
+      - XLX
+      - XIX
+      ingredients:
+        L: LAVA_BUCKET
+        I: itemsadder:iron_plate
+      result:
+        item: itemsadder:lava_lamp
+        amount: 1
+      return_items:
+        replace:
+          LAVA_BUCKET: BUCKET
+    white_chair:
+      permission: itemsadder.white_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PPP
+      - SXS
+      ingredients:
+        W: WHITE_WOOL
+        P: OAK_PLANKS
+        S: STICK
+      result:
+        item: itemsadder:white_chair
+        amount: 1
+    glass_table:
+      permission: itemsadder.glass_table
+      enabled: true
+      pattern:
+      - XXX
+      - GGG
+      - IXI
+      ingredients:
+        G: GLASS_PANE
+        I: IRON_INGOT
+      result:
+        item: itemsadder:glass_table
+        amount: 1
+    computer_chair:
+      permission: itemsadder.computer_chair
+      enabled: true
+      pattern:
+      - XXX
+      - WWW
+      - SXS
+      ingredients:
+        W: WHITE_WOOL
+        S: STICK
+      result:
+        item: itemsadder:computer_chair
+        amount: 1
+    monitor:
+      permission: itemsadder.monitor
+      enabled: true
+      pattern:
+      - XXX
+      - POP
+      - XIX
+      ingredients:
+        P: itemsadder:plastic_plate
+        O: REDSTONE
+        I: IRON_INGOT
+      result:
+        item: itemsadder:monitor
+        amount: 1
+    tv:
+      permission: itemsadder.tv
+      enabled: true
+      pattern:
+      - PPP
+      - POP
+      - XIX
+      ingredients:
+        P: itemsadder:plastic_plate
+        O: REDSTONE
+        I: IRON_INGOT
+      result:
+        item: itemsadder:tv
+        amount: 1
+    mini_fridge:
+      permission: itemsadder.mini_fridge
+      enabled: true
+      pattern:
+      - POP
+      - ROB
+      - POP
+      ingredients:
+        P: itemsadder:iron_plate
+        B: STONE_BUTTON
+        O: SNOW_BLOCK
+        R: REDSTONE
+      result:
+        item: itemsadder:mini_fridge
+        amount: 1
+    energy_extractor:
+      permission: itemsadder.energy_extractor
+      enabled: true
+      pattern:
+      - DOD
+      - OEO
+      - DOD
+      ingredients:
+        D: DIAMOND_BLOCK
+        O: OBSIDIAN
+        E: ENDER_EYE
+      result:
+        item: itemsadder:energy_extractor
+        amount: 1
+    energy_converter:
+      permission: itemsadder.energy_converter
+      enabled: true
+      pattern:
+      - DOD
+      - OEO
+      - DOD
+      ingredients:
+        D: REDSTONE_BLOCK
+        O: OBSIDIAN
+        E: ENDER_PEARL
+      result:
+        item: itemsadder:energy_converter
+        amount: 1
+    vending_machine:
+      permission: itemsadder.vending_machine
+      enabled: true
+      pattern:
+      - III
+      - IRI
+      - III
+      ingredients:
+        R: REDSTONE
+        I: itemsadder:iron_plate
+      result:
+        item: itemsadder:vending_machine
+        amount: 1
+    coffee_machine:
+      permission: itemsadder.coffee_machine
+      enabled: true
+      pattern:
+      - III
+      - IRB
+      - III
+      ingredients:
+        R: REDSTONE
+        B: WATER_BUCKET
+        I: itemsadder:iron_plate
+      result:
+        item: itemsadder:coffee_machine
+        amount: 1
+      return_items:
+        replace:
+          WATER_BUCKET: BUCKET
+    painting_burst:
+      permission: itemsadder.painting_burst
+      enabled: true
+      pattern:
+      - LLL
+      - BPW
+      - BGY
+      ingredients:
+        P: PAINTING
+        L: LIGHT_BLUE_DYE
+        B: BROWN_DYE
+        Y: YELLOW_DYE
+        W: WHITE_DYE
+        G: LIGHT_GRAY_DYE
+      result:
+        item: itemsadder:painting_burst
+        amount: 1
+    painting_courbet:
+      permission: itemsadder.painting_courbet
+      enabled: true
+      pattern:
+      - YLL
+      - YPL
+      - YGY
+      ingredients:
+        P: PAINTING
+        L: LIGHT_BLUE_DYE
+        Y: YELLOW_DYE
+        G: LIME_DYE
+      result:
+        item: itemsadder:painting_courbet
+        amount: 1
+    painting_graham:
+      permission: itemsadder.painting_graham
+      enabled: true
+      pattern:
+      - WLW
+      - WPW
+      - WGW
+      ingredients:
+        P: PAINTING
+        L: LIGHT_BLUE_DYE
+        G: LIME_DYE
+        W: WHITE_DYE
+      result:
+        item: itemsadder:painting_graham
+        amount: 1
+    painting_match:
+      permission: itemsadder.painting_match
+      enabled: true
+      pattern:
+      - WGG
+      - WPG
+      - WGG
+      ingredients:
+        P: PAINTING
+        G: LIME_DYE
+        W: WHITE_DYE
+      result:
+        item: itemsadder:painting_match
+        amount: 1
+    painting_pool:
+      permission: itemsadder.painting_pool
+      enabled: true
+      pattern:
+      - XEX
+      - XPX
+      - XXX
+      ingredients:
+        P: PAINTING
+        E: ENDER_EYE
+      result:
+        item: itemsadder:painting_pool
+        amount: 1
+    painting_skull_and_roses:
+      permission: itemsadder.painting_skull_and_roses
+      enabled: true
+      pattern:
+      - XJX
+      - IPI
+      - XIX
+      ingredients:
+        P: PAINTING
+        J: JACK_O_LANTERN
+        I: IRON_INGOT
+      result:
+        item: itemsadder:painting_skull_and_roses
+        amount: 1
+    painting_stage:
+      permission: itemsadder.painting_stage
+      enabled: true
+      pattern:
+      - XXX
+      - SPS
+      - SSS
+      ingredients:
+        P: PAINTING
+        S: SANDSTONE
+      result:
+        item: itemsadder:painting_stage
+        amount: 1
+    painting_void:
+      permission: itemsadder.painting_void
+      enabled: true
+      pattern:
+      - CCC
+      - CPC
+      - CCC
+      ingredients:
+        P: PAINTING
+        C: CYAN_DYE
+      result:
+        item: itemsadder:painting_void
+        amount: 1
+    painting_wanderer:
+      permission: itemsadder.painting_wanderer
+      enabled: true
+      pattern:
+      - BLB
+      - BPB
+      - OOO
+      ingredients:
+        P: PAINTING
+        L: PURPLE_DYE
+        B: BLACK_DYE
+        O: ORANGE_DYE
+      result:
+        item: itemsadder:painting_wanderer
+        amount: 1
+    white_bar_chair:
+      permission: itemsadder.white_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: WHITE_WOOL
+      result:
+        item: itemsadder:white_bar_chair
+        amount: 1
+    orange_bar_chair:
+      permission: itemsadder.orange_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: ORANGE_WOOL
+      result:
+        item: itemsadder:orange_bar_chair
+        amount: 1
+    magenta_bar_chair:
+      permission: itemsadder.magenta_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: MAGENTA_WOOL
+      result:
+        item: itemsadder:magenta_bar_chair
+        amount: 1
+    light_blue_bar_chair:
+      permission: itemsadder.light_blue_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIGHT_BLUE_WOOL
+      result:
+        item: itemsadder:light_blue_bar_chair
+        amount: 1
+    yellow_bar_chair:
+      permission: itemsadder.yellow_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: YELLOW_WOOL
+      result:
+        item: itemsadder:yellow_bar_chair
+        amount: 1
+    lime_bar_chair:
+      permission: itemsadder.lime_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIME_WOOL
+      result:
+        item: itemsadder:lime_bar_chair
+        amount: 1
+    pink_bar_chair:
+      permission: itemsadder.pink_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: PINK_WOOL
+      result:
+        item: itemsadder:pink_bar_chair
+        amount: 1
+    gray_bar_chair:
+      permission: itemsadder.gray_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: GRAY_WOOL
+      result:
+        item: itemsadder:gray_bar_chair
+        amount: 1
+    light_gray_bar_chair:
+      permission: itemsadder.light_gray_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: LIGHT_GRAY_WOOL
+      result:
+        item: itemsadder:light_gray_bar_chair
+        amount: 1
+    cyan_bar_chair:
+      permission: itemsadder.cyan_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: CYAN_WOOL
+      result:
+        item: itemsadder:cyan_bar_chair
+        amount: 1
+    purple_bar_chair:
+      permission: itemsadder.purple_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: PURPLE_WOOL
+      result:
+        item: itemsadder:purple_bar_chair
+        amount: 1
+    blue_bar_chair:
+      permission: itemsadder.blue_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BLUE_WOOL
+      result:
+        item: itemsadder:blue_bar_chair
+        amount: 1
+    brown_bar_chair:
+      permission: itemsadder.brown_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BROWN_WOOL
+      result:
+        item: itemsadder:brown_bar_chair
+        amount: 1
+    green_bar_chair:
+      permission: itemsadder.green_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: GREEN_WOOL
+      result:
+        item: itemsadder:green_bar_chair
+        amount: 1
+    red_bar_chair:
+      permission: itemsadder.red_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: RED_WOOL
+      result:
+        item: itemsadder:red_bar_chair
+        amount: 1
+    black_bar_chair:
+      permission: itemsadder.black_bar_chair
+      enabled: true
+      pattern:
+      - WWW
+      - XBX
+      - XXX
+      ingredients:
+        B: IRON_BLOCK
+        W: BLACK_WOOL
+      result:
+        item: itemsadder:black_bar_chair
+        amount: 1
+    white_wood_chair:
+      permission: itemsadder.white_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: WHITE_WOOL
+      result:
+        item: itemsadder:white_wood_chair
+        amount: 1
+    orange_wood_chair:
+      permission: itemsadder.orange_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: ORANGE_WOOL
+      result:
+        item: itemsadder:orange_wood_chair
+        amount: 1
+    magenta_wood_chair:
+      permission: itemsadder.magenta_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: MAGENTA_WOOL
+      result:
+        item: itemsadder:magenta_wood_chair
+        amount: 1
+    light_blue_wood_chair:
+      permission: itemsadder.light_blue_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIGHT_BLUE_WOOL
+      result:
+        item: itemsadder:light_blue_wood_chair
+        amount: 1
+    yellow_wood_chair:
+      permission: itemsadder.yellow_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: YELLOW_WOOL
+      result:
+        item: itemsadder:yellow_wood_chair
+        amount: 1
+    lime_wood_chair:
+      permission: itemsadder.lime_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIME_WOOL
+      result:
+        item: itemsadder:lime_wood_chair
+        amount: 1
+    pink_wood_chair:
+      permission: itemsadder.pink_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: PINK_WOOL
+      result:
+        item: itemsadder:pink_wood_chair
+        amount: 1
+    gray_wood_chair:
+      permission: itemsadder.gray_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: GRAY_WOOL
+      result:
+        item: itemsadder:gray_wood_chair
+        amount: 1
+    light_gray_wood_chair:
+      permission: itemsadder.light_gray_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: LIGHT_GRAY_WOOL
+      result:
+        item: itemsadder:light_gray_wood_chair
+        amount: 1
+    cyan_wood_chair:
+      permission: itemsadder.cyan_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: CYAN_WOOL
+      result:
+        item: itemsadder:cyan_wood_chair
+        amount: 1
+    purple_wood_chair:
+      permission: itemsadder.purple_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: PURPLE_WOOL
+      result:
+        item: itemsadder:purple_wood_chair
+        amount: 1
+    blue_wood_chair:
+      permission: itemsadder.blue_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BLUE_WOOL
+      result:
+        item: itemsadder:blue_wood_chair
+        amount: 1
+    brown_wood_chair:
+      permission: itemsadder.brown_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BROWN_WOOL
+      result:
+        item: itemsadder:brown_wood_chair
+        amount: 1
+    green_wood_chair:
+      permission: itemsadder.green_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: GREEN_WOOL
+      result:
+        item: itemsadder:green_wood_chair
+        amount: 1
+    red_wood_chair:
+      permission: itemsadder.red_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: RED_WOOL
+      result:
+        item: itemsadder:red_wood_chair
+        amount: 1
+    black_wood_chair:
+      permission: itemsadder.black_wood_chair
+      enabled: true
+      pattern:
+      - WWW
+      - PXP
+      - PXP
+      ingredients:
+        P: OAK_PLANKS
+        W: BLACK_WOOL
+      result:
+        item: itemsadder:black_wood_chair
+        amount: 1
+    school_chair:
+      permission: itemsadder.school_chair
+      enabled: true
+      pattern:
+      - XXO
+      - OOO
+      - SSO
+      ingredients:
+        O: DARK_OAK_PLANKS
+        S: STICK
+      result:
+        item: itemsadder:school_chair
+        amount: 1
+    school_chair_lazy:
+      permission: itemsadder.school_chair_lazy
+      enabled: true
+      pattern:
+      - PCO
+      - OOO
+      - SSO
+      ingredients:
+        O: DARK_OAK_PLANKS
+        S: STICK
+        C: CREEPER_HEAD
+        P: PAPER
+      result:
+        item: itemsadder:school_chair_lazy
+        amount: 1
+    white_chandeliers:
+      permission: itemsadder.white_chandeliers
+      enabled: true
+      pattern:
+      - XBX
+      - PWP
+      - PXP
+      ingredients:
+        P: itemsadder:plastic
+        B: IRON_BARS
+        W: IRON_BLOCK
+      result:
+        item: itemsadder:white_chandeliers
+        amount: 1
+    small_fountain:
+      permission: itemsadder.small_fountain
+      enabled: true
+      pattern:
+      - XWX
+      - XSX
+      - SSS
+      ingredients:
+        W: WATER_BUCKET
+        S: STONE_BRICKS
+      result:
+        item: itemsadder:small_fountain
+        amount: 1
+    lit_campfire:
+      permission: itemsadder.lit_campfire
+      enabled: true
+      pattern:
+      - XXX
+      - SFS
+      - SSS
+      ingredients:
+        S: itemsadder:cut_spruce_log
+        F: FLINT_AND_STEEL
+      result:
+        item: itemsadder:lit_campfire
+        amount: 1
+items:
+  old_clock:
+    display_name: Old clock
+    permission: old_clock
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/old_clock
+    behaviours:
+      furniture:
+        small_hitbox: false
+  opened_chest:
+    display_name: Opened chest
+    permission: opened_chest
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/opened_chest
+    behaviours:
+      furniture:
+        small_hitbox: false
+  computer_desk:
+    display_name: Desk with computer
+    permission: computer_desk
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/computer_desk
+    behaviours:
+      furniture:
+        small_hitbox: true
+  table:
+    display_name: Table
+    permission: table
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/table
+    behaviours:
+      furniture:
+        small_hitbox: true
+  lamp:
+    display_name: Lamp
+    permission: lamp
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/lamp
+    behaviours:
+      furniture:
+        light_level: 13
+        small_hitbox: false
+  simple_chair:
+    display_name: Simple Chair
+    permission: simple_chair
+    lore:
+    - '&7Rightclick to sit'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/simple_chair
+    behaviours:
+      furniture:
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.5
+  lava_lamp:
+    display_name: Lava lamp
+    permission: lava_lamp
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/lava_lamp
+    behaviours:
+      furniture:
+        small_hitbox: true
+        light_level: 7
+  white_chair:
+    display_name: White chair
+    permission: white_chair
+    lore:
+    - '&7Rightclick to sit'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/white_chair
+    behaviours:
+      furniture:
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.5
+  glass_table:
+    display_name: Glass table
+    permission: glass_table
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/glass_table
+    behaviours:
+      furniture:
+        small_hitbox: true
+  computer_chair:
+    display_name: Computer chair
+    permission: computer_chair
+    lore:
+    - '&7Rightclick to sit'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/computer_chair
+    behaviours:
+      furniture:
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.5
+  monitor:
+    display_name: Monitor
+    permission: monitor
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/monitor
+    behaviours:
+      furniture:
+        small_hitbox: true
+  tv:
+    display_name: TV
+    permission: tv
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/tv
+    behaviours:
+      furniture:
+        small_hitbox: true
+  mini_fridge:
+    display_name: Mini fridge
+    permission: mini_fridge
+    lore:
+    - '&7Decorative item'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/mini_fridge
+    behaviours:
+      furniture:
+        gravity: false
+        small_hitbox: true
+  energy_extractor:
+    display_name: Energy Extractor
+    permission: energy_extractor
+    lore:
+    - '&7Use it to convert items'
+    - '&7into energy'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/energy_extractor
+    behaviours:
+      furniture:
+        small_hitbox: true
+        light_level: 7
+      furniture_trade_machine:
+        trades_list:
+          cobblestone:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 6
+          cobblestone_slab:
+            ingredients:
+              slot1:
+                item: COBBLESTONE_SLAB
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 3
+          dirt:
+            ingredients:
+              slot1:
+                item: DIRT
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 6
+          netherrack:
+            ingredients:
+              slot1:
+                item: NETHERRACK
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 6
+          coal:
+            ingredients:
+              slot1:
+                item: COAL
+                amount: 32
+            result:
+              item: energy_orb
+              amount: 16
+          oak_planks:
+            ingredients:
+              slot1:
+                item: OAK_PLANKS
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 8
+          OAK_PLANKS:
+            ingredients:
+              slot1:
+                item: OAK_PLANKS
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 8
+          birch_planks:
+            ingredients:
+              slot1:
+                item: BIRCH_PLANKS
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 8
+          redstone:
+            ingredients:
+              slot1:
+                item: REDSTONE
+                amount: 64
+            result:
+              item: energy_orb
+              amount: 4
+          iron_ingot:
+            ingredients:
+              slot1:
+                item: IRON_INGOT
+                amount: 2
+            result:
+              item: energy_orb
+              amount: 32
+          emerald:
+            ingredients:
+              slot1:
+                item: EMERALD
+                amount: 1
+            result:
+              item: energy_capsule
+              amount: 1
+          diamond:
+            ingredients:
+              slot1:
+                item: DIAMOND
+                amount: 1
+            result:
+              item: energy_capsule
+              amount: 8
+          bronze_ingot:
+            ingredients:
+              slot1:
+                item: bronze_ingot
+                amount: 1
+            result:
+              item: energy_capsule
+              amount: 1
+  energy_converter:
+    display_name: Energy Converter
+    permission: energy_converter
+    lore:
+    - '&7Use it to convert energy'
+    - '&7into items'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/energy_converter
+    behaviours:
+      furniture:
+        small_hitbox: true
+        light_level: 7
+      furniture_trade_machine:
+        trades_list:
+          dirt:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 6
+            result:
+              item: DIRT
+              amount: 64
+          cobblestone:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 6
+            result:
+              item: COBBLESTONE
+              amount: 64
+          cobblestone_stairs:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 6
+            result:
+              item: COBBLESTONE_STAIRS
+              amount: 64
+          iron_ingot:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 32
+            result:
+              item: IRON_INGOT
+              amount: 2
+          emerald_energy:
+            ingredients:
+              slot1:
+                item: energy_orb
+                amount: 64
+            result:
+              item: EMERALD
+              amount: 1
+          emerald_small_energy:
+            ingredients:
+              slot1:
+                item: small_energy_capsule
+                amount: 8
+            result:
+              item: EMERALD
+              amount: 1
+          diamond_energy:
+            ingredients:
+              slot1:
+                item: energy_capsule
+                amount: 8
+            result:
+              item: DIAMOND
+              amount: 1
+          diamond_small_energy:
+            ingredients:
+              slot1:
+                item: small_energy_capsule
+                amount: 64
+            result:
+              item: DIAMOND
+              amount: 1
+  vending_machine:
+    display_name: Vending Machine
+    permission: vending_machine
+    lore:
+    - '&7Use it to get cool items'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/vending_machine
+    behaviours:
+      furniture_trade_machine:
+        trades_list:
+          hamburger:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+            result:
+              item: hamburger
+              amount: 1
+          hotdog:
+            ingredients:
+              slot1:
+                item: COBBLESTONE
+                amount: 64
+              slot2:
+                item: GRANITE
+                amount: 8
+            result:
+              item: hotdog
+              amount: 1
+      furniture:
+        small_hitbox: false
+  coffee_machine:
+    display_name: Coffee Machine
+    permission: coffee_machine
+    lore:
+    - '&7Makes a really good coffee'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/coffee_machine
+    behaviours:
+      furniture:
+        small_hitbox: true
+      furniture_trade_machine:
+        trades_list:
+          hamburger:
+            ingredients:
+              slot1:
+                item: COCOA_BEANS
+                amount: 4
+              slot2:
+                item: empty_cup
+                amount: 1
+            result:
+              item: coffee
+              amount: 1
+  mysterious_stone:
+    display_name: Mysterious Stone
+    permission: mysterious_stone
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/mysterious_stone
+    behaviours:
+      furniture:
+        gravity: false
+        light_level: 13
+        small_hitbox: false
+  alchemy_candles:
+    display_name: Alchemy Candles
+    permission: alchemy_candles
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/alchemy_candles
+    behaviours:
+      furniture:
+        gravity: false
+        small_hitbox: true
+        light_level: 8
+  painting_burst:
+    display_name: Painting
+    permission: painting_burst
+    lore:
+    - '&7S5Z7 - Burst'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/painting_burst
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  painting_courbet:
+    display_name: Painting
+    permission: painting_courbet
+    lore:
+    - '&7S5Z7 - Courbet'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/painting_courbet
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  painting_graham:
+    display_name: Painting
+    permission: painting_graham
+    lore:
+    - '&7S5Z7 - Graham'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/painting_graham
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  painting_match:
+    display_name: Painting
+    permission: painting_match
+    lore:
+    - '&7S5Z7 - Match'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/painting_match
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  painting_pool:
+    display_name: Painting
+    permission: painting_pool
+    lore:
+    - '&7S5Z7 - Pool'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/painting_pool
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  painting_skull_and_roses:
+    display_name: Painting
+    permission: painting_skull_and_roses
+    lore:
+    - '&7S5Z7 - Skull and roses'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/painting_skull_and_roses
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  painting_stage:
+    display_name: Painting
+    permission: painting_stage
+    lore:
+    - '&7S5Z7 - Stage'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/painting_stage
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  painting_void:
+    display_name: Painting
+    permission: painting_void
+    lore:
+    - '&7S5Z7 - Void'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/painting_void
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  painting_wanderer:
+    display_name: Painting
+    permission: painting_wanderer
+    lore:
+    - '&7S5Z7 - Wanderer'
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/painting_wanderer
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: false
+  white_bar_chair:
+    display_name: White Bar Chair
+    permission: white_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/white_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  orange_bar_chair:
+    display_name: Orange Bar Chair
+    permission: orange_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/orange_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  magenta_bar_chair:
+    display_name: Magenta Bar Chair
+    permission: magenta_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/magenta_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  light_blue_bar_chair:
+    display_name: Light Blue Bar Chair
+    permission: light_blue_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/light_blue_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  yellow_bar_chair:
+    display_name: Yellow Bar Chair
+    permission: yellow_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/yellow_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  lime_bar_chair:
+    display_name: Lime Bar Chair
+    permission: lime_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/lime_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  pink_bar_chair:
+    display_name: Pink Bar Chair
+    permission: pink_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/pink_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  gray_bar_chair:
+    display_name: Gray Bar Chair
+    permission: gray_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/gray_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  light_gray_bar_chair:
+    display_name: Light Gray Bar Chair
+    permission: light_gray_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/light_gray_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  cyan_bar_chair:
+    display_name: Cyan Bar Chair
+    permission: cyan_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/cyan_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  purple_bar_chair:
+    display_name: Purple Bar Chair
+    permission: purple_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/purple_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  blue_bar_chair:
+    display_name: Blue Bar Chair
+    permission: blue_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/blue_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  brown_bar_chair:
+    display_name: Brown Bar Chair
+    permission: brown_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/brown_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  green_bar_chair:
+    display_name: Green Bar Chair
+    permission: green_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/green_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  red_bar_chair:
+    display_name: Red Bar Chair
+    permission: red_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/red_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  black_bar_chair:
+    display_name: Black Bar Chair
+    permission: black_bar_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/black_bar_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.9
+  white_wood_chair:
+    display_name: White Wood Chair
+    permission: white_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/white_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  orange_wood_chair:
+    display_name: Orange Wood Chair
+    permission: orange_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/orange_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  magenta_wood_chair:
+    display_name: Magenta Wood Chair
+    permission: magenta_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/magenta_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  light_blue_wood_chair:
+    display_name: Light Blue Wood Chair
+    permission: light_blue_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/light_blue_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  yellow_wood_chair:
+    display_name: Yellow Wood Chair
+    permission: yellow_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/yellow_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  lime_wood_chair:
+    display_name: Lime Wood Chair
+    permission: lime_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/lime_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  pink_wood_chair:
+    display_name: Pink Wood Chair
+    permission: pink_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/pink_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  gray_wood_chair:
+    display_name: Gray Wood Chair
+    permission: gray_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/gray_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  light_gray_wood_chair:
+    display_name: Light Gray Wood Chair
+    permission: light_gray_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/light_gray_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  cyan_wood_chair:
+    display_name: Cyan Wood Chair
+    permission: cyan_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/cyan_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  purple_wood_chair:
+    display_name: Purple Wood Chair
+    permission: purple_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/purple_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  blue_wood_chair:
+    display_name: Blue Wood Chair
+    permission: blue_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/blue_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  brown_wood_chair:
+    display_name: Brown Wood Chair
+    permission: brown_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/brown_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  green_wood_chair:
+    display_name: Green Wood Chair
+    permission: green_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/green_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  red_wood_chair:
+    display_name: Red Wood Chair
+    permission: red_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/red_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  black_wood_chair:
+    display_name: Black Wood Chair
+    permission: black_wood_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/black_wood_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.45
+  dark_throne:
+    display_name: Dark Throne
+    permission: dark_throne
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/dark_throne
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+      furniture_sit:
+        sit_height: 2.8
+  school_chair:
+    display_name: School Chair
+    permission: school_chair
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/school_chair
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.6
+  school_chair_lazy:
+    display_name: School Chair Lazy
+    permission: school_chair_lazy
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/school_chair_lazy
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+      furniture_sit:
+        sit_height: 0.6
+  white_chandeliers:
+    display_name: White Chandeliers
+    permission: white_chandeliers
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/white_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+        light_level: 12
+  black_chandeliers:
+    display_name: Black Chandeliers
+    permission: black_chandeliers
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/black_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+        light_level: 12
+  black_and_red_chandeliers:
+    display_name: Black And Red Chandeliers
+    permission: black_and_red_chandeliers
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/black_and_red_chandeliers
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+        light_level: 12
+  small_fountain:
+    display_name: Small Fountain
+    permission: small_fountain
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/small_fountain
+    behaviours:
+      furniture:
+        gravity: true
+        fixed_rotation: false
+        small_hitbox: true
+  lit_campfire:
+    display_name: Lit Campfire
+    permission: lit_campfire
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/lit_campfire
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+        light_level: 15
+  decorative_pumpkin:
+    display_name: Decorative Pumpkin
+    permission: decorative_pumpkin
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/decorative_pumpkin
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+        light_level: 15
+  christmas_tree:
+    display_name: Christmas Tree
+    permission: christmas_tree
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/christmas_tree
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+        light_level: 15
+  christmas_candle:
+    display_name: Christmas Candle
+    permission: christmas_candle
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/christmas_candle
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: true
+        light_level: 8
+  decorative_candy_cane:
+    display_name: Decorative Candy Cane
+    permission: decorative_candy_cane
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/decorative_candy_cane
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: false
+        small_hitbox: false
+  christmas_wreath:
+    display_name: Christmas Wreath
+    permission: christmas_wreath
+    resource:
+      material: OAK_WOOD
+      generate: false
+      model_path: item/christmas_wreath
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        small_hitbox: true

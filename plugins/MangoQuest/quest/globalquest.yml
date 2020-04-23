@@ -1,0 +1,925 @@
+Quests:
+  newbie1:
+    QuestName: 初来乍到
+    QuestOutline:
+    - 欢迎您的到来，您初来乍到，我会指引您去见一见城镇的各位居民
+    - 每个居民都有自己的职责，你也可以与他们互动一下
+    QuestNPC: 0
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Stages:
+      '1':
+        '1':
+          ObjectType: REACH_LOCATION
+          Location: world:88.15238633569355:26.0:-111.51734579463142
+          LocationName: 副本使者
+          Range: 3
+      '2':
+        '1':
+          ObjectType: REACH_LOCATION
+          Location: world:106.55257210368597:29.36911944355496:-69.44079113598052
+          LocationName: 宠物助手
+          Range: 3
+      '3':
+        '1':
+          ObjectType: REACH_LOCATION
+          Location: world:93.54894458886396:31.0:-80.30000001192093
+          LocationName: 日常任务发派员
+          Range: 3
+      '4':
+        '1':
+          ObjectType: REACH_LOCATION
+          Location: world:143.36304510541794:15.30948674189209:-60.56752973282442
+          LocationName: 鱼贩
+          Range: 3
+      '5':
+        '1':
+          ObjectType: REACH_LOCATION
+          Location: world:18.496100177189863:18.5:-78.5253498031084
+          LocationName: 商人
+          Range: 3
+      '6':
+        '1':
+          ObjectType: REACH_LOCATION
+          Location: world:115.45489679411102:29.809486741892094:-79.49117789976461
+          LocationName: 任务使者
+          Range: 3
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: false
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587332628451
+    Requirements:
+      Level: 0
+      Quest: []
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE 找到副本使者%他就在坐标(88,26,-112)附近
+      - SEND_MESSAGE §6任务提示-> §f找到副本使者,他就在坐标(88,26,-112)附近
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%初来乍到
+      TRIGGER_STAGE_START:
+      - 6 SEND_TITLE_AND_SUBTITLE 找到任务使者%他就在坐标(115,30,-79)附近
+      - 6 SEND_MESSAGE §6任务提示-> §f找到任务使者,他就在坐标(115,30,-79)附近
+      - 5 SEND_TITLE_AND_SUBTITLE 找到商人们%他们就在坐标(18,17,-79)附近
+      - 5 SEND_MESSAGE §6任务提示-> §f找到商人们,他们就在坐标(18,17,-79)附近
+      - 4 SEND_TITLE_AND_SUBTITLE 找到鱼贩%他就在坐标(143,15,-61)附近
+      - 4 SEND_MESSAGE §6任务提示-> §f找到鱼贩，他就在坐标(143,15,-61)附近
+      - 3 SEND_TITLE_AND_SUBTITLE 找到日常任务发派员%他就在坐标(93,31,-81)附近
+      - 3 SEND_MESSAGE §6任务提示-> §f找到日常任务发派员,他就在坐标(93,31,-81)附近
+      - 2 SEND_TITLE_AND_SUBTITLE 找到宠物助手%他就在坐标(106,29,-70)附近
+      - 2 SEND_MESSAGE §6任务提示-> §f找到宠物助手,他就在坐标(106,29,-70)附近
+      TRIGGER_STAGE_FINISH:
+      - 1 SEND_MESSAGE §6小提示-> §f副本使者可以供玩家组队下副本
+      - 2 SEND_MESSAGE §6小提示-> §f宠物助手可以让玩家在这里购买喜爱的宠物
+      - 3 SEND_MESSAGE §6小提示-> §f日常任务发派员可以给玩家提供日常任务，完成任务会有奖励
+      - 4 SEND_MESSAGE §6小提示-> §f鱼贩可以收购玩家在钓鱼竞赛中钓到的鱼
+      - 5 SEND_MESSAGE §6小提示-> §f玩家可以在商人们这里购物，交易
+      - 6 SEND_MESSAGE §6小提示-> §f玩家可以在任务使者这里接到任务
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Money: 100.0
+      RewardNPC: 0
+  dungeon1:
+    QuestName: 混乱之地
+    QuestOutline:
+    - 我们的小镇上原来有一个很美丽的生物馆，但是不知为何，最近里面的生物都像疯了一样，见人就咬!
+    - 里面有一条疯狗，已经咬伤咬死了很多人了，不知道英雄你是否可以帮我们处理掉他，我们一定万分感谢!
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: fenggou
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587335982635
+    Requirements:
+      Level: 0
+      Quest:
+      - newbie1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5混乱之地%§2击杀§5疯狗
+      - SEND_MESSAGE §6任务提示-> §6前往副本§5混乱之地,§2击杀§5疯狗
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%混乱之地
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Money: 300.0
+      RewardNPC: 8
+  dungeon1-2:
+    QuestName: 混乱之地的野猪
+    QuestOutline:
+    - 我们小镇上因为生物都变异了，我们已经很久没有吃过肉了，希望英雄能帮我们宰杀几只猪，让我们饱餐一顿吧!
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: yezhu
+          Amount: 10
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587337554101
+    Requirements:
+      Level: 0
+      Quest:
+      - newbie1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6前往副本§5混乱之地%§2击杀§510只野猪
+      - SEND_MESSAGE §6任务提示-> §6前往副本§5混乱之地,§2击杀§510只野猪
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%混乱之地的野猪
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: IRON_INGOT
+            amount: 8
+      Money: 200.0
+      RewardNPC: 8
+  dungeon2-1:
+    QuestName: 静谧之地
+    QuestOutline:
+    - 我们一个镇民的家被一群怪物给围住了，希望你能去帮他把怪物都杀死!
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest:
+      - dungeon1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5静谧之地%§2击杀所有怪物
+      - SEND_MESSAGE §6任务提示-> §6进入副本§5静谧之地，§2击杀所有怪物
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%静谧之地
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: shilian3
+          Amount: 1
+        '2':
+          ObjectType: KILL_MOB
+          MythicMob: shilian2
+          Amount: 1
+        '3':
+          ObjectType: KILL_MOB
+          MythicMob: shilian1
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: IRON_INGOT
+            amount: 16
+      Money: 400.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587338590339
+  dungeon3-1:
+    QuestName: 祥和村
+    QuestOutline:
+    - 我们周边的一个村落祥和村，一个宁静祥和的村庄，也出现了很多怪物，而且现在已经被怪物包围了!
+    - 英雄，希望你能去救救他们!
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest:
+      - dungeon2-1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5祥和村%§2击杀所有怪物
+      - SEND_MESSAGE §6任务提示-> §6进入副本§5祥和村，§2击杀所有怪物
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%祥和村
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: 骷髅战士
+          Amount: 2
+        '2':
+          ObjectType: KILL_MOB
+          MythicMob: 骷髅守卫
+          Amount: 2
+        '3':
+          ObjectType: KILL_MOB
+          MythicMob: 白眼骷髅
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: IRON_INGOT
+            amount: 32
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GOLD_INGOT
+            amount: 8
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: DIAMOND
+            amount: 4
+      Money: 500.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587339316430
+  dungeon4-1:
+    QuestName: 神奇矿车
+    QuestOutline:
+    - 听说有个地方连矿车都成精了，严重影响周围人们的生活，你去解决一下吧!
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest:
+      - dungeon3-1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5神奇矿车%§2击杀矿车司令
+      - SEND_MESSAGE §6任务提示-> §6进入副本§5神奇矿车，§2击杀矿车司令
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%神奇矿车
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: kc_siling
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Money: 500.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587348784568
+  dungeon5-1:
+    QuestName: 落雪村
+    QuestOutline:
+    - 另外一个村庄落雪村也出现了怪物，听说里面有很多恐怖的蜘蛛，希望英雄您能去帮帮他们!
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest:
+      - dungeon4-1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5落雪村%§2击杀所有怪物
+      - SEND_MESSAGE §6任务提示-> §6进入副本§5落雪村，§2击杀所有怪物
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%落雪村
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: lx_xueren
+          Amount: 4
+        '2':
+          ObjectType: KILL_MOB
+          MythicMob: 雪蜘蛛T1
+          Amount: 1
+        '3':
+          ObjectType: KILL_MOB
+          MythicMob: 毒蜘蛛
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PAPER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §e§l九选一抽奖箱§3§l的钥匙
+              lore:
+              - §7一把开启抽奖箱的钥匙
+              - §7用它打开§e§l九选一抽奖箱
+              custom-model-data: 35
+              internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqB88nOuS8bOp/saGAAAFx4Hf0jAAAA
+      Money: 600.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587349159698
+  dungeon6-1:
+    QuestName: 暗金术士
+    QuestOutline:
+    - 一个小型的城镇内出现一个很邪恶的法师，英雄能帮我们铲除他吗？
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest:
+      - dungeon5-1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5暗金术士%§2击杀暗金术士
+      - SEND_MESSAGE §6任务提示-> §6进入副本§5暗金术士，§2击杀暗金术士
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%暗金术士
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: anjinshushi
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PAPER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §e§l快速抽奖箱§3§l的钥匙
+              lore:
+              - §7一把开启抽奖箱的钥匙
+              - §7用它打开§e§l快速抽奖箱
+              custom-model-data: 36
+              internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqB7en+1S8b5jMAAJYO1kUgAAAA
+      Money: 700.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587349748653
+  dungeon7-1:
+    QuestName: 守护者营地
+    QuestOutline:
+    - 曾经我们的朋友铁傀儡现在也出现了问题，他们不再是我们的守护者了，他们还将我们的一些同胞邪恶化了。为了避免越来越多的同胞变的邪恶，我们必须消灭他们！
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest:
+      - dungeon6-1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5守护者营地%§2击杀守护者
+      - SEND_MESSAGE §6任务提示-> §6进入副本§5守护者营地，§2击杀守护者
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%守护者营地
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: 守护者
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PAPER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §e§l九选一抽奖箱§3§l的钥匙
+              lore:
+              - §7一把开启抽奖箱的钥匙
+              - §7用它打开§e§l九选一抽奖箱
+              custom-model-data: 35
+              internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqB88nOuS8bOp/saGAAAFx4Hf0jAAAA
+      Money: 800.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587350045776
+  dungeon8-1:
+    QuestName: 烈焰王
+    QuestOutline:
+    - 远古生物烈焰王复活了，他的复活代表着会有越来越糟的事情发生
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest:
+      - dungeon7-1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5烈焰王%§2击杀烈焰王
+      - SEND_MESSAGE §6任务提示-> §6进入副本§5烈焰王，§2击杀烈焰王
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%烈焰王
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: lieyanwang
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PAPER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §e§l快速抽奖箱§3§l的钥匙
+              lore:
+              - §7一把开启抽奖箱的钥匙
+              - §7用它打开§e§l快速抽奖箱
+              custom-model-data: 36
+              internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqB7en+1S8b5jMAAJYO1kUgAAAA
+      Money: 900.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587350422667
+  dungeon9-1:
+    QuestName: 明月城
+    QuestOutline:
+    - 明月城也沦陷了，曾经那么雄伟的一座城堡，听说里面被一个僵尸首领占领了，希望英雄您能出手相救！
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest:
+      - dungeon8-1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5明月城%§2击杀僵尸首领
+      - SEND_MESSAGE §6任务提示-> §6进入副本§5明月城，§2击杀僵尸首领
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%明月城
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: 明月城僵尸
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: IRON_BLOCK
+            amount: 2
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: DIAMOND_BLOCK
+            amount: 2
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GOLD_BLOCK
+            amount: 2
+      Money: 1000.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587350739111
+  dungeon10-1:
+    QuestName: 血魔部落
+    QuestOutline:
+    - 臭名昭著的血魔部落，以喝血为生的部落，也在此时又开始活动了，我们曾经把他们击退过，没想到最近他们又出现了，不知英雄你能否祝我们一臂之力呢？
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: false
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest:
+      - dungeon9-1
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6进入副本§5血魔部落%§2击杀血魔护卫和血魔
+      - SEND_MESSAGE §6任务提示-> §6进入副本§5血魔部落，§2击杀血魔护卫和血魔
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%血魔部落
+      TRIGGER_STAGE_START:
+      - 2 SEND_MESSAGE §6任务提示-> §f回去汇报给任务使者吧！
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: xuemohuwei
+          Amount: 1
+        '2':
+          ObjectType: KILL_MOB
+          MythicMob: xuemo
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PAPER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §e§l九选一抽奖箱§3§l的钥匙
+              lore:
+              - §7一把开启抽奖箱的钥匙
+              - §7用它打开§e§l九选一抽奖箱
+              custom-model-data: 35
+              internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqB88nOuS8bOp/saGAAAFx4Hf0jAAAA
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PAPER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §e§l快速抽奖箱§3§l的钥匙
+              lore:
+              - §7一把开启抽奖箱的钥匙
+              - §7用它打开§e§l快速抽奖箱
+              custom-model-data: 36
+              internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqB7en+1S8b5jMAAJYO1kUgAAAA
+      Money: 1100.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587350959738
+  boss1-1:
+    QuestName: 尸王
+    QuestOutline:
+    - 参与世界Boss尸王，并击杀僵尸战士一只！
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: true
+    RedoDelayMilliseconds: 518400000
+    TimeLimited: false
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: jiangshizhanshi1
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587361232393
+    Requirements:
+      Level: 0
+      Quest: []
+      Money: 0.0
+    TriggerEvents:
+      TRIGGER_ON_TAKE:
+      - SEND_TITLE_AND_SUBTITLE §6参加每周一次的尸王boss%§6尝试击杀尸王
+      - SEND_TITLE §6任务提示-> §6参加每周一次的尸王boss,尝试击杀尸王
+      TRIGGER_ON_FINISH:
+      - SEND_TITLE_AND_SUBTITLE 任务完成%尸王
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PAPER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §e§l烟花抽奖箱§3§l的钥匙
+              lore:
+              - §7一把开启抽奖箱的钥匙
+              - §7用它打开§e§l烟花抽奖箱
+              custom-model-data: 39
+              internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqB7Xnz/BddGxkAsC18SyAAAAA=
+      RewardNPC: 8
+  boss2-1:
+    QuestName: 尸王宝宝
+    QuestOutline:
+    - 参与世界Boss僵尸宝宝，并击杀一只尸王小守卫来完成任务。
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: true
+    RedoDelayMilliseconds: 518400000
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest: []
+      Money: 0.0
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: sw_xiaoshouwei
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Choice:
+        '1':
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PAPER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §e§l九选一抽奖箱§3§l的钥匙
+              lore:
+              - §7一把开启抽奖箱的钥匙
+              - §7用它打开§e§l九选一抽奖箱
+              custom-model-data: 35
+              internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqB88nOuS8bOp/saGAAAFx4Hf0jAAAA
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587362190542
+  boss3-1:
+    QuestName: 凋零王
+    QuestOutline:
+    - 参与世界Boss凋零王，并击杀凋零士兵一个！
+    QuestNPC: 8
+    MessageRequirementNotMeet: §c你并没有达到指定的任务条件。
+    Redoable: true
+    RedoDelayMilliseconds: 72000000
+    TimeLimited: false
+    Requirements:
+      Level: 0
+      Quest: []
+      Money: 0.0
+    Stages:
+      '1':
+        '1':
+          ObjectType: KILL_MOB
+          MythicMob: diaolingshibing
+          Amount: 1
+      '2':
+        '1':
+          ObjectType: TALK_TO_NPC
+          TargetNPC: 8
+    Rewards:
+      RewardAmount: 1
+      InstantGiveReward: false
+      Money: 400.0
+      RewardNPC: 8
+    UsePermission: false
+    Visibility:
+      onTake: true
+      onProgress: true
+      onFinish: true
+      onInteraction: true
+    QuitSettings:
+      Quitable: true
+      QuitAcceptMsg: §0是，我要放弃。
+      QuitCancelMsg: §0不，我要反悔！
+    Version: 1587362707165

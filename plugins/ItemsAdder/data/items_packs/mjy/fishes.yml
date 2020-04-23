@@ -1,0 +1,139 @@
+info:
+  namespace: mjy
+items:
+  qinghua_fish:
+    display_name: '&2青花鱼'
+    permission: qinghua_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/qinghua_fish.png
+  fei_fish:
+    display_name: '&2鲱鱼'
+    permission: fei_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/fei_fish.png
+  haidiao_fish:
+    display_name: '&2海鲷鱼'
+    permission: haidiao_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/haidiao_fish.png
+  heilu_fish:
+    display_name: '&2黑鲈鱼'
+    permission: heilu_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/heilu_fish.png
+  jinqiang_fish:
+    display_name: '&2金枪鱼'
+    permission: jinqiang_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/jinqiang_fish.png
+  shrimp:
+    display_name: '&2虾'
+    permission: shrimp
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/shrimp.png
+  lansha_fish:
+    display_name: '&2蓝鲨'
+    permission: lansha_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/lansha_fish.png
+  bimu_fish:
+    display_name: '&2比目鱼'
+    permission: bimu_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/bimu_fish.png
+  gu_fish:
+    display_name: '&2骨鱼'
+    permission: gu_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/gu_fish.png
+  gold_fish:
+    display_name: '&2金鱼'
+    permission: gold_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/gold_fish_2.png
+  duoxushishou_fish:
+    display_name: '&2多须石首鱼'
+    permission: duoxushishou_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/duoxushishou_fish.png
+  fenhetun_fish:
+    display_name: '&2粉河豚'
+    permission: fenhetun_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/fenhetun_fish.png
+  jing_fish:
+    display_name: '&2鲸鱼'
+    permission: jing_fish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/jing_fish
+  crab:
+    display_name: '&2螃蟹'
+    permission: crab
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/crab
+  squid:
+    display_name: '&2鱿鱼'
+    permission: squid
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/squid
+  jellyfish:
+    display_name: '&2水母'
+    permission: jellyfish
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/jellyfish
+  turtle:
+    display_name: '&2海龟'
+    permission: turtle
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+      - item/fish/turtle

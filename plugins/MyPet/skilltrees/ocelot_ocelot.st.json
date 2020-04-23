@@ -1,0 +1,119 @@
+{
+  "ID": "ocelot_ocelot",
+  "Order": 6,
+  "Name": "血耐型豹猫",
+  "Requirements": [
+    "Permission:ocelot"
+  ],
+  "Icon": {
+    "Material": "cod"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c血耐型宠物",
+    "\u0026f最大宠物攻击6",
+    "\u0026f最大宠物血量170",
+    "\u0026f最大反弹伤害25%",
+    "\u0026f宠物技能：",
+    "\u0026f -荆棘保护(10级领悟,最大概率40%)",
+    "\u0026f -生命恢复(最快4秒恢复5点血)"
+  ],
+  "MobTypes": [
+    "Cat",
+    "Ocelot"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {}
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<30": {
+          "Damage": "+0.2"
+        }
+      }
+    },
+    "Heal": {
+      "Upgrades": {
+        "10": {
+          "Health": "+2",
+          "Timer": "+30"
+        },
+        "15": {
+          "Health": "+1",
+          "Timer": "-5"
+        },
+        "20": {
+          "Timer": "-5"
+        },
+        "30": {
+          "Timer": "-5"
+        },
+        "40": {
+          "Timer": "-5"
+        },
+        "50": {
+          "Health": "+1",
+          "Timer": "-3"
+        },
+        "60": {
+          "Health": "+1",
+          "Timer": "-3"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+4"
+        },
+        "%1>11<30": {
+          "Health": "+1.5"
+        },
+        "%1>31<50": {
+          "Health": "+1"
+        },
+        "%1>51<100": {
+          "Health": "+0.7142"
+        }
+      }
+    },
+    "Thorns": {
+      "Upgrades": {
+        "65": {
+          "Reflection": "+2",
+          "Chance": "+3"
+        },
+        "70": {
+          "Reflection": "+2",
+          "Chance": "+3"
+        },
+        "80": {
+          "Reflection": "+2",
+          "Chance": "+3"
+        },
+        "%2>10<40": {
+          "Reflection": "+1",
+          "Chance": "+1"
+        },
+        "%5>41<60": {
+          "Reflection": "+1",
+          "Chance": "+4"
+        }
+      }
+    }
+  }
+}

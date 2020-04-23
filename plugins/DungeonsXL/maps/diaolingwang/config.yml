@@ -1,0 +1,81 @@
+initialLives: 5
+
+title:
+  title: "&4凋零王BOSS"
+  subtitle: "&6你共有5条命"
+  
+time: 6000
+
+dps:
+  exp: 100-300
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:diaolingwang_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&9凋零王的长剑"
+      model: 28
+  '2':
+    cmd: give %player% diamond 14
+    chance: 0.14
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石14个"
+      model: 0
+  '3':
+    cmd: give %player% diamond 8
+    chance: 0.17
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石8个"
+      model: 0
+  '4':
+    cmd: give %player% emerald 6
+    chance: 0.11
+    icon:
+      id: EMERALD
+      displayName: "&6绿宝石6个"
+      model: 0
+  '5':
+    cmd: ph giveitem %player% mjy:diaolingwang_head
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5凋零王的皇冠"
+      model: 11
+  '6':
+    cmd: ph giveitem %player% mjy:yeren_sword
+    chance: 0.12
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&8夜刃"
+      model: 33
+  '7':
+    cmd: ph giveitem %player% mjy:tiaozhanzhe_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5挑战者之剑"
+      model: 49
+  '8':
+    cmd: ph giveitem %player% mjy:diaolingwang_chest
+    chance: 0.06
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&5凋零王的护甲"
+      model: 12
+  '9':
+    cmd: ph giveitem %player% mjy:gujian_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&9骨剑"
+      model: 35
+  '10':
+    cmd: cc give p 跑马灯 1 %player%
+    chance: 0.04
+    icon:
+      id: PAPER
+      displayName: "&5跑马灯抽奖箱钥匙"
+      model: 38

@@ -1,0 +1,109 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+# ###############
+# Normal
+# ###############
+CAVE_SPIDER:
+  Health: 30
+  Damage: 6
+ZOMBIE:
+  Health: 40
+  Damage: 6
+BABY_ZOMBIE:
+  Health: 40
+  Damage: 6
+SPIDER:
+  Health: 40
+  Damage: 6
+GIANT:
+  Health: 1000
+  Damage: 20
+  Skills:
+  - potion{type=POISON;duration=100;lvl=1} @target ~onAttack
+ELDER_GUARDIAN:
+  Health: 120
+GUARDIAN:
+  Health: 60
+  Damage: 11
+DROWNED:
+  Health: 60
+  Damage: 14
+BABY_DROWNED:
+  Health: 60
+  Damage: 14
+CREEPER:
+  Health: 40
+HUSK:
+  Health: 40
+  Damage: 6
+PHANTOM:
+  Health: 40
+  Damage: 5
+SHULKER:
+  Health: 60
+  Damage: 5
+SILVERFISH:
+  Health: 12
+  Damage: 2
+SKELETON:
+  Health: 30
+  Damage: 4
+SLIME:
+  Health: 20
+  Damage: 6
+STRAY:
+  Health: 40
+  Damage: 7
+VEX:
+  Health: 30
+  Damage: 14
+EVOKER:
+  Health: 48
+  Damage: 11
+VINDICATOR:
+  Health: 48
+  Damage: 21
+WITCH:
+  Health: 52
+ZOMBIE_VILLAGER:
+  Health: 40
+  Damage: 6
+IRON_GOLEM:
+  Health: 200
+BEE:
+  Health: 20
+PILLAGER:
+  Health: 48
+RAVAGER:
+  Health: 200
+# ###############
+# The End
+# ###############
+ENDERMAN:
+  Health: 100
+  Damage: 16
+ENDERMITE:
+  Health: 24
+  Damage: 6
+# ###############
+# The nether
+# ###############
+PIG_ZOMBIE:
+  Health: 60
+  Damage: 15
+BABY_PIG_ZOMBIE:
+  Health: 60
+  Damage: 15
+GHAST:
+  Health: 40
+BLAZE:
+  Health: 60
+  Damage: 12
+WITHER_SKELETON:
+  Health: 60
+  Damage: 15
+MAGMA_CUBE:
+  Health: 20
+  Damage: 6

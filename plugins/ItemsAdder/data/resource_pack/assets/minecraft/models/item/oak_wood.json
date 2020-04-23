@@ -1,0 +1,443 @@
+{
+  "parent": "block/oak_wood",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:item/old_clock"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:item/opened_chest"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:item/computer_desk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "itemsadder:item/table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "itemsadder:item/lamp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "itemsadder:item/simple_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "itemsadder:item/lava_lamp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "itemsadder:item/white_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "itemsadder:item/glass_table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "itemsadder:item/computer_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "itemsadder:item/monitor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "itemsadder:item/tv"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "itemsadder:item/mini_fridge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "itemsadder:item/energy_extractor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "itemsadder:item/energy_converter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "itemsadder:item/vending_machine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "itemsadder:item/coffee_machine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "itemsadder:item/mysterious_stone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "itemsadder:item/alchemy_candles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "itemsadder:item/painting_burst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "itemsadder:item/painting_courbet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "itemsadder:item/painting_graham"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "itemsadder:item/painting_match"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "itemsadder:item/painting_pool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "itemsadder:item/painting_skull_and_roses"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "itemsadder:item/painting_stage"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "itemsadder:item/painting_void"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "itemsadder:item/painting_wanderer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "itemsadder:item/white_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "itemsadder:item/orange_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "itemsadder:item/magenta_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "itemsadder:item/light_blue_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "itemsadder:item/yellow_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "model": "itemsadder:item/lime_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "model": "itemsadder:item/pink_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 36
+      },
+      "model": "itemsadder:item/gray_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 37
+      },
+      "model": "itemsadder:item/light_gray_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "model": "itemsadder:item/cyan_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "model": "itemsadder:item/purple_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 40
+      },
+      "model": "itemsadder:item/blue_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "model": "itemsadder:item/brown_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 42
+      },
+      "model": "itemsadder:item/green_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 43
+      },
+      "model": "itemsadder:item/red_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 44
+      },
+      "model": "itemsadder:item/black_bar_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 45
+      },
+      "model": "itemsadder:item/white_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "itemsadder:item/orange_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "itemsadder:item/magenta_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "itemsadder:item/light_blue_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "itemsadder:item/yellow_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "itemsadder:item/lime_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "itemsadder:item/pink_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "itemsadder:item/gray_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "model": "itemsadder:item/light_gray_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "itemsadder:item/cyan_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "itemsadder:item/purple_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "model": "itemsadder:item/blue_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "model": "itemsadder:item/brown_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "itemsadder:item/green_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 59
+      },
+      "model": "itemsadder:item/red_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "model": "itemsadder:item/black_wood_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61
+      },
+      "model": "itemsadder:item/dark_throne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 62
+      },
+      "model": "itemsadder:item/school_chair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 63
+      },
+      "model": "itemsadder:item/school_chair_lazy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 64
+      },
+      "model": "itemsadder:item/white_chandeliers"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 65
+      },
+      "model": "itemsadder:item/black_chandeliers"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 66
+      },
+      "model": "itemsadder:item/black_and_red_chandeliers"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 67
+      },
+      "model": "itemsadder:item/small_fountain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 68
+      },
+      "model": "itemsadder:item/lit_campfire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 69
+      },
+      "model": "itemsadder:item/decorative_pumpkin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 70
+      },
+      "model": "itemsadder:item/christmas_tree"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 71
+      },
+      "model": "itemsadder:item/christmas_candle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 72
+      },
+      "model": "itemsadder:item/decorative_candy_cane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 73
+      },
+      "model": "itemsadder:item/christmas_wreath"
+    }
+  ]
+}

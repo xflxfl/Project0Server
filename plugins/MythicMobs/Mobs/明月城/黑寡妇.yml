@@ -1,0 +1,21 @@
+﻿heiguafu:
+  Type: CAVE_SPIDER
+  Display: '&4黑寡妇'
+  Health: 140
+  Damage: 8
+  Armor: 1
+  Options:
+    FollowRange: 20
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - pull{v=20} @Target ~onCombat 0.2
+  - skill{s=heiguafu} @Self ~onDamaged <50% 0.3
+  - potion{type=DAMAGE_RESISTANCE;d=60;l=2} @target ~onDamaged 0.2
+  - potion{type=POISON;d=60;l=2} @target ~onDamaged 0.2

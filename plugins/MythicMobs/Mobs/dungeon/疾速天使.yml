@@ -1,0 +1,23 @@
+﻿jisutianshi:
+  Type: ZOMBIE
+  Display: '&2急速天使'
+  Health: 100
+  Damage: 15
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.5
+    KnockbackResistance: 0.3
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - huangjin4:4
+  - huangjin2:2
+  - huangjinjian:0
+  Skills:
+  - teleport{spreadH=3} @target ~onTimer:100 >0 0.2
+  - effect:particles{p=angryVillager;a=3;hS=0.3;vS=0.3;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8

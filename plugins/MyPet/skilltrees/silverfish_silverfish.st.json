@@ -1,0 +1,100 @@
+{
+  "ID": "silverfish_silverfish",
+  "Order": 5,
+  "Name": "攻击型蠹虫",
+  "Requirements": [
+    "Permission:silverfish"
+  ],
+  "Icon": {
+    "Material": "stone"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c攻击型宠物",
+    "\u0026f最大宠物攻击18",
+    "\u0026f最大宠物血量100",
+    "\u0026f宠物技能：",
+    "\u0026f -凋零攻击(30级领悟，最大几率35%，持续3秒)"
+  ],
+  "MobTypes": [
+    "Silverfish"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {}
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Damage": "+0.4"
+        },
+        "%1>11<30": {
+          "Damage": "+0.2"
+        },
+        "%2>31<40": {
+          "Damage": "+0.4"
+        },
+        "%1>41<100": {
+          "Damage": "+0.13333"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<30": {
+          "Health": "+1"
+        },
+        "%1>31<50": {
+          "Health": "+0.5"
+        },
+        "%1>51<100": {
+          "Health": "+0.8"
+        }
+      }
+    },
+    "Wither": {
+      "Upgrades": {
+        "30": {
+          "Duration": "+1",
+          "Chance": "+10"
+        },
+        "40": {
+          "Duration": "+1",
+          "Chance": "+5"
+        },
+        "50": {
+          "Chance": "+5"
+        },
+        "60": {
+          "Chance": "+5"
+        },
+        "70": {
+          "Chance": "+5"
+        },
+        "80": {
+          "Duration": "+1",
+          "Chance": "+2"
+        },
+        "90": {
+          "Chance": "+1"
+        },
+        "100": {
+          "Chance": "+2"
+        }
+      }
+    }
+  }
+}

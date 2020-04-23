@@ -1,0 +1,58 @@
+maxLevel: 30
+chatPrefix: true
+formula:
+  coefficient:
+  - 10.0
+  - 10.0
+  - 80.0
+  power:
+  - 2.0
+  - 1.5
+  - 1.0
+reward:
+  '2':
+    msg: '升级奖励:&2100金币'
+    command:
+    - eco give %player% 100
+  '3':
+    msg: '升级奖励:&2150金币'
+    command:
+    - eco give %player% 150
+  '4':
+    msg: '升级奖励:&2200金币'
+    command:
+    - eco give %player% 200
+  '5':
+    msg: '升级奖励:&2250金币'
+    command:
+    - eco give %player% 250
+  '10':
+    msg: '升级奖励:&2500金币,九选一抽奖箱钥匙一把'
+    command:
+    - eco give %player% 500
+    - cc give p 九选一 1 %player%
+  '15':
+    msg: '升级奖励:&21000金币,快速抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 快速 1 %player%
+  '20':
+    msg: '升级奖励:&21000金币,老虎机抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 老虎机 1 %player%
+  '25':
+    msg: '升级奖励:&21000金币,跑马灯抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 跑马灯 1 %player%
+  '30':
+    msg: '升级奖励:&21000金币,烟花抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 烟花 1 %player%
+  '35':
+    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
+    command:
+    - eco give %player% 1000
+    - cc give p 疯狂 1 %player%

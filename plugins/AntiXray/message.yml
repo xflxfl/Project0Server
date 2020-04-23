@@ -1,0 +1,12 @@
+HowManyPoints: §a[反透视系统] §3您当前剩余挖矿点数为§a{points}
+Reload: §a[反透视系统] §c配置重载成功!
+CannotFindPlayer: §a[反透视系统] §4目标玩家不在线或不存在
+CheckPlayerPoints: §a[反透视系统] §3该玩家当前剩余挖矿点数为§a{points}
+DontHavePermission: §a[反透视系统] §c你没有权限这么做
+GivePlayerPoints: §a[反透视系统] §3你给予§a {player} §2 {givepoints} §3 挖矿点数，该玩家当前剩余挖矿点数为§a{points}
+ReceivePlayerPoints: §a[反透视系统] §3你收到来自§e{player}§3的§a{receivepoints}挖矿点数
+GetRecoverItem: §a[反透视系统] §3获得物品
+ResetPlayer: §a[反透视系统] §3已重置玩家§a {player} §3的挖矿点数
+DontHaveEnoughPoints: §a[反透视系统] §3挖矿点数不足。您当前挖矿点数为§a {points}
+AlreadyHadEnoughPoints: §a[反透视系统] §3你的挖矿点数已达上限
+RecoverPoints: §a[反透视系统] §3你的挖矿点数增加了§a {recoverpoints}

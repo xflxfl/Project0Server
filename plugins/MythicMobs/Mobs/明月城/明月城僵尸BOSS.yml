@@ -1,0 +1,27 @@
+明月城僵尸:
+  MobType: zombie
+  Display: '&5僵尸首领'
+  Health: 300
+  Damage: 9
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - effect:sound{s=block.stone.break;volume=1;p=0.5} @Self ~onDamaged
+  - effect:particlesphere{p=witchMagic;a=40;radius=1;y=0.5} @Self ~onTimer:5
+  - summon{m=明月城僵尸守卫;a=2;r=5} @Self ~onSpawn
+  - summon{m=明月城僵尸守卫;a=1;r=5} @Target ~onDamaged 0.1
+  - summon{m=明月城僵尸战士;a=1;r=5} @Target ~onDamaged 0.1
+  - summon{m=明月城隐身僵尸;a=1;r=5} @Target ~onDamaged 0.1
+  Equipment:
+  - huangjinjian:0
+  Options:
+    Despawn: false
+    Silent: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ReinforcementsChance: 0
+    MovementSpeed: 0.35

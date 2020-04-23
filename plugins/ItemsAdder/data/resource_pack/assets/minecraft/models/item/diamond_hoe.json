@@ -1,0 +1,44 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/diamond_hoe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/ruby_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/spinel_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:auto_generated/turquoise_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "itemsadder:auto_generated/aqua_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "itemsadder:auto_generated/amethyst_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "itemsadder:auto_generated/bronze_hoe"
+    }
+  ]
+}

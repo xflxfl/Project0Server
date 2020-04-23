@@ -1,0 +1,66 @@
+﻿shilian2:
+  Type: SKELETON
+  Display: '弱小的骷髅'
+  Health: 25
+  Damage: 3.5
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventSunburn: true
+    FollowRange: 20
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Equipment:
+  - pige4:4
+  - pige3:3
+  - pige2:2
+  - pige1:1 
+  - mujian:0
+  
+shilian2T1:
+  Type: SKELETON
+  Display: '弱小的骷髅'
+  Health: 25
+  Damage: 3.5
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventSunburn: true
+    FollowRange: 20
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Equipment:
+  - mujian:0
+ 
+shilian2T2:
+  Type: SKELETON
+  Display: '弱小的骷髅'
+  Health: 25
+  Damage: 3.5
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventSunburn: true
+    FollowRange: 20
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Equipment:
+  - mujian:0

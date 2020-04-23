@@ -1,0 +1,12 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+lieyanwang:
+  Cooldown: 2
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - effect:particleline{particle=flame;amount=1;fromOrigin=true} @target
+  - sound{s=itemsadder:item.lightsaber.attack} @target
+  - damage{amount=8} @target 0.6

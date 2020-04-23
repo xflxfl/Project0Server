@@ -1,0 +1,17 @@
+{
+  "parent": "block/diamond_ore",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/turquoise_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/aqua_aura_ore"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿kc_zhanshi:
+  Type: ZOMBIE
+  Display: '&4矿车战士'
+  Health: 60
+  Damage: 4
+  Armor: 4
+  Modules:
+    ThreatTable: true
+  Options:
+    FollowRange: 10
+    AlwaysShowName: true
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+    Despawn: false
+  Disguise:
+    Type: minecart_furnace
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - pige3:3
+  Skills:
+  - leap{v=100} @Target ~onTimer:100 0.5

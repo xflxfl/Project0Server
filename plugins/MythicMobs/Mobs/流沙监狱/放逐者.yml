@@ -1,0 +1,40 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+放逐者:
+  Type: WITHER_SKELETON
+  Display: '&e&l放逐者'
+  Health: 100
+  Riding: 放逐者坐骑
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Damage: 10
+  Skills:
+  #- potion{type=WEAKNESS;duration=200;lvl=1} @Target ~onAttack
+  #- effect:particlering{particle=flame;radius=2;points=32;amount=2;hS=1;vS=0} @Self
+  #- skill{s=放逐者坐骑} @self ~onSpawn
+  - remove @MIR{r=5;t=放逐者坐骑} ~onDeath
+  Equipment:
+  - tie4:4
+  - tie3:3
+  - tie2:2
+  - tie1:1
+  - tiejian:0
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+放逐者坐骑:
+  Type: Spider
+  Display: '&e放逐者坐骑'
+  Damage: 4
+  Health: 20
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+    HorseTamed: true
+    HorseSaddled: true

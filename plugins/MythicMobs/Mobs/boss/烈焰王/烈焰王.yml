@@ -1,0 +1,32 @@
+﻿lieyanwang:
+  Type: Blaze
+  Display: '&c烈焰王'
+  Health: 1000
+  Damage: 1
+  Armor: 1
+  BossBar:
+    Enabled: true
+    Title: '&c烈焰王'
+    Range: 30
+    Color: RED
+    Style: SOLID
+  Modules:
+    ThreatTable: true
+  Options:
+    Despawn: false
+    AlwaysShowName: true
+    KnockbackResistance: 0.1
+    PreventOtherDrops: true
+    NoAI: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - PROJECTILE 1.5
+  Equipment:
+  - pige4:4
+  Skills:
+  - forcepull @PlayersInRadius{r=10} ~onDamaged 0.2
+  - potion{type=SLOW;d=40;l=3} @Target ~onTimer:100 0.3
+  - skill{s=lieyanwang} @target ~onTimer:40 >0 1

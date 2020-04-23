@@ -1,0 +1,89 @@
+lp:
+  - '&8------------------'
+  - '&b等级系统'
+  - '&b/lps &f显示该菜单'
+  - '&b/lps reload &f重载配置和玩家配置'
+  - '&b/lps info <player> &f显示该玩家的等级信息'
+  - '&b/lps booster list &f显示经验提升卡'
+  - '&b/lps booster use <multiplier> &f使用一个当前选中的经验提升卡'
+  - '&b/lps prestige &f如果满足要求，您就可以享有声望'
+  - '&b/lps booster give <player> <multiplier> <Amount> &f给予玩家一个经验提升卡'
+  - '&b/lps expgive <player> <amount> &f给予玩家一定的经验'
+  - '&b/lps expremove <player> <amount> &f移除玩家一定的经验'
+  - '&b/lps top &f显示Top10的玩家'
+  - '&b/lps setlevel <player> <level> &f设置玩家等级'
+  - '&b/lps setPrestige <player> <Prestige> &f设置玩家声望'
+  - '&b/lps addlevel <player> <level> &f增加玩家一定的等级'
+  - '&b/lps toggle &f 开关等级显示'
+  - '&8------------------'
+
+lpsInfo:
+  - '&b玩家&7> &3{lp_player}'
+  - '&2等级&7> &a{lp_level}'
+  - '&2经验&7> &a{lp_xp}'
+  - '&2当前等级进度&7> &a{lp_progress}'
+  - '&2声望&7> &a{lp_prestige}'
+
+lpsBoosterList: '&3{Booster_Multiplier}X &8>> &b{Booster_Amount}'
+
+lpsBoosterCooldown: '&6[等级系统] &c你仍然有 {TIME_FORMAT}&c 剩余时间, 请时间耗尽再使用经验卡'
+BoosterGive: '&6[等级系统] &2你获得了 {BoosterMultiplier}x 经验卡'
+lpsTimeFormat: '&3{HOURS}:{MINUTES}:{SECONDS}' #this will only support up to {DAYS} will never support above it
+
+lpsPrestigeLevelUP: '&6[等级系统] &2你的声望提升到 &a{PRESTIGE_AMOUNT}'
+lpsPrestigeLevelNot: '&6[等级系统] &c你的等级未到达: &4{MAX_LEVEL}&c, 请保持升级以获得声望'
+lpsPrestigeMoreEXP: '&6[等级系统] &c你还缺少 &4{EXP_AMOUNT}&c 点经验值来获得声望'
+
+lpsActionBarToggle: '&6[等级系统] &2你已设置实时显示等级为 &6{LP_Toggle_Value}'
+
+lpsEXPGIVEPlayer: '&6[等级系统] &c你必须选择一位玩家'
+lpsEXPREMOVEPlayer: '&6[等级系统] &c你必须选择一位玩家'
+lpsEXPGIVEAmount: '&6[等级系统] &c你必须输入经验数量'
+lpsEXPREMOVEAmount: '&6[等级系统] &c你必须输入经验数量'
+
+lpsTopListTop:
+  - '&8-----------------------'
+lpsTopListMid:
+  - '&b{LP_Ranked} &3{LP_Player} &b- {LP_LEVEL}'  #Warning the player tops should always only be in the mid or formatting will break
+lpsTopListBottom:
+  - '&8-----------------------'
+
+
+lpreload: '&6[等级系统] &a配置已重载'
+
+lpLevelCustomError: '&6[等级系统] &4最大等级未设置，请设置后再来使用此功能'
+lpLevelCustomErrorPlayer: '&6[等级系统] &c请联系管理员报告这个错误，错误代码: CL-EXP-Max'
+
+lpLevelUpTop: '&2你的等级已提升'
+lpLevelUpBottom: '&b你现在的等级为 {lp_level}'
+
+lpRewardMessage: '&b你已收到等级奖励'
+
+lpRewardTitleTop: '&b你已收到等级奖励'
+lpRewardTitleBottom: '&8奖励: &b'
+
+lpPerLevelOre: '&c你需要达到 {lp_required_level} 级才能挖这个方块'
+
+lpTimedReward: '&2你已收到 &6{EXP_Timed_Amount} 点奖励, &2下一个奖励会在 &6{EXP_Timed_Delay} 后发放'
+
+lpEXPGive: '&2你从 &6{LP_USER} &2收到了 &6{EXP_Amount} &2点经验' #Warning if you are using the EXP give command through the console DO NOT place THE, as (LP_USER) will auto correct to lpServerName anyway
+lpSetLevel: '&2你的新等级: &6{LEVEL} &2已被 &6{LP_USER} &2调整' #Warning if you are using the setlevel command through the console DO NOT place THE, as (LP_USER) will auto correct to lpServerName anyway
+lpSetPrestige: '&2你的新声望: &6{PRESTIGE} &2已被 &6{LP_USER} &2调整' #Warning if you are using the setPrestige command through the console DO NOT place THE, as (LP_USER) will auto correct to lpServerName anyway
+lpServerName: '服务器' #use this for when you are sending EXPGIVE command through console: DO NOT USE COLOR CODES THEY WILL NOT SHOW
+lpAdminEXPGive: '&2你已给予 &6{LP_TARGET} &2的经验为: &6{EXP_AMOUNT}' #This Will Send the The User that Uses The EXPGIVE Command
+lpAdminSetLevel: '&2你已设置 &6{LP_TARGET} &2的等级为: &6{LEVEL}' #This Will Send the The User that Uses The setlevel Command
+lpAdminSetPrestige: '&2你已设置 &6{LP_TARGET} &2的声望为: &6{PRESTIGE}' #This Will Send the The User that Uses The setPrestige Command
+
+lpEXPRemove: '&c你被 &4{LP_USER} &c扣除了 &4{EXP_AMOUNT} &c点经验' #Warning if you are using the EXP remove command through the console DO NOT place THE, as (LP_USER) will auto correct to lpServerName anyway
+lpAdminEXPRemove: '&c你被 &4{LP_USER} &c扣除了 &4{EXP_AMOUNT} &c点经验' #This Will Send the The User that Uses The EXPREMOVE Command
+
+
+EXPEarn: '&2你从 &6{Earn_Task} 获得了 &6{EXP_Amount} 点经验'
+
+lpActionBar: '&b等级: {PLAYER_LEVEL} &3{BAR} &b{EXP_CURRENT}/{EXP_REQUIRED}'
+lpBarDesignCompleted: '&3|'
+lpBarDesignRequired: '&7|'
+
+
+LPSErrorPermission: '&4你没有权限这么做'
+LPSNotOnline: '&4玩家 &c{PLAYER} &4不在线'

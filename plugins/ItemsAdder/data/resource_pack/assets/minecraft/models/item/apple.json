@@ -1,0 +1,50 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/apple"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/tomato"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/banana"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:auto_generated/garlic"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "itemsadder:auto_generated/lettuce"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "itemsadder:auto_generated/chili_pepper"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "itemsadder:auto_generated/pear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "itemsadder:auto_generated/rice"
+    }
+  ]
+}

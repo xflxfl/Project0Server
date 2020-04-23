@@ -1,0 +1,223 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    tomato_seeds:
+      permission: itemsadder.tomato_seeds
+      enabled: true
+      pattern:
+      - XXX
+      - XOX
+      - XXX
+      ingredients:
+        O: itemsadder:tomato
+      result:
+        item: itemsadder:tomato_seeds
+        amount: 2
+    garlic_seeds:
+      permission: itemsadder.garlic_seeds
+      enabled: true
+      pattern:
+      - XXX
+      - XOX
+      - XXX
+      ingredients:
+        O: itemsadder:garlic
+      result:
+        item: itemsadder:garlic_seeds
+        amount: 2
+    lettuce_seeds:
+      permission: itemsadder.lettuce_seeds
+      enabled: true
+      pattern:
+      - XXX
+      - XOX
+      - XXX
+      ingredients:
+        O: itemsadder:lettuce
+      result:
+        item: itemsadder:lettuce_seeds
+        amount: 2
+    chili_pepper_seeds:
+      permission: itemsadder.chili_pepper_seeds
+      enabled: true
+      pattern:
+      - XXX
+      - XOX
+      - XXX
+      ingredients:
+        O: itemsadder:chili_pepper
+      result:
+        item: itemsadder:chili_pepper_seeds
+        amount: 2
+    rice_seeds:
+      permission: itemsadder.rice_seeds
+      enabled: true
+      pattern:
+      - XXX
+      - XOX
+      - XXX
+      ingredients:
+        O: itemsadder:rice
+      result:
+        item: itemsadder:rice_seeds
+        amount: 2
+    tobacco_seeds:
+      permission: itemsadder.tobacco_seeds
+      enabled: true
+      pattern:
+      - XXX
+      - XOX
+      - XXX
+      ingredients:
+        O: itemsadder:tobacco
+      result:
+        item: itemsadder:tobacco_seeds
+        amount: 2
+# loots:
+  # blocks:
+    # grass:
+      # type: GRASS
+      # items:
+        # tomato_seeds:
+          # item: itemsadder:tomato_seeds
+          # min_amount: 1
+          # max_amount: 2
+          # chance: 5
+        # garlic_seeds:
+          # item: itemsadder:garlic_seeds
+          # min_amount: 1
+          # max_amount: 2
+          # chance: 5
+        # rice_seeds:
+          # item: itemsadder:rice_seeds
+          # min_amount: 1
+          # max_amount: 2
+          # chance: 10
+    # fern:
+      # type: FERN
+      # items:
+        # lettuce_seeds:
+          # item: itemsadder:lettuce_seeds
+          # min_amount: 1
+          # max_amount: 2
+          # chance: 10
+    # tall_grass:
+      # type: TALL_GRASS
+      # items:
+        # chili_pepper_seeds:
+          # item: itemsadder:chili_pepper_seeds
+          # min_amount: 1
+          # max_amount: 2
+          # chance: 5
+    # dead_bush:
+      # type: DEAD_BUSH
+      # items:
+        # tobacco_seeds:
+          # item: itemsadder:tobacco_seeds
+          # min_amount: 1
+          # max_amount: 2
+          # chance: 10
+items:
+  tomato_seeds:
+    display_name: Tomato Seeds
+    permission: tomato_seeds
+    resource:
+      material: WHEAT_SEEDS
+      generate: true
+      textures:
+      - item/tomato_seeds.png
+    specific_properties:
+      seed:
+        crop_block: SWEET_BERRY_BUSH
+        results:
+          result_1:
+            item: itemsadder:tomato
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+  garlic_seeds:
+    display_name: Garlic Seeds
+    permission: garlic_seeds
+    resource:
+      material: WHEAT_SEEDS
+      generate: true
+      textures:
+      - item/garlic_seeds.png
+    specific_properties:
+      seed:
+        crop_block: CARROTS
+        results:
+          result_1:
+            item: itemsadder:garlic
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+  lettuce_seeds:
+    display_name: Lettuce Seeds
+    permission: lettuce_seeds
+    resource:
+      material: WHEAT_SEEDS
+      generate: true
+      textures:
+      - item/lettuce_seeds.png
+    specific_properties:
+      seed:
+        crop_block: POTATOES
+        results:
+          result_1:
+            item: itemsadder:lettuce
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+  chili_pepper_seeds:
+    display_name: Chili Pepper Seeds
+    permission: chili_pepper_seeds
+    resource:
+      material: WHEAT_SEEDS
+      generate: true
+      textures:
+      - item/chili_pepper_seeds.png
+    specific_properties:
+      seed:
+        crop_block: BEETROOTS
+        results:
+          result_1:
+            item: itemsadder:chili_pepper
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+  rice_seeds:
+    display_name: Rice Seeds
+    permission: rice_seeds
+    resource:
+      material: WHEAT_SEEDS
+      generate: true
+      textures:
+      - item/rice_seeds.png
+    specific_properties:
+      seed:
+        crop_block: WHEAT
+        results:
+          result_1:
+            item: itemsadder:rice
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+  tobacco_seeds:
+    display_name: Tobacco Seeds
+    permission: tobacco_seeds
+    resource:
+      material: WHEAT_SEEDS
+      generate: true
+      textures:
+      - item/tobacco_seeds.png
+    specific_properties:
+      seed:
+        crop_block: WHEAT
+        results:
+          result_1:
+            item: itemsadder:tobacco
+            min_amount: 1
+            max_amount: 1
+            chance: 100

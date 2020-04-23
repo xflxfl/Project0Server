@@ -1,0 +1,37 @@
+minuteBefore: 10
+leaveGroup:
+  icon:
+    id: DIAMOND_SWORD
+    model: 16
+groups:
+  group1:
+    name: shiwang
+    displayName: 尸王
+    icon:
+      id: ZOMBIE_HEAD
+    startGameCmd: dxl play shiwang
+    day: 
+    - 6
+    time: '16:00'
+  group2:
+    name: diaolingwang
+    displayName: 凋零王
+    day:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    icon:
+      id: WITHER_SKELETON_SKULL
+    startGameCmd: dxl play diaolingwang
+    time: '16:00'
+  group3:
+    name: shiwangbaobao
+    displayName: 尸王宝宝
+    icon:
+      id: ZOMBIE_HEAD
+    startGameCmd: dxl play shiwangbaobao
+    day: 
+    - 7
+    time: '22:27'

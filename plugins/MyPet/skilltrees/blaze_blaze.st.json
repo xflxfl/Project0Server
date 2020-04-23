@@ -1,0 +1,111 @@
+{
+  "ID": "blaze_blaze",
+  "Order": 19,
+  "Name": "攻击型烈焰人(近战)",
+  "Requirements": [
+    "Permission:blaze"
+  ],
+  "Icon": {
+    "Material": "blaze_rod"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c近战攻击型宠物",
+    "\u0026f最大宠物攻击15",
+    "\u0026f最大宠物血量135",
+    "\u0026f宠物技能：",
+    "\u0026f -火焰攻击(最大几率30%)",
+    "\u0026f -生命恢复(最快15秒恢复10点血)"
+  ],
+  "MobTypes": [
+    "Blaze"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "1": {
+          "Aggro": false,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Damage": "+0.4"
+        },
+        "%1>11<30": {
+          "Damage": "+0.3"
+        },
+        "%1>31<100": {
+          "Damage": "+0.0714"
+        }
+      }
+    },
+    "Fire": {
+      "Upgrades": {
+        "10": {
+          "Duration": "+1",
+          "Chance": "+10"
+        },
+        "20": {
+          "Chance": "+5"
+        },
+        "30": {
+          "Duration": "+1",
+          "Chance": "+3"
+        },
+        "45": {
+          "Chance": "+3"
+        },
+        "50": {
+          "Duration": "+1",
+          "Chance": "+3"
+        },
+        "70": {
+          "Chance": "+3"
+        },
+        "100": {
+          "Duration": "+1",
+          "Chance": "+3"
+        }
+      }
+    },
+    "Heal": {
+      "Upgrades": {
+        "5": {
+          "Health": "+3",
+          "Timer": "+30"
+        },
+        "15": {
+          "Health": "+3",
+          "Timer": "-5"
+        },
+        "30": {
+          "Health": "+3",
+          "Timer": "-5"
+        },
+        "50": {
+          "Health": "+1",
+          "Timer": "-5"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+4"
+        },
+        "%1>11<30": {
+          "Health": "+2"
+        },
+        "%1>31<100": {
+          "Health": "+0.5"
+        }
+      }
+    }
+  }
+}

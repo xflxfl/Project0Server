@@ -1,0 +1,36 @@
+Database: MYSQL
+RecoverPointPerMinute: 30
+Points: 600
+RecoverItem:
+  ID: gold_ingot
+  Point: 100
+  Name: §2矿工玉米
+  Lore: §a这是一瓶神奇的玉米%§a右键吃掉它可以增加100挖矿点数
+  Recipe: 0-gold_ingot-0-gold_ingot-gold_ingot-gold_ingot-0-gold_ingot-0
+ToolsLimit: iron_pickaxe,wooden_pickaxe,stone_pickaxe,diamond_pickaxe,golden_pickaxe
+Worlds: world,world_nether,shengcun,kuangjie
+Notify: true
+world:
+  BlockInfo: gold_ore:10,iron_ore:5,diamond_ore:30,emerald_ore:50
+  HeightUnlimit: 60
+  RecoverPointByBreakingBlock:
+    OnUse: true
+    BlockInfo: stone:1,grass_block:1
+world_nether:
+  BlockInfo: glowstone:10
+  HeightUnlimit: 80
+  RecoverPointByBreakingBlock:
+    OnUse: false
+    BlockInfo: soul_sand:1
+shengcun:
+  BlockInfo: gold_ore:10,iron_ore:5,diamond_ore:30,emerald_ore:50
+  HeightUnlimit: 60
+  RecoverPointByBreakingBlock:
+    OnUse: true
+    BlockInfo: stone:1,grass_block:1
+kuangjie:
+  BlockInfo: gold_ore:10,iron_ore:5,diamond_ore:30,emerald_ore:50
+  HeightUnlimit: 60
+  RecoverPointByBreakingBlock:
+    OnUse: true
+    BlockInfo: stone:1,grass_block:1

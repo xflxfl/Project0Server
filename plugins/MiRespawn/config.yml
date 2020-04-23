@@ -1,0 +1,15 @@
+message:
+  enabled: false
+  message: "&3MiRespawn &8> &cYou've been respawned!"
+
+# This function will only work above Minecraft 1.8
+title:
+  enabled: true
+  title: "&c你死了"
+  subtitle: "&7已重生"
+  # The duration is given in seconds.
+  duration: 2
+
+# Do not touch this.
+# Removing this value will regenerate your config.
+plugin-version: 1.5.1

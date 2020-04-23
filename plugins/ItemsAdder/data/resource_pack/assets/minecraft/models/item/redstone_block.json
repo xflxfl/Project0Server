@@ -1,0 +1,17 @@
+{
+  "parent": "block/redstone_block",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/ruby_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/spinel_block"
+    }
+  ]
+}

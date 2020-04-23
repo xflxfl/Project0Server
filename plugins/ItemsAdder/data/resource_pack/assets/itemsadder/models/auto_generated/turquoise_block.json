@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "itemsadder:block/turquoise_block",
+    "particle": "itemsadder:block/turquoise_block"
+  }
+}

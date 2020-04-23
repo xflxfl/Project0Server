@@ -1,0 +1,25 @@
+﻿守卫者1:
+  Type: Zombie
+  Display: '&2守卫者1号'
+  Health: 150
+  Damage: 4
+  Armor: 2
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - tie2:2
+  - tie3:3
+  - huangjinjian:0
+  Skills:
+  - effect:particles{p=angryVillager;a=3;hS=0.3;vS=0.3;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8
+  - leap{v=200} @Target ~onDamaged 0.2

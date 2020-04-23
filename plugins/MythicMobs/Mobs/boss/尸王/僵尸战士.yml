@@ -1,0 +1,69 @@
+﻿jiangshizhanshi1:
+  Type: ZOMBIE
+  Display: '&3僵尸战士 &c1级'
+  Health: 60
+  Damage: 8
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige1:1
+  - pige2:2
+  - pige3:3
+  - pige4:4
+  - shitoujian:0
+  Skills:
+  - heal{a=30;overheal=false} @Self ~onDamaged =10%-20% 0.3
+jiangshizhanshi2:
+  Type: ZOMBIE
+  Display: '&3僵尸战士 &c2级'
+  Health: 80
+  Damage: 9
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige1:1
+  - pige2:2
+  - pige3:3
+  - pige4:4
+  - shitoujian:0
+  Skills:
+  - heal{a=35;overheal=false} @Self ~onDamaged =10%-30% 0.35
+jiangshizhanshi3:
+  Type: ZOMBIE
+  Display: '&3僵尸战士 &c3级'
+  Health: 100
+  Damage: 10
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige1:1
+  - pige2:2
+  - pige3:3
+  - pige4:4
+  - shitoujian:0
+  Skills:
+  - heal{a=40;overheal=false} @Self ~onDamaged =10%-40% 0.4

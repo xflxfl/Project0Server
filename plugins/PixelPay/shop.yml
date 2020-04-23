@@ -1,0 +1,33 @@
+#礼包名请不要超过10个字符
+vip1:
+#礼包名
+  money: 15
+  #售价（元）
+  commands:
+    - 'vip give {0} vip1 31'
+  #出售后执行的命令
+  #注: 上方指令支持PlaceholderAPI变量
+  desc: '购买Vip1会员'
+  #显示在网页上的礼包信息
+vip2:
+  money: 25
+  commands:
+    - 'vip give {0} vip2 31'
+  desc: '购买Vip2会员'
+  
+vip3:
+  money: 40
+  commands:
+    - 'vip give {0} vip3 31'
+  desc: '购买Vip3会员'
+  
+钥匙礼包:
+  money: 12
+  commands:
+    - 'cc give p 九选一 1 {0}'
+    - 'cc give p 快速 1 {0}'
+    - 'cc give p 烟花 1 {0}'
+    - 'cc give p 疯狂 1 {0}'
+    - 'cc give p 老虎机 1 {0}'
+    - 'cc give p 跑马灯 1 {0}'
+  desc: '6种抽奖钥匙各一把'

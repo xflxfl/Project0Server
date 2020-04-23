@@ -1,0 +1,23 @@
+明月城隐身僵尸:
+  MobType: zombie
+  Display: '&5隐身僵尸'
+  Health: 40
+  Damage: 6
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - skill{s=隐身} @self ~onSpawn
+  Equipment:
+  - pige1:1
+  - suolian3:3
+  - huangjinjian:0
+  Options:
+    Silent: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    ReinforcementsChance: 0
+    MovementSpeed: 0.25
+    Despawn: false

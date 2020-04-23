@@ -1,0 +1,87 @@
+resource-pack:
+  apply-on-join: true
+  kick-player-on-decline: true
+  kick-player-on-fail: true
+  delay-ticks: 1
+  self-host:
+    enabled: true
+    server-ip: 127.0.0.1
+    pack-port: 8163
+  external-host:
+    enabled: false
+    url: http://matteodev.it/spigot/itemsadder/res/v2/pack.zip
+  custom-font:
+    enabled: false
+    name: ipaexg.ttf
+blocks:
+  light-api: true
+  fix-bugged-mushrooms:
+    enabled: true
+    only-new-chunks: true
+  cancel-break-wrong-tool:
+    enabled: true
+    send-actionbar: true
+    mining-fatigue:
+      enabled: true
+      duration: 40
+      amplifier: 1
+  campfire:
+    unlit-on-place: true
+    allow-any-item: true
+items:
+  fix-show-attack-and-damage-as-lore: false
+  give_death_location_maps: false
+font_images:
+  chat:
+    enabled: true
+  command:
+    enabled: true
+    excluded:
+    - home
+    - sethome
+    - tpa
+    commandblocks: true
+  sign:
+    enabled: true
+  book:
+    enabled: true
+  anvil:
+    enabled: true
+  negative-spaces-font:
+    enabled: true
+huds:
+  enabled: false
+config_files:
+  update-automatically: false
+  lang: en
+  extract-default-items: true
+  extract-default-resources: true
+debug:
+  items:
+    log-files-loading: false
+    log-items-loading: false
+    log-font-images-loading: false
+    log-huds-loading: false
+    log-attribute-modifiers-loading: false
+    log-warnings: false
+    log-loots-loading: false
+  recipes:
+    log-recipes-loading: false
+  resource-pack:
+    log-extract-default-resources: false
+    log-not-extract-default-resources-already-exist: false
+  blocks:
+    log-save: false
+    log-save-on-unload: false
+    log-mined-unknown-blocks: false
+  worlds-populators:
+    log-loading: false
+    log-loading-no-populators: false
+    log-generation: false
+  player-stats:
+    log-save: false
+  performance:
+    loading-ms: true
+  huds:
+    log-triggers: false
+metrics: true

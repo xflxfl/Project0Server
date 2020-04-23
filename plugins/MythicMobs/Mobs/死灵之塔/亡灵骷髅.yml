@@ -1,0 +1,228 @@
+﻿亡灵骷髅1:
+  Type: SKELETON
+  Display: '&5亡灵骷髅 &c1级 &c惧怕弓箭'
+  Health: 110
+  Damage: 4
+  Armor: 10
+  Equipment:
+  - gutou:0
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 5
+  - ENTITY_ATTACK 0.8
+  - CONTACT 0
+亡灵骷髅2:
+  Type: SKELETON
+  Display: '&5亡灵骷髅 &c2级 &c惧怕弓箭'
+  Health: 120
+  Damage: 5
+  Armor: 10
+  Equipment:
+  - gutou:0
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.31
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 5
+  - ENTITY_ATTACK 0.8
+  - CONTACT 0
+亡灵骷髅3:
+  Type: SKELETON
+  Display: '&5亡灵骷髅 &c3级 &c惧怕弓箭'
+  Health: 130
+  Damage: 6
+  Armor: 10
+  Equipment:
+  - gutou:0
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.32
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 5
+  - ENTITY_ATTACK 0.8
+  - CONTACT 0
+亡灵骷髅4:
+  Type: SKELETON
+  Display: '&5亡灵骷髅 &c1级 &c惧怕近战'
+  Health: 70
+  Damage: 10
+  Armor: 10
+  Equipment:
+  - gutou:0
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 0.5
+  - ENTITY_ATTACK 5
+  - CONTACT 0
+亡灵骷髅5:
+  Type: SKELETON
+  Display: '&5亡灵骷髅 &c2级 &c惧怕近战'
+  Health: 80
+  Damage: 5
+  Armor: 11
+  Equipment:
+  - gutou:0
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 0.5
+  - ENTITY_ATTACK 5
+  - CONTACT 0
+亡灵骷髅6:
+  Type: SKELETON
+  Display: '&5亡灵骷髅 &c3级 &c惧怕近战'
+  Health: 90
+  Damage: 5
+  Armor: 12
+  Equipment:
+  - gutou:0
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 0.5
+  - ENTITY_ATTACK 5
+  - CONTACT 0

@@ -1,0 +1,11 @@
+{
+  "parent": "block/end_stone",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/end_ore"
+    }
+  ]
+}

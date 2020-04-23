@@ -1,0 +1,98 @@
+{
+  "ID": "chicken_chicken",
+  "Order": 16,
+  "Name": "运输鸡",
+  "Requirements": [
+    "Permission:chicken"
+  ],
+  "Icon": {
+    "Material": "chest"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c运输型宠物",
+    "\u0026f最大宠物背包27格(15级领悟)",
+    "\u0026f最大宠物血量35",
+    "\u0026f宠物技能：",
+    "\u0026f -骑行(15级领悟)"
+  ],
+  "MobTypes": [
+    "Chicken"
+  ],
+  "Skills": {
+    "Backpack": {
+      "Upgrades": {
+        "15": {
+          "rows": "+1",
+          "drop": false
+        },
+        "40": {
+          "rows": "+1",
+          "drop": false
+        },
+        "70": {
+          "rows": "+1",
+          "drop": false
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": false,
+          "Duel": false,
+          "Farm": false,
+          "Friend": true,
+          "Raid": false
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {}
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "5": {
+          "Health": "+5"
+        },
+        "10": {
+          "Health": "+2.5"
+        },
+        "15": {
+          "Health": "+2.5"
+        },
+        "20": {
+          "Health": "+2.5"
+        },
+        "25": {
+          "Health": "+2.5"
+        },
+        "30": {
+          "Health": "+2.5"
+        },
+        "40": {
+          "Health": "+2.5"
+        },
+        "50": {
+          "Health": "+3"
+        },
+        "60": {
+          "Health": "+2.5"
+        },
+        "100": {
+          "Health": "+4.5"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "15": {
+          "Active": true,
+          "JumpHeight": "+1.25"
+        }
+      }
+    }
+  }
+}

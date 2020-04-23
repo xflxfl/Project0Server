@@ -1,0 +1,11 @@
+{
+  "parent": "block/quartz_block",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/modern_quartz"
+    }
+  ]
+}

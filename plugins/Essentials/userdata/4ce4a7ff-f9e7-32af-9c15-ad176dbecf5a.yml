@@ -1,0 +1,21 @@
+lastAccountName: Test1
+timestamps:
+  login: 1585329237718
+  lastteleport: 1585326921832
+  logout: 1585329240394
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -18.599842798323877
+  y: 74.0
+  z: -2.3875454587802576
+  yaw: 297.15155
+  pitch: 16.80029
+afk: false
+logoutlocation:
+  world: world
+  x: 6.742649521177238
+  y: 36.0
+  z: 3.5335455710630352
+  yaw: -126.60048
+  pitch: 22.950468

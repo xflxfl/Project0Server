@@ -1,0 +1,56 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/wooden_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:item/baseball_bat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:item/gandalf_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:auto_generated/crystal_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "itemsadder:auto_generated/guitar_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "itemsadder:auto_generated/sweets_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "itemsadder:auto_generated/knife"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "itemsadder:auto_generated/chisel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "realcraft:auto_generated/waterskin"
+    }
+  ]
+}

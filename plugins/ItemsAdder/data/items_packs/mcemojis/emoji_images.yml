@@ -1,0 +1,1665 @@
+info:
+  namespace: "mcemojis"
+font_images:
+  mc_acacia_boat:
+    permission: mc_acacia_boat
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_acacia_boat.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_acacia_door:
+    permission: mc_acacia_door
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_acacia_door.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_acacia_sign:
+    permission: mc_acacia_sign
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_acacia_sign.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_apple:
+    permission: mc_apple
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_apple.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_armor_stand:
+    permission: mc_armor_stand
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_armor_stand.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_arrow:
+    permission: mc_arrow
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_arrow.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_baked_potato:
+    permission: mc_baked_potato
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_baked_potato.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bamboo:
+    permission: mc_bamboo
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bamboo.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_barrier:
+    permission: mc_barrier
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_barrier.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_beef:
+    permission: mc_beef
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_beef.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_beetroot:
+    permission: mc_beetroot
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_beetroot.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_beetroot_seeds:
+    permission: mc_beetroot_seeds
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_beetroot_seeds.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_beetroot_soup:
+    permission: mc_beetroot_soup
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_beetroot_soup.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bell:
+    permission: mc_bell
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bell.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_birch_boat:
+    permission: mc_birch_boat
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_birch_boat.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_birch_door:
+    permission: mc_birch_door
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_birch_door.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_birch_sign:
+    permission: mc_birch_sign
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_birch_sign.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_black_dye:
+    permission: mc_black_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_black_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_blaze_powder:
+    permission: mc_blaze_powder
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_blaze_powder.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_blaze_rod:
+    permission: mc_blaze_rod
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_blaze_rod.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_blue_dye:
+    permission: mc_blue_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_blue_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bone:
+    permission: mc_bone
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bone.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bone_meal:
+    permission: mc_bone_meal
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bone_meal.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_book:
+    permission: mc_book
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_book.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bow:
+    permission: mc_bow
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bow.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bowl:
+    permission: mc_bowl
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bowl.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bow_pulling_0:
+    permission: mc_bow_pulling_0
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bow_pulling_0.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bow_pulling_1:
+    permission: mc_bow_pulling_1
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bow_pulling_1.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bow_pulling_2:
+    permission: mc_bow_pulling_2
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bow_pulling_2.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bread:
+    permission: mc_bread
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bread.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_brewing_stand:
+    permission: mc_brewing_stand
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_brewing_stand.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_brick:
+    permission: mc_brick
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_brick.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_broken_elytra:
+    permission: mc_broken_elytra
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_broken_elytra.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_brown_dye:
+    permission: mc_brown_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_brown_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_bucket:
+    permission: mc_bucket
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_bucket.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cake:
+    permission: mc_cake
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cake.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_campfire:
+    permission: mc_campfire
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_campfire.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_carrot:
+    permission: mc_carrot
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_carrot.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_carrot_on_a_stick:
+    permission: mc_carrot_on_a_stick
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_carrot_on_a_stick.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cauldron:
+    permission: mc_cauldron
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cauldron.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_chainmail_boots:
+    permission: mc_chainmail_boots
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_chainmail_boots.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_chainmail_chestplate:
+    permission: mc_chainmail_chestplate
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_chainmail_chestplate.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_chainmail_helmet:
+    permission: mc_chainmail_helmet
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_chainmail_helmet.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_chainmail_leggings:
+    permission: mc_chainmail_leggings
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_chainmail_leggings.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_charcoal:
+    permission: mc_charcoal
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_charcoal.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_chest_minecart:
+    permission: mc_chest_minecart
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_chest_minecart.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_chicken:
+    permission: mc_chicken
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_chicken.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_chorus_fruit:
+    permission: mc_chorus_fruit
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_chorus_fruit.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_clay_ball:
+    permission: mc_clay_ball
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_clay_ball.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_clock:
+    permission: mc_clock
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_clock.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_coal:
+    permission: mc_coal
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_coal.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cocoa_beans:
+    permission: mc_cocoa_beans
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cocoa_beans.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cod:
+    permission: mc_cod
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cod.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cod_bucket:
+    permission: mc_cod_bucket
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cod_bucket.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_command_block_minecart:
+    permission: mc_command_block_minecart
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_command_block_minecart.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_comparator:
+    permission: mc_comparator
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_comparator.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_compass:
+    permission: mc_compass
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_compass.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cooked_beef:
+    permission: mc_cooked_beef
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cooked_beef.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cooked_chicken:
+    permission: mc_cooked_chicken
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cooked_chicken.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cooked_cod:
+    permission: mc_cooked_cod
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cooked_cod.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cooked_mutton:
+    permission: mc_cooked_mutton
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cooked_mutton.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cooked_porkchop:
+    permission: mc_cooked_porkchop
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cooked_porkchop.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cooked_rabbit:
+    permission: mc_cooked_rabbit
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cooked_rabbit.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cooked_salmon:
+    permission: mc_cooked_salmon
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cooked_salmon.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cookie:
+    permission: mc_cookie
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cookie.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_creeper_banner_pattern:
+    permission: mc_creeper_banner_pattern
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_creeper_banner_pattern.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_crossbow_arrow:
+    permission: mc_crossbow_arrow
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_crossbow_arrow.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_crossbow_firework:
+    permission: mc_crossbow_firework
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_crossbow_firework.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_crossbow_pulling_0:
+    permission: mc_crossbow_pulling_0
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_crossbow_pulling_0.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_crossbow_pulling_1:
+    permission: mc_crossbow_pulling_1
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_crossbow_pulling_1.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_crossbow_pulling_2:
+    permission: mc_crossbow_pulling_2
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_crossbow_pulling_2.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_crossbow_standby:
+    permission: mc_crossbow_standby
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_crossbow_standby.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_cyan_dye:
+    permission: mc_cyan_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_cyan_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_dark_oak_boat:
+    permission: mc_dark_oak_boat
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_dark_oak_boat.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_dark_oak_door:
+    permission: mc_dark_oak_door
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_dark_oak_door.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_dark_oak_sign:
+    permission: mc_dark_oak_sign
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_dark_oak_sign.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond:
+    permission: mc_diamond
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_axe:
+    permission: mc_diamond_axe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_axe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_boots:
+    permission: mc_diamond_boots
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_boots.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_chestplate:
+    permission: mc_diamond_chestplate
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_chestplate.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_helmet:
+    permission: mc_diamond_helmet
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_helmet.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_hoe:
+    permission: mc_diamond_hoe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_hoe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_horse_armor:
+    permission: mc_diamond_horse_armor
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_horse_armor.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_leggings:
+    permission: mc_diamond_leggings
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_leggings.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_pickaxe:
+    permission: mc_diamond_pickaxe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_pickaxe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_shovel:
+    permission: mc_diamond_shovel
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_shovel.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_diamond_sword:
+    permission: mc_diamond_sword
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_diamond_sword.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_dragon_breath:
+    permission: mc_dragon_breath
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_dragon_breath.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_dried_kelp:
+    permission: mc_dried_kelp
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_dried_kelp.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_egg:
+    permission: mc_egg
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_egg.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_elytra:
+    permission: mc_elytra
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_elytra.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_emerald:
+    permission: mc_emerald
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_emerald.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_enchanted_book:
+    permission: mc_enchanted_book
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_enchanted_book.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_ender_eye:
+    permission: mc_ender_eye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_ender_eye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_ender_pearl:
+    permission: mc_ender_pearl
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_ender_pearl.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_end_crystal:
+    permission: mc_end_crystal
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_end_crystal.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_experience_bottle:
+    permission: mc_experience_bottle
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_experience_bottle.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_feather:
+    permission: mc_feather
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_feather.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_fermented_spider_eye:
+    permission: mc_fermented_spider_eye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_fermented_spider_eye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_filled_map:
+    permission: mc_filled_map
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_filled_map.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_filled_map_markings:
+    permission: mc_filled_map_markings
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_filled_map_markings.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_firework_rocket:
+    permission: mc_firework_rocket
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_firework_rocket.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_firework_star:
+    permission: mc_firework_star
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_firework_star.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_firework_star_overlay:
+    permission: mc_firework_star_overlay
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_firework_star_overlay.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_fire_charge:
+    permission: mc_fire_charge
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_fire_charge.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_fishing_rod:
+    permission: mc_fishing_rod
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_fishing_rod.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_fishing_rod_cast:
+    permission: mc_fishing_rod_cast
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_fishing_rod_cast.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_flint:
+    permission: mc_flint
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_flint.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_flint_and_steel:
+    permission: mc_flint_and_steel
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_flint_and_steel.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_flower_banner_pattern:
+    permission: mc_flower_banner_pattern
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_flower_banner_pattern.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_flower_pot:
+    permission: mc_flower_pot
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_flower_pot.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_furnace_minecart:
+    permission: mc_furnace_minecart
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_furnace_minecart.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_ghast_tear:
+    permission: mc_ghast_tear
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_ghast_tear.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_glass_bottle:
+    permission: mc_glass_bottle
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_glass_bottle.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_glistering_melon_slice:
+    permission: mc_glistering_melon_slice
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_glistering_melon_slice.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_globe_banner_pattern:
+    permission: mc_globe_banner_pattern
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_globe_banner_pattern.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_glowstone_dust:
+    permission: mc_glowstone_dust
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_glowstone_dust.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_apple:
+    permission: mc_golden_apple
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_apple.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_axe:
+    permission: mc_golden_axe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_axe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_boots:
+    permission: mc_golden_boots
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_boots.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_carrot:
+    permission: mc_golden_carrot
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_carrot.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_chestplate:
+    permission: mc_golden_chestplate
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_chestplate.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_helmet:
+    permission: mc_golden_helmet
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_helmet.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_hoe:
+    permission: mc_golden_hoe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_hoe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_horse_armor:
+    permission: mc_golden_horse_armor
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_horse_armor.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_leggings:
+    permission: mc_golden_leggings
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_leggings.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_pickaxe:
+    permission: mc_golden_pickaxe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_pickaxe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_shovel:
+    permission: mc_golden_shovel
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_shovel.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_golden_sword:
+    permission: mc_golden_sword
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_golden_sword.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_gold_ingot:
+    permission: mc_gold_ingot
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_gold_ingot.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_gold_nugget:
+    permission: mc_gold_nugget
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_gold_nugget.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_gray_dye:
+    permission: mc_gray_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_gray_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_green_dye:
+    permission: mc_green_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_green_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_gunpowder:
+    permission: mc_gunpowder
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_gunpowder.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_heart_of_the_sea:
+    permission: mc_heart_of_the_sea
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_heart_of_the_sea.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_hopper:
+    permission: mc_hopper
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_hopper.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_hopper_minecart:
+    permission: mc_hopper_minecart
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_hopper_minecart.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_ink_sac:
+    permission: mc_ink_sac
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_ink_sac.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_axe:
+    permission: mc_iron_axe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_axe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_boots:
+    permission: mc_iron_boots
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_boots.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_chestplate:
+    permission: mc_iron_chestplate
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_chestplate.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_door:
+    permission: mc_iron_door
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_door.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_helmet:
+    permission: mc_iron_helmet
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_helmet.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_hoe:
+    permission: mc_iron_hoe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_hoe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_horse_armor:
+    permission: mc_iron_horse_armor
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_horse_armor.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_ingot:
+    permission: mc_iron_ingot
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_ingot.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_leggings:
+    permission: mc_iron_leggings
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_leggings.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_nugget:
+    permission: mc_iron_nugget
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_nugget.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_pickaxe:
+    permission: mc_iron_pickaxe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_pickaxe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_shovel:
+    permission: mc_iron_shovel
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_shovel.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_iron_sword:
+    permission: mc_iron_sword
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_iron_sword.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_item_frame:
+    permission: mc_item_frame
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_item_frame.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_jungle_boat:
+    permission: mc_jungle_boat
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_jungle_boat.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_jungle_door:
+    permission: mc_jungle_door
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_jungle_door.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_jungle_sign:
+    permission: mc_jungle_sign
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_jungle_sign.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_kelp:
+    permission: mc_kelp
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_kelp.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_knowledge_book:
+    permission: mc_knowledge_book
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_knowledge_book.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_lantern:
+    permission: mc_lantern
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_lantern.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_lapis_lazuli:
+    permission: mc_lapis_lazuli
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_lapis_lazuli.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_lava_bucket:
+    permission: mc_lava_bucket
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_lava_bucket.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_lead:
+    permission: mc_lead
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_lead.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_leather:
+    permission: mc_leather
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_leather.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_leather_horse_armor:
+    permission: mc_leather_horse_armor
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_leather_horse_armor.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_light_blue_dye:
+    permission: mc_light_blue_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_light_blue_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_light_gray_dye:
+    permission: mc_light_gray_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_light_gray_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_lime_dye:
+    permission: mc_lime_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_lime_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_lingering_potion:
+    permission: mc_lingering_potion
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_lingering_potion.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_magenta_dye:
+    permission: mc_magenta_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_magenta_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_magma_cream:
+    permission: mc_magma_cream
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_magma_cream.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_map:
+    permission: mc_map
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_map.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_melon_seeds:
+    permission: mc_melon_seeds
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_melon_seeds.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_melon_slice:
+    permission: mc_melon_slice
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_melon_slice.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_milk_bucket:
+    permission: mc_milk_bucket
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_milk_bucket.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_minecart:
+    permission: mc_minecart
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_minecart.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_mojang_banner_pattern:
+    permission: mc_mojang_banner_pattern
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_mojang_banner_pattern.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_mushroom_stew:
+    permission: mc_mushroom_stew
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_mushroom_stew.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_11:
+    permission: mc_music_disc_11
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_11.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_13:
+    permission: mc_music_disc_13
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_13.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_blocks:
+    permission: mc_music_disc_blocks
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_blocks.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_cat:
+    permission: mc_music_disc_cat
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_cat.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_chirp:
+    permission: mc_music_disc_chirp
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_chirp.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_far:
+    permission: mc_music_disc_far
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_far.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_mall:
+    permission: mc_music_disc_mall
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_mall.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_mellohi:
+    permission: mc_music_disc_mellohi
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_mellohi.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_stal:
+    permission: mc_music_disc_stal
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_stal.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_strad:
+    permission: mc_music_disc_strad
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_strad.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_wait:
+    permission: mc_music_disc_wait
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_wait.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_music_disc_ward:
+    permission: mc_music_disc_ward
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_music_disc_ward.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_mutton:
+    permission: mc_mutton
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_mutton.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_name_tag:
+    permission: mc_name_tag
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_name_tag.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_nautilus_shell:
+    permission: mc_nautilus_shell
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_nautilus_shell.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_nether_brick:
+    permission: mc_nether_brick
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_nether_brick.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_nether_star:
+    permission: mc_nether_star
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_nether_star.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_nether_wart:
+    permission: mc_nether_wart
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_nether_wart.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_oak_boat:
+    permission: mc_oak_boat
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_oak_boat.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_oak_door:
+    permission: mc_oak_door
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_oak_door.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_oak_sign:
+    permission: mc_oak_sign
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_oak_sign.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_orange_dye:
+    permission: mc_orange_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_orange_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_painting:
+    permission: mc_painting
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_painting.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_paper:
+    permission: mc_paper
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_paper.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_phantom_membrane:
+    permission: mc_phantom_membrane
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_phantom_membrane.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_pink_dye:
+    permission: mc_pink_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_pink_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_poisonous_potato:
+    permission: mc_poisonous_potato
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_poisonous_potato.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_popped_chorus_fruit:
+    permission: mc_popped_chorus_fruit
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_popped_chorus_fruit.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_porkchop:
+    permission: mc_porkchop
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_porkchop.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_potato:
+    permission: mc_potato
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_potato.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_potion:
+    permission: mc_potion
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_potion.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_potion_overlay:
+    permission: mc_potion_overlay
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_potion_overlay.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_prismarine_crystals:
+    permission: mc_prismarine_crystals
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_prismarine_crystals.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_prismarine_shard:
+    permission: mc_prismarine_shard
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_prismarine_shard.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_pufferfish:
+    permission: mc_pufferfish
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_pufferfish.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_pufferfish_bucket:
+    permission: mc_pufferfish_bucket
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_pufferfish_bucket.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_pumpkin_pie:
+    permission: mc_pumpkin_pie
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_pumpkin_pie.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_pumpkin_seeds:
+    permission: mc_pumpkin_seeds
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_pumpkin_seeds.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_purple_dye:
+    permission: mc_purple_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_purple_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_quartz:
+    permission: mc_quartz
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_quartz.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_rabbit:
+    permission: mc_rabbit
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_rabbit.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_rabbit_foot:
+    permission: mc_rabbit_foot
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_rabbit_foot.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_rabbit_hide:
+    permission: mc_rabbit_hide
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_rabbit_hide.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_rabbit_stew:
+    permission: mc_rabbit_stew
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_rabbit_stew.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_redstone:
+    permission: mc_redstone
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_redstone.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_red_dye:
+    permission: mc_red_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_red_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_repeater:
+    permission: mc_repeater
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_repeater.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_rotten_flesh:
+    permission: mc_rotten_flesh
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_rotten_flesh.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_ruby:
+    permission: mc_ruby
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_ruby.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_saddle:
+    permission: mc_saddle
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_saddle.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_salmon:
+    permission: mc_salmon
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_salmon.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_salmon_bucket:
+    permission: mc_salmon_bucket
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_salmon_bucket.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_scute:
+    permission: mc_scute
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_scute.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_seagrass:
+    permission: mc_seagrass
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_seagrass.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_sea_pickle:
+    permission: mc_sea_pickle
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_sea_pickle.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_shears:
+    permission: mc_shears
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_shears.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_shulker_shell:
+    permission: mc_shulker_shell
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_shulker_shell.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_skull_banner_pattern:
+    permission: mc_skull_banner_pattern
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_skull_banner_pattern.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_slime_ball:
+    permission: mc_slime_ball
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_slime_ball.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_snowball:
+    permission: mc_snowball
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_snowball.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_spawn_egg:
+    permission: mc_spawn_egg
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_spawn_egg.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_spawn_egg_overlay:
+    permission: mc_spawn_egg_overlay
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_spawn_egg_overlay.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_spectral_arrow:
+    permission: mc_spectral_arrow
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_spectral_arrow.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_spider_eye:
+    permission: mc_spider_eye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_spider_eye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_splash_potion:
+    permission: mc_splash_potion
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_splash_potion.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_spruce_boat:
+    permission: mc_spruce_boat
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_spruce_boat.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_spruce_door:
+    permission: mc_spruce_door
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_spruce_door.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_spruce_sign:
+    permission: mc_spruce_sign
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_spruce_sign.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_stick:
+    permission: mc_stick
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_stick.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_stone_axe:
+    permission: mc_stone_axe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_stone_axe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_stone_hoe:
+    permission: mc_stone_hoe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_stone_hoe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_stone_pickaxe:
+    permission: mc_stone_pickaxe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_stone_pickaxe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_stone_shovel:
+    permission: mc_stone_shovel
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_stone_shovel.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_stone_sword:
+    permission: mc_stone_sword
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_stone_sword.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_string:
+    permission: mc_string
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_string.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_structure_void:
+    permission: mc_structure_void
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_structure_void.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_sugar:
+    permission: mc_sugar
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_sugar.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_sugar_cane:
+    permission: mc_sugar_cane
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_sugar_cane.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_suspicious_stew:
+    permission: mc_suspicious_stew
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_suspicious_stew.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_sweet_berries:
+    permission: mc_sweet_berries
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_sweet_berries.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_tipped_arrow_base:
+    permission: mc_tipped_arrow_base
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_tipped_arrow_base.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_tipped_arrow_head:
+    permission: mc_tipped_arrow_head
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_tipped_arrow_head.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_tnt_minecart:
+    permission: mc_tnt_minecart
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_tnt_minecart.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_totem_of_undying:
+    permission: mc_totem_of_undying
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_totem_of_undying.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_trident:
+    permission: mc_trident
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_trident.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_tropical_fish:
+    permission: mc_tropical_fish
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_tropical_fish.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_tropical_fish_bucket:
+    permission: mc_tropical_fish_bucket
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_tropical_fish_bucket.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_turtle_egg:
+    permission: mc_turtle_egg
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_turtle_egg.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_turtle_helmet:
+    permission: mc_turtle_helmet
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_turtle_helmet.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_water_bucket:
+    permission: mc_water_bucket
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_water_bucket.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_wheat:
+    permission: mc_wheat
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_wheat.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_wheat_seeds:
+    permission: mc_wheat_seeds
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_wheat_seeds.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_white_dye:
+    permission: mc_white_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_white_dye.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_wooden_axe:
+    permission: mc_wooden_axe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_wooden_axe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_wooden_hoe:
+    permission: mc_wooden_hoe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_wooden_hoe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_wooden_pickaxe:
+    permission: mc_wooden_pickaxe
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_wooden_pickaxe.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_wooden_shovel:
+    permission: mc_wooden_shovel
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_wooden_shovel.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_wooden_sword:
+    permission: mc_wooden_sword
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_wooden_sword.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_writable_book:
+    permission: mc_writable_book
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_writable_book.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_written_book:
+    permission: mc_written_book
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_written_book.png"
+    scale_ratio: 9
+    y_position: 8
+  mc_yellow_dye:
+    permission: mc_yellow_dye
+    show_in_gui: true
+    path: "font/minecraft_emoji/mc_yellow_dye.png"
+    scale_ratio: 9
+    y_position: 8

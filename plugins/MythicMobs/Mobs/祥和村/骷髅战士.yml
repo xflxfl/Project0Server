@@ -1,0 +1,43 @@
+﻿骷髅战士:
+  Type: SKELETON
+  Display: '&3骷髅战士'
+  Health: 50
+  Damage: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - shitoujian:0
+  - pige4:4
+  Skills:
+  - leap{v=150} @Target ~onTimer:100 <50% 0.5
+  - effect:particles{particle=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self <50% 0.8
+  
+骷髅战士T:
+  Type: SKELETON
+  Display: '&3骷髅战士'
+  Health: 50
+  Damage: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - shitoujian:0
+  - pige4:4
+  Skills:
+  - leap{v=150} @Target ~onTimer:100 <50% 0.5
+  - effect:particles{particle=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self <50% 0.8

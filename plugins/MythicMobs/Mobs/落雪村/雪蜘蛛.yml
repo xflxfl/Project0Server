@@ -1,0 +1,62 @@
+﻿雪蜘蛛:
+  Type: SPIDER
+  Display: '&a雪蜘蛛 - &4<mob.level>级'
+  Health: 60
+  Damage: 7
+  Armor: 3
+  Options:
+    FollowRange: 10
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer
+  
+雪蜘蛛T1:
+  Type: SPIDER
+  Display: '&a雪蜘蛛 - &4<mob.level>级'
+  Health: 60
+  Damage: 7
+  Armor: 3
+  Options:
+    FollowRange: 10
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer
+  
+雪蜘蛛T2:
+  Type: SPIDER
+  Display: '&a雪蜘蛛 - &4<mob.level>级'
+  Health: 60
+  Damage: 7
+  Armor: 3
+  Options:
+    FollowRange: 10
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer

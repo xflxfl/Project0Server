@@ -1,0 +1,151 @@
+########################################################################
+###                                                                    #
+###   Fiery Zombie Sorcerer v1.0                                       #
+###                                                                    #
+###   Created by jaylawl                                               #
+###   Contact: jaylawlMC@gmail.com                                     #
+###                                                                    #
+########################################################################
+亡魂1:
+  Type: zombie
+  Display: '&r亡魂 &c1级'
+  Health: 50
+  Damage: 8
+  Equipment:
+  - suolian4:4
+  - suolian3:3
+  - suolian2:2
+  - air:1
+  - gutou:0
+  Options:
+    AlwaysShowName: true
+    FollowRange: 15
+    ReinforcementsChance: 0
+    KnockbackResistance: 0.6
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 1.5
+  - ENTITY_ATTACK 0.8
+  - CONTACT 0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - potion{type=SLOW;d=20;l=7} @target ~onTimer:100 0.5
+  - ignite{t=100} @Target ~onTimer:100 0.5
+  - heal{a=5;overheal=false} @Self ~onTimer:300 0.2
+########################################################################
+亡魂2:
+  Type: zombie
+  Display: '&r亡魂 &c2级'
+  Health: 60
+  Damage: 10
+  Equipment:
+  - suolian4:4
+  - suolian3:3
+  - suolian2:2
+  - air:1
+  - gutou:0
+  Options:
+    AlwaysShowName: true
+    FollowRange: 15
+    ReinforcementsChance: 0
+    KnockbackResistance: 0.6
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 1.5
+  - ENTITY_ATTACK 0.8
+  - CONTACT 0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - potion{type=SLOW;d=20;l=7} @target ~onTimer:100 0.5
+  - ignite{t=100} @Target ~onTimer:100 0.5
+  - heal{a=10;overheal=false} @Self ~onTimer:300 0.2
+
+########################################################################
+亡魂3:
+  Type: zombie
+  Display: '&r亡魂 &c3级'
+  Health: 70
+  Damage: 12
+  Equipment:
+  - suolian4:4
+  - suolian3:3
+  - suolian2:2
+  - air:1
+  - gutou:0
+  Options:
+    AlwaysShowName: true
+    FollowRange: 15
+    ReinforcementsChance: 0
+    KnockbackResistance: 0.6
+    PreventOtherDrops: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 1.5
+  - ENTITY_ATTACK 0.8
+  - CONTACT 0
+  Skills:
+  - potion{t=INVISIBILITY;d=630720000;l=0} @self ~onSpawn
+  - potion{type=SLOW;d=20;l=7} @target ~onTimer:100 0.5
+  - ignite{t=100} @Target ~onTimer:100 0.5
+  - heal{a=20;overheal=false} @Self ~onTimer:300 0.2
+
+########################################################################

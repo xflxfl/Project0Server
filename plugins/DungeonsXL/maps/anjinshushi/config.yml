@@ -1,0 +1,84 @@
+timeToNextPlayAfterFinish: 2
+timeToFinish: 1200
+initialLives: 3
+
+title:
+  title: "&4暗金术士"
+  subtitle: "&6你共有3条命"
+  
+time: 6000
+
+dungeonManager:
+  minPlayers: 1
+  maxPlayers: 4
+  minLevel: 8
+  icon:
+    id: STICK
+    model: 70
+    
+dps:
+  exp: 30-80
+  bonusRewardProb: 0.005
+  '1':
+    cmd: give %player% diamond_sword 1
+    chance: 0.2
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&f钻石剑"
+      model: 0
+  '2':
+    cmd: ph giveitem %player% mjy:anjin_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5暗金"
+      model: 34
+  '3':
+    cmd: eco give %player% 350
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6350金币"
+      model: 29
+  '4':
+    cmd: ph giveitem %player% mjy:anjin_chest
+    chance: 0.08
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&3暗金胸甲"
+      model: 21
+  '5':
+    cmd: ph giveitem %player% mjy:anjin_legs
+    chance: 0.08
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&3暗金护腿"
+      model: 21
+  '6':
+    cmd: ph giveitem %player% mjy:anjin_boots
+    chance: 0.08
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&3暗金战靴"
+      model: 23
+  '7':
+    cmd: ph giveitem %player% mjy:anjin_head
+    chance: 0.09
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&3暗金头盔"
+      model: 20
+  '8':
+    cmd: give %player% diamond 8
+    chance: 0.13
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石8个"
+      model: 0
+  '9':
+    cmd: eco give %player% 230
+    chance: 0.13
+    icon:
+      id: STICK
+      displayName: "&6230金币"
+      model: 29

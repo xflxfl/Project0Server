@@ -1,0 +1,24 @@
+lastAccountName: Test3
+timestamps:
+  login: 1587593811780
+  command-cooldowns:
+  - pattern: .*( .*)?
+    expiry: 1587594451161
+  logout: 1587594922750
+ipAddress: 127.0.0.1
+lastlocation:
+  world: DXL_Game_0
+  x: -5.414308320154664
+  y: 5.0
+  z: 22.632908428819192
+  yaw: 200.0992
+  pitch: 3.300001
+money: '750'
+afk: false
+logoutlocation:
+  world: world
+  x: 89.67419660153439
+  y: 26.0
+  z: -109.30000001192093
+  yaw: -205.28294
+  pitch: 8.667515

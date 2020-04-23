@@ -1,0 +1,12 @@
+info:
+  namespace: "realcraft"
+font_images:
+  thirst_bar_positive:
+    path: "font/hud/thirst_bar/positive.png"
+    y_position: -15
+  thirst_bar_negative:
+    path: "font/hud/thirst_bar/negative.png"
+    y_position: -15
+  thirst_bar_half:
+    path: "font/hud/thirst_bar/half.png"
+    y_position: -15

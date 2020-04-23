@@ -1,0 +1,32 @@
+﻿白眼骷髅:
+  Mobtype: Stray
+  Display: '&3&l白眼骷髅'
+  Health: 200
+  Damage: 8
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 specificfaction Target
+  - 3 players
+  - 4 specificfaction Townington
+  - 5 specificfaction MA
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Skills:
+  - potion{t=WEAKNESS;d=200;l=0} @Target ~onAttack 1
+  - skill{s=白眼骷髅} @Self ~onDamaged 0.2
+  - summon{m=骷髅战士;a=2;r=5} @Self ~onSpawn
+  - effect:particles{particle=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self <50% 0.8
+  Equipment:
+  - 铁斧:0
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 10
+    PreventMobKillDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 0.1
+    MovementSpeed: 0.25
+    PreventOtherDrops: true

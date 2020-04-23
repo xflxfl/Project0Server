@@ -1,0 +1,98 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/iron_ingot"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/ruby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:auto_generated/spinel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "itemsadder:auto_generated/turquoise"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "itemsadder:auto_generated/aqua_aura"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "itemsadder:auto_generated/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "itemsadder:auto_generated/amethyst_prism"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "itemsadder:auto_generated/fossil"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "itemsadder:auto_generated/bronze_ingot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "itemsadder:auto_generated/mysterious_material"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "itemsadder:auto_generated/end_shard"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "itemsadder:auto_generated/end_crystals"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "itemsadder:auto_generated/end_ingot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "itemsadder:auto_generated/knowledge_fragment"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "itemsadder:auto_generated/coal_nugget"
+    }
+  ]
+}

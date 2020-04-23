@@ -1,0 +1,15 @@
+info:
+  namespace: "mcguis"
+font_images:
+  crafting:
+    path: "font/gui/crafting.png"
+    y_position: 47
+  cooking:
+    path: "font/gui/cooking.png"
+    y_position: 47
+  blank_menu:
+    path: "font/gui/blank_menu.png"
+    y_position: 47
+  anvil_repair:
+    path: "font/gui/anvil_repair.png"
+    y_position: 47

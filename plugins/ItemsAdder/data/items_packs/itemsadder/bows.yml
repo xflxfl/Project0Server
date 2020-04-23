@@ -1,0 +1,131 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    astral_bow:
+      permission: itemsadder.astral_bow
+      enabled: true
+      pattern:
+      - XBS
+      - BXS
+      - XBS
+      ingredients:
+        B: BLAZE_ROD
+        S: STRING
+      result:
+        item: itemsadder:astral_bow
+        amount: 1
+    cross_bow:
+      permission: itemsadder.cross_bow
+      enabled: true
+      pattern:
+      - FXF
+      - XBX
+      - RXR
+      ingredients:
+        F: REDSTONE_BLOCK
+        R: REDSTONE
+        B: BOW
+      result:
+        item: itemsadder:cross_bow
+        amount: 1
+items:
+  astral_bow:
+    display_name: Astral bow
+    permission: astral_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/astral_bow.png
+    enchants:
+    - ARROW_FIRE:1
+    durability:
+      max_custom_durability: 512
+    specific_properties:
+      bow:
+        arrow_damage: 4.0
+    events:
+      bow_shot:
+        play_sound:
+          name: itemsadder:item.astral_bow.shot
+          volume: 1
+          pitch: 1
+  cross_bow:
+    display_name: Crossbow
+    permission: cross_bow
+    resource:
+      material: BOW
+      generate: false
+      model_path: item/cross_bow
+    durability:
+      max_custom_durability: 684
+  black_bow:
+    display_name: Black Dyed Bow
+    permission: black_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/black_bow.png
+  red_bow:
+    display_name: Red Dyed Bow
+    permission: red_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/red_bow.png
+  green_bow:
+    display_name: Green Dyed Bow
+    permission: green_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/green_bow.png
+  blue_bow:
+    display_name: Blue Dyed Bow
+    permission: blue_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/blue_bow.png
+  purple_bow:
+    display_name: Purple Dyed Bow
+    permission: purple_bow
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/purple_bow.png
+  cyan_bow:
+    display_name: '&b行者'
+    permission: cyan_bow
+    lore:
+    - '&6弓体小巧轻盈'
+    - '&6由神秘的工艺制造'
+    durability:
+      max_custom_durability: 450
+    resource:
+      material: BOW
+      generate: true
+      textures:
+      - item/cyan_bow.png
+    specific_properties:
+      bow:
+        arrow_damage: 4.0
+    events:
+      held:
+        potion_effect:
+          type: SPEED
+          duration: 1000000
+          amplifier: 0
+        play_particle:
+          name: ENCHANTMENT_TABLE
+      unheld:
+        remove_potion_effect:
+          type: SPEED
+        play_particle:
+          name: ENCHANTMENT_TABLE

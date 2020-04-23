@@ -1,0 +1,83 @@
+{
+  "ID": "drowned",
+  "Order": 0,
+  "Name": "溺尸",
+  "Requirements": [
+    "Permission:Zombie"
+  ],
+  "Icon": {
+    "Material": "diamond_sword"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c攻血型宠物",
+    "\u0026f最大宠物攻击9",
+    "\u0026f最大宠物血量230",
+    "\u0026f宠物技能：",
+    "\u0026f - 雷击(30级领悟,最大概率30%,最大伤害8)"
+  ],
+  "MobTypes": [
+    "Drowned"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": false,
+          "Duel": false,
+          "Farm": false,
+          "Friend": true,
+          "Raid": false
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<20": {
+          "Damage": "+0.15"
+        },
+        "%1>21<50": {
+          "Damage": "+0.1"
+        },
+        "%1>51<100": {
+          "Damage": "+0.06"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+3"
+        },
+        "%1>11<30": {
+          "Health": "+4"
+        },
+        "%1>31<100": {
+          "Health": "+1.42"
+        }
+      }
+    },
+    "Lightning": {
+      "Upgrades": {
+        "30": {
+          "Damage": "+3",
+          "Chance": "+5"
+        },
+        "40": {
+          "Damage": "+2",
+          "Chance": "+3"
+        },
+        "50": {
+          "Damage": "+1",
+          "Chance": "+2"
+        },
+        "%1>31<50": {
+          "Chance": "+1"
+        },
+        "60,70": {
+          "Damage": "+1"
+        }
+      }
+    }
+  }
+}

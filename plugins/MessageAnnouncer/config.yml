@@ -1,0 +1,76 @@
+# MessageAnnouncer v1.11.0 Main configuration
+announcer_enabled: true
+announcer_random: false
+announce_interval: 120
+sound:
+  enabled: false
+  sound_name: NOTE_PLING
+  volume: 10
+  pitch: 1
+interval_announcement_list:
+- dailyQuest
+- donate
+- pet
+- checkIn
+- showItem
+- fish
+- choujiang
+- trade
+- residence
+- antiXray
+- QQ
+- boss
+- antiCheat
+- level
+- dungeon
+announcements:
+  donate:
+  - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"如果你喜欢我们服务器，欢迎赞助我们。","color":"green"},{"text":"点击打开赞助界面","color":"gold","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/clock
+    open 1"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击打开赞助网站","color":"red"}]}}}]'
+  pet:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"拥有一只宠物不仅能给你提供帮助，还能增添无限的乐趣。","color":"aqua"},{"text":"点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
+    open 宠物手册 "},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
+  dailyQuest:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"每日任务往往会获得丰厚的奖励，千万不要忘记做哦！","color":"white"},{"text":"点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
+    open 任务手册"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
+  checkIn:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"你今天签到了吗？每天坚持签到，获得丰厚奖励！","color":"white"},{"text":"立刻点击签到","color":"dark_aqua","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/qd
+    gui"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"立刻点击签到","color":"yellow"}]}}}]'
+  showItem:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"在聊天框内输入[i]即可将手上物品的详细信息发送到公屏上了！","color":"aqua"},{"text":"不明白？","color":"red","bold":true,"underlined":true,"clickEvent":{"action":"suggest_command","value":"快看我刚获得的神器[i]"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击试一试","color":"yellow"}]}}}]'
+  feedPet:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"不要忘记给你的宠物喂食，宠物饥饿为0的情况下会掉血的！","color":"white"},{"text":"怎么喂食","color":"gold","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
+    open 宠物手册"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看帮助","color":"red"}]}}}]'
+  fish:
+  - '[{"text":"[小提示]","color":"gold"},{"text":" 每天的12:45和19:30是钓鱼竞赛的时间，每次持续15分钟，前三名会有抽奖钥匙作为奖励。","color":"aqua"},{"text":"了解更多","bold":true,"underlined":true,"color":"dark_purple","clickEvent":{"action":"run_command","value":"/ob
+    open 钓鱼指南"},"hoverEvent":{"action":"show_text","value":"点击了解更多"}}]'
+  betterWeapon:
+  - '[{"text":"[小提示]","color":"gold"},{"text":" "},{"text":"想让武器装备属性更上一层？输入/qh gui
+    使用强化系统吧。","color":"white"},{"text":"了解更多","bold":true,"underlined":true,"color":"dark_purple","clickEvent":{"action":"run_command","value":"/ob
+    open 强化系统手册"},"hoverEvent":{"action":"show_text","value":"点击了解更多"}}]'
+  choujiang:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/warp cj 即可传送到酷炫的抽奖屋内","color":"aqua"}]'
+  trade:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/trade <玩家名> 即可与该玩家交易，或者按住Shift右键
+    玩家也可以交易哦","color":"aqua"}]'
+  residence:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"你只能在生存区圈地，圈地工具是木棍。","color":"aqua"}]'
+  prefix:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/ch shop可以打开称号商店，输入/ch my可以查看自己
+    拥有的称号并自由切换。","color":"aqua"}]'
+  antiXray:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"如果发现挖矿点数不够了，可以通过挖石头或泥土来增加挖矿点数(仅限于矿界)。或者等待自动恢复。","color":"aqua"}]'
+  QQ:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"进群以获取更多信息和最新的公告，QQ群：X。","color":"aqua"}]'
+  boss:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"每天晚上8点都有BOSS活动，周末会有不同的BOSS及奖励，参与的时候别忘记带弓箭哦","color":"aqua"}]'
+  antiCheat:
+  - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"服务器内严禁一切作弊行为，如有发现1次警告，再犯直接封IP。","color":"red"}]'
+  lottery:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"在投掷器上贴上木牌，在木牌第一行写[抽奖]，第二行写价格数目，第三行写金币或者点券，即可创建一个私人抽奖箱哦","color":"aqua"}]'
+  level:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"想了解更多跟历练等级相关的信息，","color":"white"},{"text":"请点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
+    open 历练等级手册"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'
+  dungeon:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"这里有详细的副本信息介绍，","color":"white"},{"text":"请点击了解更多","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/ob
+    open 副本手册"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击查看更多内容","color":"yellow"}]}}}]'

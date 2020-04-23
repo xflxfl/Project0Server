@@ -1,0 +1,88 @@
+initialLives: 10
+
+title:
+  title: "&4尸王BOSS"
+  subtitle: "&6你共有10条命"
+  
+time: 6000
+
+dps:
+  exp: 100-400
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:fenji_sword
+    chance: 0.04
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c焚寂剑"
+      model: 42
+  '2':
+    cmd: ph giveitem %player% mjy:tiaozhanzhe_axe
+    chance: 0.1
+    icon:
+      id: DIAMOND_AXE
+      displayName: "&5挑战者之斧"
+      model: 13
+  '3':
+    cmd: give %player% diamond 32
+    chance: 0.20
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石32个"
+      model: 0
+  '4':
+    cmd: give %player% diamond 64
+    chance: 0.1
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石64个"
+      model: 0
+  '5':
+    cmd: give %player% emerald 64
+    chance: 0.02
+    icon:
+      id: EMERALD
+      displayName: "&6绿宝石64个"
+      model: 0
+  '6':
+    cmd: give %player% emerald 32
+    chance: 0.07
+    icon:
+      id: EMERALD
+      displayName: "&6绿宝石32个"
+      model: 0
+  '7':
+    cmd: ph giveitem %player% mjy:rongyan_sword
+    chance: 0.18
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&2熔岩剑"
+      model: 31
+  '8':
+    cmd: ph giveitem %player% mjy:tulong_sword
+    chance: 0.09
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c屠龙刀"
+      model: 38
+  '9':
+    cmd: ph giveitem %player% mjy:wushi_sword
+    chance: 0.12
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&9武士剑"
+      model: 27
+  '10':
+    cmd: ph giveitem %player% mjy:gaojipaoxie_feet
+    chance: 0.04
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&5高级跑鞋"
+      model: 17
+  '11':
+    cmd: cc give p 疯狂 1 %player%
+    chance: 0.04
+    icon:
+      id: PAPER
+      displayName: "&5疯狂抽奖箱钥匙"
+      model: 34

@@ -1,0 +1,176 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    ender_shield:
+      permission: itemsadder.ender_shield
+      enabled: true
+      pattern:
+      - TET
+      - TOT
+      - XTX
+      ingredients:
+        E: ENDER_PEARL
+        T: OAK_PLANKS
+        O: OBSIDIAN
+      result:
+        item: itemsadder:ender_shield
+        amount: 1
+    obsidian_shield:
+      permission: itemsadder.obsidian_shield
+      enabled: true
+      pattern:
+      - TTT
+      - TTT
+      - XTX
+      ingredients:
+        T: OBSIDIAN
+      result:
+        item: itemsadder:obsidian_shield
+        amount: 1
+    bronze_shield:
+      permission: itemsadder.bronze_shield
+      enabled: true
+      pattern:
+      - TTT
+      - XTX
+      - XXX
+      ingredients:
+        T: itemsadder:bronze_ingot
+      result:
+        item: itemsadder:bronze_shield
+        amount: 1
+    ruby_shield:
+      permission: itemsadder.ruby_shield
+      enabled: true
+      pattern:
+      - TTT
+      - XTX
+      - XXX
+      ingredients:
+        T: itemsadder:ruby
+      result:
+        item: itemsadder:ruby_shield
+        amount: 1
+    spinel_shield:
+      permission: itemsadder.spinel_shield
+      enabled: true
+      pattern:
+      - TTT
+      - XTX
+      - XXX
+      ingredients:
+        T: itemsadder:spinel
+      result:
+        item: itemsadder:spinel_shield
+        amount: 1
+    turquoise_shield:
+      permission: itemsadder.turquoise_shield
+      enabled: true
+      pattern:
+      - TTT
+      - XTX
+      - XXX
+      ingredients:
+        T: itemsadder:turquoise
+      result:
+        item: itemsadder:turquoise_shield
+        amount: 1
+    amethyst_shield:
+      permission: itemsadder.amethyst_shield
+      enabled: true
+      pattern:
+      - TTT
+      - XTX
+      - XXX
+      ingredients:
+        T: itemsadder:amethyst
+      result:
+        item: itemsadder:amethyst_shield
+        amount: 1
+    fossil_shield:
+      permission: itemsadder.fossil_shield
+      enabled: true
+      pattern:
+      - BBB
+      - BFB
+      - XBX
+      ingredients:
+        F: itemsadder:fossil
+        B: BONE_BLOCK
+      result:
+        item: itemsadder:fossil_shield
+        amount: 1
+items:
+  ender_shield:
+    display_name: Ender Shield
+    permission: ender_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/ender_shield
+    durability:
+      max_custom_durability: 1324
+  obsidian_shield:
+    display_name: Obsidian Shield
+    permission: obsidian_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/obsidian_shield
+    durability:
+      max_custom_durability: 1024
+  bronze_shield:
+    display_name: Bronze Shield
+    permission: bronze_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/bronze_shield
+    durability:
+      max_custom_durability: 1724
+  ruby_shield:
+    display_name: Ruby Shield
+    permission: ruby_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/ruby_shield
+    durability:
+      max_custom_durability: 1224
+  spinel_shield:
+    display_name: Spinel Shield
+    permission: spinel_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/spinel_shield
+    durability:
+      max_custom_durability: 1024
+  turquoise_shield:
+    display_name: Turquoise Shield
+    permission: turquoise_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/turquoise_shield
+    durability:
+      max_custom_durability: 1024
+  amethyst_shield:
+    display_name: Amethyst Shield
+    permission: amethyst_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/amethyst_shield
+    durability:
+      max_custom_durability: 1524
+  fossil_shield:
+    display_name: Fossil Shield
+    permission: fossil_shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: item/fossil_shield
+    durability:
+      max_custom_durability: 650

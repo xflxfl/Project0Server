@@ -1,0 +1,79 @@
+{
+  "ID": "cow_cow",
+  "Order": 15,
+  "Name": "血耐型肉牛",
+  "Requirements": [
+    "Permission:cow"
+  ],
+  "Icon": {
+    "Material": "chainmail_chestplate"
+  },
+  "MaxLevel": 200,
+  "Description": [
+    "\u0026c血耐型宠物",
+    "\u0026f最大宠物攻击4",
+    "\u0026f最大宠物血量200",
+    "\u0026f最大反弹伤害50%",
+    "\u0026f宠物技能：",
+    "\u0026f -荆棘保护(15级领悟,最大反弹概率30%)"
+  ],
+  "MobTypes": [
+    "Cow"
+  ],
+  "Skills": {
+    "Damage": {
+      "Upgrades": {
+        "1": {
+          "Damage": "+1"
+        },
+        "3": {
+          "Damage": "+1"
+        },
+        "5": {
+          "Damage": "+1"
+        },
+        "7": {
+          "Damage": "+0.5"
+        },
+        "9": {
+          "Damage": "+0.5"
+        },
+        "11": {
+          "Damage": "+0.5"
+        },
+        "13": {
+          "Damage": "+0.5"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<30": {
+          "Health": "+3"
+        },
+        "%1>31<100": {
+          "Health": "+1.285"
+        }
+      }
+    },
+    "Thorns": {
+      "Upgrades": {
+        "%2>1<20": {
+          "Reflection": "+1",
+          "Chance": "+1"
+        },
+        "%2>21<40": {
+          "Reflection": "+2",
+          "Chance": "+1"
+        },
+        "%2>40<60": {
+          "Reflection": "+1",
+          "Chance": "+1"
+        },
+        "%10>61<100": {
+          "Reflection": "+2.5"
+        }
+      }
+    }
+  }
+}

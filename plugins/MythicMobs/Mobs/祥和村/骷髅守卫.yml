@@ -1,0 +1,47 @@
+﻿骷髅守卫:
+  Type: SKELETON
+  Display: '&3骷髅守卫'
+  Health: 30
+  Damage: 6
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - pige3:3
+  - pige2:2
+  - pige1:1
+  - mujian:0
+  Skills:
+  - effect:particles{p=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8
+  
+骷髅守卫T:
+  Type: SKELETON
+  Display: '&3骷髅守卫'
+  Health: 30
+  Damage: 6
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - pige3:3
+  - pige2:2
+  - pige1:1
+  - mujian:0
+  Skills:
+  - effect:particles{p=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8

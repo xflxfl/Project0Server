@@ -1,0 +1,110 @@
+{
+  "ID": "Zombie2_zombie",
+  "Order": 22,
+  "Name": "血耐型僵尸",
+  "Requirements": [
+    "Permission:Zombie"
+  ],
+  "Icon": {
+    "Material": "diamond_chestplate"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c血耐型宠物",
+    "\u0026f最大伤害6",
+    "\u0026f最大生命值257",
+    "\u0026f技能：",
+    "\u0026f -火焰攻击(最大概率30%，持续3秒)"
+  ],
+  "MobTypes": [
+    "Zombie"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Friend": true,
+          "Raid": false
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "1": {
+          "Damage": "+1"
+        },
+        "2": {
+          "Damage": "+0.5"
+        },
+        "3": {
+          "Damage": "+0.5"
+        },
+        "7": {
+          "Damage": "+0.5"
+        },
+        "8": {
+          "Damage": "+0.5"
+        },
+        "9": {
+          "Damage": "+0.5"
+        },
+        "10": {
+          "Damage": "+0.5"
+        },
+        "25": {
+          "Damage": "+0.5"
+        },
+        "30": {
+          "Damage": "+0.5"
+        },
+        "35": {
+          "Damage": "+0.5"
+        },
+        "40": {
+          "Damage": "+0.5"
+        }
+      }
+    },
+    "Fire": {
+      "Upgrades": {
+        "30": {
+          "Duration": "+1",
+          "Chance": "+10"
+        },
+        "35": {
+          "Chance": "+3"
+        },
+        "45": {
+          "Duration": "+1",
+          "Chance": "+3"
+        },
+        "60": {
+          "Chance": "+3"
+        },
+        "70": {
+          "Chance": "+3"
+        },
+        "90": {
+          "Duration": "+1",
+          "Chance": "+5"
+        },
+        "100": {
+          "Chance": "+3"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+6"
+        },
+        "%1>11<30": {
+          "Health": "+5"
+        },
+        "%1>31<100": {
+          "Health": "+1.1"
+        }
+      }
+    }
+  }
+}

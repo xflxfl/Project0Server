@@ -1,0 +1,120 @@
+﻿shitoujian: 
+  Id: 272
+  Data: 0 
+  Display: '&f石头剑' 
+pige4: 
+  Id: 298
+  Data: 0 
+  Display: '&f皮革头' 
+pige3: 
+  Id: 299
+  Data: 0 
+  Display: '&f皮革甲' 
+pige2: 
+  Id: 300
+  Data: 0 
+  Display: '&f皮革裤' 
+pige1: 
+  Id: 301
+  Data: 0 
+  Display: '&f皮革鞋' 
+tiejian: 
+  Id: 267
+  Data: 0 
+  Display: '&f铁剑' 
+tie4: 
+  Id: 306
+  Data: 0 
+  Display: '&f铁头' 
+tie3: 
+  Id: 307
+  Data: 0 
+  Display: '&f铁甲' 
+tie2: 
+  Id: 308
+  Data: 0 
+  Display: '&f铁裤' 
+tie1: 
+  Id: 309
+  Data: 0 
+  Display: '&f铁鞋' 
+huangjinjian: 
+  Id: 283 
+  Data: 0 
+  Display: '&e黄金剑' 
+huangjin4: 
+  Id: 314 
+  Data: 0 
+  Display: '&e黄金头' 
+huangjin3: 
+  Id: 315 
+  Data: 0 
+  Display: '&e黄金甲' 
+huangjin2: 
+  Id: 316 
+  Data: 0 
+  Display: '&e黄金腿' 
+huangjin1: 
+  Id: 317 
+  Data: 0 
+  Display: '&e黄金鞋' 
+suolian4: 
+  Id: 302 
+  Data: 0 
+  Display: '&e锁链头' 
+suolian3: 
+  Id: 303 
+  Data: 0 
+  Display: '&e锁链甲' 
+suolian2: 
+  Id: 304 
+  Data: 0 
+  Display: '&e锁链腿' 
+suolian1: 
+  Id: 305 
+  Data: 0 
+  Display: '&e锁链鞋' 
+gutou: 
+  Id: 352 
+  Data: 0 
+  Display: '&e骨头' 
+mujian: 
+  Id: 268 
+  Data: 0 
+  Display: '&e木剑' 
+gongjian:
+  Id: 261 
+  Data: 0 
+  Display: '&e弓箭' 
+铁斧:
+  Id: 258
+  Data: 0
+  Display: '&e铁斧' 
+hongshuijingjian:
+  Id: DIAMOND_SWORD
+  Model: 16
+  Data: 0
+xinglunjian:
+  Id: DIAMOND_SWORD
+  Model: 32
+  Data: 0
+riyuejian:
+  Id: DIAMOND_SWORD
+  Model: 30
+  Data: 0
+fenjijian:
+  Id: DIAMOND_SWORD
+  Model: 42
+  Data: 0
+diaolingwangjian:
+  Id: DIAMOND_SWORD
+  Model: 9
+  Data: 0
+shouhuzhejian:
+  Id: DIAMOND_SWORD
+  Model: 55
+  Data: 0
+tianwen:
+  Id: DIAMOND_SWORD
+  Model: 39
+  Data: 0

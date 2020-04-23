@@ -1,0 +1,44 @@
+# +------------------------------------------------------------+ #
+# Item2Chat Configuration
+# +------------------------------------------------------------+ #
+
+# NOTE: Do NOT put tabs anywhere in the config!
+
+Messages:
+  ErrorMsg : "&6[服务器] &c一个错误产生了."
+  NoItem: "&6[服务器] &c你必须手持一个物品来发送!"
+  NoPermission: "&6[服务器] &c你没有权限这么做!."
+  CoolDown: "&6[服务器] &c请等待 &b%remaining% &c秒后再发送."
+
+
+HelpMessages:
+  banner:
+    msg: "=== &e[&aItem2Chat 命令列表 (%version%)&e] &r==="  
+  help:
+    msg: "&a/item2chat help : 显示该帮助菜单."
+  reload:
+    msg: "&a/item2chat reload : 重载配置."
+    permission: "item2chat.reload"
+  debug:
+    msg: "&a/item2chat debug <true|false> : 开关debug模式."
+    permission: "item2chat.debug"
+
+#if this option is true, the plguin will try to send the chat packet in asynchronous fashion
+AsynchronousMode: false
+
+# if you encounter any issue with your chat plugin, try adjusting this option.
+# adjust these event priority if those event processes from this plugin
+# interfere with other plugins' event processes.
+EventPriorityMap:
+  AsyncPlayerChatEvent: "LOWEST"
+  PlayerCommandPreprocessEvent: "LOWEST"
+
+Cooldown: 10  # in seconds
+CaseSensitive: false
+Keyword:
+  - "[item]"
+  - "{item}"
+  - "[i]"
+
+InlineFormat: "&r&f[%name%%INLINE_AMOUNT%&r&f]"
+InlineAmountFormat: " (x%amount%)"

@@ -1,0 +1,19 @@
+LastKnownID: BiShop_Ma
+QuestProgress: ''
+FinishedConversation: []
+FinishedQuest:
+  newbie1:
+    FinishedTimes: 1
+    LastFinishTime: 1587335923417
+    RewardTaken: true
+  dungeon1:
+    FinishedTimes: 2
+    LastFinishTime: 1587337431886
+    RewardTaken: true
+  dungeon1-2:
+    FinishedTimes: 1
+    LastFinishTime: 1587338341604
+    RewardTaken: true
+FriendPoint:
+  '0': 0
+  '8': 0

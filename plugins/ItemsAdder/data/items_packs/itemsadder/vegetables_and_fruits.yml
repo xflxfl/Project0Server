@@ -1,0 +1,101 @@
+info:
+  namespace: itemsadder
+items:
+  tomato:
+    display_name: Tomato
+    permission: tomato
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+      - item/tomato.png
+  banana:
+    display_name: Banana
+    permission: banana
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+      - item/banana.png
+    events:
+      eat:
+        feed:
+          amount: 5
+  garlic:
+    display_name: Garlic
+    permission: garlic
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+      - item/garlic.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  lettuce:
+    display_name: Lettuce
+    permission: lettuce
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+      - item/lettuce.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  chili_pepper:
+    display_name: Chili pepper
+    permission: chili_pepper
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+      - item/chili_pepper.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  pear:
+    display_name: Pear
+    permission: pear
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+      - item/pear.png
+    events:
+      eat:
+        feed:
+          amount: 4
+  rice:
+    display_name: Rice
+    permission: rice
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+      - item/rice.png
+    events:
+      eat:
+        feed:
+          amount: 1
+# loots:
+  # blocks:
+    # jungle_leaves:
+      # type: JUNGLE_LEAVES
+      # items:
+        # banana:
+          # item: itemsadder:banana
+          # min_amount: 1
+          # max_amount: 2
+          # chance: 10
+    # birch_leaves:
+      # type: BIRCH_LEAVES
+      # items:
+        # pear:
+          # item: itemsadder:pear
+          # min_amount: 1
+          # max_amount: 5
+          # chance: 5

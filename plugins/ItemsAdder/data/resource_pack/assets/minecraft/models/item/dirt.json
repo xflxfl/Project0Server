@@ -1,0 +1,23 @@
+{
+  "parent": "block/dirt",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/iron_dirt_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/gold_dirt_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:auto_generated/coal_dirt_ore"
+    }
+  ]
+}

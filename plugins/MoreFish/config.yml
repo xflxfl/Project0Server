@@ -1,0 +1,65 @@
+#
+# MoreFish Configuration by elsiff
+#
+# Wiki: https://github.com/elsiff/MoreFish/wiki
+#
+# Warning: DO NOT edit rewards.yml with your file editor, instead use in-game command '/mf rewards'.
+#
+
+version: 300
+
+general:
+  locale: 'zh_cn'
+  check-update: true
+  auto-start: false
+  use-boss-bar: true
+  only-for-contest: true
+  no-fishing-unless-contest: false
+  contest-disabled-worlds: []
+  replace-only-fish: false
+  save-records: false
+
+contest-prizes: 
+  1:
+    commands:
+      - "cc give p 九选一 2 @p"
+  2~3:
+    commands:
+      - "cc give p 九选一 1 @p"
+  4~10:
+    commands:
+      - "eco give @p 200"
+  11~:
+    commands:
+      - "eco give @p 50"
+
+auto-running:
+  enable: true
+  required-players: 1
+  timer: 900
+  # HH:mm (H: 0-23, m: 0-59)
+  start-time:
+  - "12:45"
+  - "19:30"
+
+fish-shop:
+  enable: true
+  multiplier: 0.1
+  round-decimal-points: true
+  sign:
+    title: "&b&l[鱼店]"
+    creation: "[鱼店]"
+
+# -- Announcement Value --
+# '-1' means server broadcast
+# '0' is only for the catcher
+# Positive number means the block radius of announcing messages
+messages:
+  announce-catch: -1
+  announce-new-1st: -1
+  only-announce-fishing-rod: false
+  broadcast-start: true
+  broadcast-stop: true
+  show-top-on-ending: true
+  contest-bar-color: 'blue'
+  top-number: 3

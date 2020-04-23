@@ -1,0 +1,772 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    shopping_cart:
+      permission: itemsadder.shopping_cart
+      enabled: true
+      pattern:
+      - OXO
+      - OOO
+      - WBW
+      ingredients:
+        O: IRON_BARS
+        W: itemsadder:plastic_plate
+        B: BLACK_DYE
+      result:
+        item: itemsadder:shopping_cart
+        amount: 1
+    white_go_cart:
+      permission: itemsadder.white_go_cart
+      enabled: true
+      pattern:
+      - ORO
+      - OOO
+      - WBW
+      ingredients:
+        O: IRON_BLOCK
+        W: itemsadder:plastic_plate
+        B: BLACK_DYE
+        R: REDSTONE_BLOCK
+      result:
+        item: itemsadder:white_go_cart
+        amount: 1
+    oak_wood_plane:
+      permission: itemsadder.oak_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: OAK_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:oak_wood_plane
+        amount: 1
+    spruce_wood_plane:
+      permission: itemsadder.spruce_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: SPRUCE_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:spruce_wood_plane
+        amount: 1
+    birch_wood_plane:
+      permission: itemsadder.birch_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: BIRCH_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:birch_wood_plane
+        amount: 1
+    jungle_wood_plane:
+      permission: itemsadder.jungle_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: JUNGLE_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:jungle_wood_plane
+        amount: 1
+    acacia_wood_plane:
+      permission: itemsadder.acacia_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: ACACIA_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:acacia_wood_plane
+        amount: 1
+    dark_oak_wood_plane:
+      permission: itemsadder.dark_oak_wood_plane
+      enabled: true
+      pattern:
+      - WRW
+      - FBF
+      - WQW
+      ingredients:
+        W: DARK_OAK_PLANKS
+        R: REDSTONE_BLOCK
+        F: FEATHER
+        Q: REPEATER
+      result:
+        item: itemsadder:dark_oak_wood_plane
+        amount: 1
+    ufo:
+      permission: itemsadder.ufo
+      enabled: true
+      pattern:
+      - ELE
+      - RSR
+      - BXB
+      ingredients:
+        S: SLIME_BLOCK
+        R: REDSTONE_BLOCK
+        B: SLIME_BALL
+        L: LEVER
+        E: itemsadder:small_energy_capsule
+      result:
+        item: itemsadder:ufo
+        amount: 1
+items:
+  shopping_cart:
+    display_name: Shopping Cart
+    permission: shopping_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/shopping_cart
+    behaviours:
+      vehicle:
+        sit_height: 2
+        step_height: 0.1
+        size:
+          x: 2
+          y: 2.3
+          z: 1
+        speed:
+          drive: 0.3
+          jump: 0.3
+        fuel:
+          start: 60
+          max: 300
+          items:
+            banana: 30
+            pear: 30
+  white_go_cart:
+    display_name: White Go-cart
+    permission: white_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/white_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  orange_go_cart:
+    display_name: Orange Go-cart
+    permission: orange_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/orange_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  magenta_go_cart:
+    display_name: Magenta Go-cart
+    permission: magenta_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/magenta_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  light_blue_go_cart:
+    display_name: Light Blue Go-cart
+    permission: light_blue_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/light_blue_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  yellow_go_cart:
+    display_name: Yellow Go-cart
+    permission: yellow_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/yellow_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  lime_go_cart:
+    display_name: Lime Go-cart
+    permission: lime_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/lime_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  pink_go_cart:
+    display_name: Pink Go-cart
+    permission: pink_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/pink_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  gray_go_cart:
+    display_name: Gray Go-cart
+    permission: gray_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/gray_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  light_gray_go_cart:
+    display_name: Light Gray Go-cart
+    permission: light_gray_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/light_gray_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  cyan_go_cart:
+    display_name: Cyan Go-cart
+    permission: cyan_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/cyan_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  purple_go_cart:
+    display_name: Purple Go-cart
+    permission: purple_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/purple_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  blue_go_cart:
+    display_name: Blue Go-cart
+    permission: blue_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/blue_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  brown_go_cart:
+    display_name: Brown Go-cart
+    permission: brown_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/brown_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  green_go_cart:
+    display_name: Green Go-cart
+    permission: green_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/green_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  red_go_cart:
+    display_name: Red Go-cart
+    permission: red_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/red_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  black_go_cart:
+    display_name: Black Go-cart
+    permission: black_go_cart
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/black_go_cart
+    behaviours:
+      vehicle:
+        sit_height: 0
+        step_height: 0.1
+        size:
+          x: 2
+          y: 1.7
+          z: 1
+        speed:
+          drive: 1
+          jump: 0.3
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  oak_wood_plane:
+    display_name: Oak Wood Plane
+    permission: oak_wood_plane
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/oak_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        size:
+          x: 5
+          y: 1.7
+          z: 4
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  spruce_wood_plane:
+    display_name: Spruce Wood Plane
+    permission: spruce_wood_plane
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/spruce_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        size:
+          x: 5
+          y: 1.7
+          z: 4
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  birch_wood_plane:
+    display_name: Birch Wood Plane
+    permission: birch_wood_plane
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/birch_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        size:
+          x: 5
+          y: 1.7
+          z: 4
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  jungle_wood_plane:
+    display_name: Jungle Wood Plane
+    permission: jungle_wood_plane
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/jungle_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        size:
+          x: 5
+          y: 1.7
+          z: 4
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  acacia_wood_plane:
+    display_name: Acacia Wood Plane
+    permission: acacia_wood_plane
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/acacia_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        size:
+          x: 5
+          y: 1.7
+          z: 4
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  dark_oak_wood_plane:
+    display_name: Dark Oak Wood Plane
+    permission: dark_oak_wood_plane
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/dark_oak_wood_plane
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        size:
+          x: 5
+          y: 1.7
+          z: 4
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 300
+          items:
+            COAL: 1
+            CHARCOAL: 1
+            COAL_BLOCK: 9
+  ufo:
+    display_name: Ufo
+    permission: ufo
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/ufo
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        size:
+          x: 5
+          y: 1.7
+          z: 4
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 1000
+          items:
+            energy_orb: 2
+            small_energy_capsule: 16
+            energy_capsule: 128
+  broomstick:
+    display_name: Broomstick
+    permission: broomstick
+    resource:
+      material: BLACK_BED
+      generate: false
+      model_path: item/broomstick
+    behaviours:
+      vehicle:
+        sit_height: 1
+        step_height: 1
+        size:
+          x: 5
+          y: 1.7
+          z: 4
+        speed:
+          drive: 1
+          jump: 0.5
+          fly: 0.7
+        fuel:
+          start: 150
+          max: 1000
+          items:
+            energy_orb: 2
+            small_energy_capsule: 16
+            energy_capsule: 128

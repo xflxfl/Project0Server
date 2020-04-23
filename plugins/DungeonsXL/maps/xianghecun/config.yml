@@ -1,0 +1,84 @@
+timeToNextPlayAfterFinish: 2
+timeToFinish: 1200
+initialLives: 2
+
+title:
+  title: "&4祥和村"
+  subtitle: "&6你共有2条命"
+  
+time: 6000
+
+dungeonManager:
+  minPlayers: 1
+  maxPlayers: 4
+  minLevel: 4
+  icon:
+    id: STICK
+    model: 70
+    
+dps:
+  exp: 20-40
+  bonusRewardProb: 0.005
+  '1':
+    cmd: give %player% diamond_helmet 1
+    chance: 0.14
+    icon:
+      id: DIAMOND_HELMET
+      displayName: "&f钻石头盔"
+      model: 0
+  '2':
+    cmd: give %player% diamond_chestplate 1
+    chance: 0.14
+    icon:
+      id: DIAMOND_CHESTPLATE
+      displayName: "&f钻石胸甲"
+      model: 0
+  '3':
+    cmd: give %player% diamond_leggings 1
+    chance: 0.14
+    icon:
+      id: DIAMOND_LEGGINGS
+      displayName: "&f钻石护腿"
+      model: 0
+  '4':
+    cmd: give %player% diamond_boots 1
+    chance: 0.14
+    icon:
+      id: DIAMOND_BOOTS
+      displayName: "&f钻石靴子"
+      model: 0
+  '5':
+    cmd: give %player% enchanted_book{StoredEnchantments:[{id:fortune,lvl:3}]} 1
+    chance: 0.04
+    icon:
+      id: ENCHANTED_BOOK
+      displayName: "&e时运3附魔书"
+      model: 0
+  '6':
+    cmd: give %player% ghast_tear 1
+    chance: 0.08
+    icon:
+      id: GHAST_TEAR
+      displayName: "&f恶魂之泪1个"
+      model: 0
+  '7':
+    cmd: give %player% diamond 4
+    chance: 0.12
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石4个"
+      model: 0
+  '8':
+    cmd: eco give %player% 200
+    chance: 0.16
+    icon:
+      id: STICK
+      displayName: "&6200金币"
+      model: 29
+  '9':
+    cmd: ph giveitem %player% mjy:gujian_sword
+    chance: 0.04
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&9骨剑"
+      model: 35

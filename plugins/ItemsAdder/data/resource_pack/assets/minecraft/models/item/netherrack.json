@@ -1,0 +1,17 @@
+{
+  "parent": "block/netherrack",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/blaze_powder_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/nether_alchemy_ore"
+    }
+  ]
+}

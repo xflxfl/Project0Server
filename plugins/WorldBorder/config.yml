@@ -1,0 +1,51 @@
+cfg-version: 11
+message: '&cYou have reached the edge of this world.'
+round-border: true
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: The border of the world.
+dynmap-border-hideByDefault: false
+dynmap-border-priority: 0
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+bypass-list-uuids: []
+fill-memory-tolerance: 500
+prevent-block-place: false
+prevent-mob-spawn: false
+worlds:
+  world:
+    x: 93.47716708036363
+    z: -94.75273397447577
+    radiusX: 200
+    radiusZ: 200
+    wrapping: false
+  shengcun:
+    x: -383.55777047757164
+    z: -158.3591312527384
+    radiusX: 4000
+    radiusZ: 4000
+    wrapping: false
+  kuangjie:
+    x: 33.5
+    z: -122.5
+    radiusX: 4000
+    radiusZ: 4000
+    wrapping: false
+  world_nether:
+    x: 26.5
+    z: 52.5
+    radiusX: 4000
+    radiusZ: 4000
+    wrapping: false
+  world_the_end:
+    x: -89.5
+    z: -38.5
+    radiusX: 4000
+    radiusZ: 4000
+    wrapping: false

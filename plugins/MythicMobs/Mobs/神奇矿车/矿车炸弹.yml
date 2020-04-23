@@ -1,0 +1,25 @@
+﻿kc_zhadan:
+  Type: ZOMBIE
+  Display: '&4矿车炸弹'
+  Health: 30
+  Damage: 3
+  Armor: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    FollowRange: 10
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+    Despawn: false
+  Disguise:
+    Type: minecart_tnt
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  - pige3:3
+  Skills:
+  - skill{s=kuangchezhadan} @Self ~onCombat 1

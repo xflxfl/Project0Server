@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "mjy:block/ore/zishuijing_ore",
+    "particle": "mjy:block/ore/zishuijing_ore"
+  }
+}

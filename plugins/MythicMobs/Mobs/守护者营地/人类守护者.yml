@@ -1,0 +1,51 @@
+﻿人类守护者:
+  Type: Zombie
+  Display: '&2人类守护者'
+  Health: 60
+  Damage: 10
+  Armor: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+    Slient: true
+  Disguise:
+      Type: Player
+      Player: 人类守护者
+      Skin: Its_Sangbro
+  Equipment:
+  - tie4:4
+  - shouhuzhejian:0
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - leap{v=200} @Target ~onTimer:100 1
+  
+人类守护者T1:
+  Type: Zombie
+  Display: '&2人类守护者'
+  Health: 60
+  Damage: 10
+  Armor: 3
+  Modules:
+    ThreatTable: true
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+    Slient: true
+  Disguise:
+      Type: Player
+      Player: 人类守护者
+      Skin: Its_Sangbro
+  Equipment:
+  - tie4:4
+  - shouhuzhejian:0
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - leap{v=200} @Target ~onTimer:100 1

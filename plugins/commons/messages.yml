@@ -1,0 +1,5 @@
+cmd:
+  doesNotExist: "&c命令不存在."
+  noConsoleCommand: "&c控制台无法执行这条命令."
+  noPermission: "&c你没有权限这么做."
+  noPlayerCommand: "&c玩家无法执行这条命令."

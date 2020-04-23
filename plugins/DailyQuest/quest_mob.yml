@@ -1,0 +1,597 @@
+'1':
+  Mob:
+    ID: ZOMBIE
+    Amount: 2
+    CustomName: §e§l狩猎者
+  Reward:
+    Money: '30:50'
+ELDER_GUARDIAN:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e4§f个§e远古守卫者§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: ELDER_GUARDIAN
+    Amount: 4
+  Reward:
+    Money: 30:100
+WITHER_SKELETON:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e3§f个§e凋灵骷髅§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: WITHER_SKELETON
+    Amount: 3
+  Reward:
+    Money: 30:100
+STRAY:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e4§f个§e流浪者§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: STRAY
+    Amount: 4
+  Reward:
+    Money: 30:100
+HUSK:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e5§f个§e尸壳§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: HUSK
+    Amount: 5
+  Reward:
+    Money: 30:100
+ZOMBIE_VILLAGER:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e3§f个§e僵尸村民§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: ZOMBIE_VILLAGER
+    Amount: 3
+  Reward:
+    Money: 30:100
+SKELETON_HORSE:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e4§f个§e骷髅马§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: SKELETON_HORSE
+    Amount: 4
+  Reward:
+    Money: 30:100
+ZOMBIE_HORSE:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e4§f个§e僵尸马§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: ZOMBIE_HORSE
+    Amount: 4
+  Reward:
+    Money: 30:100
+DONKEY:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e5§f个§e驴§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: DONKEY
+    Amount: 5
+  Reward:
+    Money: 30:100
+MULE:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e4§f个§e骡§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: MULE
+    Amount: 4
+  Reward:
+    Money: 30:100
+EVOKER:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e2§f个§e唤魔者§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: EVOKER
+    Amount: 2
+  Reward:
+    Money: 30:100
+VEX:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e4§f个§e恼鬼§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: VEX
+    Amount: 4
+  Reward:
+    Money: 30:100
+VINDICATOR:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e3§f个§e卫道士§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: VINDICATOR
+    Amount: 3
+  Reward:
+    Money: 30:100
+ILLUSIONER:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e2§f个§e幻术师§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: ILLUSIONER
+    Amount: 2
+  Reward:
+    Money: 30:100
+CREEPER:
+  Type: mob
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e4§f个§e苦力怕§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: CREEPER
+    Amount: 4
+  Reward:
+    Money: 30:100
+SKELETON:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e5§f个§e骷髅§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: SKELETON
+    Amount: 5
+  Reward:
+    Money: 30:100
+SPIDER:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e2§f个§e蜘蛛§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: SPIDER
+    Amount: 2
+  Reward:
+    Money: 30:100
+ZOMBIE:
+  Type: mob
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e3§f个§e僵尸§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: ZOMBIE
+    Amount: 3
+  Reward:
+    Money: 30:100
+SLIME:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e5§f个§e史莱姆§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: SLIME
+    Amount: 5
+  Reward:
+    Money: 30:100
+GHAST:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e5§f个§e恶魂§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: GHAST
+    Amount: 5
+  Reward:
+    Money: 30:100
+ENDERMAN:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e4§f个§e末影人§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: ENDERMAN
+    Amount: 4
+  Reward:
+    Money: 30:100
+CAVE_SPIDER:
+  Type: mob
+  NPCID: 14
+  Describe: §a§6北门守卫§f希望你能去帮他解决§e5§f个§e洞穴蜘蛛§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: CAVE_SPIDER
+    Amount: 5
+  Reward:
+    Money: 30:100
+SILVERFISH:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e5§f个§e蠹虫§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: SILVERFISH
+    Amount: 5
+  Reward:
+    Money: 30:100
+BLAZE:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e2§f个§e烈焰人§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: BLAZE
+    Amount: 2
+  Reward:
+    Money: 30:100
+MAGMA_CUBE:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e3§f个§e岩浆怪§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: MAGMA_CUBE
+    Amount: 3
+  Reward:
+    Money: 30:100
+BAT:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e4§f个§e蝙蝠§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: BAT
+    Amount: 4
+  Reward:
+    Money: 30:100
+WITCH:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e5§f个§e女巫§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: WITCH
+    Amount: 5
+  Reward:
+    Money: 30:100
+ENDERMITE:
+  Type: mob
+  NPCID: 14
+  Describe: §a§6北门守卫§f希望你能去帮他解决§e2§f个§e末影螨§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: ENDERMITE
+    Amount: 2
+  Reward:
+    Money: 30:100
+GUARDIAN:
+  Type: mob
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e5§f个§e守卫者§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: GUARDIAN
+    Amount: 5
+  Reward:
+    Money: 30:100
+SHULKER:
+  Type: mob
+  NPCID: 14
+  Describe: §a§6北门守卫§f希望你能去帮他解决§e5§f个§e潜影贝§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: SHULKER
+    Amount: 5
+  Reward:
+    Money: 30:100
+PIG:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e2§f个§e猪§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: PIG
+    Amount: 2
+  Reward:
+    Money: 30:100
+SHEEP:
+  Type: mob
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e2§f个§e羊§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: SHEEP
+    Amount: 2
+  Reward:
+    Money: 30:100
+COW:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e4§f个§e牛§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: COW
+    Amount: 4
+  Reward:
+    Money: 30:100
+CHICKEN:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e4§f个§e鸡§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: CHICKEN
+    Amount: 4
+  Reward:
+    Money: 30:100
+SQUID:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e4§f个§e鱿鱼§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: SQUID
+    Amount: 4
+  Reward:
+    Money: 30:100
+WOLF:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e3§f个§e狼§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: WOLF
+    Amount: 3
+  Reward:
+    Money: 30:100
+OCELOT:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e3§f个§e豹猫§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: OCELOT
+    Amount: 3
+  Reward:
+    Money: 30:100
+IRON_GOLEM:
+  Type: mob
+  NPCID: 14
+  Describe: §a§6北门守卫§f希望你能去帮他解决§e4§f个§e铁傀儡§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: IRON_GOLEM
+    Amount: 4
+  Reward:
+    Money: 30:100
+HORSE:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e2§f个§e马§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: HORSE
+    Amount: 2
+  Reward:
+    Money: 30:100
+RABBIT:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e4§f个§e兔子§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: RABBIT
+    Amount: 4
+  Reward:
+    Money: 30:100
+POLAR_BEAR:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e5§f个§e北极熊§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: POLAR_BEAR
+    Amount: 5
+  Reward:
+    Money: 30:100
+LLAMA:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e2§f个§e羊驼§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: LLAMA
+    Amount: 2
+  Reward:
+    Money: 30:100
+PARROT:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e4§f个§e鹦鹉§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: PARROT
+    Amount: 4
+  Reward:
+    Money: 30:100
+VILLAGER:
+  Type: mob
+  NPCID: 14
+  Describe: §a§6北门守卫§f希望你能去帮他解决§e3§f个§e村民§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: VILLAGER
+    Amount: 3
+  Reward:
+    Money: 30:100
+TURTLE:
+  Type: mob
+  NPCID: 9
+  Describe: §a§6小花§f希望你能去帮他解决§e4§f个§e海龟§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: TURTLE
+    Amount: 4
+  Reward:
+    Money: 30:100
+PHANTOM:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e2§f个§e幻翼§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: PHANTOM
+    Amount: 2
+  Reward:
+    Money: 30:100
+COD:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e5§f个§e鳕鱼§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: COD
+    Amount: 5
+  Reward:
+    Money: 30:100
+SALMON:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e2§f个§e鲑鱼§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: SALMON
+    Amount: 2
+  Reward:
+    Money: 30:100
+PUFFERFISH:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e2§f个§e河豚§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: PUFFERFISH
+    Amount: 2
+  Reward:
+    Money: 30:100
+TROPICAL_FISH:
+  Type: mob
+  NPCID: 14
+  Describe: §a§6北门守卫§f希望你能去帮他解决§e2§f个§e热带鱼§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: TROPICAL_FISH
+    Amount: 2
+  Reward:
+    Money: 30:100
+DROWNED:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e5§f个§e溺尸§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: DROWNED
+    Amount: 5
+  Reward:
+    Money: 30:100
+DOLPHIN:
+  Type: mob
+  NPCID: 10
+  Describe: §a§6巫婆§f希望你能去帮他解决§e4§f个§e海豚§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: DOLPHIN
+    Amount: 4
+  Reward:
+    Money: 30:100
+CAT:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e4§f个§e猫§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: CAT
+    Amount: 4
+  Reward:
+    Money: 30:100
+PANDA:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e3§f个§e熊猫§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: PANDA
+    Amount: 3
+  Reward:
+    Money: 30:100
+PILLAGER:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e3§f个§e掠夺者§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: PILLAGER
+    Amount: 3
+  Reward:
+    Money: 30:100
+RAVAGER:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e2§f个§e劫掠兽§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: RAVAGER
+    Amount: 2
+  Reward:
+    Money: 30:100
+TRADER_LLAMA:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e3§f个§e行商羊驼§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: TRADER_LLAMA
+    Amount: 3
+  Reward:
+    Money: 30:100
+WANDERING_TRADER:
+  Type: mob
+  NPCID: 11
+  Describe: §a§6铁匠§f希望你能去帮他解决§e2§f个§e流浪商人§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: WANDERING_TRADER
+    Amount: 2
+  Reward:
+    Money: 30:100
+FOX:
+  Type: mob
+  NPCID: 13
+  Describe: §a§6东门守卫§f希望你能去帮他解决§e3§f个§e狐狸§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: FOX
+    Amount: 3
+  Reward:
+    Money: 30:100
+BEE:
+  Type: mob
+  NPCID: 12
+  Describe: §a§6大叔§f希望你能去帮他解决§e5§f个§e蜜蜂§f！
+  RewardMessage: §7你完成了任务
+  Mob:
+    ID: BEE
+    Amount: 5
+  Reward:
+    Money: 30:100

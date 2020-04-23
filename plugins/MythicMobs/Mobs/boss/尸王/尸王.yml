@@ -1,0 +1,116 @@
+﻿# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+shiwang:
+  Type: ZOMBIE
+  Display: '&6尸王'
+  Health: 2500
+  Damage: 19
+  Equipment:
+  - KingsCrown HEAD
+  - huangjin3 CHEST
+  - huangjin2 LEGS
+  - huangjin1 FEET
+  - fenjijian HAND
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  BossBar:
+    Enabled: true
+    Title: '&c尸王'
+    Range: 30
+    Color: RED
+    Style: SOLID
+  Modules:
+    ThreatTable: true
+  DamageModifiers:
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - CUSTOM 0
+  - LAVA 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - FALL 0
+  - SUFFOCATION 0
+  - PROJECTILE 5
+  - ENTITY_ATTACK 1
+  - CONTACT 0
+  Skills:
+  - message{m="<mob.name><&co>你会死在这里的!"} @PlayersInRadius{r=50} ~onSpawn
+  - ignite{ticks=100} @target ~onAttack
+  - damage{a=2;i=false} @target ~onDamaged =10%-40% 0.2
+  #- doppleganger ~onDamaged
+  - forcepull @PlayersInRadius{r=10} ~onDamaged 0.1
+  - heal{a=40;overheal=false} @Self ~onDamaged =10%-30% 0.2
+  - sendtitle{fi=50;fo=50;d=100;t="&c尸王复活了!";} @PlayersInRadius{r=50} ~onSpawn
+  - summon{m=jiangshizhanshi1;a=2;r=5} @Target ~onDamaged <30% 0.1
+  - mount{type=尸王坐骑} @self ~onSpawn
+  - remove @MIR{r=5;t=尸王坐骑} ~onDeath
+  - throw{v=0;vy=3} @PlayersInRadius{r=15} ~onDamaged 0.3
+  - GCD{ticks=60}
+  - consume{d=30;h=15} @MobsInRadius{type=jiangshizhanshi1;r=10} ~onDamaged <30% 0.1
+  - setlevel{a=set;l=1} ~onSpawn
+  - message{m="&a[尸王] &c尸王的血量还有70%了。大家加油！"} @PlayersInRadius{r=50} ~onDamaged =70% 
+  - message{m="&a[尸王] &c尸王的血量还有50%了。大家加油！"} @PlayersInRadius{r=50} ~onDamaged =50% 
+  - message{m="&a[尸王] &c尸王的血量还有30%了。大家加油！"} @PlayersInRadius{r=50} ~onDamaged =30% 
+  - message{m="&a[尸王] &c尸王的血量还有10%了。大家加油！"} @PlayersInRadius{r=50} ~onDamaged =10% 
+  - effect:particlesphere{p=smoke;a=40;radius=1;y=0.5} @Self ~onTimer:5
+  #- command{c="broadcast &a[世界BOSS] &c恐怖的尸王又一次复活了。次元空间内的勇士们，输入/warp boss传送到BOSS战场维护世界和平把！"} @self
+  #- jsonmessage{m="[{'text':'&a[世界BOSS] &c尸王的血量还有70%了。大家加油！点击传送到BOSS场地','hoverEvent':{'action':'show_text','value':{'text':'&a点击传送'}},'clickEvent':{'action':'run_command','value':'/warp boss'}}]"} @PlayersOnServer ~onDamaged =70% 
+  #- jsonmessage{m="[{'text':'&a[世界BOSS] &c尸王的血量还有50%了。大家加油！点击传送到BOSS场地','hoverEvent':{'action':'show_text','value':{'text':'&a点击传送'}},'clickEvent':{'action':'run_command','value':'/warp boss'}}]"} @PlayersOnServer ~onDamaged =50% 
+  #- jsonmessage{m="[{'text':'&a[世界BOSS] &c尸王的血量还有30%了。大家加油！点击传送到BOSS场地','hoverEvent':{'action':'show_text','value':{'text':'&a点击传送'}},'clickEvent':{'action':'run_command','value':'/warp boss'}}]"} @PlayersOnServer ~onDamaged =30% 
+  #- jsonmessage{m="[{'text':'&a[世界BOSS] &c恐怖的尸王又一次复活了。点击传送到BOSS场地','hoverEvent':{'action':'show_text','value':{'text':'&a点击传送'}},'clickEvent':{'action':'run_command','value':'/warp boss'}}]"} @PlayersOnServer ~onSpawn 
+  #- jsonmessage{m="[{'text':'&a[世界BOSS] &c恐怖的尸王又一次复活了。次元空间内的勇士们，输入/warp boss传送到BOSS战场维护世界和平把！','hoverEvent':{'action':'show_text','value':{'text':'&a点击传送'}},'clickEvent':{'action':'run_command','value':'/warp boss'}}]"} @PlayersOnServer ~onSpawn
+  #- jsonmessage{m="[{'text':'&a[世界BOSS] &c尸王被消灭了，世界再一次恢复平静！'}]"} @PlayersOnServer ~onDeath
+  #- prison{type=Grass;duration=200;breakable=false} @target
+  #- rally{r=15;types=ExampleMobs,SkeletalMinion} @Self 没什么效果
+  #- summon{type=彩蛋蝙蝠;a=5;r=1} @Self ~onDeath
+  Options:
+    #Size: 10
+    Despawn: false
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    KnockbackResistance: 0.5
+尸王坐骑:
+  Type: ZOMBIE
+  Display: '&e尸王坐骑'
+  Health: 200
+  Damage: 1
+  Disguise:
+    Type: SKELETON_HORSE
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 10
+  - GOLD_INGOT 5-15 1
+  Options:
+    Despawn: false
+    MovementSpeed: 0.35
+彩蛋蝙蝠:
+  MobType: bat
+  Display: '&6Loot Stash Bat'
+  Health: 2
+  Damage: 1
+  Skills:
+  - skill{s=LootMobTimer} @Self ~onSpawn
+  Drops:
+  - 264 2-5 1
+  - exp 30 1
+  - money 100
+  Options:
+    Silent: true
+    Despawn: true

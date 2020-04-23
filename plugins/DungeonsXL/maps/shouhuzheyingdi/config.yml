@@ -1,0 +1,98 @@
+timeToNextPlayAfterFinish: 2
+timeToFinish: 1800
+initialLives: 3
+
+title:
+  title: "&4守护者营地"
+  subtitle: "&6你共有3条命"
+  
+time: 6000
+
+dungeonManager:
+  minPlayers: 1
+  maxPlayers: 4
+  minLevel: 10
+  icon:
+    id: STICK
+    model: 70
+    
+dps:
+  exp: 30-100
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:shouhuzhe_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&3守护者之剑"
+      model: 30
+  '2':
+    cmd: ph giveitem %player% mjy:shouhuzhe_chest
+    chance: 0.09
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&3守护者胸甲"
+      model: 19
+  '3':
+    cmd: ph giveitem %player% mjy:shouhuzhe_legs
+    chance: 0.09
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&3守护者护腿"
+      model: 11
+  '4':
+    cmd: ph giveitem %player% mjy:shouhuzhe_boots
+    chance: 0.09
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&3守护者靴子"
+      model: 11
+  '5':
+    cmd: give %player% iron_ingot 24
+    chance: 0.15
+    icon:
+      id: IRON_INGOT
+      displayName: "&f铁锭24个"
+      model: 0
+  '6':
+    cmd: ph giveitem %player% mjy:shouhuzhe_head
+    chance: 0.09
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&3守护者头盔"
+      model: 10
+  '7':
+    cmd: give %player% diamond 8
+    chance: 0.1
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石8个"
+      model: 0
+  '8':
+    cmd: eco give %player% 270
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6270金币"
+      model: 29
+  '9':
+    cmd: eco give %player% 400
+    chance: 0.08
+    icon:
+      id: STICK
+      displayName: "&6400金币"
+      model: 29
+  '10':
+    cmd: give %player% diamond 16
+    chance: 0.08
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石16个"
+      model: 0
+  '11':
+    cmd: cc give p 快速 1 %player%
+    chance: 0.04
+    icon:
+      id: PAPER
+      displayName: "&5快速抽奖箱钥匙"
+      model: 36

@@ -1,0 +1,70 @@
+timeToNextPlayAfterFinish: 2
+timeToFinish: 1200
+initialLives: 2
+
+title:
+  title: "&4静谧之地"
+  subtitle: "&6你共有2条命"
+  
+time: 6000
+
+dungeonManager:
+  minPlayers: 1
+  maxPlayers: 4
+  minLevel: 3
+  icon:
+    id: STICK
+    model: 70
+    
+dps:
+  exp: 20-30
+  bonusRewardProb: 0.005
+  '1':
+    cmd: give %player% iron_sword 1
+    chance: 0.3
+    icon:
+      id: IRON_SWORD
+      displayName: "&f铁剑"
+      model: 0
+  '2':
+    cmd: ph giveitem %player% mjy:shilian_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&8试炼剑"
+      model: 29
+  '3':
+    cmd: eco give %player% 50
+    chance: 0.2
+    icon:
+      id: STICK
+      displayName: "&650金币"
+      model: 29
+  '4':
+    cmd: eco give %player% 100
+    chance: 0.1
+    icon:
+      id: STICK
+      displayName: "&6100金币"
+      model: 29
+  '5':
+    cmd: give %player% diamond 2
+    chance: 0.1
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石2个"
+      model: 0
+  '6':
+    cmd: give %player% iron_ingot 10
+    chance: 0.1
+    icon:
+      id: IRON_INGOT
+      displayName: "&6铁10个"
+      model: 0
+  '7':
+    cmd: give %player% gold_ingot 6
+    chance: 0.1
+    icon:
+      id: GOLD_INGOT
+      displayName: "&6黄金6个"
+      model: 0

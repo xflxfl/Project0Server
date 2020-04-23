@@ -1,0 +1,699 @@
+# 设置钟表属性
+Clock:
+  # 是否在玩家登录时，自动获取钟表菜单(如果身上已拥有则不会重复获得)
+  AutoGetClock: true
+  # 钟表菜单显示名称
+  Name: §a钟表菜单
+  # 钟表菜单Lore
+  Lore: §6服务器钟表菜单%§6右键我打开菜单
+  World:
+  - world
+  - world_nether
+  - world_the_end
+  - shengcun
+  - kuangjie
+
+# 所有菜单的详细设置
+GUI:
+  # 0号菜单为钟表菜单的主菜单
+  # 请一定要将各个菜单按顺序设置
+  '0':
+    # 主菜单的名称
+    Name: §1§l服务器钟表菜单
+    # 主菜单的按钮设置
+    Item:
+      # 第一个按钮
+      '1':
+        # 按钮位置(0号为左上角第一个)
+        Position: 26
+        # 按钮显示物品ID
+        ItemID: 'PAPER'
+        Model: 47
+        # 按钮显示名称
+        Name: §e商城
+        # 按钮显示Lore(每一行用%隔开)
+        Lore: §a点击打开商城
+        HideItem: false
+        # 物品显示附魔
+        Enchantment:
+          # 附魔ID
+          ID: protection
+          # 附魔等级
+          Level: 1
+        # 是否隐藏附魔显示
+        HideEnchant: true
+        # 按下这个按钮的花费
+        Cost:
+          # 花费的类型(Money为金币，PlayerPoints为点券)
+          Type: Money
+          # 花费的价格
+          Price: 0
+        # 按下按钮发给玩家的信息
+        #Message: §a你已打开商城%§c测试
+        # 按钮按下次数(每个玩家都有这么多次数，按下一次即为一次，一旦玩家按下次数超过这个数值则该按钮不再显示)
+        #Frequency: -1
+        # 按下这个按钮的功能(可以都不选，也可以都选)
+        Function:
+          # 打开另一个GUI窗口
+          OpenAnotherGUI:
+            # 是否开启这个功能
+            Use: true
+            # GUI窗口编号(即每一个GUI界面设置的最前面的那个数字)
+            Number: 1
+          # 执行指令(可以是多个指令同时执行)
+          Command:
+            # 是否开启这个功能
+            Use: false
+            # 指令内容(每一个指令用%隔开。变量说明:{player}代表按下这个按钮的玩家,{ignoreOP}为无视权限执行这个指令)
+            Content: /say 钟表菜单%/say hahaha
+      '2':
+        Position: 24
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'EMERALD'
+        Name: §6签到界面
+        Lore: §2点击打开签到界面%§3领取丰厚签到奖励
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /qd gui
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '3':
+        Position: 0
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'BEACON'
+        Name: §6传送至主城
+        Lore: §2点击传送至主城
+        Function:
+          Command:
+            Use: true
+            Content: /spawn
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '4':
+        Position: 1
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'LIME_BED'
+        Name: §6传送至生存区
+        Lore: §2点击传送至生存区
+        Function:
+          Command:
+            Use: true
+            Content: /warp sc
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '5':
+        Position: 2
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'DIAMOND_PICKAXE'
+        Name: §6传送至矿界
+        Lore: §2点击传送至矿界
+        Function:
+          Command:
+            Use: true
+            Content: /warp kj
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '6':
+        Position: 9
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'PLAYER_HEAD'
+        Name: §6传送至副本使者
+        Lore: §2点击传送至副本使者
+        Function:
+          Command:
+            Use: true
+            Content: /warp fb
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '7':
+        Position: 7
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'PAPER'
+        Model: 41
+        Name: §6传送至抽奖屋
+        Lore: §2点击传送至抽奖屋
+        Function:
+          Command:
+            Use: true
+            Content: /warp cj
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '8':
+        Position: 3
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'NETHERRACK'
+        Name: §6传送至地狱
+        Lore: §2点击传送至地狱
+        Function:
+          Command:
+            Use: true
+            Content: /warp dy
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '9':
+        Position: 4
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'END_STONE'
+        Name: §6传送至末地
+        Lore: §2点击传送至末地
+        Function:
+          Command:
+            Use: true
+            Content: /warp md
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '10':
+        Position: 5
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'DARK_OAK_DOOR'
+        Name: §6传送至小区
+        Lore: §2点击传送至小区
+        Function:
+          Command:
+            Use: true
+            Content: /warp xq
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '11':
+        Position: 6
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'STICK'
+        Model: 29
+        Name: §6传送至主城商店
+        Lore: §2点击传送至主城商店
+        Function:
+          Command:
+            Use: true
+            Content: /warp shop
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '12':
+        Position: 18
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'ZOMBIE_HEAD'
+        Name: §6副本菜单
+        Lore: §2点击打开副本菜单
+        Function:
+          Command:
+            Use: true
+            Content: /dm
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '13':
+        Position: 20
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'DIAMOND_SWORD'
+        Model: 16
+        Name: §6开启/关闭PVP
+        Lore: §2点击开启/关闭PVP
+        Function:
+          Command:
+            Use: true
+            Content: /pvp
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '14':
+        Position: 19
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'PAPER'
+        Model: 44
+        Name: §6打开宠物助手
+        Lore: §2点击打开宠物助手
+        Function:
+          Command:
+            Use: false
+            Content: /cc
+          OpenAnotherGUI:
+            Use: true
+            Number: 2
+      '15':
+        Position: 21
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'WRITABLE_BOOK'
+        Name: §6打开服务器帮助
+        Lore: §2点击打开服务器帮助
+        Function:
+          Command:
+            Use: false
+            Content: /cc
+          OpenAnotherGUI:
+            Use: true
+            Number: 3
+      '16':
+        Position: 22
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'ANVIL'
+        Name: §6打开强化系统
+        HideItem: true
+        Lore: §2点击打开强化系统
+        Function:
+          Command:
+            Use: true
+            Content: /qh gui
+          OpenAnotherGUI:
+            Use: false
+            Number: 3
+      '17':
+        Position: 10
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'PLAYER_HEAD'
+        Name: §6传送至鱼贩
+        Lore: §2点击传送至鱼贩
+        Function:
+          Command:
+            Use: true
+            Content: /warp fish
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '18':
+        Position: 11
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'PLAYER_HEAD'
+        Name: §6传送至宠物助手
+        Lore: §2点击传送至宠物助手
+        Function:
+          Command:
+            Use: true
+            Content: /warp pet
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '19':
+        Position: 23
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'BOOK'
+        Name: §6打开任务列表
+        Lore: §2点击打开任务列表
+        Function:
+          Command:
+            Use: true
+            Content: /mq quest list
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+  '1':
+    Name: §5§l赞助商城
+    Item:
+      '1':
+        Position: 2
+        ItemID: 'PAPER'
+        Model: 46
+        Name: §a购买Vip1(31天)
+        Lore: §3特权请查看Vip手册%§5价格:15元%§6点击选择支付方式
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui vip1
+      '2':
+        Position: 4
+        ItemID: 'PAPER'
+        Model: 47
+        Name: §a购买Vip2
+        Lore: §3特权请查看Vip手册%§5价格:25元%§6点击选择支付方式
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui vip2
+      '3':
+        Position: 6
+        ItemID: 'PAPER'
+        Model: 48
+        Name: §a购买Vip3
+        Lore: §3特权请查看Vip手册%§5价格:40元%§6点击选择支付方式
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui vip3
+      '11':
+        Position: 13
+        ItemID: 'PAPER'
+        Model: 34
+        Name: §a购买一个钥匙礼包
+        Lore: §7内含6把钥匙%§76种抽奖钥匙各一把%§5价格:12元%§6点击选择支付方式
+        HideItem: false
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui 钥匙礼包
+      '10':
+        Position: 10
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l老虎机抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l老虎机抽奖箱%§5价格:300点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 300
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 老虎机 1 {player}
+      '4':
+        Position: 10
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l老虎机抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l老虎机抽奖箱%§5价格:300点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 300
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 老虎机 1 {player}
+      '5':
+        Position: 11
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l快速抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l快速抽奖箱%§5价格:300点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 300
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 快速 1 {player}
+      '6':
+        Position: 12
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l九选一抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l九选一抽奖箱%§5价格:300点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 300
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 九选一 1 {player}
+      '7':
+        Position: 13
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l烟花抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l烟花抽奖箱%§5价格:400点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 400
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 烟花 1 {player}
+      '8':
+        Position: 14
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§5§l疯狂抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l疯狂抽奖箱%§5价格:1000点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 1000
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 疯狂 1 {player}
+      '9':
+        Position: 26
+        ItemID: 'PAPER'
+        Model: 12
+        Name: §a返回主页
+        Lore: §2点击返回主页
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          OpenAnotherGUI:
+            Use: true
+            Number: 0
+  '2':
+    Name: §e§l宠物助手
+    Item:
+      '1':
+        Position: 0
+        ItemID: 'LEAD'
+        Name: §6查看宠物信息
+        Lore: §3点击查看宠物信息
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            CloseGui: true
+            Content: /pinfo
+      '2':
+        Position: 1
+        ItemID: 'SKELETON_SKULL'
+        Name: §6召唤宠物
+        Lore: §3点击召唤宠物
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            CloseGui: true
+            Content: /pc
+      '3':
+        Position: 2
+        ItemID: 'EGG'
+        Name: §6收回宠物
+        Lore: §3点击收回宠物
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            CloseGui: true
+            Content: /psa
+      '4':
+        Position: 3
+        ItemID: 'DIAMOND_SWORD'
+        Name: §6查看宠物技能
+        Lore: §3点击查看宠物技能
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            CloseGui: true
+            Content: /petskill
+      '5':
+        Position: 15
+        ItemID: 'BARRIER'
+        Name: §c放生宠物
+        Lore: §5点击放生宠物
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            CloseGui: true
+            Content: /petrelease
+      '6':
+        Position: 17
+        ItemID: 'PAPER'
+        Model: 12
+        Name: §a返回主页
+        Lore: §2点击返回主页
+        BanInDungeon: true
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          OpenAnotherGUI:
+            Use: true
+            Number: 0
+      '7':
+        Position: 5
+        ItemID: 'DIAMOND_HORSE_ARMOR'
+        Name: §c切换宠物
+        Lore: §5点击切换宠物
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /psw
+      '8':
+        Position: 4
+        ItemID: 'TURTLE_EGG'
+        Name: §c打开宠物商店
+        Lore: §5点击打开宠物商店
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /petshop
+  '3':
+    Name: §e§l服务器帮助
+    Item:
+      '1':
+        Position: 0
+        ItemID: 'DIAMOND_HORSE_ARMOR'
+        Name: §6宠物手册
+        Lore: §3点击打开宠物手册
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /ob open 宠物手册
+      '2':
+        Position: 1
+        ItemID: 'ANVIL'
+        Name: §6强化系统手册
+        Lore: §3点击打开强化系统手册
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /ob open 强化系统手册
+      '3':
+        Position: 2
+        ItemID: 'FISHING_ROD'
+        Name: §6钓鱼指南
+        Lore: §3点击打开钓鱼指南
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /ob open 钓鱼指南
+      '4':
+        Position: 3
+        ItemID: 'WRITTEN_BOOK'
+        Model: 1
+        Name: §6历练等级手册
+        Lore: §3点击打开历练等级手册
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /ob open 历练等级手册
+      '5':
+        Position: 4
+        ItemID: 'WRITABLE_BOOK'
+        Name: §6任务手册
+        Lore: §3点击打开任务手册
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /ob open 任务手册
+      '6':
+        Position: 5
+        ItemID: 'ZOMBIE_HEAD'
+        Name: §6副本手册
+        Lore: §3点击打开副本手册
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /ob open 副本手册
+      '7':
+        Position: 8
+        ItemID: 'PAPER'
+        Model: 12
+        Name: §a返回主页
+        Lore: §2点击返回主页
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          OpenAnotherGUI:
+            Use: true
+            Number: 0
+            
+  '4':
+    Name: §e§l副本帮助
+    Item:
+      '1':
+        Position: 0
+        ItemID: 'DIAMOND_HORSE_ARMOR'
+        Name: §6打开宠物助手
+        Lore: §2点击打开宠物助手
+        Function:
+          Command:
+            Use: false
+            Content: /cc
+          OpenAnotherGUI:
+            Use: true
+            Number: 2
+      '2':
+        Position: 1
+        ItemID: 'ANVIL'
+        Name: §6离开副本
+        Lore: §3点击离开副本
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          Command:
+            Use: true
+            Content: /dxl leave

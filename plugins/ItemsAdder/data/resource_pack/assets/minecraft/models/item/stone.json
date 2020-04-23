@@ -1,0 +1,17 @@
+{
+  "parent": "block/stone",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/amethyst_prism_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/nice_stone"
+    }
+  ]
+}

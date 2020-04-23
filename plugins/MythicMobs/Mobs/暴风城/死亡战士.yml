@@ -1,0 +1,50 @@
+暴风城死亡战士:
+  Mobtype: Stray
+  Display: '&3&l暴风城&c&l死亡战士'
+  Health: 500
+  Damage: 12
+  Riding: 死亡战士坐骑
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 specificfaction Target
+  - 3 players
+  - 4 specificfaction Townington
+  - 5 specificfaction MA
+  Skills:
+  - potion{t=WEAKNESS;d=200;l=0} @Target ~onAttack 1
+  - sendactionmessage{m="<mob.name><&sp>&6<mob.hp>&8/&6<mob.mhp>"} @Trigger ~onDamaged
+  Equipment:
+  - tiejian:0
+  - tie4:4
+  - tie3:3
+  - tie2:2
+  - tie1:1
+  Options:
+    Despawn: false
+    FollowRange: 40
+    AlwaysShowName: true
+    PreventMobKillDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 0.1
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+死亡战士坐骑:
+  Mobtype: POLAR_BEAR
+  Display: '&3&l死亡战士坐骑'
+  Health: 100
+  Damage: 7
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Options:
+    FollowRange: 40
+    Despawn: false
+    AlwaysShowName: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true

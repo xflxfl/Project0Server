@@ -1,0 +1,37 @@
+info:
+  namespace: mjy
+items:
+  zishuijing:
+    display_name: '&f紫水晶'
+    permission: zishuijing
+    resource:
+      material: GLOWSTONE_DUST
+      generate: true
+      textures:
+      - item/mineral/zishuijing.png
+  huangshuijing:
+    display_name: '&f黄水晶'
+    permission: huangshuijing
+    resource:
+      material: GLOWSTONE_DUST
+      generate: true
+      textures:
+      - item/mineral/huangshuijing.png
+loots:
+  blocks:
+    zishuijing_ore:
+      type: mjy:zishuijing_ore
+      items:
+        ruby:
+          item: mjy:zishuijing
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+    huangshuijing_ore:
+      type: mjy:huangshuijing_ore
+      items:
+        ruby:
+          item: mjy:huangshuijing
+          min_amount: 1
+          max_amount: 2
+          chance: 100

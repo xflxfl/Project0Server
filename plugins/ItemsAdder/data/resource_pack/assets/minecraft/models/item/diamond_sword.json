@@ -1,0 +1,296 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/diamond_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "example:auto_generated/example_item"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:item/closed_lightsaber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:item/blue_lightsaber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "itemsadder:item/green_lightsaber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "itemsadder:item/red_lightsaber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "itemsadder:item/masters_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "itemsadder:item/floating_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "itemsadder:auto_generated/emerald_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "itemsadder:auto_generated/elucidator_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "itemsadder:auto_generated/repulser_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "itemsadder:item/firesword_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "itemsadder:auto_generated/aqualight_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "itemsadder:auto_generated/rusteroth_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "itemsadder:auto_generated/bloodnite_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "itemsadder:auto_generated/vyderlight_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "itemsadder:auto_generated/ruby_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "itemsadder:auto_generated/spinel_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "itemsadder:auto_generated/turquoise_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "itemsadder:auto_generated/aqua_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "itemsadder:auto_generated/amethyst_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "itemsadder:auto_generated/mysterious_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "itemsadder:auto_generated/end_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "itemsadder:auto_generated/bronze_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "mjy:auto_generated/tiechi_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "mjy:item/wushi_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "mjy:auto_generated/diaolingwang_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "mjy:auto_generated/shilian_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "mjy:item/riyue_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "mjy:auto_generated/rongyan_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "mjy:item/xinglun_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "mjy:auto_generated/yeren_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "model": "mjy:auto_generated/anjin_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "model": "mjy:item/gujian_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "model": "mjy:item/tulong_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "model": "mjy:item/tianwen_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "model": "mjy:item/yitian_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 42
+      },
+      "model": "mjy:item/fenji_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 43
+      },
+      "model": "mjy:auto_generated/longlin_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 45
+      },
+      "model": "mjy:item/guihuo/guihuo_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "mjy:item/zhulong/zhulong_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "mjy:item/moxiang/moxiang_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "mjy:item/fuzhou/fuzhou_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "mjy:item/tiaozhanzhe_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "mjy:item/firesword_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "mjy:auto_generated/shouhuzhe_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "model": "mjy:item/test"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "model": "mjy:item/test2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "mjy:auto_generated/tongkuzhe_sword"
+    }
+  ]
+}

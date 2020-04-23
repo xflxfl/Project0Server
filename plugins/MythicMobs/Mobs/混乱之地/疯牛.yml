@@ -1,0 +1,28 @@
+﻿fengniu:
+  Type: SPIDER
+  Display: '&c疯牛'
+  Health: 80
+  Damage: 3
+  Armor: 1
+  Modules:
+    ThreatTable: true
+  Options:
+    FollowRange: 10
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    Despawn: false
+  Disguise:
+    Type: cow
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - pige4:4
+  Skills:
+  - summon{m=yezhu;a=1;r=5} @Target ~onDamaged 0.2
+  - leap{v=200} @Target ~onDamaged 0.4
+  - effect:particles{p=angryVillager;a=3;hS=0.3;vS=0.3;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8

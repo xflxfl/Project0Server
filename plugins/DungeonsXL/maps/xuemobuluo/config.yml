@@ -1,0 +1,98 @@
+timeToNextPlayAfterFinish: 2
+timeToFinish: 1200
+initialLives: 3
+
+title:
+  title: "&4血魔部落"
+  subtitle: "&6你共有3条命"
+  
+time: 6000
+
+dungeonManager:
+  minPlayers: 1
+  maxPlayers: 4
+  minLevel: 17
+  icon:
+    id: STICK
+    model: 70
+    
+dps:
+  exp: 30-100
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:tianwen_sword
+    chance: 0.06
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c天问"
+      model: 39
+  '2':
+    cmd: ph giveitem %player% mjy:xuemo_chest
+    chance: 0.09
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&e血魔胸甲"
+      model: 13
+  '3':
+    cmd: ph giveitem %player% mjy:xuemo_leg
+    chance: 0.09
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&e血魔护腿"
+      model: 13
+  '4':
+    cmd: ph giveitem %player% mjy:xuemo_feet
+    chance: 0.09
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&e血魔靴子"
+      model: 13
+  '5':
+    cmd: give %player% gold_ingot 26
+    chance: 0.16
+    icon:
+      id: GOLD_INGOT
+      displayName: "&f金锭26个"
+      model: 0
+  '6':
+    cmd: ph giveitem %player% mjy:xuemo_head
+    chance: 0.09
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&e血魔头盔"
+      model: 12
+  '7':
+    cmd: give %player% diamond 8
+    chance: 0.11
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石8个"
+      model: 0
+  '8':
+    cmd: eco give %player% 300
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6300金币"
+      model: 29
+  '9':
+    cmd: eco give %player% 360
+    chance: 0.08
+    icon:
+      id: STICK
+      displayName: "&6360金币"
+      model: 29
+  '10':
+    cmd: give %player% diamond 16
+    chance: 0.08
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石16个"
+      model: 0
+  '11':
+    cmd: cc give p 快速 1 %player%
+    chance: 0.04
+    icon:
+      id: PAPER
+      displayName: "&5快速抽奖箱钥匙"
+      model: 36

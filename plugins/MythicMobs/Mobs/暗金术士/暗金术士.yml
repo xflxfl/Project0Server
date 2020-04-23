@@ -1,0 +1,27 @@
+﻿anjinshushi:
+  Type: WITCH
+  Display: '&4暗金术士'
+  Health: 240
+  Damage: 0
+  Armor: 2
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    FollowRange: 32
+    PreventOtherDrops: true
+    KnockbackResistance: 0.5
+    NoAI: false
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Skills:
+  - skill{s=anjinshushi1} @Self ~onDamaged 0.1
+  - message{m="<mob.name><&co> 你很快就会意识到，挑战我是个错误!"} @PlayersInRadius{r=20} ~onSpawn
+  - summon{m=守卫者1;a=1;r=5} @self ~onSpawn 1
+  - summon{m=守卫者2;a=1;r=5} @self ~onSpawn 1
+  - Throw{v=6} @target ~onDamaged 1
+  - skill{s=anjinshushi2} @Self ~onDamaged 0.1
+  - effect:particles{p=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <60% 0.8

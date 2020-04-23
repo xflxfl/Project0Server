@@ -1,0 +1,47 @@
+﻿yelang:
+  Type: WOLF
+  Display: '&a野狼 - &4<mob.level>级'
+  Health: 20
+  Damage: 2
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.25
+    AttackSpeed: 0.8
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer
+  
+yelangT:
+  Type: WOLF
+  Display: '&a野狼 - &4<mob.level>级'
+  Health: 20
+  Damage: 2
+  Modules:
+    ThreatTable: true
+  Options:
+    MovementSpeed: 0.25
+    AttackSpeed: 0.8
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer

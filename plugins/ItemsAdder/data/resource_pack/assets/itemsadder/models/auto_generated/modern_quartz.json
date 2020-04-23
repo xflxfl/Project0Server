@@ -1,0 +1,7 @@
+{
+  "parent": "block/base/block_real",
+  "textures": {
+    "all": "itemsadder:block/modern_quartz",
+    "particle": "itemsadder:block/modern_quartz"
+  }
+}

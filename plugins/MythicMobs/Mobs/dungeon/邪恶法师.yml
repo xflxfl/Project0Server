@@ -1,0 +1,23 @@
+﻿xieefashi:
+  Type: WITCH
+  Display: '&3邪恶法师'
+  Health: 200
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    FollowRange: 32
+    PreventOtherDrops: true
+    KnockbackResistance: 0.5
+    NoAI: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - summon{m=kulouzhanshi;a=1;r=5} @Target ~onTimer:300 0.3
+  - GCD{ticks=60}
+  - summon{m=kulousheshou;a=1;r=5} @Target ~onTimer:300 0.3
+  - summon{m=kulouzhanshi;a=1;r=5} @Target ~onSpawn 1
+  - consume{d=300;h=20} @MobsInRadius{type=kulouzhanshi;r=20} ~onDamaged <30% 0.5
+  - effect:particles{p=largesmoke;a=5;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self =50% 0.75

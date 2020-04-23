@@ -1,0 +1,17 @@
+{
+  "parent": "block/obsidian",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/crying_obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/mysterious_ore"
+    }
+  ]
+}

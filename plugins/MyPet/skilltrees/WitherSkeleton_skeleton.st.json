@@ -1,0 +1,93 @@
+{
+  "ID": "WitherSkeleton_skeleton",
+  "Order": 4,
+  "Name": "攻击型凋零骷髅(近战)",
+  "Icon": {
+    "Material": "wither_skeleton_skull"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c攻击成长型宠物(近战)",
+    "\u0026f最大宠物攻击15",
+    "\u0026f最大宠物血量135",
+    "\u0026f宠物技能：",
+    "\u0026f -凋零攻击(30级领悟,最大概率40%,最长2秒)"
+  ],
+  "MobTypes": [
+    "Skeleton",
+    "WitherSkeleton"
+  ],
+  "Skills": {
+    "Backpack": {
+      "Upgrades": {
+        "20": {
+          "rows": "+1",
+          "drop": false
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": true,
+          "Duel": true,
+          "Farm": true,
+          "Friend": true,
+          "Raid": true
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {
+          "Active": true
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Damage": "+0.4"
+        },
+        "%1>11<30": {
+          "Damage": "+0.2"
+        },
+        "%1>31<50": {
+          "Damage": "+0.15"
+        },
+        "%1>51<100": {
+          "Damage": "+0.08"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<30": {
+          "Health": "+2"
+        },
+        "%1>31<50": {
+          "Health": "+1"
+        },
+        "%1>51<100": {
+          "Health": "+0.7"
+        }
+      }
+    },
+    "Wither": {
+      "Upgrades": {
+        "30": {
+          "Duration": "+1"
+        },
+        "55": {
+          "Duration": "+1"
+        },
+        "%1>30<50": {
+          "Chance": "+1"
+        },
+        "%6>55<85": {
+          "Chance": "+5"
+        }
+      }
+    }
+  }
+}

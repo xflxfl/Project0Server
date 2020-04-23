@@ -1,0 +1,81 @@
+{
+  "ID": "Donkey_donkey",
+  "Order": 13,
+  "Name": "综合型",
+  "Requirements": [
+    "Permission:Donkey"
+  ],
+  "Icon": {
+    "Material": "iron_horse_armor"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c综合型宠物",
+    "\u0026f最大宠物血量50",
+    "\u0026f宠物技能：",
+    "\u0026f - 骑乘(5级领悟)",
+    "\u0026f -18格箱子(10级领悟)",
+    "\u0026f -自动拾取(15级领悟,可拾取经验,最大拾取范围4格)"
+  ],
+  "MobTypes": [
+    "Donkey",
+    "Horse",
+    "Mule",
+    "SkeletonHorse",
+    "ZombieHorse"
+  ],
+  "Skills": {
+    "Backpack": {
+      "Upgrades": {
+        "10": {
+          "rows": "+1",
+          "drop": false
+        },
+        "30": {
+          "rows": "+1",
+          "drop": false
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "5": {
+          "Active": true
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+1"
+        },
+        "%2>20<60": {
+          "Health": "+1"
+        }
+      }
+    },
+    "Pickup": {
+      "Upgrades": {
+        "15": {
+          "Range": "+1",
+          "Exp": true
+        },
+        "25,35,45": {
+          "Range": "+1"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "5": {
+          "Active": true,
+          "Speed": "+2",
+          "JumpHeight": "+1"
+        }
+      }
+    }
+  },
+  "Notifications": {
+    "15": "恭喜您升至15级，生命+1.0，攻击+1.0，获得技能："
+  }
+}

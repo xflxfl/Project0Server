@@ -1,0 +1,43 @@
+﻿zz_sheshou:
+  Type: SPIDER
+  Display: '&a蜘蛛射手 - &4<mob.level>级'
+  Health: 30
+  Damage: 1
+  Options:
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - shoot{t=snowball;v=2;d=4} @target ~onTimer:30 1
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer
+  
+zz_sheshouT:
+  Type: SPIDER
+  Display: '&a蜘蛛射手 - &4<mob.level>级'
+  Health: 30
+  Damage: 1
+  Options:
+    FollowRange: 20
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Skills:
+  - shoot{t=snowball;v=2;d=4} @target ~onTimer:30 1
+  - setlevel{a=set;l=1} ~onSpawn
+  - setlevel{a=add;l=1} ~onKillPlayer

@@ -1,0 +1,87 @@
+DefaultDailyLimit: 20
+ChanceGetReward: 0.3
+Group:
+- vip1:30
+- vip2:50
+- vip3:70
+Gui:
+  NPC:
+    Id: PLAYER_HEAD
+    DisplayName: '&3%name%&a对你说:'
+    Lore:
+    - '&5你找我有什么事吗?'
+    Model: 0
+  GiveUp:
+    Id: STICK
+    DisplayName: '&c我来放弃任务'
+    Model: 66
+  GoBack:
+    Id: PAPER
+    DisplayName: '&f我点错了'
+    Model: 12
+  WhatIsDailyQuest:
+    Id: STICK
+    DisplayName: '&3什么是日常任务？'
+    Model: 68
+  Accept:
+    Id: STICK
+    DisplayName: '&6我来领取任务'
+    Model: 65
+  FinishQuest:
+    Id: STICK
+    DisplayName: '&6我来交任务'
+    Model: 67
+RandomItemMaxQuantity: 3
+SeriesFinish:
+  AdditionMoney: 100
+  ExtraRewardItemQuantity: 1
+GetQuestNPCId: 7
+AvailableNPC:
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+ItemBlackList:
+- ARMOR_STAND
+- BAT_SPAWN_EGG
+- CHAINMAIL_BOOTS
+- CHAINMAIL_CHESTPLATE
+- CHAINMAIL_HELMET
+- CHAINMAIL_LEGGINGS
+- DEBUG_STICK
+- DRAGON_BREATH
+- ELYTRA
+- ENCHANTED_GOLDEN_APPLE
+- EXPERIENCE_BOTTLE
+- FILLED_MAP
+- FIREWORK_ROCKET
+- FIREWORK_STAR
+- FIRE_CHARGE
+- HEART_OF_THE_SEA
+- NETHER_STAR
+- PAINTING
+- TOTEM_OF_UNDYING
+- TRIDENT
+- ENDER_PEARL
+MobBlackList:
+- ARMOR_STAND
+- ENDER_DRAGON
+- GIANT
+- WITHER
+ItemWildcardBlackList:
+- SPAWN_EGG
+- COMMAND_BLOCK
+- _HEAD
+- _BANNER_
+- _MINECART
+- POTION
+- MUSIC_DISC_
+- _SKULL
+- _ARROW
+- _BOOK
+- _BUCKET
+MobWildcardBlackList: {}
+EnableCommandGetQuest: true
+Database: MYSQL

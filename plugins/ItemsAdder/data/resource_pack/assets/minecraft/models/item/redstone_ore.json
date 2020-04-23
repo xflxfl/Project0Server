@@ -1,0 +1,29 @@
+{
+  "parent": "block/redstone_ore",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/ruby_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/spinel_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mjy:auto_generated/zishuijing_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "mjy:auto_generated/huangshuijing_ore"
+    }
+  ]
+}

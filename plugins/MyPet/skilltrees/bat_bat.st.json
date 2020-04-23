@@ -1,0 +1,69 @@
+{
+  "ID": "bat_bat",
+  "Order": 21,
+  "Name": "骑乘型蝙蝠",
+  "Requirements": [
+    "Permission:bat"
+  ],
+  "Icon": {
+    "Material": "iron_horse_armor"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c骑乘型宠物",
+    "\u0026f最大骑行速度+3%",
+    "\u0026f最大宠物血量35",
+    "\u0026f宠物技能：",
+    "\u0026f -骑行(20级领悟)"
+  ],
+  "MobTypes": [
+    "Bat"
+  ],
+  "Skills": {
+    "Life": {
+      "Upgrades": {
+        "5": {
+          "Health": "+5"
+        },
+        "10": {
+          "Health": "+5"
+        },
+        "20": {
+          "Health": "+3.5"
+        },
+        "40": {
+          "Health": "+6.5"
+        },
+        "60": {
+          "Health": "+5"
+        },
+        "100": {
+          "Health": "+5"
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "20": {
+          "Active": true,
+          "JumpHeight": "+0.5"
+        },
+        "40": {
+          "Active": true,
+          "Speed": "+1",
+          "JumpHeight": "+0.5"
+        },
+        "60": {
+          "Active": true,
+          "Speed": "+1",
+          "JumpHeight": "+0.5"
+        },
+        "100": {
+          "Active": true,
+          "Speed": "+1",
+          "JumpHeight": "+0.5"
+        }
+      }
+    }
+  }
+}

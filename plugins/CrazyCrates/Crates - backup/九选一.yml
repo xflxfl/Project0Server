@@ -1,0 +1,716 @@
+#本抽奖箱不在GUI菜单里进行
+Crate:
+  CrateType: War
+  CrateName: '&8九选一抽奖箱'
+  StartingKeys: 0
+  InGUI: false
+  Slot: 14
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7打开了 &e&l九选一抽奖箱&7.'
+  Item: '54'
+  Name: '&e&l九选一抽奖箱'
+  Lore:
+    - '&7你拥有 &6%Keys% 把钥匙 &7来开启这个抽奖箱'
+    - '&7&l(&e&l!&7&l) 右键点击预览奖品'
+  PhysicalKey:
+    Name: '&e&l九选一抽奖箱&3&l的钥匙'
+    Lore:
+      - '&7一把开启抽奖箱的钥匙'
+      - '&7用它打开&e&l九选一抽奖箱'
+    Item: 'PAPER#35'
+    Glowing: false
+  Prizes:
+    1:
+      DisplayName: '&a&l48块铁锭'
+      DisplayItem: 'IRON_INGOT'
+      DisplayAmount: 48
+      Lore:
+        - '&7一大堆铁锭'
+      MaxRange: 1000
+      Chance: 600
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph give %Player% IRON_INGOT 48'
+      Messages:
+        - '&7你获得了&e48块铁锭.'
+    2:
+      DisplayName: '&b&l26块金锭'
+      DisplayItem: 'GOLD_INGOT'
+      DisplayAmount: 26
+      Lore:
+        - '&7一小堆金锭'
+      MaxRange: 1000
+      Chance: 400
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph give %Player% GOLD_INGOT 26'
+      Messages:
+        - '&7你获得了&e26块金锭.'
+    3:
+      DisplayName: '&b&l12颗钻石'
+      DisplayItem: 'DIAMOND'
+      DisplayAmount: 12
+      Lore:
+        - '&7一小堆钻石'
+      MaxRange: 1000
+      Chance: 300
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph give %Player% DIAMOND 12'
+      Messages:
+        - '&7你获得了&e12颗钻石.'
+    50:
+      DisplayName: '&b&l8块绿宝石'
+      DisplayItem: 'EMERALD'
+      DisplayAmount: 8
+      Lore:
+        - '&7一小堆绿宝石'
+      MaxRange: 1000
+      Chance: 200
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph give %Player% EMERALD 8'
+      Messages:
+        - '&7你获得了&e8块绿宝石.'
+    4:
+      DisplayName: '&e&l$2000金币'
+      DisplayItem: 'STICK#29'
+      DisplayAmount: 1
+      Lore:
+        - '&7一小笔金钱'
+      MaxRange: 1000
+      Chance: 120
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'Eco give %Player% 2000'
+      Messages:
+        - '&7你获得了金币 &a$2000&7.'
+    5:
+      DisplayName: '&e&l$3000金币'
+      DisplayItem: 'STICK#29'
+      DisplayAmount: 1
+      Lore:
+        - '&7一笔金钱'
+      MaxRange: 1000
+      Chance: 90
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'Eco give %Player% 3000'
+      Messages:
+        - '&7你获得了金币 &a$3000&7.'
+    6:
+      DisplayName: '&e&l$5000金币'
+      DisplayItem: 'STICK#29'
+      DisplayAmount: 1
+      Lore:
+        - '&7一大笔金钱'
+      MaxRange: 1000
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'Eco give %Player% 5000'
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了&c&l$5000金币！'
+      Messages:
+        - '&7恭喜！你获得了金币 &a$5000&7.'
+    7:
+      DisplayName: '&c&l$10000金币'
+      DisplayItem: 'STICK#29'
+      DisplayAmount: 1
+      Lore:
+        - '&7一笔巨款'
+      MaxRange: 1000
+      Chance: 40
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'Eco give %Player% 10000'
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了&c&l$10000金币！'
+      Messages:
+        - '&7恭喜！你获得了&c10000金币&7.'
+    ########################################
+    # 普通武器兑换券
+    ########################################
+    8:
+      DisplayName: '&8&l试炼剑'
+      DisplayItem: 'DIAMOND_SWORD#29'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:shilian_sword'
+      Messages:
+        - '&7恭喜！你获得了&8&l试炼剑&7一个'
+    9:
+      DisplayName: '&2&l铁齿剑'
+      DisplayItem: 'DIAMOND_SWORD#26'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:tiechi_sword'
+      Messages:
+        - '&7恭喜！你获得了&2&l铁齿剑&7一个'
+    10:
+      DisplayName: '&2&l熔岩剑'
+      DisplayItem: 'DIAMOND_SWORD#31'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:rongyan_sword'
+      Messages:
+        - '&7恭喜！你获得了&2&l熔岩剑&7一个'
+    11:
+      DisplayName: '&8&l夜刃'
+      DisplayItem: 'DIAMOND_SWORD#33'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:yeren_sword'
+      Messages:
+        - '&7恭喜！你获得了&8&l夜刃&7一个'
+    12:
+      DisplayName: '&9&l武士剑'
+      DisplayItem: 'DIAMOND_SWORD#27'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:wushi_sword'
+      Messages:
+        - '&7恭喜！你获得了&9&l武士剑&7一个'
+    ########################################
+    # 强化物品
+    ########################################
+    13:
+      DisplayName: '&a熔炼石'
+      DisplayItem: '318'
+      DisplayAmount: 1
+      Lore:
+        - '&3一种稀有的石头'
+        - '&2[使用方法]&a打开熔炼系统'
+        - '&a熔炼装备'
+      MaxRange: 1000
+      Chance: 100
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:318, Amount:1, Name:&a熔炼石, Lore:&3一种稀有的石头,&2[使用方法]&a打开熔炼系统,&a熔炼装备, LUCK:1'
+      Messages:
+        - '&7你获得了&e1块熔炼石.'
+    14:
+      DisplayName: '&b金刚石'
+      DisplayItem: '264'
+      DisplayAmount: 1
+      Lore:
+        - '§3这是一种十分坚硬的石头'
+        - '§2[用途]§a用于辅助强化装备'
+        - '§a在装备强化失败时装备'
+        - '§a不会碎掉'
+      MaxRange: 1000
+      Chance: 60
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:318, Amount:1, Name:&b金刚石, Lore:§3这是一种十分坚硬的石头,§2[用途]§a用于辅助强化装备,§a在装备强化失败时装备,§a不会碎掉'
+      Messages:
+        - '&7你获得了1个&b金刚石.'
+    15:
+      DisplayName: '§b幸运果'
+      DisplayItem: '322'
+      DisplayAmount: 1
+      Lore:
+        - '§3幸运果实'
+        - '§2[用途]§a用于辅助强化装备'
+        - '§a在下一次强化装备时'
+        - '§a一定成功'
+      MaxRange: 1000
+      Chance: 20
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l幸运果！'
+      Items:
+        - 'Item:322, Amount:1, Name:§b幸运果, Lore:§3幸运果实,§2[用途]§a用于辅助强化装备,§a在下一次强化装备时,§a一定成功'
+      Messages:
+        - '&7你获得了1个§b幸运果.'
+    16:
+      DisplayName: '§f未鉴定的宝石'
+      DisplayItem: '263:1'
+      DisplayAmount: 1
+      Lore:
+        - '§e[未鉴定]'
+        - '§6一块看起来普通的石头'
+      MaxRange: 1000
+      Chance: 100
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:318, Amount:1, Name:§f未鉴定的宝石, Lore:§e[未鉴定],§6一块看起来普通的石头'
+      Messages:
+        - '&7你获得了1个§f未鉴定的宝石.'
+    ########################################
+    # 中级装备兑换券
+    ########################################
+    17:
+      DisplayName: '&5&l挑战者之斧'
+      DisplayItem: 'DIAMOND_AXE#13'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:tiaozhanzhe_axe'
+      Messages:
+        - '&7恭喜！你获得了&5&l挑战者之斧&7一个'
+    18:
+      DisplayName: '&5&l挑战者之剑'
+      DisplayItem: 'DIAMOND_SWORD#49'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:tiaozhanzhe_sword'
+      Messages:
+        - '&7恭喜！你获得了&5&l挑战者之剑&7一个'
+    19:
+      DisplayName: '&5&l日月剑'
+      DisplayItem: 'DIAMOND_SWORD#30'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:riyue_sword'
+      Messages:
+        - '&7恭喜！你获得了&5&l日月剑&7一个'
+    20:
+      DisplayName: '&5&l星轮剑'
+      DisplayItem: 'DIAMOND_SWORD#32'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:xinglun_sword'
+      Messages:
+        - '&7恭喜！你获得了&5&l星轮剑&7一个'
+    21:
+      DisplayName: '&c&l烈焰'
+      DisplayItem: 'DIAMOND_SWORD#54'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:lieyan_sword'
+      Messages:
+        - '&7恭喜！你获得了&c&l烈焰&7一个'
+    22:
+      DisplayName: '&3&l守护者之剑'
+      DisplayItem: 'DIAMOND_SWORD#55'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:shouhuzhe_sword'
+      Messages:
+        - '&7恭喜！你获得了&3&l守护者之剑&7一个'
+    23:
+      DisplayName: '&5&l暗金'
+      DisplayItem: 'DIAMOND_SWORD#34'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:anjin_sword'
+      Messages:
+        - '&7恭喜！你获得了&5&l暗金&7一个'
+    24:
+      DisplayName: '&9&l骨剑'
+      DisplayItem: 'DIAMOND_SWORD#35'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:gujian_sword'
+      Messages:
+        - '&7恭喜！你获得了&9&l骨剑&7一个'
+    25:
+      DisplayName: '&c&l天问'
+      DisplayItem: 'DIAMOND_SWORD#39'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:tianwen_sword'
+      Messages:
+        - '&7恭喜！你获得了&c&l天问&7一个'
+    26:
+      DisplayName: '&c&l恸哭者'
+      DisplayItem: 'DIAMOND_SWORD#58'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:tongkuzhe_sword'
+      Messages:
+        - '&7恭喜！你获得了&c&l恸哭者&7一个'
+    ########################################
+    # 高级装备兑换券
+    ########################################
+    27:
+      DisplayName: '&c&l蚀月斧'
+      DisplayItem: 'DIAMOND_AXE#7'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:shiyue_axe'
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l蚀月斧！'
+      Messages:
+        - '&7恭喜！你获得了&c&l蚀月斧&7一个'
+    28:
+      DisplayName: '&c&l日月斧'
+      DisplayItem: 'DIAMOND_AXE#8'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 40
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'ph giveitem %Player% mjy:riyue_axe'
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l日月斧！'
+      Messages:
+        - '&7恭喜！你获得了&c&l日月斧&7一个'
+    ########################################
+    # 生存用品
+    ########################################
+    29:
+      DisplayName: '&5&l强化镐子'
+      DisplayItem: 'DIAMOND_PICKAXE'
+      DisplayAmount: 1
+      Lore:
+        - '&8一个强化过的镐子'
+      MaxRange: 1000
+      Chance: 200
+      Firework: false
+      Glowing: true
+      Items:
+        - 'Item:DIAMOND_PICKAXE, Amount:1, Name:&5&l强化镐子, Lore:&8一个强化过的镐子, Unbreaking:4, Efficiency:2'
+      Messages:
+        - '&7你获得了&5&l强化镐子'
+    30:
+      DisplayName: '&5&l幸运镐子'
+      DisplayItem: 'DIAMOND_PICKAXE'
+      DisplayAmount: 1
+      Lore:
+        - '&8拥有时运附魔的镐子'
+      MaxRange: 1000
+      Chance: 60
+      Firework: false
+      Glowing: true
+      Items:
+        - 'Item:DIAMOND_PICKAXE, Amount:1, Name:&5&l幸运镐子, Lore:&8拥有时运附魔的镐子, Unbreaking:4, Fortune:1'
+      Messages:
+        - '&7你获得了&5&l幸运镐子'
+    31:
+      DisplayName: '&5&l中级强化镐子'
+      DisplayItem: 'DIAMOND_PICKAXE'
+      DisplayAmount: 1
+      Lore:
+        - '&8一个强化过的镐子'
+      MaxRange: 1000
+      Chance: 100
+      Firework: false
+      Glowing: true
+      Items:
+        - 'Item:DIAMOND_PICKAXE, Amount:1, Name:&5&l中级强化镐子, Lore:&8一个强化过的镐子, Unbreaking:5, Efficiency:3'
+      Messages:
+        - '&7你获得了&5&l中级强化镐子'
+    32:
+      DisplayName: '&5&l中级幸运镐子'
+      DisplayItem: 'DIAMOND_PICKAXE'
+      DisplayAmount: 1
+      Lore:
+        - '&8拥有时运附魔的镐子'
+      MaxRange: 1000
+      Chance: 40
+      Firework: false
+      Glowing: true
+      Items:
+        - 'Item:DIAMOND_PICKAXE, Amount:1, Name:&5&l中级幸运镐子, Lore:&8拥有时运附魔的镐子, Unbreaking:5, Efficiency:4, Fortune:2'
+      Messages:
+        - '&7你获得了&5&l中级幸运镐子'
+    33:
+      DisplayName: '&c&l高级强化镐子'
+      DisplayItem: 'DIAMOND_PICKAXE#4'
+      DisplayAmount: 1
+      Lore:
+        - '&8一个强化过的镐子'
+      MaxRange: 1000
+      Chance: 60
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l高级强化镐子！'
+      Items:
+        - 'Item:DIAMOND_PICKAXE#4, Amount:1, Name:&c&l高级强化镐子, Lore:&8一个强化过的镐子, Unbreaking:6, Efficiency:5'
+      Messages:
+        - '&7你获得了&c&l高级强化镐子'
+    34:
+      DisplayName: '&c&l高级幸运镐子'
+      DisplayItem: 'DIAMOND_PICKAXE#5'
+      DisplayAmount: 1
+      Lore:
+        - '&8拥有时运附魔的镐子'
+      MaxRange: 1000
+      Chance: 20
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l高级幸运镐子！'
+      Items:
+        - 'Item:DIAMOND_PICKAXE#5, Amount:1, Name:&c&l高级幸运镐子, Lore:&8拥有时运附魔的镐子, Unbreaking:6, Efficiency:5, Fortune:3'
+      Messages:
+        - '&7你获得了&c&l高级幸运镐子'
+    35:
+      DisplayName: '&a&l1个下界之星'
+      DisplayItem: 'NETHER_STAR'
+      DisplayAmount: 1
+      Lore:
+        - '&71个下界之星'
+      MaxRange: 1000
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Commands:
+        - 'broadcast 恭喜&6&l%Player%&7通过抽奖获得了1个&c&l下界之星！'
+      Items:
+        - 'Item:NETHER_STAR, Amount:1'
+      Messages:
+        - '&7你获得了&e1个下界之星.'
+    36:
+      DisplayName: '&a&l15个金矿石'
+      DisplayItem: 'GOLD_ORE'
+      DisplayAmount: 15
+      Lore:
+        - '&715个金矿石'
+      MaxRange: 1000
+      Chance: 500
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:GOLD_ORE, Amount:15'
+      Messages:
+        - '&7你获得了&e15个金矿石.'
+    37:
+      DisplayName: '&a&l15个铁矿石'
+      DisplayItem: 'IRON_ORE'
+      DisplayAmount: 15
+      Lore:
+        - '&715个铁矿石'
+      MaxRange: 1000
+      Chance: 500
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:IRON_ORE, Amount:15'
+      Messages:
+        - '&7你获得了&e15个铁矿石.'
+    38:
+      DisplayName: '&a&l15个煤矿石'
+      DisplayItem: 'COAL_ORE'
+      DisplayAmount: 15
+      Lore:
+        - '&715个煤矿石'
+      MaxRange: 1000
+      Chance: 500
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:COAL_ORE, Amount:15'
+      Messages:
+        - '&7你获得了&e15个煤矿石.'
+    39:
+      DisplayName: '&a&l钻石剑'
+      DisplayItem: 'DIAMOND_SWORD'
+      DisplayAmount: 1
+      Lore:
+        - '&71个钻石剑'
+      MaxRange: 1000
+      Chance: 400
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:DIAMOND_SWORD, Amount:1, Unbreaking:4'
+      Messages:
+        - '&7你获得了&e1个钻石剑.'
+    40:
+      DisplayName: '&a&l钻石头盔'
+      DisplayItem: 'DIAMOND_HELMET'
+      DisplayAmount: 1
+      Lore:
+        - '&71个钻石头盔'
+      MaxRange: 1000
+      Chance: 400
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:DIAMOND_HELMET, Amount:1, Unbreaking:4'
+      Messages:
+        - '&7你获得了&e1个钻石头盔.'
+    41:
+      DisplayName: '&a&l钻石胸甲'
+      DisplayItem: 'DIAMOND_CHESTPLATE'
+      DisplayAmount: 1
+      Lore:
+        - '&71个钻石胸甲'
+      MaxRange: 1000
+      Chance: 400
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:DIAMOND_CHESTPLATE, Amount:1, Unbreaking:4'
+      Messages:
+        - '&7你获得了&e1个钻石胸甲.'
+    42:
+      DisplayName: '&a&l钻石护腿'
+      DisplayItem: 'DIAMOND_LEGGINGS'
+      DisplayAmount: 1
+      Lore:
+        - '&71个钻石护腿'
+      MaxRange: 1000
+      Chance: 400
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:DIAMOND_LEGGINGS, Amount:1, Unbreaking:4'
+      Messages:
+        - '&7你获得了&e1个钻石护腿.'
+    43:
+      DisplayName: '&a&l钻石靴子'
+      DisplayItem: 'DIAMOND_BOOTS'
+      DisplayAmount: 1
+      Lore:
+        - '&71个钻石靴子'
+      MaxRange: 1000
+      Chance: 400
+      Firework: false
+      Glowing: false
+      Items:
+        - 'Item:DIAMOND_BOOTS, Amount:1, Unbreaking:4'
+      Messages:
+        - '&7你获得了&e1个钻石靴子.'
+        
+    ########################################
+    # 抽奖箱钥匙
+    ########################################
+    44:
+      DisplayName: '&e&l九选一抽奖箱&3&l的钥匙'
+      DisplayItem: 'PAPER#35'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'cc give p 九选一 1 %Player%'
+      Messages:
+        - '&7你获得了&e&l九选一抽奖箱&3&l的钥匙.'
+    45:
+      DisplayName: '&e&l快速抽奖箱&3&l的钥匙'
+      DisplayItem: 'PAPER#36'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'cc give p 快速 1 %Player%'
+      Messages:
+        - '&7你获得了&e&l快速抽奖箱&3&l的钥匙.'
+    46:
+      DisplayName: '&e&l老虎机抽奖箱&3&l的钥匙'
+      DisplayItem: 'PAPER#37'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'cc give p 老虎机 1 %Player%'
+      Messages:
+        - '&7你获得了&e&l老虎机抽奖箱&3&l的钥匙.'
+    47:
+      DisplayName: '&e&l跑马灯抽奖箱&3&l的钥匙'
+      DisplayItem: 'PAPER#38'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'cc give p 跑马灯 1 %Player%'
+      Messages:
+        - '&7你获得了&e&l跑马灯抽奖箱&3&l的钥匙.'
+    48:
+      DisplayName: '&e&l烟花抽奖箱&3&l的钥匙'
+      DisplayItem: 'PAPER#39'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'cc give p 烟花 1 %Player%'
+      Messages:
+        - '&7你获得了&e&l烟花抽奖箱&3&l的钥匙.'
+    49:
+      DisplayName: '&e&l疯狂抽奖箱&3&l的钥匙'
+      DisplayItem: 'PAPER#34'
+      DisplayAmount: 1
+      MaxRange: 1000
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Commands:
+        - 'cc give p 疯狂 1 %Player%'
+      Messages:
+        - '&7你获得了&e&l疯狂抽奖箱&3&l的钥匙.'

@@ -1,0 +1,624 @@
+info:
+  namespace: mjy
+recipes:
+  anvil_repair:
+    rongyan_sword:
+      ingredient: mjy:zishuijing
+      item: mjy:rongyan_sword
+items:
+  rongyan_sword:
+    display_name: '&2熔岩剑'
+    permission: rongyan_sword
+    lore:
+    - '&6曾浸泡在熔岩里的剑'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/rongyan/rongyan_sword.png
+    durability:
+      max_custom_durability: 1561
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  tiechi_sword:
+    display_name: '&2铁齿剑'
+    permission: tiechi_sword
+    lore:
+    - '&6精铁打练制成的剑'
+    - '&6比普通铁剑更耐用且更轻'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/tiechi/tiechi_sword.png
+    durability:
+      max_custom_durability: 1561
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.0
+        attackSpeed: 1.8
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  wushi_sword:
+    display_name: '&9武士剑'
+    permission: wushi_sword
+    lore:
+    - '&6每一位武士必备的武器'
+    - '&6伤害与速度兼备的上好兵器'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/wushi_sword
+    durability:
+      max_custom_durability: 1561
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 10.0
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+  
+  shilian_sword:
+    display_name: '&8试练剑'
+    permission: shilian_sword
+    lore:
+    - '&8这是一把普通的剑'
+    - '&8但却拥有着很高的耐久'
+    - '&8这使它成为试练者不可或缺的装备'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/shilian/shilian_sword.png
+    durability:
+      max_custom_durability: 2999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  tiaozhanzhe_sword:
+    display_name: '&5挑战者之剑'
+    permission: tiaozhanzhe_sword
+    lore:
+    - '&6优秀的挑战者的专用剑'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/tiaozhanzhe_sword
+    durability:
+      max_custom_durability: 1561
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 11
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+  
+  tiaozhanzhe_axe:
+    display_name: '&5挑战者之斧'
+    permission: tiaozhanzhe_axe
+    lore:
+    - '&6优秀的挑战者的专用斧'
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: item/tiaozhanzhe_axe
+    durability:
+      max_custom_durability: 1561
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 14
+        attackSpeed: 0.9
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  riyue_sword:
+    display_name: '&5日月剑'
+    permission: riyue_sword
+    lore:
+    - '&6汇聚日月之力'
+    - '&6并由最好的铁匠铸造而成'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/riyue_sword
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 13.5
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  xinglun_sword:
+    display_name: '&5星轮剑'
+    permission: xinglun_sword
+    lore:
+    - '&6一颗吸收星星力量的转子'
+    - '&6为这把宝剑提供惊人的力量'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/xinglun_sword
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 11.0
+        attackSpeed: 2.0
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  yeren_sword:
+    display_name: '&8夜刃'
+    permission: yeren_sword
+    lore:
+    - '&8宁静的黑夜中'
+    - '&8充满黑暗的气息'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/yeren_sword.png
+    durability:
+      max_custom_durability: 891
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.5
+        attackSpeed: 2.0
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+  
+  anjin_sword:
+    display_name: '&5暗金'
+    permission: anjin_sword
+    lore:
+    - '&6由神秘的暗金术'
+    - '&6铸造而成'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/anjin/anjin_sword.png
+    durability:
+      max_custom_durability: 596
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9
+        attackSpeed: 1.8
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  gujian_sword:
+    display_name: '&9骨剑'
+    permission: gujian_sword
+    lore:
+    - '&6这是一个神奇的骨头'
+    - '&6充满着黑暗的气息'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/gujian_sword
+    durability:
+      max_custom_durability: 396
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.5
+        attackSpeed: 1.3
+        maxHealth: 2
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  shiyue_axe:
+    display_name: '&c蚀月斧'
+    permission: shiyue_axe
+    lore:
+    - '&8斧头呈暗红'
+    - '&8有&c蚀月&8之力'
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: item/shiyue_axe
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 21.0
+        attackSpeed: 0.7
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  riyue_axe:
+    display_name: '&c日月斧'
+    permission: riyue_axe
+    lore:
+    - '&8汲天地之精华'
+    - '&8采&c日月&8之灵气'
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: item/riyue_axe
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 17
+        attackSpeed: 0.9
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  tulong_sword:
+    display_name: '&c屠龙刀'
+    permission: tulong_sword
+    lore:
+    - '&6刀柄上镶着四颗龙齿'
+    - '&6刀刃上雕刻着符咒'
+    - '&6拥有此刀者定非凡人'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/tulong_sword
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 14.5
+        attackSpeed: 1.8
+    level: 10
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  tianwen_sword:
+    display_name: '&c天问'
+    permission: tianwen_sword
+    lore:
+    - '&8被人类所&c惧'
+    - '&8被众神疏离'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/tianwen_sword
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 11.0
+        attackSpeed: 2.4
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  tongkuzhe_sword:
+    display_name: '&c恸哭者'
+    permission: tongkuzhe_sword
+    lore:
+    - '&8死神之镰'
+    - '&8所到之处即带来&c死亡'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/tongkuzhe/tongkuzhe_sword.png
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 12.0
+        attackSpeed: 2.1
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  yitian_sword:
+    display_name: '&c倚天剑'
+    permission: yitian_sword
+    lore:
+    - '&8隐隐发出一层青气'
+    - '&8剑鞘镶着&c倚天&8两个字'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/yitian_sword
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 16.5
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  fenji_sword:
+    display_name: '&c焚寂剑'
+    permission: fenji_sword
+    lore:
+    - '&8有着凶剑魔剑之称的它'
+    - '&8内含足以&c焚毁&8一切的邪火之力'
+    enchants:
+      - FIRE_ASPECT:1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/fenji_sword
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 16.5
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  longlin_sword:
+    display_name: '&c龙鳞'
+    permission: longlin_sword
+    lore:
+    - '&8状似龙文'
+    - '&8名曰&5龙鳞'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/longlin_sword.png
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 16.5
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  shuihuo_sword:
+    display_name: '&c水火棍'
+    permission: shuihuo_sword
+    lore:
+    - '&8形如短棍'
+    - '&8一半红一半青'
+    - '&8红为&c火&8青为&3水'
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: item/shuihuo_stick
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 17
+        attackSpeed: 1.3
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  fenshixieyan_stick:
+    display_name: '&8焚世&c邪焰'
+    permission: fenshixieyan_stick
+    enchants:
+      - FIRE_ASPECT:2
+    lore:
+    - '&c地狱邪火练铸而成'
+    - '&c拥焚世之力'
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: item/fenshixieyan_stick
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 17
+        attackSpeed: 1.5
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+  
+  mietianxieyan_stick:
+    display_name: '&c灭天&8邪焰'
+    permission: mietianxieyan_stick
+    enchants:
+      - FIRE_ASPECT:2
+    lore:
+    - '&c地狱烈火练铸而成'
+    - '&c拥焚天之力'
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: item/mietianxieyan_stick
+    durability:
+      max_custom_durability: 1999
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 17
+        attackSpeed: 1.5
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  guihuo_sword:
+    display_name: '&8鬼&c火'
+    permission: guihuo_sword
+    lore:
+    - '&c地狱烈火练铸而成'
+    - '&c拥焚天之力'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/guihuo/guihuo_sword
+    durability:
+      max_custom_durability: 2388
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 18
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  leidian_axe:
+    display_name: '&9雷&5电'
+    permission: leidian_axe
+    lore:
+    - '&c地狱烈火练铸而成'
+    - '&c拥焚天之力'
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: item/leidian/leidian_axe
+    durability:
+      max_custom_durability: 2388
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 23
+        attackSpeed: 0.9
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  zhulong_sword:
+    display_name: '&6烛龙'
+    permission: zhulong_sword
+    lore:
+    - '&c锺山之神，名曰烛阴'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/zhulong/zhulong_sword
+    durability:
+      max_custom_durability: 2388
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 18
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  moxiang_sword:
+    display_name: '&6魔像'
+    permission: moxiang_sword
+    lore:
+    - '&c先由巫术灌注黏土制成人偶'
+    - '&c后经改造铸成此剑'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/moxiang/moxiang_sword
+    durability:
+      max_custom_durability: 2388
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 17.5
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  fuzhou_sword:
+    display_name: '&6符咒'
+    permission: fuzhou_sword
+    lore:
+    - '&c剑身上雕刻的符咒'
+    - '&c能有效震慑鬼怪'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/fuzhou/fuzhou_sword
+    durability:
+      max_custom_durability: 2388
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 17.5
+        attackSpeed: 1.6
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+  
+  diaolingwang_sword:
+    display_name: '&d凋零王的长剑'
+    permission: diaolingwang_sword
+    lore:
+    - '&6凋零王手中持有的剑，'
+    - '&6持有它代表着拥有比凋零王'
+    - '&6还要强大的力量!'
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/elucidator_sword.png
+    durability:
+      max_custom_durability: 1756
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 13.0
+        attackSpeed: 0.7
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  lieyan_sword:
+    display_name: '&c烈焰'
+    permission: lieyan_sword
+    lore:
+    - '&6据说这曾是烈焰王'
+    - '&6身上的一根骨头'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/firesword_sword
+    enchants:
+    - FIRE_ASPECT:2
+    durability:
+      max_custom_durability: 1050
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 13.0
+        attackSpeed: 1.9
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  shouhuzhe_sword:
+    display_name: '&3守护者之剑'
+    permission: shouhuzhe_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/aqualight_sword.png
+    durability:
+      max_custom_durability: 1561
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 11.0
+        maxHealth: 2
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  test_sword:
+    display_name: '&3未知之剑'
+    permission: test_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/test
+    durability:
+      max_custom_durability: 1561
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 11.0
+        maxHealth: 2
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing
+        
+  test2_sword:
+    display_name: '&3未知之剑'
+    permission: test2_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/test2
+    durability:
+      max_custom_durability: 1561
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 11.0
+        maxHealth: 2
+    specific_properties:
+      anvil_repair_item: mjy:zishuijing

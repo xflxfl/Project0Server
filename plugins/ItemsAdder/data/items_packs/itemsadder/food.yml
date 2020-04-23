@@ -1,0 +1,1124 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    pizza:
+      permission: itemsadder.pizza
+      enabled: true
+      pattern:
+      - XXX
+      - TTT
+      - DDD
+      ingredients:
+        T: itemsadder:tomato
+        D: itemsadder:dough
+      result:
+        item: itemsadder:pizza
+        amount: 4
+    taco:
+      permission: itemsadder.taco
+      enabled: true
+      pattern:
+      - XXX
+      - XSC
+      - XPB
+      ingredients:
+        B: itemsadder:baguette
+        C: itemsadder:sliced_roast_beef
+        P: itemsadder:potato_sticks
+        S: itemsadder:lettuce
+      result:
+        item: itemsadder:taco
+        amount: 1
+    hamburger:
+      permission: itemsadder.hamburger
+      enabled: true
+      pattern:
+      - XIX
+      - TBL
+      - XIK
+      ingredients:
+        I: itemsadder:sliced_bread
+        B: COOKED_BEEF
+        T: itemsadder:tomato
+        L: itemsadder:lettuce
+        K: itemsadder:ketchup
+      result:
+        item: itemsadder:hamburger
+        amount: 1
+    chips:
+      permission: itemsadder.chips
+      enabled: true
+      pattern:
+      - ipi
+      - ipi
+      - ipi
+      ingredients:
+        i: itemsadder:plastic_plate
+        p: POTATO
+      result:
+        item: itemsadder:chips
+        amount: 1
+    hotdog:
+      permission: itemsadder.hotdog
+      enabled: true
+      pattern:
+      - XXX
+      - KPB
+      - XXX
+      ingredients:
+        B: BREAD
+        P: itemsadder:cooked_sausage
+        K: itemsadder:ketchup
+      result:
+        item: itemsadder:hotdog
+        amount: 1
+    tropical_fish_nigiri:
+      permission: itemsadder.tropical_fish_nigiri
+      enabled: true
+      pattern:
+      - XXX
+      - XKX
+      - XFR
+      ingredients:
+        F: TROPICAL_FISH
+        K: DRIED_KELP
+        R: itemsadder:rice
+      result:
+        item: itemsadder:tropical_fish_nigiri
+        amount: 4
+    cod_nigiri:
+      permission: itemsadder.cod_nigiri
+      enabled: true
+      pattern:
+      - XXX
+      - XKX
+      - XFR
+      ingredients:
+        F: COD
+        K: DRIED_KELP
+        R: itemsadder:rice
+      result:
+        item: itemsadder:cod_nigiri
+        amount: 4
+    salmon_nigiri:
+      permission: itemsadder.salmon_nigiri
+      enabled: true
+      pattern:
+      - XXX
+      - XKX
+      - XFR
+      ingredients:
+        F: SALMON
+        K: DRIED_KELP
+        R: itemsadder:rice
+      result:
+        item: itemsadder:salmon_nigiri
+        amount: 4
+    sausage:
+      permission: itemsadder.sausage
+      enabled: true
+      pattern:
+      - XXX
+      - XBX
+      - XXX
+      ingredients:
+        B: BEEF
+      result:
+        item: itemsadder:sausage
+        amount: 4
+    broken_egg:
+      permission: itemsadder.broken_egg
+      enabled: true
+      pattern:
+      - XXX
+      - XEX
+      - XXX
+      ingredients:
+        E: EGG
+      result:
+        item: itemsadder:broken_egg
+        amount: 1
+    peeled_potato:
+      permission: itemsadder.peeled_potato
+      enabled: true
+      pattern:
+      - XXX
+      - XKP
+      - XXX
+      ingredients:
+        K: itemsadder:knife
+        P: POTATO
+      result:
+        item: itemsadder:peeled_potato
+        amount: 1
+      return_items:
+        decrement_durability:
+          knife:
+            item: knife
+            amount: 1
+        play_sound:
+          name: itemsadder:item.knife.use
+          volume: 1
+          pitch: 1
+    potato_sticks:
+      permission: itemsadder.potato_sticks
+      enabled: true
+      pattern:
+      - XXX
+      - XPX
+      - XXX
+      ingredients:
+        P: itemsadder:peeled_potato
+      result:
+        item: itemsadder:potato_sticks
+        amount: 2
+    french_fries:
+      permission: itemsadder.french_fries
+      enabled: true
+      pattern:
+      - XXX
+      - XOX
+      - XPX
+      ingredients:
+        O: itemsadder:fried_potato_sticks
+        P: PAPER
+      result:
+        item: itemsadder:french_fries
+        amount: 1
+    donut_base:
+      permission: itemsadder.donut_base
+      enabled: true
+      pattern:
+      - XXX
+      - XXX
+      - XDX
+      ingredients:
+        D: itemsadder:dough
+      result:
+        item: itemsadder:donut_base
+        amount: 1
+    sweet:
+      permission: itemsadder.sweet
+      enabled: true
+      pattern:
+      - SSS
+      - SWS
+      - SSS
+      ingredients:
+        S: SUGAR
+        W: WATER_BUCKET
+      result:
+        item: itemsadder:sweet
+        amount: 1
+      return_items:
+        replace:
+          WATER_BUCKET: BUCKET
+    sweet_stick:
+      permission: itemsadder.sweet_stick
+      enabled: true
+      pattern:
+      - XXX
+      - XSX
+      - XXX
+      ingredients:
+        S: itemsadder:sweet
+      result:
+        item: itemsadder:sweet_stick
+        amount: 16
+    pink_donut:
+      permission: itemsadder.pink_donut
+      enabled: true
+      pattern:
+      - SSS
+      - SSS
+      - XDX
+      ingredients:
+        S: itemsadder:sweet_stick
+        D: itemsadder:cooked_donut_base
+      result:
+        item: itemsadder:pink_donut
+        amount: 1
+    nether_donut:
+      permission: itemsadder.nether_donut
+      enabled: true
+      pattern:
+      - XXX
+      - XNX
+      - XDX
+      ingredients:
+        N: SOUL_SAND
+        D: itemsadder:cooked_donut_base
+      result:
+        item: itemsadder:nether_donut
+        amount: 1
+    cheese:
+      permission: itemsadder.cheese
+      enabled: true
+      pattern:
+      - XXX
+      - XMX
+      - XXX
+      ingredients:
+        M: MILK_BUCKET
+      result:
+        item: itemsadder:cheese
+        amount: 1
+      return_items:
+        replace:
+          MILK_BUCKET: BUCKET
+    pufferfish_nigiri:
+      permission: itemsadder.pufferfish_nigiri
+      enabled: true
+      pattern:
+      - XXX
+      - XKX
+      - XFR
+      ingredients:
+        F: PUFFERFISH
+        K: DRIED_KELP
+        R: itemsadder:rice
+      result:
+        item: itemsadder:pufferfish_nigiri
+        amount: 4
+    sliced_bread:
+      permission: itemsadder.sliced_bread
+      enabled: true
+      pattern:
+      - XXX
+      - XKB
+      - XXX
+      ingredients:
+        K: itemsadder:knife
+        B: BREAD
+      result:
+        item: itemsadder:sliced_bread
+        amount: 5
+      return_items:
+        decrement_durability:
+          knife:
+            item: knife
+            amount: 1
+        play_sound:
+          name: itemsadder:item.knife.use
+          volume: 1
+          pitch: 1
+    sliced_baguette:
+      permission: itemsadder.sliced_baguette
+      enabled: true
+      pattern:
+      - XXX
+      - XKB
+      - XXX
+      ingredients:
+        K: itemsadder:knife
+        B: itemsadder:baguette
+      result:
+        item: itemsadder:sliced_baguette
+        amount: 4
+      return_items:
+        decrement_durability:
+          knife:
+            item: knife
+            amount: 1
+        play_sound:
+          name: itemsadder:item.knife.use
+          volume: 1
+          pitch: 1
+    sliced_cheese:
+      permission: itemsadder.sliced_cheese
+      enabled: true
+      pattern:
+      - XXX
+      - XKC
+      - XXX
+      ingredients:
+        K: itemsadder:knife
+        C: itemsadder:cheese
+      result:
+        item: itemsadder:sliced_cheese
+        amount: 4
+      return_items:
+        decrement_durability:
+          knife:
+            item: knife
+            amount: 1
+        play_sound:
+          name: itemsadder:item.knife.use
+          volume: 1
+          pitch: 1
+    sliced_raw_beef:
+      permission: itemsadder.sliced_raw_beef
+      enabled: true
+      pattern:
+      - XXX
+      - XKB
+      - XXX
+      ingredients:
+        K: itemsadder:knife
+        B: BEEF
+      result:
+        item: itemsadder:sliced_raw_beef
+        amount: 4
+      return_items:
+        decrement_durability:
+          knife:
+            item: knife
+            amount: 1
+        play_sound:
+          name: itemsadder:item.knife.use
+          volume: 1
+          pitch: 1
+    sliced_bread_with_sweet_berries_jam:
+      permission: itemsadder.sliced_bread_with_sweet_berries_jam
+      enabled: true
+      pattern:
+      - XXJ
+      - XKB
+      - XXX
+      ingredients:
+        K: itemsadder:knife
+        B: itemsadder:sliced_bread
+        J: itemsadder:sweet_berries_jam_jar
+      result:
+        item: itemsadder:sliced_bread_with_sweet_berries_jam
+        amount: 1
+      return_items:
+        decrement_durability:
+          knife:
+            item: knife
+            amount: 0
+          sweet_berries_jam_jar:
+            item: sweet_berries_jam_jar
+            amount: 1
+    sliced_bread_with_pear_jam:
+      permission: itemsadder.sliced_bread_with_pear_jam
+      enabled: true
+      pattern:
+      - XXJ
+      - XKB
+      - XXX
+      ingredients:
+        K: itemsadder:knife
+        B: itemsadder:sliced_bread
+        J: itemsadder:pear_jam_jar
+      result:
+        item: itemsadder:sliced_bread_with_pear_jam
+        amount: 1
+      return_items:
+        decrement_durability:
+          knife:
+            item: knife
+            amount: 0
+          sweet_berries_jam_jar:
+            item: sweet_berries_jam_jar
+            amount: 1
+    sliced_bread_with_apple_jam:
+      permission: itemsadder.sliced_bread_with_apple_jam
+      enabled: true
+      pattern:
+      - XXJ
+      - XKB
+      - XXX
+      ingredients:
+        K: itemsadder:knife
+        B: itemsadder:sliced_bread
+        J: itemsadder:apple_jam_jar
+      result:
+        item: itemsadder:sliced_bread_with_apple_jam
+        amount: 1
+      return_items:
+        decrement_durability:
+          knife:
+            item: knife
+            amount: 0
+          sweet_berries_jam_jar:
+            item: sweet_berries_jam_jar
+            amount: 1
+  cooking:
+    cooked_sausage:
+      permission: itemsadder.cooked_sausage
+      ingredient:
+        item: itemsadder:sausage
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:cooked_sausage
+        amount: 1
+    baguette:
+      permission: itemsadder.baguette
+      ingredient:
+        item: itemsadder:dough
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:baguette
+        amount: 1
+    fried_egg:
+      permission: itemsadder.fried_egg
+      ingredient:
+        item: itemsadder:broken_egg
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:fried_egg
+        amount: 1
+    fried_potato_sticks:
+      permission: itemsadder.fried_potato_sticks
+      ingredient:
+        item: itemsadder:potato_sticks
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:fried_potato_sticks
+        amount: 1
+    cooked_donut_base:
+      permission: itemsadder.cooked_donut_base
+      ingredient:
+        item: itemsadder:donut_base
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:cooked_donut_base
+        amount: 1
+    cooked_blue_parrotfish:
+      permission: itemsadder.cooked_blue_parrotfish
+      ingredient:
+        item: itemsadder:blue_parrotfish
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:cooked_blue_parrotfish
+        amount: 1
+    cooked_green_sunfish:
+      permission: itemsadder.cooked_green_sunfish
+      ingredient:
+        item: itemsadder:green_sunfish
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:cooked_green_sunfish
+        amount: 1
+    cooked_goldfish:
+      permission: itemsadder.cooked_goldfish
+      ingredient:
+        item: itemsadder:goldfish
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:cooked_goldfish
+        amount: 1
+    cooked_black_moor_goldfish:
+      permission: itemsadder.cooked_black_moor_goldfish
+      ingredient:
+        item: itemsadder:black_moor_goldfish
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:cooked_black_moor_goldfish
+        amount: 1
+    cooked_tuna:
+      permission: itemsadder.cooked_tuna
+      ingredient:
+        item: itemsadder:tuna
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:cooked_tuna
+        amount: 1
+    sliced_roast_beef:
+      permission: itemsadder.sliced_roast_beef
+      ingredient:
+        item: itemsadder:sliced_raw_beef
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:sliced_roast_beef
+        amount: 1
+items:
+  pizza:
+    display_name: Pizza
+    permission: pizza
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/pizza.png
+    events:
+      eat:
+        feed:
+          amount: 9
+  taco:
+    display_name: Taco
+    permission: taco
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/taco.png
+    events:
+      eat:
+        feed:
+          amount: 6
+  hamburger:
+    display_name: Hamburger
+    permission: hamburger
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/hamburger.png
+    events:
+      eat:
+        feed:
+          amount: 6
+  chips:
+    display_name: Chips
+    permission: chips
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/chips.png
+    events:
+      eat:
+        feed:
+          amount: 6
+  hotdog:
+    display_name: Hotdog
+    permission: hotdog
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/hotdog.png
+    events:
+      eat:
+        feed:
+          amount: 12
+  tropical_fish_nigiri:
+    display_name: Tropical Fish Nigiri
+    permission: tropical_fish_nigiri
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/tropical_fish_nigiri.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  cod_nigiri:
+    display_name: Cod Nigiri
+    permission: cod_nigiri
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cod_nigiri.png
+    events:
+      eat:
+        feed:
+          amount: 3
+  salmon_nigiri:
+    display_name: Salmon Nigiri
+    permission: salmon_nigiri
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/salmon_nigiri.png
+    events:
+      eat:
+        feed:
+          amount: 4
+  sausage:
+    display_name: Sausage
+    permission: sausage
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sausage.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  cooked_sausage:
+    display_name: Cooked Sausage
+    permission: cooked_sausage
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_sausage.png
+    events:
+      eat:
+        feed:
+          amount: 3
+  baguette:
+    display_name: Baguette
+    permission: baguette
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/baguette.png
+    events:
+      eat:
+        feed:
+          amount: 8
+  broken_egg:
+    display_name: Broken egg
+    permission: broken_egg
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/broken_egg.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  fried_egg:
+    display_name: Fried egg
+    permission: fried_egg
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/fried_egg.png
+    events:
+      eat:
+        feed:
+          amount: 5
+  peeled_potato:
+    display_name: Peeled Potato
+    permission: peeled_potato
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/peeled_potato.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  potato_sticks:
+    display_name: Potato Sticks
+    permission: potato_sticks
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/potato_sticks.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  fried_potato_sticks:
+    display_name: Fried Potato Sticks
+    permission: fried_potato_sticks
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/fried_potato_sticks.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  french_fries:
+    display_name: French Fries
+    permission: french_fries
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/french_fries.png
+    events:
+      eat:
+        feed:
+          amount: 8
+  donut_base:
+    display_name: Donut base
+    permission: donut_base
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/donut_base.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  cooked_donut_base:
+    display_name: Cooked Donut base
+    permission: cooked_donut_base
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_donut_base.png
+    events:
+      eat:
+        feed:
+          amount: 3
+  sweet:
+    display_name: Sweet
+    permission: sweet
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sweet.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  sweet_stick:
+    display_name: Sweet stick
+    permission: sweet_stick
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sweet_stick.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  pink_donut:
+    display_name: Pink Donut
+    permission: pink_donut
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/pink_donut.png
+    events:
+      eat:
+        feed:
+          amount: 6
+  nether_donut:
+    display_name: Nether Donut
+    permission: nether_donut
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/nether_donut.png
+    events:
+      eat:
+        feed:
+          amount: 8
+  cheese:
+    display_name: Cheese
+    permission: cheese
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cheese.png
+    events:
+      eat:
+        feed:
+          amount: 8
+  pufferfish_nigiri:
+    display_name: Pufferfish Nigiri
+    permission: pufferfish_nigiri
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/pufferfish_nigiri.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  sliced_bread:
+    display_name: Sliced Bread
+    permission: sliced_bread
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_bread.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  sliced_baguette:
+    display_name: Sliced Baguette
+    permission: sliced_baguette
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_baguette.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  sliced_cheese:
+    display_name: Sliced Cheese
+    permission: sliced_cheese
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_cheese.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  blue_parrotfish:
+    display_name: Blue Parrotfish
+    permission: blue_parrotfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/blue_parrotfish.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  cooked_blue_parrotfish:
+    display_name: Cooked Blue Parrotfish
+    permission: cooked_blue_parrotfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_blue_parrotfish.png
+    events:
+      eat:
+        feed:
+          amount: 8
+  green_sunfish:
+    display_name: Green Sunfish
+    permission: green_sunfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/green_sunfish.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  cooked_green_sunfish:
+    display_name: Cooked Green Sunfish
+    permission: cooked_green_sunfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_green_sunfish.png
+    events:
+      eat:
+        feed:
+          amount: 6
+  goldfish:
+    display_name: Goldfish
+    permission: goldfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/goldfish.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  cooked_goldfish:
+    display_name: Cooked Goldfish
+    permission: cooked_goldfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_goldfish.png
+    events:
+      eat:
+        feed:
+          amount: 6
+  black_moor_goldfish:
+    display_name: Black Moor Goldfish
+    permission: black_moor_goldfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/black_moor_goldfish.png
+    events:
+      eat:
+        feed:
+          amount: 3
+  cooked_black_moor_goldfish:
+    display_name: Cooked Black Moor Goldfish
+    permission: cooked_black_moor_goldfish
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_black_moor_goldfish.png
+    events:
+      eat:
+        feed:
+          amount: 8
+  tuna:
+    display_name: Tuna
+    permission: tuna
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/tuna.png
+    events:
+      eat:
+        feed:
+          amount: 4
+  cooked_tuna:
+    display_name: Cooked Tuna
+    permission: cooked_tuna
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/cooked_tuna.png
+    events:
+      eat:
+        feed:
+          amount: 8
+  sliced_raw_beef:
+    display_name: Sliced Raw Beef
+    permission: sliced_raw_beef
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_raw_beef.png
+    events:
+      eat:
+        feed:
+          amount: 1
+  sliced_roast_beef:
+    display_name: Sliced Roast Beef
+    permission: sliced_roast_beef
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_roast_beef.png
+    events:
+      eat:
+        feed:
+          amount: 2
+  sliced_bread_with_sweet_berries_jam:
+    display_name: Sliced Bread With Sweet Barries Jam
+    permission: sliced_bread_with_sweet_berries_jam
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_bread_with_sweet_berries_jam.png
+    events:
+      eat:
+        feed:
+          amount: 5
+  sliced_bread_with_pear_jam:
+    display_name: Sliced Bread With Pear Jam
+    permission: sliced_bread_with_pear_jam
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_bread_with_pear_jam.png
+    events:
+      eat:
+        feed:
+          amount: 5
+  sliced_bread_with_apple_jam:
+    display_name: Sliced Bread With Apple Jam
+    permission: sliced_bread_with_apple_jam
+    resource:
+      material: COOKED_PORKCHOP
+      generate: true
+      textures:
+      - item/sliced_bread_with_apple_jam.png
+    events:
+      eat:
+        feed:
+          amount: 5
+# loots:
+  # fishing:
+    # loot_blue_parrotfish:
+      # items:
+        # item_1:
+          # item: itemsadder:blue_parrotfish
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 5
+    # loot_green_sunfish:
+      # items:
+        # item_1:
+          # item: itemsadder:green_sunfish
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 5
+    # loot_goldfish:
+      # items:
+        # item_1:
+          # item: itemsadder:goldfish
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 5
+    # loot_black_moor_goldfish:
+      # items:
+        # item_1:
+          # item: itemsadder:black_moor_goldfish
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 7
+    # loot_tuna:
+      # items:
+        # item_1:
+          # item: itemsadder:tuna
+          # min_amount: 1
+          # max_amount: 1
+          # chance: 5

@@ -1,0 +1,175 @@
+Locations:
+  '1':
+    Crate: 九选一
+    World: world
+    X: 184
+    Y: 19
+    Z: -102
+  '2':
+    Crate: 九选一
+    World: world
+    X: 184
+    Y: 19
+    Z: -101
+  '3':
+    Crate: 九选一
+    World: world
+    X: 184
+    Y: 19
+    Z: -99
+  '4':
+    Crate: 九选一
+    World: world
+    X: 184
+    Y: 19
+    Z: -98
+  '6':
+    Crate: 快速
+    World: world
+    X: 180
+    Y: 23
+    Z: -106
+  '7':
+    Crate: 快速
+    World: world
+    X: 179
+    Y: 23
+    Z: -106
+  '5':
+    Crate: 快速
+    World: world
+    X: 181
+    Y: 23
+    Z: -106
+  '8':
+    Crate: 老虎机
+    World: world
+    X: 185
+    Y: 27
+    Z: -103
+  '9':
+    Crate: 老虎机
+    World: world
+    X: 185
+    Y: 27
+    Z: -102
+  '10':
+    Crate: 老虎机
+    World: world
+    X: 185
+    Y: 27
+    Z: -101
+  '11':
+    Crate: 老虎机
+    World: world
+    X: 185
+    Y: 27
+    Z: -99
+  '12':
+    Crate: 老虎机
+    World: world
+    X: 185
+    Y: 27
+    Z: -98
+  '13':
+    Crate: 老虎机
+    World: world
+    X: 185
+    Y: 27
+    Z: -97
+  '14':
+    Crate: 跑马灯
+    World: world
+    X: 178
+    Y: 27
+    Z: -107
+  '15':
+    Crate: 跑马灯
+    World: world
+    X: 179
+    Y: 27
+    Z: -107
+  '16':
+    Crate: 跑马灯
+    World: world
+    X: 181
+    Y: 27
+    Z: -107
+  '17':
+    Crate: 跑马灯
+    World: world
+    X: 182
+    Y: 27
+    Z: -107
+  '18':
+    Crate: 疯狂
+    World: world
+    X: 176
+    Y: 32
+    Z: -100
+  '19':
+    Crate: 疯狂
+    World: world
+    X: 179
+    Y: 32
+    Z: -105
+  '20':
+    Crate: 烟花
+    World: world
+    X: 185
+    Y: 32
+    Z: -103
+  '21':
+    Crate: 烟花
+    World: world
+    X: 185
+    Y: 32
+    Z: -102
+  '22':
+    Crate: 烟花
+    World: world
+    X: 185
+    Y: 32
+    Z: -101
+  '23':
+    Crate: 烟花
+    World: world
+    X: 185
+    Y: 32
+    Z: -99
+  '24':
+    Crate: 烟花
+    World: world
+    X: 185
+    Y: 32
+    Z: -98
+  '25':
+    Crate: 烟花
+    World: world
+    X: 185
+    Y: 32
+    Z: -97
+  '26':
+    Crate: 快速
+    World: world
+    X: 178
+    Y: 23
+    Z: -102
+  '27':
+    Crate: 快速
+    World: world
+    X: 178
+    Y: 23
+    Z: -103
+  '28':
+    Crate: 快速
+    World: world
+    X: 178
+    Y: 23
+    Z: -104
+  '29':
+    Crate: 快速
+    World: world
+    X: 178
+    Y: 23
+    Z: -105

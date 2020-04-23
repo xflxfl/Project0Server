@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "e99c9154-3fda-38bf-bf2c-b6bb96cbc97c",
+    "name": "BiShop_Ma",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "49361b7c-755d-3014-9a74-cab917bf8d52",
+    "name": "Test2",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a11cf95b-131d-4d12-b08c-d4a194dd71d9",
+    "name": "BiShop_Ma",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9754b8e3-52ad-3c33-b44a-a5ed356ad6f2",
+    "name": "BiShop",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,9 @@
+info:
+  namespace: "example"
+font_images:
+  cutie:
+    permission: "example.cutie"
+    show_in_gui: true
+    path: "font/tags/cutie.png"
+    scale_ratio: 9
+    y_position: 8

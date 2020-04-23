@@ -1,0 +1,79 @@
+{
+  "ID": "bee",
+  "Order": 0,
+  "Name": "蜜蜂",
+  "Requirements": [
+    "Permission:Zombie"
+  ],
+  "Icon": {
+    "Material": "diamond_sword"
+  },
+  "MaxLevel": 100,
+  "Description": [
+    "\u0026c攻击型宠物",
+    "\u0026f最大宠物攻击15",
+    "\u0026f最大宠物血量130",
+    "\u0026f宠物技能：",
+    "\u0026f -  击退(20级领悟,最大概率30%)",
+    "\u0026f -  毒攻(20级领悟,最大概率25%,持续时间3秒)"
+  ],
+  "MobTypes": [
+    "Bee"
+  ],
+  "Skills": {
+    "Behavior": {
+      "Upgrades": {
+        "5": {
+          "Aggro": false,
+          "Duel": false,
+          "Farm": false,
+          "Friend": true,
+          "Raid": false
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "%1>1<20": {
+          "Damage": "+0.3"
+        },
+        "%1>21<50": {
+          "Damage": "+0.2"
+        },
+        "%1>51<100": {
+          "Damage": "+0.06"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "%1>1<10": {
+          "Health": "+2"
+        },
+        "%1>11<30": {
+          "Health": "+1.5"
+        },
+        "%1>31<100": {
+          "Health": "+0.857"
+        }
+      }
+    },
+    "Knockback": {
+      "Upgrades": {
+        "20,30,40,50,60,70": {
+          "Chance": "+5"
+        }
+      }
+    },
+    "Poison": {
+      "Upgrades": {
+        "20,25,30,40,50": {
+          "Chance": "+5"
+        },
+        "20,30,50": {
+          "Duration": "+1"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/diamond_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "itemsadder:auto_generated/ruby_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "itemsadder:auto_generated/spinel_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "itemsadder:auto_generated/turquoise_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "itemsadder:auto_generated/aqua_aura_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "itemsadder:auto_generated/amethyst_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "itemsadder:auto_generated/bronze_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "mjy:item/shiyue_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "mjy:item/riyue_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "mjy:item/fenshixieyan_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "mjy:item/mietianxieyan_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "mjy:item/shuihuo_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "mjy:item/leidian/leidian_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "mjy:item/tiaozhanzhe_axe"
+    }
+  ]
+}

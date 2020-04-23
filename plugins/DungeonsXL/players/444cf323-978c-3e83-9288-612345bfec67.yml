@@ -1,0 +1,21 @@
+configVersion: 4
+stats:
+  finishedTutorial: false
+  timeLastStarted:
+    lieyanwang: 1586793359776
+    jingmizhidi: 1586972402447
+    boss: 1585891316622
+    test: 1585949252289
+    shiwang: 1586401604945
+    anjinshushi: 1586483984275
+    hunluanzhidi: 1586414428290
+  timeLastFinished:
+    jingmizhidi: 1586483868149
+    boss: 1585891368584
+    test: 1585949256606
+    anjinshushi: 1586484144209
+  timeLastLoot:
+    jingmizhidi: 1586483868148
+    boss: 1585891368582
+    test: 1585949256576
+    anjinshushi: 1586484144208

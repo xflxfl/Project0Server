@@ -1,0 +1,930 @@
+# ###################
+# 尸王BOSS
+# ###################
+shiwang:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:fenji_sword
+    chance: 0.04
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c焚寂剑"
+      model: 42
+  '2':
+    cmd: ph giveitem %player% mjy:tiaozhanzhe_axe
+    chance: 0.1
+    icon:
+      id: DIAMOND_AXE
+      displayName: "&5挑战者之斧"
+      model: 13
+  '3':
+    cmd: give %player% diamond 32
+    chance: 0.23
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石32个"
+      model: 0
+  '4':
+    cmd: give %player% diamond 64
+    chance: 0.1
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石64个"
+      model: 0
+  '5':
+    cmd: give %player% emerald 64
+    chance: 0.02
+    icon:
+      id: EMERALD
+      displayName: "&6绿宝石64个"
+      model: 0
+  '6':
+    cmd: give %player% emerald 32
+    chance: 0.08
+    icon:
+      id: EMERALD
+      displayName: "&6绿宝石32个"
+      model: 0
+  '7':
+    cmd: ph giveitem %player% mjy:rongyan_sword
+    chance: 0.18
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&2熔岩剑"
+      model: 31
+  '8':
+    cmd: ph giveitem %player% mjy:tulong_sword
+    chance: 0.09
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c屠龙刀"
+      model: 38
+  '9':
+    cmd: ph giveitem %player% mjy:wushi_sword
+    chance: 0.12
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&9武士剑"
+      model: 27
+  '10':
+    cmd: ph giveitem %player% mjy:gaojipaoxie_feet
+    chance: 0.04
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&5高级跑鞋"
+      model: 17
+      
+# ###################
+# 凋零王BOSS
+# ###################
+diaolingwang:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:diaolingwang_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&9凋零王的长剑"
+      model: 28
+  '2':
+    cmd: give %player% diamond 14
+    chance: 0.15
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石14个"
+      model: 0
+  '3':
+    cmd: give %player% diamond 8
+    chance: 0.19
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石8个"
+      model: 0
+  '4':
+    cmd: give %player% emerald 6
+    chance: 0.12
+    icon:
+      id: EMERALD
+      displayName: "&6绿宝石6个"
+      model: 0
+  '5':
+    cmd: ph giveitem %player% mjy:diaolingwang_head
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5凋零王的皇冠"
+      model: 11
+  '6':
+    cmd: ph giveitem %player% mjy:yeren_sword
+    chance: 0.12
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&8夜刃"
+      model: 33
+  '7':
+    cmd: ph giveitem %player% mjy:tiaozhanzhe_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5挑战者之剑"
+      model: 49
+  '8':
+    cmd: ph giveitem %player% mjy:diaolingwang_chest
+    chance: 0.06
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&5凋零王的护甲"
+      model: 12
+  '9':
+    cmd: ph giveitem %player% mjy:gujian_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&9骨剑"
+      model: 35
+
+# ###################
+# 尸王宝宝BOSS
+# ###################
+shiwangbaobao:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:tulong_sword
+    chance: 0.07
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c屠龙刀"
+      model: 38
+  '2':
+    cmd: give %player% diamond 16
+    chance: 0.14
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石16个"
+      model: 0
+  '3':
+    cmd: give %player% diamond 10
+    chance: 0.2
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石10个"
+      model: 0
+  '4':
+    cmd: give %player% emerald 7
+    chance: 0.18
+    icon:
+      id: EMERALD
+      displayName: "&6绿宝石7个"
+      model: 0
+  '5':
+    cmd: ph giveitem %player% mjy:xuemo_chest
+    chance: 0.10
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&e血魔胸甲"
+      model: 13
+  '6':
+    cmd: ph giveitem %player% mjy:yeren_sword
+    chance: 0.17
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&8夜刃"
+      model: 33
+  '7':
+    cmd: ph giveitem %player% mjy:tiaozhanzhe_axe
+    chance: 0.1
+    icon:
+      id: DIAMOND_AXE
+      displayName: "&5挑战者之斧"
+      model: 13
+  '8':
+    cmd: ph giveitem %player% mjy:putongpaoxie_feet
+    chance: 0.03
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&3普通跑鞋"
+      model: 16
+
+# ###################
+# 混乱之地
+# ###################
+hunluanzhidi:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:shilian_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&8试炼剑"
+      model: 29
+  '2':
+    cmd: ph giveitem %player% mjy:gujian_sword
+    chance: 0.04
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&9骨剑"
+      model: 35
+  '3':
+    cmd: eco give %player% 100
+    chance: 0.15
+    icon:
+      id: STICK
+      displayName: "&6100金币"
+      model: 29
+  '4':
+    cmd: eco give %player% 200
+    chance: 0.07
+    icon:
+      id: STICK
+      displayName: "&6200金币"
+      model: 29
+  '5':
+    cmd: give %player% diamond 2
+    chance: 0.14
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石2个"
+      model: 0
+  '6':
+    cmd: give %player% diamond 4
+    chance: 0.1
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石4个"
+      model: 0
+  '7':
+    cmd: ph giveitem %player% mjy:shilian_chest
+    chance: 0.1
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&7试炼胸甲"
+      model: 14
+  '8':
+    cmd: ph giveitem %player% mjy:shilian_leg
+    chance: 0.1
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&7试炼护腿"
+      model: 14
+  '9':
+    cmd: ph giveitem %player% mjy:shilian_feet
+    chance: 0.1
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&7试炼战靴"
+      model: 14
+  '10':
+    cmd: ph giveitem %player% mjy:shilian_head
+    chance: 0.1
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&7试炼头盔"
+      model: 13
+
+# ###################
+# 静谧之地
+# ###################
+jingmizhidi:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: give %player% iron_sword 1
+    chance: 0.3
+    icon:
+      id: IRON_SWORD
+      displayName: "&f铁剑"
+      model: 0
+  '2':
+    cmd: ph giveitem %player% mjy:shilian_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&8试炼剑"
+      model: 29
+  '3':
+    cmd: eco give %player% 50
+    chance: 0.2
+    icon:
+      id: STICK
+      displayName: "&650金币"
+      model: 29
+  '4':
+    cmd: eco give %player% 100
+    chance: 0.1
+    icon:
+      id: STICK
+      displayName: "&6100金币"
+      model: 29
+  '5':
+    cmd: give %player% diamond 2
+    chance: 0.1
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石2个"
+      model: 0
+  '6':
+    cmd: give %player% iron_ingot 10
+    chance: 0.1
+    icon:
+      id: IRON_INGOT
+      displayName: "&6铁10个"
+      model: 0
+  '7':
+    cmd: give %player% gold_ingot 6
+    chance: 0.1
+    icon:
+      id: GOLD_INGOT
+      displayName: "&6黄金6个"
+      model: 0
+
+# ###################
+# 暗金术士
+# ###################
+anjinshushi:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: give %player% diamond_sword 1
+    chance: 0.2
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&f钻石剑"
+      model: 0
+  '2':
+    cmd: ph giveitem %player% mjy:anjin_sword
+    chance: 0.1
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5暗金"
+      model: 34
+  '3':
+    cmd: eco give %player% 350
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6350金币"
+      model: 29
+  '4':
+    cmd: ph giveitem %player% mjy:anjin_chest
+    chance: 0.08
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&3暗金胸甲"
+      model: 21
+  '5':
+    cmd: ph giveitem %player% mjy:anjin_legs
+    chance: 0.08
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&3暗金护腿"
+      model: 21
+  '6':
+    cmd: ph giveitem %player% mjy:anjin_boots
+    chance: 0.08
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&3暗金战靴"
+      model: 23
+  '7':
+    cmd: ph giveitem %player% mjy:anjin_head
+    chance: 0.09
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&3暗金头盔"
+      model: 20
+  '8':
+    cmd: give %player% diamond 8
+    chance: 0.13
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石8个"
+      model: 0
+  '9':
+    cmd: eco give %player% 230
+    chance: 0.13
+    icon:
+      id: STICK
+      displayName: "&6230金币"
+      model: 29
+      
+# ###################
+# 神奇矿车
+# ###################
+shenqikuangche:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: give %player% diamond_shovel 1
+    chance: 0.12
+    icon:
+      id: DIAMOND_SHOVEL
+      displayName: "&f钻石锹"
+      model: 0
+  '2':
+    cmd: give %player% diamond_pickaxe 1
+    chance: 0.12
+    icon:
+      id: DIAMOND_PICKAXE
+      displayName: "&f钻石镐"
+      model: 0
+  '3':
+    cmd: give %player% diamond_axe 1
+    chance: 0.12
+    icon:
+      id: DIAMOND_AXE
+      displayName: "&f钻石斧"
+      model: 0
+  '4':
+    cmd: give %player% diamond_hoe 1
+    chance: 0.12
+    icon:
+      id: DIAMOND_HOE
+      displayName: "&f钻石锄"
+      model: 0
+  '5':
+    cmd: give %player% cake 4
+    chance: 0.16
+    icon:
+      id: CAKE
+      displayName: "&f蛋糕4个"
+      model: 0
+  '6':
+    cmd: give %player% fermented_spider_eye 10
+    chance: 0.12
+    icon:
+      id: FERMENTED_SPIDER_EYE
+      displayName: "&6发酵蛛眼10个"
+      model: 0
+  '7':
+    cmd: give %player% blaze_powder 10
+    chance: 0.12
+    icon:
+      id: BLAZE_POWDER
+      displayName: "&6烈焰粉10个"
+      model: 0
+  '8':
+    cmd: give %player% enchanted_book{StoredEnchantments:[{id:efficiency,lvl:5}]} 1
+    chance: 0.04
+    icon:
+      id: BLAZE_POWDER
+      displayName: "&e效率5附魔书"
+      model: 0
+  '9':
+    cmd: give %player% enchanted_book{StoredEnchantments:[{id:unbreaking,lvl:3}]} 1
+    chance: 0.04
+    icon:
+      id: BLAZE_POWDER
+      displayName: "&e耐久3附魔书"
+      model: 0
+  '10':
+    cmd: give %player% enchanted_book{StoredEnchantments:[{id:silk_touch,lvl:1}]} 1
+    chance: 0.04
+    icon:
+      id: BLAZE_POWDER
+      displayName: "&e精准采集附魔书"
+      model: 0
+      
+# ###################
+# 祥和村
+# ###################
+xianghecun:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: give %player% diamond_helmet 1
+    chance: 0.14
+    icon:
+      id: DIAMOND_HELMET
+      displayName: "&f钻石头盔"
+      model: 0
+  '2':
+    cmd: give %player% diamond_chestplate 1
+    chance: 0.14
+    icon:
+      id: DIAMOND_CHESTPLATE
+      displayName: "&f钻石胸甲"
+      model: 0
+  '3':
+    cmd: give %player% diamond_leggings 1
+    chance: 0.14
+    icon:
+      id: DIAMOND_LEGGINGS
+      displayName: "&f钻石护腿"
+      model: 0
+  '4':
+    cmd: give %player% diamond_boots 1
+    chance: 0.14
+    icon:
+      id: DIAMOND_BOOTS
+      displayName: "&f钻石靴子"
+      model: 0
+  '5':
+    cmd: give %player% enchanted_book{StoredEnchantments:[{id:fortune,lvl:3}]} 1
+    chance: 0.04
+    icon:
+      id: ENCHANTED_BOOK
+      displayName: "&e时运3附魔书"
+      model: 0
+  '6':
+    cmd: give %player% ghast_tear 1
+    chance: 0.12
+    icon:
+      id: GHAST_TEAR
+      displayName: "&f恶魂之泪1个"
+      model: 0
+  '7':
+    cmd: give %player% diamond 4
+    chance: 0.12
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石4个"
+      model: 0
+  '8':
+    cmd: eco give %player% 200
+    chance: 0.16
+    icon:
+      id: STICK
+      displayName: "&6200金币"
+      model: 29
+      
+# ###################
+# 落雪村
+# ###################
+luoxuecun:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:wushi_sword
+    chance: 0.09
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&9武士剑"
+      model: 27
+  '2':
+    cmd: ph giveitem %player% mjy:bailian_chest
+    chance: 0.09
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&b百炼胸甲"
+      model: 15
+  '3':
+    cmd: ph giveitem %player% mjy:bailian_leg
+    chance: 0.09
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&b百炼护腿"
+      model: 15
+  '4':
+    cmd: ph giveitem %player% mjy:bailian_feet
+    chance: 0.09
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&b百炼靴子"
+      model: 15
+  '5':
+    cmd: give %player% gold_ingot 10
+    chance: 0.18
+    icon:
+      id: GOLD_INGOT
+      displayName: "&f金锭10个"
+      model: 0
+  '6':
+    cmd: ph giveitem %player% mjy:bailian_head
+    chance: 0.09
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&b百炼头盔"
+      model: 14
+  '7':
+    cmd: give %player% diamond 6
+    chance: 0.11
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石6个"
+      model: 0
+  '8':
+    cmd: eco give %player% 200
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6200金币"
+      model: 29
+  '9':
+    cmd: ph giveitem %player% mjy:tiaozhanzhe_axe
+    chance: 0.06
+    icon:
+      id: DIAMOND_AXE
+      displayName: "&5挑战者之斧"
+      model: 13
+  '10':
+    cmd: give %player% diamond 12
+    chance: 0.09
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石12个"
+      model: 0
+
+# ###################
+# 明月城
+# ###################
+mingyuecheng:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:riyue_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5日月剑"
+      model: 30
+  '2':
+    cmd: ph giveitem %player% mjy:wushi_chest
+    chance: 0.09
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&f武士胸甲"
+      model: 11
+  '3':
+    cmd: ph giveitem %player% mjy:wushi_leg
+    chance: 0.09
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&f武士护腿"
+      model: 11
+  '4':
+    cmd: ph giveitem %player% mjy:wushi_feet
+    chance: 0.09
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&f武士靴子"
+      model: 11
+  '5':
+    cmd: give %player% iron_ingot 16
+    chance: 0.18
+    icon:
+      id: IRON_INGOT
+      displayName: "&f铁锭16个"
+      model: 0
+  '6':
+    cmd: ph giveitem %player% mjy:wushi_head
+    chance: 0.09
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&f武士头盔"
+      model: 10
+  '7':
+    cmd: give %player% diamond 7
+    chance: 0.11
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石7个"
+      model: 0
+  '8':
+    cmd: eco give %player% 260
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6260金币"
+      model: 29
+  '9':
+    cmd: ph giveitem %player% mjy:xinglun_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&5星轮剑"
+      model: 32
+  '10':
+    cmd: give %player% diamond 14
+    chance: 0.08
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石14个"
+      model: 0
+      
+# ###################
+# 守护者营地
+# ###################
+shouhuzheyingdi:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:shouhuzhe_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&3守护者之剑"
+      model: 30
+  '2':
+    cmd: ph giveitem %player% mjy:shouhuzhe_chest
+    chance: 0.09
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&3守护者胸甲"
+      model: 19
+  '3':
+    cmd: ph giveitem %player% mjy:shouhuzhe_legs
+    chance: 0.09
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&3守护者护腿"
+      model: 11
+  '4':
+    cmd: ph giveitem %player% mjy:shouhuzhe_boots
+    chance: 0.09
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&3守护者靴子"
+      model: 11
+  '5':
+    cmd: give %player% iron_ingot 24
+    chance: 0.18
+    icon:
+      id: IRON_INGOT
+      displayName: "&f铁锭24个"
+      model: 0
+  '6':
+    cmd: ph giveitem %player% mjy:shouhuzhe_head
+    chance: 0.09
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&3守护者头盔"
+      model: 10
+  '7':
+    cmd: give %player% diamond 8
+    chance: 0.11
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石8个"
+      model: 0
+  '8':
+    cmd: eco give %player% 270
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6270金币"
+      model: 29
+  '9':
+    cmd: eco give %player% 400
+    chance: 0.08
+    icon:
+      id: STICK
+      displayName: "&6400金币"
+      model: 29
+  '10':
+    cmd: give %player% diamond 16
+    chance: 0.08
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石16个"
+      model: 0
+      
+# ###################
+# 血魔部落
+# ###################
+xuemobuluo:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:tianwen_sword
+    chance: 0.06
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c天问"
+      model: 39
+  '2':
+    cmd: ph giveitem %player% mjy:xuemo_chest
+    chance: 0.09
+    icon:
+      id: LEATHER_CHESTPLATE
+      displayName: "&e血魔胸甲"
+      model: 13
+  '3':
+    cmd: ph giveitem %player% mjy:xuemo_leg
+    chance: 0.09
+    icon:
+      id: LEATHER_LEGGINGS
+      displayName: "&e血魔护腿"
+      model: 13
+  '4':
+    cmd: ph giveitem %player% mjy:xuemo_feet
+    chance: 0.09
+    icon:
+      id: LEATHER_BOOTS
+      displayName: "&e血魔靴子"
+      model: 13
+  '5':
+    cmd: give %player% gold_ingot 26
+    chance: 0.20
+    icon:
+      id: GOLD_INGOT
+      displayName: "&f金锭26个"
+      model: 0
+  '6':
+    cmd: ph giveitem %player% mjy:xuemo_head
+    chance: 0.09
+    icon:
+      id: LEATHER_HELMET
+      displayName: "&e血魔头盔"
+      model: 12
+  '7':
+    cmd: give %player% diamond 8
+    chance: 0.11
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石8个"
+      model: 0
+  '8':
+    cmd: eco give %player% 300
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6300金币"
+      model: 29
+  '9':
+    cmd: eco give %player% 360
+    chance: 0.08
+    icon:
+      id: STICK
+      displayName: "&6360金币"
+      model: 29
+  '10':
+    cmd: give %player% diamond 16
+    chance: 0.08
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石16个"
+      model: 0
+      
+# ###################
+# 烈焰王
+# ###################
+lieyanwang:
+  exp: 100-200
+  bonusRewardProb: 0.005
+  '1':
+    cmd: ph giveitem %player% mjy:lieyan_sword
+    chance: 0.06
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&c烈焰"
+      model: 54
+  '2':
+    cmd: ph giveitem %player% mjy:tiechi_sword
+    chance: 0.18
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&2铁齿剑"
+      model: 26
+  '3':
+    cmd: ph giveitem %player% mjy:shilian_sword
+    chance: 0.08
+    icon:
+      id: DIAMOND_SWORD
+      displayName: "&8试炼剑"
+      model: 29
+  '4':
+    cmd: give %player% gold_ingot 32
+    chance: 0.20
+    icon:
+      id: GOLD_INGOT
+      displayName: "&f金锭32个"
+      model: 0
+  '5':
+    cmd: give %player% blaze_rod 16
+    chance: 0.1
+    icon:
+      id: BLAZE_ROD
+      displayName: "&f烈焰棒16个"
+      model: 0
+  '6':
+    cmd: give %player% diamond 10
+    chance: 0.11
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石10个"
+      model: 0
+  '7':
+    cmd: eco give %player% 400
+    chance: 0.11
+    icon:
+      id: STICK
+      displayName: "&6400金币"
+      model: 29
+  '8':
+    cmd: eco give %player% 450
+    chance: 0.08
+    icon:
+      id: STICK
+      displayName: "&6450金币"
+      model: 29
+  '9':
+    cmd: give %player% diamond 16
+    chance: 0.08
+    icon:
+      id: DIAMOND
+      displayName: "&6钻石16个"
+      model: 0

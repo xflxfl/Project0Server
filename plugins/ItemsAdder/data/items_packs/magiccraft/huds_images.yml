@@ -1,0 +1,27 @@
+info:
+  namespace: "magiccraft"
+font_images:
+  mana_bar_0:
+    path: "font/hud/mana_bar/0.png"
+    y_position: -15
+    scale_ratio: 50
+  mana_bar_1:
+    path: "font/hud/mana_bar/1.png"
+    y_position: -15
+    scale_ratio: 50
+  mana_bar_2:
+    path: "font/hud/mana_bar/2.png"
+    y_position: -15
+    scale_ratio: 50
+  mana_bar_3:
+    path: "font/hud/mana_bar/3.png"
+    y_position: -15
+    scale_ratio: 50
+  mana_bar_4:
+    path: "font/hud/mana_bar/4.png"
+    y_position: -15
+    scale_ratio: 50
+  mana_bar_5:
+    path: "font/hud/mana_bar/5.png"
+    y_position: -15
+    scale_ratio: 50

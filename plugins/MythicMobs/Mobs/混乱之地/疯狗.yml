@@ -1,0 +1,25 @@
+﻿fenggou:
+  Type: WOLF
+  Display: '&c疯狗'
+  Health: 60
+  Damage: 4
+  Armor: 1
+  Modules:
+    ThreatTable: true
+  Options:
+    FollowRange: 10
+    MovementSpeed: 0.3
+    AttackSpeed: 1.6
+    AlwaysShowName: true
+    KnockbackResistance: 0.3
+    PreventOtherDrops: true
+    Angry: true
+    Despawn: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Skills:
+  - summon{m=yelang;a=1;r=5} @Target ~onDamaged 0.2
+  - leap{v=200} @Target ~onTimer:100 0.8
+  - velocity{m=add;x=0.1;y=0;z=0} @self ~onDamaged =50% 1

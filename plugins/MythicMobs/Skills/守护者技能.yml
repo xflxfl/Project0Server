@@ -1,0 +1,16 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+# 矿车炸弹技能
+守护者技能1:
+  Cooldown: 8
+  Skills:
+  - summon{m=守护者蜜蜂;a=2;r=5} @self 1
+  - effect:explosion @Self
+  
+守护者技能2:
+  Cooldown: 10
+  Skills:
+  - effect:particleline{particle=flame;amount=1;fromOrigin=true} @PlayersInRadius{r=10}
+  - sound{s=itemsadder:item.lightsaber.attack} @PlayersInRadius{r=10}
+  - damage{amount=8} @PlayersInRadius{r=10}

@@ -1,0 +1,197 @@
+info:
+  namespace: itemsadder
+recipes:
+  crafting_table:
+    revolver:
+      permission: itemsadder.revolver
+      enabled: true
+      pattern:
+      - III
+      - ISX
+      - WXX
+      ingredients:
+        I: IRON_INGOT
+        S: STICK
+        W: OAK_PLANKS
+      result:
+        item: itemsadder:revolver
+        amount: 1
+    hand_gun:
+      permission: itemsadder.hand_gun
+      enabled: true
+      pattern:
+      - III
+      - ISX
+      - IXX
+      ingredients:
+        I: IRON_INGOT
+        S: STICK
+      result:
+        item: itemsadder:hand_gun
+        amount: 1
+    ak47:
+      permission: itemsadder.ak47
+      enabled: true
+      pattern:
+      - DDI
+      - ISX
+      - IXX
+      ingredients:
+        I: IRON_INGOT
+        D: DIAMOND
+        S: STICK
+      result:
+        item: itemsadder:ak47
+        amount: 1
+    shotgun:
+      permission: itemsadder.shotgun
+      enabled: true
+      pattern:
+      - XXX
+      - WII
+      - WPX
+      ingredients:
+        W: OAK_PLANKS
+        I: IRON_INGOT
+        P: GUNPOWDER
+      result:
+        item: itemsadder:shotgun
+        amount: 1
+    firework_launcher:
+      permission: itemsadder.firework_launcher
+      enabled: true
+      pattern:
+      - XXX
+      - WII
+      - WPX
+      ingredients:
+        W: OAK_PLANKS
+        I: IRON_INGOT
+        P: FIREWORK_ROCKET
+      result:
+        item: itemsadder:firework_launcher
+        amount: 1
+items:
+  revolver:
+    display_name: Revolver
+    permission: revolver
+    resource:
+      material: GOLDEN_SWORD
+      generate: false
+      model_path: item/revolver
+    behaviours:
+      gun:
+        projectile: itemsadder:projectile
+    events:
+      gun_shot:
+        play_sound:
+          name: itemsadder:item.revolver.shot
+          volume: 1
+          pitch: 1
+        play_effect:
+          name: SMOKE
+      gun_no_ammo:
+        play_sound:
+          name: itemsadder:item.revolver.no_ammo
+          volume: 1
+          pitch: 1
+  hand_gun:
+    display_name: Handgun
+    permission: hand_gun
+    resource:
+      material: GOLDEN_SWORD
+      generate: false
+      model_path: item/hand_gun
+    behaviours:
+      gun:
+        projectile: itemsadder:projectile
+    events:
+      gun_shot:
+        play_sound:
+          name: itemsadder:item.revolver.shot
+          volume: 1
+          pitch: 1
+        play_effect:
+          name: SMOKE
+      gun_no_ammo:
+        play_sound:
+          name: itemsadder:item.revolver.no_ammo
+          volume: 1
+          pitch: 1
+  ak47:
+    display_name: Ak-47
+    permission: ak47
+    resource:
+      material: GOLDEN_SWORD
+      generate: false
+      model_path: item/ak47
+    behaviours:
+      gun:
+        projectile: itemsadder:clip
+    events:
+      gun_shot:
+        play_sound:
+          name: itemsadder:item.revolver.shot
+          volume: 1
+          pitch: 1
+        play_effect:
+          name: SMOKE
+      gun_no_ammo:
+        play_sound:
+          name: itemsadder:item.revolver.no_ammo
+          volume: 1
+          pitch: 1
+  shotgun:
+    display_name: Shotgun
+    permission: shotgun
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/shotgun/shotgun
+    behaviours:
+      gun:
+        projectile: itemsadder:shotgun_cartridge
+    specific_properties:
+      crossbow:
+        multishot: true
+    events:
+      gun_shot:
+        play_sound:
+          name: itemsadder:item.shotgun.shot
+          volume: 1
+          pitch: 1
+        play_effect:
+          name: SMOKE
+      gun_reload:
+        play_sound:
+          name: itemsadder:item.shotgun.reload
+          volume: 1
+          pitch: 1
+      gun_no_ammo:
+        play_sound:
+          name: itemsadder:item.revolver.no_ammo
+          volume: 1
+          pitch: 1
+  firework_launcher:
+    display_name: Firework Launcher
+    permission: firework_launcher
+    lore:
+    - '&7Hold Firework Rocket in left hand'
+    - '&7and hold down right click to charge'
+    - '&7the Firework Launcher'
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: item/firework_launcher/firework_launcher
+    specific_properties:
+      crossbow:
+        multishot: false
+        firework: true
+    events:
+      gun_shot:
+        play_sound:
+          name: itemsadder:entity.firework_rocket.launch
+          volume: 1
+          pitch: 1
+        play_effect:
+          name: SMOKE

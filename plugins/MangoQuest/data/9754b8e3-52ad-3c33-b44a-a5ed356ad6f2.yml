@@ -1,0 +1,11 @@
+LastKnownID: BiShop
+QuestProgress: ''
+FinishedConversation: []
+FriendPoint:
+  '0': 0
+  '8': 0
+FinishedQuest:
+  dungeon5-1:
+    FinishedTimes: 1
+    LastFinishTime: 1587349714918
+    RewardTaken: true

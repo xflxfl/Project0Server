@@ -1,0 +1,47 @@
+configVersion: 4
+stats:
+  finishedTutorial: false
+  timeLastStarted:
+    lieyanwang: 1587350558333
+    jingmizhidi: 1587593556480
+    boss: 1585895280389
+    test: 1586471980620
+    hunluanzhidi: 1587592394755
+    shenqikuangche: 1587348896850
+    mingyuecheng: 1587350797285
+    shiwang: 1587438576619
+    anjinshushi: 1587349838948
+    shiwangbaobao: 1587362308942
+    diaolingwang: 1586925545871
+    luoxuecun: 1587349599283
+    shouhuzheyingdi: 1587350124284
+    xianghecun: 1587594809419
+    xuemobuluo: 1587351018184
+  timeLastFinished:
+    jingmizhidi: 1587593572026
+    boss: 1585895291132
+    test: 1586471983331
+    hunluanzhidi: 1587592478771
+    shenqikuangche: 1586491205938
+    mingyuecheng: 1586553384828
+    shiwang: 1585931415140
+    anjinshushi: 1587096252023
+    diaolingwang: 1586406029202
+    luoxuecun: 1586546365184
+    shouhuzheyingdi: 1586651916466
+    xianghecun: 1587594875712
+    xuemobuluo: 1586662299138
+  timeLastLoot:
+    jingmizhidi: 1587593572025
+    boss: 1585895291131
+    test: 1586471983330
+    hunluanzhidi: 1587592478742
+    shenqikuangche: 1586491205936
+    mingyuecheng: 1586553384826
+    shiwang: 1585931415139
+    anjinshushi: 1587096252022
+    diaolingwang: 1586406029201
+    luoxuecun: 1586546365182
+    shouhuzheyingdi: 1586651916464
+    xianghecun: 1587594875711
+    xuemobuluo: 1586662299137

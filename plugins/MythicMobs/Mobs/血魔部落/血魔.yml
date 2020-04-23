@@ -1,0 +1,39 @@
+﻿xuemo:
+  Type: WITHER_SKELETON
+  Display: '&c血魔'
+  Health: 1000
+  Damage: 10
+  Armor: 5
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 0.6
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+    FollowRange: 20
+    Despawn: false
+  Disguise:
+      Type: Player
+      Player: 血魔
+      Skin: 115ms
+  BossBar:
+    Enabled: true
+    Title: '&c血魔'
+    Range: 30
+    Color: RED
+    Style: SOLID
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  DamageModifiers:
+  - PROJECTILE 2.5
+  Equipment:
+  - suolian4:4
+  - tianwen:0
+  Skills:
+  - effect:lightning{repeat=3,repeatInterval=1} @self ~onSpawn 1
+  - skill{s=血魔} @Self ~onDamaged =10%-70% 0.1
+  - damage{a=1;i=true} @PlayersInRadius{r=7} ~onTimer:100 <50% 0.5
+  - effect:particles{p=angryVillager;a=3;hS=0.3;vS=0.3;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <50% 0.8

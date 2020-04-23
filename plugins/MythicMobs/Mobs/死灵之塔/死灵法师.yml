@@ -1,0 +1,24 @@
+﻿死灵法师:
+  Type: WITCH
+  Display: '&3死灵法师'
+  Health: 250
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    FollowRange: 32
+    PreventOtherDrops: true
+    KnockbackResistance: 0.5
+    NoAI: false
+  AITargetSelectors:
+  - 0 ThreatHolder
+  - 1 attacker
+  - 2 players
+  Skills:
+  - potion{t=FIRE_RESISTANCE;d=630720000;l=0} @self ~onSpawn
+  - skill{s=死灵法师1} @Self ~onTimer:600 0.5
+  #- summon{m=骷髅战士;a=1;r=5} @self ~onSpawn 1
+  - summon{m=亡灵战士2;a=1;r=5} @self ~onSpawn 1
+  - ignite{t=630720000} @self ~onSpawn
+  - skill{s=死灵法师2} @Self ~onTimer:100 0.3
+  - effect:particles{p=angryVillager;a=1;hS=0.3;vS=0.05;s=0;y=1.5;repeat=2;repeatInterval=5} @self ~onTimer:40 <60% 0.8

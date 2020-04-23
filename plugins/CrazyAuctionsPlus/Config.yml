@@ -63,7 +63,7 @@ Settings:
         #密码
         Password: 'mjy159357'
         #数据库名称
-        Database: 'auctions'
+        Database: 'minecraft'
         #更多连接参数，如果你不是一名开发者，并且不熟知JDBC，请不要修改它
         Parameter: '?useSSL=false&allowMultiQueries=true'
         #当数据库连接丢失时，自动修复的次数， 填-1即为无数次

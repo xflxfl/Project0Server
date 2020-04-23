@@ -1,5 +1,5 @@
 cfg-version: 11
-message: '&cYou have reached the edge of this world.'
+message: '&c你已经到达世界边缘.'
 round-border: true
 debug-mode: false
 whoosh-effect: true

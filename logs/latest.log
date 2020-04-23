@@ -1,1007 +1,1025 @@
-[14:48:15] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[14:48:15] [Server thread/INFO]: Loading properties
-[14:48:16] [Server thread/INFO]: This server is running Paper version git-Paper-211 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[14:48:16] [Server thread/INFO]: Debug logging is disabled
-[14:48:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:48:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:48:16] [Server thread/INFO]: Default game type: SURVIVAL
-[14:48:16] [Server thread/INFO]: Generating keypair
-[14:48:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:48:16] [Server thread/INFO]: Using default channel type
-[14:48:19] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[14:48:23] [Server thread/WARN]: Legacy plugin LightAPI v3.4.2 does not specify an api-version.
-[14:48:23] [Server thread/WARN]: Legacy plugin AutoReload v1.02 does not specify an api-version.
-[14:48:23] [Server thread/WARN]: Legacy plugin ArmorEquipEvent v1.7.2 does not specify an api-version.
-[14:48:23] [Server thread/WARN]: Legacy plugin MiRespawn v1.5.1 does not specify an api-version.
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Injector platform set to: InjectorBukkit
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Injecting NMS classes...
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Injecting WorldEdit classes...
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.eventbus.EventBus
-[14:48:24] [Server thread/WARN]: [WorldEdit] Loaded class org.primesoft.asyncworldedit.injector.injected.util.eventbus.IDispatchableEventBus from AsyncWorldEdit v3.6.19 which is not a depend, softdepend or loadbefore of this plugin.
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.BlockVector2
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.BlockVector3
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.Vector2
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.Vector3
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BlockStateHolder
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BaseBlock
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BlockState
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.entity.BaseEntity
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.Location
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.biome.BiomeType
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.weather.WeatherType
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.EditSession
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.operation.Operations
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extension.platform.PlayerProxy
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.collection.LocatedBlockList
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.reorder.MultiStageReorder
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.reorder.ChunkBatchingExtent
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.AbstractRegion
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.EllipsoidRegion
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.ConvexPolyhedralRegion
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.TransformRegion
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.RegionIntersection
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.NullRegion
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.Polygonal2DRegion
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.CylinderRegion
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.CuboidRegion
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.SnapshotUtilCommands
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.ScriptingCommands
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.SchematicCommands
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.RegionCommands
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.UtilityCommandsRegistration
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.bukkit.BukkitEntity
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.RegionCommandsRegistration
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.BrushTool
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.BlockReplacer
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/PlayerWrapper
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/NoPermsPlayer
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/extension/platform/NoPermsActor
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/entity/IPlayerFactory
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/extension/platform/IActorFactory
-[14:48:24] [Server thread/INFO]: [AsyncWorldEdit] Injector Enabled
-[14:48:25] [Server thread/INFO]: [AsyncWorldEdit] New class factory set to: org.primesoft.asyncworldedit.asyncinjector.async.AsyncClassFactory
-[14:48:25] [Server thread/WARN]: Legacy plugin SQLibrary v7.1 does not specify an api-version.
-[14:48:26] [Server thread/WARN]: Legacy plugin PlayerPoints v2.1.4 does not specify an api-version.
-[14:48:26] [Server thread/WARN]: Legacy plugin PixelPay v4.1 does not specify an api-version.
-[14:48:26] [Server thread/WARN]: Legacy plugin ActionHealth v3.4.6 does not specify an api-version.
-[14:48:27] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.5
-[14:48:27] [Server thread/INFO]: [IALibs] Loading IALibs v1.0
-[14:48:27] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
-[14:48:27] [Server thread/INFO]: [newtLib] Loading newtLib v1.5.0
-[14:48:27] [Server thread/INFO]: [LightAPI] Loading LightAPI v3.4.2
-[14:48:27] [Server thread/INFO]: [AutoReload] Loading AutoReload v1.02
-[14:48:27] [Server thread/INFO]: [OpenVirtualBook] Loading OpenVirtualBook v1.0
-[14:48:27] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
-[14:48:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
-[14:48:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@204dbc6a]
-[14:48:29] [Server thread/INFO]: [CrazyAuctionsPlus] Loading CrazyAuctionsPlus v1.1.4
-[14:48:29] [Server thread/INFO]: [ArmorEquipEvent] Loading ArmorEquipEvent v1.7.2
-[14:48:29] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
-[14:48:29] [Server thread/INFO]: [MessageAnnouncer] Loading MessageAnnouncer v1.11.0
-[14:48:29] [Server thread/INFO]: [PeterUtil] Loading PeterUtil v1.0.1
-[14:48:29] [Server thread/INFO]: [MiRespawn] Loading MiRespawn v1.5.1
-[14:48:29] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
-[14:48:29] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.0
-[14:48:30] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.15.2) has not yet been tested! Proceed with caution.
-[14:48:30] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v9.9.9-SNAPSHOT
-[14:48:30] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v3.6.19
-[14:48:30] [Server thread/INFO]: [AsyncWorldEdit] Plugin installed
-[14:48:30] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.5.6
-[14:48:30] [Server thread/INFO]: [SQLibrary] Loading SQLibrary v7.1
-[14:48:30] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[14:48:30] [Server thread/INFO]: [ScoreBoard] Loading ScoreBoard v1.1
-[14:48:30] [Server thread/INFO]: [Item2Chat] Loading Item2Chat v4.2.3
-[14:48:30] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.1
-[14:48:30] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v2.1.4
-[14:48:30] [Server thread/INFO]: [VipSystem] Loading VipSystem v1.2
-[14:48:30] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[14:48:30] [Server thread/INFO]: [AntiXray] Loading AntiXray v1.8.1
-[14:48:30] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v4.9.0-3255
-[14:48:30] [Server thread/INFO]: [PixelPay] Loading PixelPay v4.1
-[14:48:30] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
-[14:48:30] [Server thread/INFO]: [PixelPayGUI] Loading PixelPayGUI v1.0
-[14:48:30] [Server thread/INFO]: [ChatBubble] Loading ChatBubble v1.1
-[14:48:30] [Server thread/INFO]: [LevelSystem] Loading LevelSystem v1.0
-[14:48:30] [Server thread/INFO]: [Elevator] Loading Elevator v3.0.1
-[14:48:30] [Server thread/INFO]: [newtShop] Loading newtShop v2.0.1
-[14:48:30] [Server thread/INFO]: [SafeTrade] Loading SafeTrade v1.1.0
-[14:48:30] [Server thread/INFO]: [ActionHealth] Loading ActionHealth v3.4.6
-[14:48:30] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.26-SNAPSHOT (build 1852)
-[14:48:30] [Server thread/INFO]: [CheckInSystem] Loading CheckInSystem v1.1
-[14:48:30] [Server thread/INFO]: [Residence] Loading Residence v4.9.0.5
-[14:48:30] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
-[14:48:30] [Server thread/INFO]: [ClockGUI] Loading ClockGUI v1.8.1
-[14:48:30] [Server thread/INFO]: [DailyQuest] Loading DailyQuest v1.1
-[14:48:30] [Server thread/INFO]: [PVPSwitch] Loading PVPSwitch v1.3.3
-[14:48:30] [Server thread/INFO]: [CrazyCrates] Loading CrazyCrates v1.10-RELEASE
-[14:48:30] [Server thread/INFO]: [DungeonsXL] Loading DungeonsXL v0.18-SNAPSHOT-819
-[14:48:30] [Server thread/INFO]: [MangoQuest] Loading MangoQuest v1.9.1
-[14:48:30] [Server thread/INFO]: [ItemsAdder] Loading ItemsAdder v2.0.13
-[14:48:30] [Server thread/INFO]: [WorldBoss] Loading WorldBoss v1.1.1
-[14:48:30] [Server thread/INFO]: [MoreFish] Loading MoreFish v3.0.3-SNAPSHOT
-[14:48:30] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.2.0
-[14:48:30] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.17.2.0
-[14:48:30] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
-[14:48:30] [Server thread/INFO]: [Dps] Loading Dps v1.5.1
-[14:48:30] [Server thread/INFO]: [MyPet] Loading MyPet v3.1
-[14:48:31] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mError-Reporter ENABLED[m
-[14:48:31] [Server thread/INFO]: [PeterHelper] Loading PeterHelper v1.2.0
-[14:48:31] [Server thread/INFO]: [DungeonManager] Loading DungeonManager v1.2.1
-[14:48:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:48:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
-[14:48:31] [Server thread/INFO]:         __    
-[14:48:31] [Server thread/INFO]:   |    |__)   LuckPerms v5.0.72
-[14:48:31] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:48:31] [Server thread/INFO]: 
-[14:48:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:48:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
-[14:48:33] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
-[14:48:33] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
-[14:48:34] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:34 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:34] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:34 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:34] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:34 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:34] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:34 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:34] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:34 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:34] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:34 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:34] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:34 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:34] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:34 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:35] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:35 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:35] [luckperms-hikari connection adder/WARN]: Thu Apr 23 14:48:35 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:35] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
-[14:48:35] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:48:35] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:48:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3756ms)
-[14:48:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
-[14:48:35] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
-[14:48:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:48:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
-[14:48:37] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.0
-[14:48:37] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v3.6.19
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] Platform set to Bukkit API
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] =     ___                         _       __           __    ________    ___ __   =
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] =    /   |  _______  ______  ____| |     / /___  _____/ /___/ / ____/___/ (_) /_  =
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] =   / /| | / ___/ / / / __ \/ ___/ | /| / / __ \/ ___/ / __  / __/ / __  / / __/  =
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] =  / ___ |(__  ) /_/ / / / / /__ | |/ |/ / /_/ / /  / / /_/ / /___/ /_/ / / /_    =
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] = /_/  |_/____/\__, /_/ /_/\___/ |__/|__/\____/_/  /_/\__,_/_____/\__,_/_/\__/    =
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] =             /____/                                                              =
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] = Author: SBPrime                                                                 =
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] =                                ________________                                 =
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] =                            ___/  free version  \___                             =
-[14:48:37] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
-[14:48:48] [Server thread/INFO]: [AsyncWorldEdit] Initializing WorldEdit.
-[14:48:49] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[14:48:49] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[14:48:49] [Server thread/INFO]: [AsyncWorldEdit] No matching adapter found for Bukkit.v1_15_R1, DirectChunkAPI disabled
-[14:48:49] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix.
-[14:48:49] [Server thread/INFO]: [AsyncWorldEdit] Enabled
-[14:48:49] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.5.6
-[14:48:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[14:48:49] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
-[14:48:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[14:48:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[14:48:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[14:48:49] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
-[14:48:49] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[14:48:49] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[14:48:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:48:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:48:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:48:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:48:49] [Server thread/INFO]: Preparing level "world"
-[14:48:49] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[14:48:50] [Server thread/INFO]: Loaded 6 recipes
-[14:48:50] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:48:50] [Server thread/INFO]: View Distance: 7
-[14:48:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:48:50] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:48:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:48:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:48:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:48:50] [Server thread/INFO]: Mob Spawn Range: 6
-[14:48:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:48:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:48:50] [Server thread/INFO]: Max TNT Explosions: 100
-[14:48:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:48:50] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:48:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:48:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
-[14:48:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[14:48:50] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:48:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:48:50] [Server thread/INFO]: View Distance: 7
-[14:48:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:48:50] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:48:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:48:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:48:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:48:50] [Server thread/INFO]: Mob Spawn Range: 6
-[14:48:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:48:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:48:50] [Server thread/INFO]: Max TNT Explosions: 100
-[14:48:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:48:50] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:48:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:48:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
-[14:48:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[14:48:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:48:50] [Server thread/INFO]: View Distance: 7
-[14:48:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:48:50] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:48:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:48:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:48:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:48:50] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:48:50] [Server thread/INFO]: Mob Spawn Range: 6
-[14:48:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:48:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:48:50] [Server thread/INFO]: Max TNT Explosions: 100
-[14:48:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:48:50] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:48:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:48:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
-[14:48:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[14:48:50] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[14:48:51] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[14:48:51] [Server thread/INFO]: Time elapsed: 141 ms
-[14:48:51] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[14:48:51] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[14:48:51] [Server thread/INFO]: Time elapsed: 50 ms
-[14:48:51] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[14:48:51] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[14:48:51] [Server thread/INFO]: Time elapsed: 31 ms
-[14:48:51] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.5
-[14:48:51] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[14:48:51] [Server thread/INFO]: [IALibs] Enabling IALibs v1.0
-[14:48:51] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
-[14:48:51] [Server thread/INFO]: [newtLib] Enabling newtLib v1.5.0
-[14:48:51] [Server thread/INFO]: [LightAPI] Enabling LightAPI v3.4.2*
-[14:48:51] [Server thread/INFO]: [LightAPI] Loading implementation for Paper server v1_15_R1.
-[14:48:51] [Server thread/INFO]: [AutoReload] Enabling AutoReload v1.02*
-[14:48:51] [Server thread/INFO]: Found plugin ActionHealth.jar
-[14:48:51] [Server thread/INFO]: Found plugin AntiXray.jar
-[14:48:51] [Server thread/INFO]: Found plugin ArmorEquipEvent-1.7.2.jar
-[14:48:51] [Server thread/INFO]: Found plugin AsyncWorldEdit-3.6.19.jar
-[14:48:51] [Server thread/INFO]: Found plugin AutoReload.jar
-[14:48:51] [Server thread/INFO]: Found plugin ChatBubble.jar
-[14:48:51] [Server thread/INFO]: Found plugin CheckInSystem.jar
-[14:48:51] [Server thread/INFO]: Found plugin Citizens-2.0.26-b1852.jar
-[14:48:51] [Server thread/INFO]: Found plugin ClockGUI_1.7.jar
-[14:48:51] [Server thread/INFO]: Found plugin CrazyAuctionsPlus-1.1.4.jar
-[14:48:51] [Server thread/INFO]: Found plugin CrazyCrates.v1.10.jar
-[14:48:51] [Server thread/INFO]: Found plugin DailyQuest.jar
-[14:48:51] [Server thread/INFO]: Found plugin Dps.jar
-[14:48:51] [Server thread/INFO]: Found plugin DungeonManager.jar
-[14:48:51] [Server thread/INFO]: Found plugin dungeonsxl-dist-0.18-SNAPSHOT-819.jar
-[14:48:51] [Server thread/INFO]: Found plugin Elevator-3.0.1.jar
-[14:48:51] [Server thread/INFO]: Found plugin EssentialsX-2.17.2.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin EssentialsXAntiBuild-2.17.2.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin EssentialsXChat-2.17.2.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin EssentialsXProtect-2.17.2.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin EssentialsXSpawn-2.17.2.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin HolographicDisplays.jar
-[14:48:51] [Server thread/INFO]: Found plugin IALibs.jar
-[14:48:51] [Server thread/INFO]: Found plugin Item2Chat-4.2.3.jar
-[14:48:51] [Server thread/INFO]: Found plugin ItemsAdder2.0.13.jar
-[14:48:51] [Server thread/INFO]: Found plugin LevelSystem.jar
-[14:48:51] [Server thread/INFO]: Found plugin LibsDisguises.jar
-[14:48:51] [Server thread/INFO]: Found plugin LightAPI-fork-3.4.2.jar
-[14:48:51] [Server thread/INFO]: Found plugin LuckPerms-Bukkit-5.0.72.jar
-[14:48:51] [Server thread/INFO]: Found plugin MangoQuest_20200205_v1.9.1v3.jar
-[14:48:51] [Server thread/INFO]: Found plugin MessageAnnouncer-1.11.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin MiRespawn-1.5.1.jar
-[14:48:51] [Server thread/INFO]: Found plugin more-fish-3.0.3-SNAPSHOT.jar
-[14:48:51] [Server thread/INFO]: Found plugin Multiverse-Core-4.1.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin MyPet-3.10.jar
-[14:48:51] [Server thread/INFO]: Found plugin MythicMobs-4.9.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin newtLib.jar
-[14:48:51] [Server thread/INFO]: Found plugin newtShop.jar
-[14:48:51] [Server thread/INFO]: Found plugin OpenVirtualBook.jar
-[14:48:51] [Server thread/INFO]: Found plugin PeterHelper.jar
-[14:48:51] [Server thread/INFO]: Found plugin PeterUtil.jar
-[14:48:51] [Server thread/INFO]: Found plugin PixelPay-4.1.jar
-[14:48:51] [Server thread/INFO]: Found plugin PixelPayGUI.jar
-[14:48:51] [Server thread/INFO]: Found plugin PlaceholderAPI-2.10.5.jar
-[14:48:51] [Server thread/INFO]: Found plugin PlayerPoints.jar
-[14:48:51] [Server thread/INFO]: Found plugin PlugMan.jar
-[14:48:51] [Server thread/INFO]: Found plugin ProtocolLib.jar
-[14:48:51] [Server thread/INFO]: Found plugin PVPSwitch.jar
-[14:48:51] [Server thread/INFO]: Found plugin Residence4.9.0.5.jar
-[14:48:51] [Server thread/INFO]: Found plugin safetrade-1.1.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin ScoreBoard.jar
-[14:48:51] [Server thread/INFO]: Found plugin SQLibrary-7.1.jar
-[14:48:51] [Server thread/INFO]: Found plugin Vault.jar
-[14:48:51] [Server thread/INFO]: Found plugin VipSystem.jar
-[14:48:51] [Server thread/INFO]: Found plugin VoidGenerator-1.5.6.jar
-[14:48:51] [Server thread/INFO]: Found plugin WorldBorder.jar
-[14:48:51] [Server thread/INFO]: Found plugin WorldBoss.jar
-[14:48:51] [Server thread/INFO]: Found plugin worldedit-bukkit-7.1.0.jar
-[14:48:51] [Server thread/INFO]: Found plugin worldguard-bukkit-7.0.2.jar
-[14:48:51] [Server thread/INFO]: [OpenVirtualBook] Enabling OpenVirtualBook v1.0
-[14:48:52] [Server thread/INFO]: [OpenVirtualBook] –Èƒ‚ ÈºÆº”‘ÿÕÍ±œ
-[14:48:52] [Server thread/INFO]: [CrazyAuctionsPlus] Enabling CrazyAuctionsPlus v1.1.4
-[14:48:52] [Server thread/INFO]: [CrazyAuctionsPlus] œµÕ≥ƒ¨»œ”Ô—‘≤Œ ˝–≈œ¢“—º”‘ÿ.
-[14:48:52] [Server thread/INFO]: [CrazyAuctionsPlus] ≈‰÷√Œƒº˛ Config.yml “—≥…π¶º”‘ÿ°£
-[14:48:52] [Server thread/INFO]: [CrazyAuctionsPlus] ≈‰÷√Œƒº˛ Category.yml “—≥…π¶º”‘ÿ°£
-[14:48:52] [Server thread/INFO]: [CrazyAuctionsPlus] ≈‰÷√Œƒº˛ ItemCollection.yml “—≥…π¶º”‘ÿ°£
-[14:48:52] [Server thread/INFO]: [CrazyAuctionsPlus] ≈‰÷√Œƒº˛ Messages.yml “—≥…π¶º”‘ÿ°£
-[14:48:53] [Server thread/INFO]: [»´«Ú –≥°] ≥…π¶¡¨Ω”µΩ MySQL ∑˛ŒÒ∆˜°£
-[14:48:53] [Server thread/INFO]: [»´«Ú –≥°] “—ºÏ≤‚µΩ Vault £¨æ≠º√œµÕ≥“—≥ı ºªØ.
-[14:48:53] [Server thread/WARN]: [CrazyAuctionsPlus] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
-[14:48:53] [Server thread/INFO]: [»´«Ú –≥°] ≤Âº˛º”‘ÿÕÍ≥…£¨ ∫ƒ ± 584MS .
-[14:48:53] [Server thread/INFO]: [ArmorEquipEvent] Enabling ArmorEquipEvent v1.7.2*
-[14:48:53] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
-[14:48:53] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
-[14:48:53] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[14:48:53] [Server thread/INFO]: [WorldBorder] [CONFIG] World "world" has border radius 200 at X: 93.5 Z: -94.8
-[14:48:53] [Server thread/INFO]: [WorldBorder] [CONFIG] World "shengcun" has border radius 4000 at X: -383.6 Z: -158.4
-[14:48:53] [Server thread/INFO]: [WorldBorder] [CONFIG] World "kuangjie" has border radius 4000 at X: 33.5 Z: -122.5
-[14:48:53] [Server thread/INFO]: [WorldBorder] [CONFIG] World "world_nether" has border radius 4000 at X: 26.5 Z: 52.5
-[14:48:53] [Server thread/INFO]: [WorldBorder] [CONFIG] World "world_the_end" has border radius 4000 at X: -89.5 Z: -38.5
-[14:48:53] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 107.0 Y: 31.0 Z: -108.0
-[14:48:53] [Server thread/INFO]: [MessageAnnouncer] Enabling MessageAnnouncer v1.11.0
-[14:48:53] [Server thread/INFO]: [MessageAnnouncer] PlaceholderAPI integration was successful!
-[14:48:53] [Server thread/INFO]: [PeterUtil] Enabling PeterUtil v1.0.1
-[14:48:53] [Server thread/INFO]: [PeterUtil] PeterUtilº”‘ÿÕÍ±œ
-[14:48:53] [Server thread/INFO]: [MiRespawn] Enabling MiRespawn v1.5.1*
-[14:48:53] [Server thread/INFO]: [MiRespawn] config.yml found, checking for an update!
-[14:48:53] [Server thread/INFO]: [MiRespawn] config.yml up-to-date.
-[14:48:53] [Server thread/INFO]: [MiRespawn] Load success
-[14:48:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
-[14:48:53] [Server thread/WARN]: [Multiverse-Core] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
-[14:48:53] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
-[14:48:53] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
-[14:48:53] [Server thread/INFO]: -------- World Settings For [shengcun] --------
-[14:48:53] [Server thread/INFO]: View Distance: 7
-[14:48:53] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:48:53] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:48:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:48:53] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:48:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:48:53] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:48:53] [Server thread/INFO]: Mob Spawn Range: 6
-[14:48:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:48:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:48:53] [Server thread/INFO]: Max TNT Explosions: 100
-[14:48:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:48:53] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:48:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:48:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
-[14:48:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[14:48:53] [Server thread/INFO]: Preparing start region for dimension 'shengcun'/minecraft:overworld
-[14:48:53] [Server thread/INFO]: Loaded 0 spawn chunks for world shengcun
-[14:48:54] [Server thread/INFO]: Preparing spawn area: 0%
-[14:48:54] [Server thread/INFO]: Time elapsed: 370 ms
-[14:48:54] [Server thread/INFO]: -------- World Settings For [kuangjie] --------
-[14:48:54] [Server thread/INFO]: View Distance: 7
-[14:48:54] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:48:54] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:48:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:48:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:48:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:48:54] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:48:54] [Server thread/INFO]: Mob Spawn Range: 6
-[14:48:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:48:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:48:54] [Server thread/INFO]: Max TNT Explosions: 100
-[14:48:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:48:54] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:48:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:48:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
-[14:48:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[14:48:54] [Server thread/INFO]: Preparing start region for dimension 'kuangjie'/minecraft:overworld
-[14:48:54] [Server thread/INFO]: Loaded 0 spawn chunks for world kuangjie
-[14:48:54] [Server thread/INFO]: Time elapsed: 229 ms
-[14:48:54] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[14:48:55] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
-[14:48:55] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
-[14:48:55] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
-[14:48:55] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v9.9.9-SNAPSHOT
-[14:48:55] [Server thread/INFO]: [LibsDisguises] Discovered nms version: v1_15_R1
-[14:48:55] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #465
-[14:48:55] [Server thread/INFO]: [LibsDisguises] Build Date: 01/04/2020 08:41
-[14:48:55] [Server thread/WARN]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
-[14:48:55] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
-[14:48:57] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
-[14:48:57] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
-[14:48:57] [Server thread/INFO]: [SQLibrary] Enabling SQLibrary v7.1*
-[14:48:57] [Server thread/INFO]: SQLibrary loaded.
-[14:48:57] [Server thread/INFO]: [ScoreBoard] Enabling ScoreBoard v1.1
-[14:48:57] [Server thread/INFO]: Found PlaceholderAPI
-[14:48:57] [Server thread/INFO]: [ScoreBoard] º«∑÷∞ÂœµÕ≥º”‘ÿÕÍ≥…
-[14:48:57] [Server thread/INFO]: [Item2Chat] Enabling Item2Chat v4.2.3
-[14:48:57] [Server thread/INFO]: [Item2Chat] Item2Chat version 4.2.3 is Enabled
-[14:48:57] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.1
-[14:48:57] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
-[14:48:57] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v2.1.4*
-[14:48:57] [Server thread/WARN]: Thu Apr 23 14:48:57 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:48:57] [Server thread/INFO]: [VipSystem] Enabling VipSystem v1.2
-[14:48:57] [Server thread/INFO]: [vipSystem] ª·‘±œµÕ≥º”‘ÿÕÍ±œ
-[14:48:57] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world) Lighters are blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world) All fire spread is disabled.
-[14:48:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world_nether) All fire spread is disabled.
-[14:48:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (world_the_end) All fire spread is disabled.
-[14:48:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[14:48:59] [Server thread/INFO]: [WorldGuard] (shengcun) TNT ignition is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (shengcun) Lighters are blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (shengcun) Lava fire is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (shengcun) All fire spread is disabled.
-[14:48:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'shengcun'
-[14:48:59] [Server thread/INFO]: [WorldGuard] (kuangjie) TNT ignition is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (kuangjie) Lighters are blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (kuangjie) Lava fire is blocked.
-[14:48:59] [Server thread/INFO]: [WorldGuard] (kuangjie) All fire spread is disabled.
-[14:48:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'kuangjie'
-[14:48:59] [Server thread/INFO]: [WorldGuard] Loading region data...
-[14:48:59] [Server thread/INFO]: [AntiXray] Enabling AntiXray v1.8.1
-[14:48:59] [Server thread/WARN]: [AntiXray] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.10.5 which is not a depend, softdepend or loadbefore of this plugin.
-[14:48:59] [Server thread/INFO]: [AntiXray] œﬁ÷∆Õ⁄øÛœµÕ≥º”‘ÿÕÍ±œ
-[14:48:59] [Server thread/INFO]: [AntiXray] ÷∆◊˜’ﬂQQ:920157557
-[14:48:59] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v4.9.0-3255
-[14:49:00] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.15.2)...[0m
-[14:49:00] [Server thread/INFO]: [MythicMobs] The server is running PaperSpigot; enabled PaperSpigot exclusive functionality[0m
-[14:49:00] [Server thread/WARN]: [MythicMobs] Loaded class javassist.bytecode.ClassFile from IALibs v1.0 which is not a depend, softdepend or loadbefore of this plugin.
-[14:49:00] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 91 ms to scan 1 urls, producing 3 keys and 21 values 
-[14:49:00] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 16 ms to scan 1 urls, producing 3 keys and 18 values 
-[14:49:00] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 80 ms to scan 16 urls, producing 0 keys and 0 values 
-[14:49:00] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 3 keys and 9 values 
-[14:49:00] [Server thread/INFO]: [MythicMobs] MythicMobs HolographicDisplays Support has been enabled![0m
-[14:49:00] [Server thread/INFO]: [MythicMobs] MythicMobs LibsDisguises Support has been enabled![0m
-[14:49:00] [Server thread/INFO]: [MythicMobs] MythicMobs PlaceholderAPI Support has been enabled![0m
-[14:49:00] [Server thread/INFO]: [MythicMobs] Loaded ProtocolLib packet handlers[0m
-[14:49:00] [Server thread/INFO]: [LumineUtils] (io.lumine.xikage.mythicmobs.utils.) is bound to plugin MythicMobs - io.lumine.xikage.mythicmobs.MythicMobs
-[14:49:00] [Server thread/INFO]: [MythicMobs] MythicMobs ProtocolLib Support has been enabled![0m
-[14:49:00] [Server thread/INFO]: [MythicMobs] MythicMobs Vault Support has been enabled![0m
-[14:49:00] [Server thread/INFO]: [MythicMobs] MythicMobs WorldGuard Support has been enabled![0m
-[14:49:00] [Server thread/INFO]: [MythicMobs] Loading Mob Registry...[0m
-[14:49:00] [Server thread/INFO]: [MythicMobs] Loading Mob Registry...[0m
-[14:49:00] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 21 ms to scan 1 urls, producing 10 keys and 280 values 
-[14:49:00] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 215 ms to scan 1 urls, producing 24 keys and 552 values 
-[14:49:00] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 13 ms to scan 1 urls, producing 6 keys and 71 values 
-[14:49:01] [Server thread/INFO]: [MythicMobs] [36mLOADED[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] [36mLOADED[0m
-[14:49:01] [Server thread/WARN]: [MythicMobs] Failed to parse Placeholder '3,repeatInterval=1': Math and variables in numeric values require premium! Consider getting MythicMobs Premium at www.mythicmobs.net.[0m[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] Spawners folder not found! Creating...[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 135 mobs.[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 34 vanilla mob overrides.[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob stacks.[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 23 skills.[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 random spawns.[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 70 mythic items.[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 2 drop tables.[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob spawners.[0m
-[14:49:01] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
-[14:49:02] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
-[14:49:02] [Server thread/INFO]: [MythicMobs] [32m? MythicMobs v4.9.0 (build 3255) has been successfully loaded![0m[0m
-[14:49:02] [Server thread/INFO]: [PixelPay] Enabling PixelPay v4.1*
-[14:49:02] [Server thread/INFO]: [VexRMB] /***
-[14:49:02] [Server thread/INFO]: [VexRMB] > ≤Âº˛’˝‘⁄Œ™∆Ù∂Ø VexRMB ◊ˆ◊º±∏...
-[14:49:03] [Server thread/INFO]: [VexRMB] > SID”√ªß: 2124
-[14:49:03] [Server thread/INFO]: [VexRMB] > ø™ ºªÒ»°“—ø™∆Ùø®√‹÷÷¿‡º∞±»¿˝:
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_20] ∑Ω Ω: æ©∂´Eø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_21] ∑Ω Ω: »´π˙ Ø”Õø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: alipay_all] ∑Ω Ω: ÷ß∏∂±¶ ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: tencent_all] ∑Ω Ω: ≤∆∏∂Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: wechat_all] ∑Ω Ω: Œ¢–≈«Æ∞¸ ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_10] ∑Ω Ω: µÁ–≈≥‰÷µø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_11] ∑Ω Ω: …Ò÷›––≥‰÷µø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: bank_all] ∑Ω Ω: Õ¯“¯ ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_16] ∑Ω Ω:  ¢∏∂Õ®ø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_17] ∑Ω Ω: ¥Û∂Ó“∆∂Øø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_18] ∑Ω Ω: ¥Û∂Ó¡™Õ®ø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_19] ∑Ω Ω: ¥Û∂ÓµÁ–≈ø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_12] ∑Ω Ω: ¡™Õ®≥‰÷µø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_7] ∑Ω Ω: ’˜Õæ”Œœ∑ø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_8] ∑Ω Ω: æ√”Œ“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_13] ∑Ω Ω: ◊›”Œ“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_9] ∑Ω Ω: Õ¯“◊“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_14] ∑Ω Ω: ÃÏœ¬“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_15] ∑Ω Ω: π‚”Ó“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_3] ∑Ω Ω: ø•Õ¯“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_4] ∑Ω Ω: ÕÍ√¿“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_5] ∑Ω Ω: ÃÏ∫Í“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_6] ∑Ω Ω: À—∫¸“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_1] ∑Ω Ω: QQ≥‰÷µø® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_2] ∑Ω Ω:  ¢¥Û“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
-[14:49:03] [Server thread/INFO]: [VexRMB] > 
-[14:49:03] [Server thread/INFO]: [VexRMB] > ∆ÊœÌÕ¯¬Á(∆Û“µ»œ÷§) VPS,√Ê∞Â,‘∆¥Ê¥¢
-[14:49:03] [Server thread/INFO]: [VexRMB] > ª˘”⁄”√ªß–Ë«Û£¨Ã·π©∑·∏ª°¢∞≤»´°¢“◊”√µƒ‘∆º∆À„≤˙∆∑
-[14:49:03] [Server thread/INFO]: [VexRMB] > Ã‘±¶µÍ∆ÃÕ¯÷∑£∫tb.i8mc.cn
-[14:49:03] [Server thread/INFO]: [VexRMB] > 
-[14:49:03] [Server thread/INFO]: [VexRMB] > ≤Âº˛º”‘ÿÕÍ≥…, ∏––ªƒ˙∂‘±æ≤Âº˛µƒ÷ß≥÷
-[14:49:03] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
-[14:49:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[14:49:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[14:49:03] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[14:49:03] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[14:49:03] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[14:49:03] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
-[14:49:03] [Server thread/INFO]: [Essentials] Using locale zh_CN
-[14:49:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[14:49:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[14:49:03] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[14:49:03] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[14:49:03] [Server thread/INFO]: [PixelPayGUI] Enabling PixelPayGUI v1.0
-[14:49:03] [Server thread/INFO]: [PixelPayGUI] PixelPayGUIº”‘ÿÕÍ±œ
-[14:49:03] [Server thread/INFO]: [ChatBubble] Enabling ChatBubble v1.1
-[14:49:03] [Server thread/INFO]: [ChatBubble] ¡ƒÃÏ∆¯≈›º”‘ÿÕÍ±œ
-[14:49:03] [Server thread/INFO]: [LevelSystem] Enabling LevelSystem v1.0
-[14:49:03] [Server thread/INFO]: [LevelSystem] µ»º∂œµÕ≥º”‘ÿÕÍ±œ
-[14:49:03] [Server thread/INFO]: [Elevator] Enabling Elevator v3.0.1
-[14:49:03] [Server thread/INFO]: ___________ __                       __                
-[14:49:03] [Server thread/INFO]: \_   _____/|  |   _______  _______ _/  |_  ___________ 
-[14:49:03] [Server thread/INFO]:  |    __)_ |  | _/ __ \  \/ /\__  \\   __\/  _ \_  __ \
-[14:49:03] [Server thread/INFO]:  |        \|  |_\  ___/\   /  / __ \|  | (  <_> )  | \/
-[14:49:03] [Server thread/INFO]: /_______  /|____/\___  >\_/  (____  /__|  \____/|__|   
-[14:49:03] [Server thread/INFO]:         \/           \/           \/                   
-[14:49:03] [Server thread/INFO]: 
-[14:49:03] [Server thread/INFO]: Elevator v3.0.1
-[14:49:03] [Server thread/INFO]: Running on Paper
-[14:49:03] [Server thread/INFO]: Authors: Baktus_79 and Synnelele
-[14:49:03] [Server thread/INFO]: 
-[14:49:03] [Server thread/INFO]: [Elevator] Enabling particles for elevators
-[14:49:03] [Server thread/INFO]: [Elevator] Using SPELL WITCH as particle for elevators
-[14:49:03] [Server thread/INFO]: [Elevator] Enabling particles for teleporters
-[14:49:03] [Server thread/INFO]: [Elevator] Using IRON BLOCK as elevator block
-[14:49:03] [Server thread/INFO]: [Elevator] Using SEA LANTERN as teleporter block
-[14:49:03] [Server thread/INFO]: [Elevator] Using the sound entity.player.levelup on activate elevator
-[14:49:03] [Server thread/INFO]: [Elevator] Using the sound entity.enderman.teleport when using elevator
-[14:49:03] [Server thread/INFO]: [Elevator] Using the sound entity.enderman.teleport when using teleporters
-[14:49:03] [Server thread/INFO]: [Elevator] Successfully hooked into WorldGuard
-[14:49:03] [Server thread/INFO]: [newtShop] Enabling newtShop v2.0.1
-[14:49:04] [Server thread/INFO]: An update was found! New version: 2.0.3 download: https://www.spigotmc.org/resources/74348
-[14:49:04] [Server thread/INFO]: [newtShop] Found Essentials! Support for worth.yml prices enabled
-[14:49:04] [Server thread/INFO]: [SafeTrade] Enabling SafeTrade v1.1.0
-[14:49:04] [Server thread/INFO]: [SafeTrade] Using Essentials Economy
-[14:49:04] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.4.6*
-[14:49:04] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.26-SNAPSHOT (build 1852)
-[14:49:04] [Server thread/INFO]: [CheckInSystem] Enabling CheckInSystem v1.1
-[14:49:04] [Server thread/INFO]: [CheckInSystem] «©µΩœµÕ≥º”‘ÿÕÍ±œ
-[14:49:04] [Server thread/INFO]: [Residence] Enabling Residence v4.9.0.5
-[14:49:06] [Server thread/INFO]: [Residence] Found Vault using permissions plugin:LuckPerms
-[14:49:06] [Server thread/INFO]: [Residence] Scanning for economy systems...
-[14:49:06] [Server thread/INFO]: [Residence] Found Vault using economy system: Essentials Economy
-[14:49:06] [Server thread/INFO]: [Residence] Loading save data for world world...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded world data. (2 ms)
-[14:49:06] [Server thread/INFO]: [Residence] Loading save data for world world_nether...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded world_nether data. (0 ms)
-[14:49:06] [Server thread/INFO]: [Residence] Loading save data for world world_the_end...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded world_the_end data. (1 ms)
-[14:49:06] [Server thread/INFO]: [Residence] Loading save data for world shengcun...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded shengcun data. (0 ms)
-[14:49:06] [Server thread/INFO]: [Residence] Loading save data for world kuangjie...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded kuangjie data. (0 ms)
-[14:49:06] [Server thread/INFO]: [Residence] Loading world data into memory...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded world data into memory. (0 ms) -> 0 residences
-[14:49:06] [Server thread/INFO]: [Residence] Loading world_nether data into memory...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded world_nether data into memory. (0 ms) -> 0 residences
-[14:49:06] [Server thread/INFO]: [Residence] Loading world_the_end data into memory...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded world_the_end data into memory. (0 ms) -> 0 residences
-[14:49:06] [Server thread/INFO]: [Residence] Loading shengcun data into memory...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded shengcun data into memory. (0 ms) -> 0 residences
-[14:49:06] [Server thread/INFO]: [Residence] Loading kuangjie data into memory...
-[14:49:06] [Server thread/INFO]: [Residence] Loaded kuangjie data into memory. (0 ms) -> 0 residences
-[14:49:06] [Server thread/INFO]: [Residence] Found WorldEdit 7.1.0;8e55131
-[14:49:06] [Server thread/INFO]: [Residence] Found WorldGuard 7.0.2-SNAPSHOT;bf2593e
-[14:49:06] [Server thread/INFO]: [Residence] PlaceholderAPI hooked.
-[14:49:06] [Server thread/INFO]: [Residence] PlaceholderAPI was found - Enabling capabilities.
-[14:49:06] [Server thread/INFO]: [Residence] Enabled! Version 4.9.0.5 by Zrips
-[14:49:06] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
-[14:49:06] [Server thread/INFO]: [ClockGUI] Enabling ClockGUI v1.8.1
-[14:49:06] [Server thread/INFO]: [ClockGUI] ÷”±Ì≤Àµ•º”‘ÿÕÍ±œ
-[14:49:06] [Server thread/INFO]: [ClockGUI] ÷∆◊˜’ﬂQQ:920157557
-[14:49:06] [Server thread/INFO]: [DailyQuest] Enabling DailyQuest v1.1
-[14:49:06] [Server thread/INFO]: [»’≥£»ŒŒÒ] ”Ô—‘Œƒº˛º”‘ÿÕÍ±œ
-[14:49:06] [Server thread/INFO]: [»’≥£»ŒŒÒ] “—º”‘ÿŒÔ∆∑79∏ˆ
-[14:49:06] [Server thread/INFO]: [»’≥£»ŒŒÒ] “—º”‘ÿ184∏ˆŒÔ∆∑»ŒŒÒ
-[14:49:06] [Server thread/INFO]: [»’≥£»ŒŒÒ] “—º”‘ÿ60∏ˆπ÷ŒÔ»ŒŒÒ
-[14:49:06] [Server thread/INFO]: [»’≥£»ŒŒÒ] “ªπ≤º”‘ÿ244∏ˆ»ŒŒÒ
-[14:49:06] [Server thread/INFO]: [DailyQuest] »’≥£»ŒŒÒœµÕ≥º”‘ÿÕÍ±œ
-[14:49:06] [Server thread/INFO]: [PVPSwitch] Enabling PVPSwitch v1.3.3
-[14:49:06] [Server thread/INFO]: [PVPSwitch] PVPœµÕ≥º”‘ÿÕÍ±œ
-[14:49:06] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.10-RELEASE
-[14:49:06] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
-[14:49:06] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
-[14:49:06] [Server thread/INFO]: [CrazyCrates] Loading the Messages.yml
-[14:49:06] [Server thread/INFO]: [CrazyCrates] Successfully loaded Messages.yml
-[14:49:06] [Server thread/INFO]: [CrazyCrates] Loading the Locations.yml
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Successfully loaded Locations.yml
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loading custom files.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/æ≈—°“ª.yml.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/øÏÀŸ.yml.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/—Ãª®.yml.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/∑ËøÒ.yml.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/¿œª¢ª˙.yml.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/≈‹¬Ìµ∆.yml.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
-[14:49:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_15_R1! Trying to find NMS support
-[14:49:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_15_R1' loaded!
-[14:49:07] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] All physical crate locations have been loaded.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] classic.nbt was successfully found and loaded.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] nether.nbt was successfully found and loaded.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] outdoors.nbt was successfully found and loaded.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] sea.nbt was successfully found and loaded.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] soul.nbt was successfully found and loaded.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] wooden.nbt was successfully found and loaded.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
-[14:49:07] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
-[14:49:07] [Server thread/INFO]: [DungeonsXL] Enabling DungeonsXL v0.18-SNAPSHOT-819
-[14:49:07] [Server thread/INFO]: [##########[DungeonsXL]##########]
-[14:49:07] [Server thread/INFO]: Internals: [v1_15_R1]
-[14:49:07] [Server thread/INFO]: Spigot API: [true]
-[14:49:07] [Server thread/INFO]: Paper API: [true]
-[14:49:07] [Server thread/INFO]: Economy: [true]
-[14:49:07] [Server thread/INFO]: Permissions: [true]
-[14:49:07] [Server thread/INFO]: Metrics: [https://bstats.org/plugin/bukkit/DungeonsXL]
-[14:49:07] [Server thread/INFO]: SpigotMC ID: [9488]
-[14:49:07] [Server thread/INFO]: [###############################]
-[14:49:07] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material BEEHIVE. Please update your implementation if possible.
-[14:49:07] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material BEE_NEST. Please update your implementation if possible.
-[14:49:07] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material BEE_SPAWN_EGG. Please update your implementation if possible.
-[14:49:07] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material HONEYCOMB. Please update your implementation if possible.
-[14:49:07] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material HONEYCOMB_BLOCK. Please update your implementation if possible.
-[14:49:07] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material HONEY_BLOCK. Please update your implementation if possible.
-[14:49:07] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material HONEY_BOTTLE. Please update your implementation if possible.
-[14:49:07] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the entity BEE. Please update your implementation if possible!
-[14:49:08] [Server thread/INFO]: Could not find compatible Factions plugin. The game type PVP_FACTIONS_BATTLEFIELD will not get enabled...
-[14:49:08] [Server thread/INFO]: [DungeonsXL] Successfully loaded Vignette module "Inventory".
-[14:49:08] [Server thread/INFO]: [MangoQuest] Enabling MangoQuest v1.9.1
-[14:49:08] [Server thread/INFO]: [MangoQuest] Using default locale.
-[14:49:08] [Server thread/INFO]: [MangoQuest]  π”√÷–µƒ”Ôœµµµ∞∏£∫ zh_CN
-[14:49:08] [Server thread/INFO]: [MangoQuest] Citizens - NPC≤Âº˛“—æ≠¡¨Ω”≥…π¶£°
-[14:49:08] [Server thread/INFO]: [MangoQuest] Vault - Ω«ÆAPI≤Âº˛“—æ≠¡¨Ω”≥…π¶£°
-[14:49:08] [Server thread/INFO]: [MangoQuest] MythicMobs - ◊‘∂©π÷ŒÔ≤Âº˛“—æ≠¡¨Ω·≥…π¶£°
-[14:49:08] [Server thread/INFO]: [MangoQuest] æ≠º√≤Âº˛“—æ≠¡¨Ω·≥…π¶°£
-[14:49:08] [Server thread/WARN]: [MangoQuest] «Î◊¢“‚£¨ π”√≤‚ ‘∞Ê±æ ±Ωœ”–ø…ƒ‹≥ˆœ÷«±‘⁄µƒBUG£¨»Ù”ˆµΩ¿‡À∆Œ Ã‚«Îªÿ±®∏¯ø™∑¢’ﬂ“‘±„¥¶¿Ì°£
-[14:49:08] [Server thread/INFO]: [MangoQuest] ∂¡»°À≈∑˛∆˜∞Ê±æ∫≈Œ™£∫NMS v1_15_R1°£
-[14:49:08] [Server thread/INFO]: [ItemsAdder] Enabling ItemsAdder v2.0.13
-[14:49:08] [Server thread/INFO]: ------ ItemsAdder ------
-[14:49:08] [Server thread/INFO]:   _____ _                                 _     _           
-[14:49:08] [Server thread/INFO]:  |_   _| |                       /\      | |   | |          
-[14:49:08] [Server thread/INFO]:    | | | |_ ___ _ __ ___  ___   /  \   __| | __| | ___ _ __ 
-[14:49:08] [Server thread/INFO]:    | | | __/ _ \ '_ ` _ \/ __| / /\ \ / _` |/ _` |/ _ \ '__|
-[14:49:08] [Server thread/INFO]:   _| |_| ||  __/ | | | | \__ \/ ____ \ (_| | (_| |  __/ |   
-[14:49:08] [Server thread/INFO]:  |_____|\__\___|_| |_| |_|___/_/    \_\__,_|\__,_|\___|_|   
-[14:49:08] [Server thread/INFO]:                                                             
-[14:49:08] [Server thread/INFO]:                                                             
-[14:49:08] [Server thread/INFO]: Loading data...
-[14:49:08] [Server thread/INFO]: Found resourcepack folder: F:\Œ“µƒ ¿ΩÁJava≤ƒ¡œ\Project0Server\plugins\ItemsAdder\data\resource_pack
-[14:49:09] [Server thread/INFO]: [WorldBoss] Enabling WorldBoss v1.1.1
-[14:49:09] [Server thread/INFO]: [ ¿ΩÁBoss] “—º”‘ÿ3∏ˆBoss∂”ŒÈ
-[14:49:09] [Server thread/INFO]: [ ¿ΩÁBoss] WorldBoss loaded
-[14:49:09] [Server thread/INFO]: [MoreFish] Enabling MoreFish v3.0.3-SNAPSHOT
-[14:49:09] [Server thread/INFO]: [MoreFish] Loaded 5 rarities and 26 fish types
-[14:49:09] [Server thread/INFO]: [MoreFish] [ACF] Enabled Asynchronous Tab Completion Support!
-[14:49:09] [Server thread/INFO]: [MoreFish] Plugin has been enabled.
-[14:49:09] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.2.0
-[14:49:09] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
-[14:49:09] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.17.2.0
-[14:49:09] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
-[14:49:09] [Server thread/INFO]: [Dps] Enabling Dps v1.5.1
-[14:49:09] [Server thread/INFO]: [Dps] “—º”‘ÿ13∏ˆ∏±±æ,π≤128∏ˆΩ±¿¯
-[14:49:09] [Server thread/INFO]: [Dps] “—º”‘ÿ∆’Õ®Ω±¿¯ŒÔ∆∑69∏ˆ
-[14:49:09] [Server thread/INFO]: [Dps] Dps“—º”‘ÿ
-[14:49:09] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mEnabling MyPet v3.1[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mNo Update available.[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mCustom entity registry found: net.citizensnpcs.nms.v1_15_R1.util.CustomEntityRegistry[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mCompat mode for v1_15_R1 loaded.[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mExp calculation mode: MyPet[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mLoading WorldGroups...[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mworld[m' to 'default'[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mworld_nether[m' to 'default'[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mworld_the_end[m' to 'default'[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mshengcun[m' to 'default'[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mkuangjie[m' to 'default'[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mConnect to MySQL database...[m
-[14:49:11] [Server thread/WARN]: Thu Apr 23 14:49:11 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:49:11] [HikariPool-1 connection adder/WARN]: Thu Apr 23 14:49:11 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mMySQL connection successful.[m
-[14:49:11] [HikariPool-1 connection adder/WARN]: Thu Apr 23 14:49:11 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mCitizens (2.0.26-SNAPSHOT (build 1852)) hook activated.[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mMythicMobs (4.9.0-3255) hook activated.[m
-[14:49:11] [HikariPool-1 connection adder/WARN]: Thu Apr 23 14:49:11 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mPlaceholderAPI (2.10.5) hook activated.[m
-[14:49:11] [HikariPool-1 connection adder/WARN]: Thu Apr 23 14:49:11 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mProtocolLib (4.5.0) hook activated.[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mResidence (4.9.0.5) hook activated.[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mVault (1.7.2-b107) (Economy: Essentials Economy) (Permissions: LuckPerms) hook activated.[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mWorldGuard (7.0.2-SNAPSHOT;bf2593e) hook activated.[m
-[14:49:11] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mVersion 3.10-b1542[0;32;1m ENABLED[m
-[14:49:11] [HikariPool-1 connection adder/WARN]: Thu Apr 23 14:49:11 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:49:11] [HikariPool-1 connection adder/WARN]: Thu Apr 23 14:49:11 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:49:12] [HikariPool-1 connection adder/WARN]: Thu Apr 23 14:49:12 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-[14:49:12] [Server thread/INFO]: [PeterHelper] Enabling PeterHelper v1.2.0
-[14:49:12] [Server thread/INFO]: [PeterHelper] “—’“µΩItemsAdderµƒ¬∑æ∂!
-[14:49:12] [Server thread/INFO]: [PeterHelper] π≤∂¡»°117∏ˆ◊‘∂®“ÂŒÔ∆∑!
-[14:49:12] [Server thread/INFO]: [PeterHelper] PeterHelperº”‘ÿÕÍ±œ
-[14:49:12] [Server thread/INFO]: [DungeonManager] Enabling DungeonManager v1.2.1
-[14:49:12] [Server thread/INFO]: [DungeonManager] “—º”‘ÿ10∏ˆ∏±±æ
-[14:49:12] [Server thread/INFO]: [DungeonManager] DungeonManager loaded
-[14:49:12] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[14:49:13] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.ess3.api.IEssentials from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
-[14:49:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: essentials
-[14:49:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
-[14:49:13] [Server thread/WARN]: [PlaceholderAPI] Loaded class org.black_ixx.playerpoints.PlayerPoints from PlayerPoints v2.1.4 which is not a depend, softdepend or loadbefore of this plugin.
-[14:49:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerpoints
-[14:49:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
-[14:49:13] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
-[14:49:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
-[14:49:13] [Server thread/INFO]: Done (23.564s)! For help, type "help"
-[14:49:13] [Server thread/INFO]: Timings Reset
-[14:49:13] [Server thread/INFO]: [AsyncWorldEdit] Loading plugins...
-[14:49:13] [Craft Scheduler Thread - 21/INFO]: [ItemsAdder] Resourcepack initialization...
-[14:49:13] [Craft Scheduler Thread - 21/INFO]: [ItemsAdder]     Checking for online default resourcepack updates...
-[14:49:14] [Craft Scheduler Thread - 20/INFO]: [DungeonsXL] A new version of DungeonsXL is available (0.18-SNAPSHOT-909). Download it here: https://spigotmc.org/resources/dungeonsxl.9488/download?version=324689
-[14:49:15] [Server thread/INFO]: [MythicMobs] [32m?Using HolographicDisplays plugin for holograms[0m
-[14:49:15] [Server thread/INFO]: [MythicMobs] [32m?Using HolographicDisplays plugin for holograms[0m
-[14:49:15] [Craft Scheduler Thread - 5/INFO]: [PlaceholderAPI] 173 placeholder expansions are available on the cloud.
-[14:49:15] [Craft Scheduler Thread - 5/INFO]: [PlaceholderAPI] 1 installed expansions have updates available.
-[14:49:15] [Server thread/INFO]: [Citizens] “—‘ÿ»Î 15 ∏ˆNPC.
-[14:49:16] [Server thread/INFO]: [MangoQuest] ∑≠“Îµµ∞∏∂¡»°ÕÍ≥…£°
-[14:49:16] [Server thread/INFO]: [MangoQuest] —°‘Ò“—æ≠∂¡»°ÕÍ≥…£°∂¡»°¡À 0 ∏ˆ—°‘Ò£°
-[14:49:16] [Server thread/INFO]: [MangoQuest] »ŒŒÒ“—æ≠∂¡»°ÕÍ±œ°£∂¡»°¡À 15 ∏ˆ»ŒŒÒ°£
-[14:49:16] [Server thread/INFO]: [MangoQuest] ∂‘ª∞“—æ≠∂¡»°ÕÍ≥…£°∂¡»°¡À 0 ∏ˆ∂‘ª∞£°
-[14:49:16] [Server thread/INFO]: [MangoQuest] NPC◊ ¡œ∂¡»°ÕÍ±œ°£≥…π¶∂¡»°¡À 0 ∏ˆNPC∂‘ª∞◊ ¡œ°£
-[14:49:16] [Craft Scheduler Thread - 21/INFO]: [ItemsAdder]     Downloading default resourcepack...
-[14:49:17] [Server thread/INFO]: [LibsDisguises] There is a new build of Lib's Disguises! You are using #465, the latest build is #528!
+[17:04:45] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[17:04:45] [Server thread/INFO]: Loading properties
+[17:04:45] [Server thread/INFO]: This server is running Paper version git-Paper-211 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[17:04:46] [Server thread/INFO]: Debug logging is disabled
+[17:04:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:04:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:04:46] [Server thread/INFO]: Default game type: SURVIVAL
+[17:04:46] [Server thread/INFO]: Generating keypair
+[17:04:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:04:46] [Server thread/INFO]: Using default channel type
+[17:04:52] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:04:55] [Server thread/WARN]: Legacy plugin LightAPI v3.4.2 does not specify an api-version.
+[17:04:55] [Server thread/WARN]: Legacy plugin AutoReload v1.02 does not specify an api-version.
+[17:04:55] [Server thread/WARN]: Legacy plugin ArmorEquipEvent v1.7.2 does not specify an api-version.
+[17:04:55] [Server thread/WARN]: Legacy plugin MiRespawn v1.5.1 does not specify an api-version.
+[17:04:55] [Server thread/INFO]: [AsyncWorldEdit] Injector platform set to: InjectorBukkit
+[17:04:55] [Server thread/INFO]: [AsyncWorldEdit] Injecting NMS classes...
+[17:04:55] [Server thread/INFO]: [AsyncWorldEdit] Injecting WorldEdit classes...
+[17:04:55] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.eventbus.EventBus
+[17:04:56] [Server thread/WARN]: [WorldEdit] Loaded class org.primesoft.asyncworldedit.injector.injected.util.eventbus.IDispatchableEventBus from AsyncWorldEdit v3.6.19 which is not a depend, softdepend or loadbefore of this plugin.
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.BlockVector2
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.BlockVector3
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.Vector2
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.Vector3
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BlockStateHolder
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BaseBlock
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BlockState
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.entity.BaseEntity
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.Location
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.biome.BiomeType
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.weather.WeatherType
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.EditSession
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.operation.Operations
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extension.platform.PlayerProxy
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.collection.LocatedBlockList
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.reorder.MultiStageReorder
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.reorder.ChunkBatchingExtent
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.AbstractRegion
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.EllipsoidRegion
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.ConvexPolyhedralRegion
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.TransformRegion
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.RegionIntersection
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.NullRegion
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.Polygonal2DRegion
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.CylinderRegion
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.CuboidRegion
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.SnapshotUtilCommands
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.ScriptingCommands
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.SchematicCommands
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.RegionCommands
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.UtilityCommandsRegistration
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.bukkit.BukkitEntity
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.RegionCommandsRegistration
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.BrushTool
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.BlockReplacer
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/PlayerWrapper
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/NoPermsPlayer
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/extension/platform/NoPermsActor
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/entity/IPlayerFactory
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/extension/platform/IActorFactory
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] Injector Enabled
+[17:04:56] [Server thread/INFO]: [AsyncWorldEdit] New class factory set to: org.primesoft.asyncworldedit.asyncinjector.async.AsyncClassFactory
+[17:04:56] [Server thread/WARN]: Legacy plugin SQLibrary v7.1 does not specify an api-version.
+[17:04:57] [Server thread/WARN]: Legacy plugin PlayerPoints v2.1.4 does not specify an api-version.
+[17:04:57] [Server thread/WARN]: Legacy plugin PixelPay v4.1 does not specify an api-version.
+[17:04:57] [Server thread/WARN]: Legacy plugin ActionHealth v3.4.6 does not specify an api-version.
+[17:04:58] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.5
+[17:04:58] [Server thread/INFO]: [IALibs] Loading IALibs v1.0
+[17:04:58] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[17:04:58] [Server thread/INFO]: [newtLib] Loading newtLib v1.5.0
+[17:04:58] [Server thread/INFO]: [LightAPI] Loading LightAPI v3.4.2
+[17:04:58] [Server thread/INFO]: [AutoReload] Loading AutoReload v1.02
+[17:04:58] [Server thread/INFO]: [OpenVirtualBook] Loading OpenVirtualBook v1.0
+[17:04:58] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
+[17:04:58] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[17:05:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6d529d86]
+[17:05:00] [Server thread/INFO]: [CrazyAuctionsPlus] Loading CrazyAuctionsPlus v1.1.4
+[17:05:00] [Server thread/INFO]: [ArmorEquipEvent] Loading ArmorEquipEvent v1.7.2
+[17:05:00] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[17:05:00] [Server thread/INFO]: [MessageAnnouncer] Loading MessageAnnouncer v1.11.0
+[17:05:00] [Server thread/INFO]: [PeterUtil] Loading PeterUtil v1.0.1
+[17:05:00] [Server thread/INFO]: [MiRespawn] Loading MiRespawn v1.5.1
+[17:05:00] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[17:05:00] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.0
+[17:05:00] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.15.2) has not yet been tested! Proceed with caution.
+[17:05:00] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v9.9.9-SNAPSHOT
+[17:05:00] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v3.6.19
+[17:05:00] [Server thread/INFO]: [AsyncWorldEdit] Plugin installed
+[17:05:00] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.5.6
+[17:05:00] [Server thread/INFO]: [SQLibrary] Loading SQLibrary v7.1
+[17:05:00] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[17:05:00] [Server thread/INFO]: [ScoreBoard] Loading ScoreBoard v1.1
+[17:05:00] [Server thread/INFO]: [Item2Chat] Loading Item2Chat v4.2.3
+[17:05:00] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.1
+[17:05:00] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v2.1.4
+[17:05:00] [Server thread/INFO]: [VipSystem] Loading VipSystem v1.2
+[17:05:00] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[17:05:00] [Server thread/INFO]: [AntiXray] Loading AntiXray v1.8.1
+[17:05:00] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v4.9.0-3255
+[17:05:00] [Server thread/INFO]: [PixelPay] Loading PixelPay v4.1
+[17:05:00] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[17:05:00] [Server thread/INFO]: [PixelPayGUI] Loading PixelPayGUI v1.0
+[17:05:00] [Server thread/INFO]: [ChatBubble] Loading ChatBubble v1.1
+[17:05:00] [Server thread/INFO]: [LevelSystem] Loading LevelSystem v1.0
+[17:05:00] [Server thread/INFO]: [Elevator] Loading Elevator v3.0.1
+[17:05:00] [Server thread/INFO]: [newtShop] Loading newtShop v2.0.1
+[17:05:00] [Server thread/INFO]: [SafeTrade] Loading SafeTrade v1.1.0
+[17:05:00] [Server thread/INFO]: [ActionHealth] Loading ActionHealth v3.4.6
+[17:05:00] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.26-SNAPSHOT (build 1852)
+[17:05:00] [Server thread/INFO]: [CheckInSystem] Loading CheckInSystem v1.1
+[17:05:00] [Server thread/INFO]: [Residence] Loading Residence v4.9.0.5
+[17:05:00] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
+[17:05:00] [Server thread/INFO]: [ClockGUI] Loading ClockGUI v1.8.1
+[17:05:00] [Server thread/INFO]: [DailyQuest] Loading DailyQuest v1.1
+[17:05:00] [Server thread/INFO]: [PVPSwitch] Loading PVPSwitch v1.3.3
+[17:05:00] [Server thread/INFO]: [CrazyCrates] Loading CrazyCrates v1.10-RELEASE
+[17:05:00] [Server thread/INFO]: [DungeonsXL] Loading DungeonsXL v0.18-SNAPSHOT-819
+[17:05:00] [Server thread/INFO]: [MangoQuest] Loading MangoQuest v1.9.1
+[17:05:00] [Server thread/INFO]: [ItemsAdder] Loading ItemsAdder v2.0.13
+[17:05:00] [Server thread/INFO]: [WorldBoss] Loading WorldBoss v1.1.1
+[17:05:00] [Server thread/INFO]: [MoreFish] Loading MoreFish v3.0.3-SNAPSHOT
+[17:05:00] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.2.0
+[17:05:00] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.17.2.0
+[17:05:00] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
+[17:05:00] [Server thread/INFO]: [Dps] Loading Dps v1.5.1
+[17:05:00] [Server thread/INFO]: [MyPet] Loading MyPet v3.1
+[17:05:00] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mError-Reporter ENABLED[m
+[17:05:01] [Server thread/INFO]: [PeterHelper] Loading PeterHelper v1.2.0
+[17:05:01] [Server thread/INFO]: [DungeonManager] Loading DungeonManager v1.2.1
+[17:05:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:05:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
+[17:05:01] [Server thread/INFO]:         __    
+[17:05:01] [Server thread/INFO]:   |    |__)   LuckPerms v5.0.72
+[17:05:01] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:05:01] [Server thread/INFO]: 
+[17:05:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:05:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[17:05:03] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
+[17:05:03] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
+[17:05:03] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:03 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:04] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:04 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:04] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:04 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:04] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[17:05:04] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:04 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:04] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:04 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:04] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:04 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:04] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:04 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:04] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:04 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:04] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:04 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:04] [luckperms-hikari connection adder/WARN]: Thu Apr 23 17:05:04 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:05:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:05:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3920ms)
+[17:05:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[17:05:05] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:05:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[17:05:06] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.0
+[17:05:06] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v3.6.19
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] Platform set to Bukkit API
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] =     ___                         _       __           __    ________    ___ __   =
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] =    /   |  _______  ______  ____| |     / /___  _____/ /___/ / ____/___/ (_) /_  =
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] =   / /| | / ___/ / / / __ \/ ___/ | /| / / __ \/ ___/ / __  / __/ / __  / / __/  =
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] =  / ___ |(__  ) /_/ / / / / /__ | |/ |/ / /_/ / /  / / /_/ / /___/ /_/ / / /_    =
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] = /_/  |_/____/\__, /_/ /_/\___/ |__/|__/\____/_/  /_/\__,_/_____/\__,_/_/\__/    =
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] =             /____/                                                              =
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] = Author: SBPrime                                                                 =
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] =                                ________________                                 =
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] =                            ___/  free version  \___                             =
+[17:05:07] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
+[17:05:17] [Server thread/INFO]: [AsyncWorldEdit] Initializing WorldEdit.
+[17:05:18] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[17:05:18] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[17:05:18] [Server thread/INFO]: [AsyncWorldEdit] No matching adapter found for Bukkit.v1_15_R1, DirectChunkAPI disabled
+[17:05:18] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix.
+[17:05:18] [Server thread/INFO]: [AsyncWorldEdit] Enabled
+[17:05:18] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.5.6
+[17:05:18] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[17:05:18] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:05:18] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:05:18] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[17:05:18] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:18] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:05:18] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:05:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:05:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:05:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:05:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:05:18] [Server thread/INFO]: Preparing level "world"
+[17:05:18] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[17:05:19] [Server thread/INFO]: Loaded 6 recipes
+[17:05:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:05:19] [Server thread/INFO]: View Distance: 7
+[17:05:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:05:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:05:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[17:05:19] [Server thread/INFO]: Item Merge Radius: 4.0
+[17:05:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:05:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:05:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[17:05:19] [Server thread/INFO]: Mob Spawn Range: 6
+[17:05:19] [Server thread/INFO]: Experience Merge Radius: 6.0
+[17:05:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:05:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:05:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:05:19] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[17:05:19] [Server thread/INFO]: Max TNT Explosions: 100
+[17:05:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:05:19] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:05:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:05:20] [Server thread/INFO]: View Distance: 7
+[17:05:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:05:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:05:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[17:05:20] [Server thread/INFO]: Item Merge Radius: 4.0
+[17:05:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:05:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:05:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[17:05:20] [Server thread/INFO]: Mob Spawn Range: 6
+[17:05:20] [Server thread/INFO]: Experience Merge Radius: 6.0
+[17:05:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:05:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:05:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[17:05:20] [Server thread/INFO]: Max TNT Explosions: 100
+[17:05:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:05:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:05:20] [Server thread/INFO]: View Distance: 7
+[17:05:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:05:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:05:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[17:05:20] [Server thread/INFO]: Item Merge Radius: 4.0
+[17:05:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:05:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:05:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[17:05:20] [Server thread/INFO]: Mob Spawn Range: 6
+[17:05:20] [Server thread/INFO]: Experience Merge Radius: 6.0
+[17:05:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:05:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:05:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:05:20] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[17:05:20] [Server thread/INFO]: Max TNT Explosions: 100
+[17:05:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:05:20] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[17:05:20] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[17:05:20] [Server thread/INFO]: Time elapsed: 157 ms
+[17:05:20] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[17:05:20] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[17:05:20] [Server thread/INFO]: Time elapsed: 35 ms
+[17:05:20] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[17:05:20] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[17:05:20] [Server thread/INFO]: Time elapsed: 33 ms
+[17:05:20] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.5
+[17:05:20] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:05:20] [Server thread/INFO]: [IALibs] Enabling IALibs v1.0
+[17:05:20] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[17:05:20] [Server thread/INFO]: [newtLib] Enabling newtLib v1.5.0
+[17:05:21] [Server thread/INFO]: [LightAPI] Enabling LightAPI v3.4.2*
+[17:05:21] [Server thread/INFO]: [LightAPI] Loading implementation for Paper server v1_15_R1.
+[17:05:21] [Server thread/INFO]: [AutoReload] Enabling AutoReload v1.02*
+[17:05:21] [Server thread/INFO]: Found plugin ActionHealth.jar
+[17:05:21] [Server thread/INFO]: Found plugin AntiXray.jar
+[17:05:21] [Server thread/INFO]: Found plugin ArmorEquipEvent-1.7.2.jar
+[17:05:21] [Server thread/INFO]: Found plugin AsyncWorldEdit-3.6.19.jar
+[17:05:21] [Server thread/INFO]: Found plugin AutoReload.jar
+[17:05:21] [Server thread/INFO]: Found plugin ChatBubble.jar
+[17:05:21] [Server thread/INFO]: Found plugin CheckInSystem.jar
+[17:05:21] [Server thread/INFO]: Found plugin Citizens-2.0.26-b1852.jar
+[17:05:21] [Server thread/INFO]: Found plugin ClockGUI_1.7.jar
+[17:05:21] [Server thread/INFO]: Found plugin CrazyAuctionsPlus-1.1.4.jar
+[17:05:21] [Server thread/INFO]: Found plugin CrazyCrates.v1.10.jar
+[17:05:21] [Server thread/INFO]: Found plugin DailyQuest.jar
+[17:05:21] [Server thread/INFO]: Found plugin Dps.jar
+[17:05:21] [Server thread/INFO]: Found plugin DungeonManager.jar
+[17:05:21] [Server thread/INFO]: Found plugin dungeonsxl-dist-0.18-SNAPSHOT-819.jar
+[17:05:21] [Server thread/INFO]: Found plugin Elevator-3.0.1.jar
+[17:05:21] [Server thread/INFO]: Found plugin EssentialsX-2.17.2.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin EssentialsXAntiBuild-2.17.2.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin EssentialsXChat-2.17.2.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin EssentialsXProtect-2.17.2.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin EssentialsXSpawn-2.17.2.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin HolographicDisplays.jar
+[17:05:21] [Server thread/INFO]: Found plugin IALibs.jar
+[17:05:21] [Server thread/INFO]: Found plugin Item2Chat-4.2.3.jar
+[17:05:21] [Server thread/INFO]: Found plugin ItemsAdder2.0.13.jar
+[17:05:21] [Server thread/INFO]: Found plugin LevelSystem.jar
+[17:05:21] [Server thread/INFO]: Found plugin LibsDisguises.jar
+[17:05:21] [Server thread/INFO]: Found plugin LightAPI-fork-3.4.2.jar
+[17:05:21] [Server thread/INFO]: Found plugin LuckPerms-Bukkit-5.0.72.jar
+[17:05:21] [Server thread/INFO]: Found plugin MangoQuest_20200205_v1.9.1v3.jar
+[17:05:21] [Server thread/INFO]: Found plugin MessageAnnouncer-1.11.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin MiRespawn-1.5.1.jar
+[17:05:21] [Server thread/INFO]: Found plugin more-fish-3.0.3-SNAPSHOT.jar
+[17:05:21] [Server thread/INFO]: Found plugin Multiverse-Core-4.1.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin MyPet-3.10.jar
+[17:05:21] [Server thread/INFO]: Found plugin MythicMobs-4.9.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin newtLib.jar
+[17:05:21] [Server thread/INFO]: Found plugin newtShop.jar
+[17:05:21] [Server thread/INFO]: Found plugin OpenVirtualBook.jar
+[17:05:21] [Server thread/INFO]: Found plugin PeterHelper.jar
+[17:05:21] [Server thread/INFO]: Found plugin PeterUtil.jar
+[17:05:21] [Server thread/INFO]: Found plugin PixelPay-4.1.jar
+[17:05:21] [Server thread/INFO]: Found plugin PixelPayGUI.jar
+[17:05:21] [Server thread/INFO]: Found plugin PlaceholderAPI-2.10.5.jar
+[17:05:21] [Server thread/INFO]: Found plugin PlayerPoints.jar
+[17:05:21] [Server thread/INFO]: Found plugin PlugMan.jar
+[17:05:21] [Server thread/INFO]: Found plugin ProtocolLib.jar
+[17:05:21] [Server thread/INFO]: Found plugin PVPSwitch.jar
+[17:05:21] [Server thread/INFO]: Found plugin Residence4.9.0.5.jar
+[17:05:21] [Server thread/INFO]: Found plugin safetrade-1.1.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin ScoreBoard.jar
+[17:05:21] [Server thread/INFO]: Found plugin SQLibrary-7.1.jar
+[17:05:21] [Server thread/INFO]: Found plugin Vault.jar
+[17:05:21] [Server thread/INFO]: Found plugin VipSystem.jar
+[17:05:21] [Server thread/INFO]: Found plugin VoidGenerator-1.5.6.jar
+[17:05:21] [Server thread/INFO]: Found plugin WorldBorder.jar
+[17:05:21] [Server thread/INFO]: Found plugin WorldBoss.jar
+[17:05:21] [Server thread/INFO]: Found plugin worldedit-bukkit-7.1.0.jar
+[17:05:21] [Server thread/INFO]: Found plugin worldguard-bukkit-7.0.2.jar
+[17:05:21] [Server thread/INFO]: [OpenVirtualBook] Enabling OpenVirtualBook v1.0
+[17:05:21] [Server thread/INFO]: [OpenVirtualBook] –Èƒ‚ ÈºÆº”‘ÿÕÍ±œ
+[17:05:21] [Server thread/INFO]: [CrazyAuctionsPlus] Enabling CrazyAuctionsPlus v1.1.4
+[17:05:21] [Server thread/INFO]: [CrazyAuctionsPlus] œµÕ≥ƒ¨»œ”Ô—‘≤Œ ˝–≈œ¢“—º”‘ÿ.
+[17:05:21] [Server thread/INFO]: [CrazyAuctionsPlus] ≈‰÷√Œƒº˛ Config.yml “—≥…π¶º”‘ÿ°£
+[17:05:21] [Server thread/INFO]: [CrazyAuctionsPlus] ≈‰÷√Œƒº˛ Category.yml “—≥…π¶º”‘ÿ°£
+[17:05:21] [Server thread/INFO]: [CrazyAuctionsPlus] ≈‰÷√Œƒº˛ ItemCollection.yml “—≥…π¶º”‘ÿ°£
+[17:05:21] [Server thread/INFO]: [CrazyAuctionsPlus] ≈‰÷√Œƒº˛ Messages.yml “—≥…π¶º”‘ÿ°£
+[17:05:22] [Server thread/INFO]: [»´«Ú –≥°] ≥…π¶¡¨Ω”µΩ MySQL ∑˛ŒÒ∆˜°£
+[17:05:23] [Server thread/INFO]: [»´«Ú –≥°] “—ºÏ≤‚µΩ Vault £¨æ≠º√œµÕ≥“—≥ı ºªØ.
+[17:05:23] [Server thread/WARN]: [CrazyAuctionsPlus] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:23] [Server thread/INFO]: [»´«Ú –≥°] ≤Âº˛º”‘ÿÕÍ≥…£¨ ∫ƒ ± 1826MS .
+[17:05:23] [Server thread/INFO]: [ArmorEquipEvent] Enabling ArmorEquipEvent v1.7.2*
+[17:05:23] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[17:05:23] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[17:05:23] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[17:05:23] [Server thread/INFO]: [WorldBorder] [CONFIG] World "world" has border radius 200 at X: 93.5 Z: -94.8
+[17:05:23] [Server thread/INFO]: [WorldBorder] [CONFIG] World "shengcun" has border radius 4000 at X: -383.6 Z: -158.4
+[17:05:23] [Server thread/INFO]: [WorldBorder] [CONFIG] World "kuangjie" has border radius 4000 at X: 33.5 Z: -122.5
+[17:05:23] [Server thread/INFO]: [WorldBorder] [CONFIG] World "world_nether" has border radius 4000 at X: 26.5 Z: 52.5
+[17:05:23] [Server thread/INFO]: [WorldBorder] [CONFIG] World "world_the_end" has border radius 4000 at X: -89.5 Z: -38.5
+[17:05:23] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 107.0 Y: 31.0 Z: -108.0
+[17:05:23] [Server thread/INFO]: [MessageAnnouncer] Enabling MessageAnnouncer v1.11.0
+[17:05:23] [Server thread/INFO]: [MessageAnnouncer] PlaceholderAPI integration was successful!
+[17:05:23] [Server thread/INFO]: [PeterUtil] Enabling PeterUtil v1.0.1
+[17:05:23] [Server thread/INFO]: [PeterUtil] PeterUtilº”‘ÿÕÍ±œ
+[17:05:23] [Server thread/INFO]: [MiRespawn] Enabling MiRespawn v1.5.1*
+[17:05:23] [Server thread/INFO]: [MiRespawn] config.yml found, checking for an update!
+[17:05:23] [Server thread/INFO]: [MiRespawn] config.yml up-to-date.
+[17:05:23] [Server thread/INFO]: [MiRespawn] Load success
+[17:05:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[17:05:23] [Server thread/WARN]: [Multiverse-Core] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:23] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[17:05:23] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[17:05:24] [Server thread/INFO]: -------- World Settings For [shengcun] --------
+[17:05:24] [Server thread/INFO]: View Distance: 7
+[17:05:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:05:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:05:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[17:05:24] [Server thread/INFO]: Item Merge Radius: 4.0
+[17:05:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:05:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:05:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[17:05:24] [Server thread/INFO]: Mob Spawn Range: 6
+[17:05:24] [Server thread/INFO]: Experience Merge Radius: 6.0
+[17:05:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:05:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:05:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[17:05:24] [Server thread/INFO]: Max TNT Explosions: 100
+[17:05:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:05:24] [Server thread/INFO]: Preparing start region for dimension 'shengcun'/minecraft:overworld
+[17:05:24] [Server thread/INFO]: Loaded 0 spawn chunks for world shengcun
+[17:05:24] [Server thread/INFO]: Time elapsed: 449 ms
+[17:05:24] [Server thread/INFO]: -------- World Settings For [kuangjie] --------
+[17:05:24] [Server thread/INFO]: View Distance: 7
+[17:05:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:05:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:05:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[17:05:24] [Server thread/INFO]: Item Merge Radius: 4.0
+[17:05:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:05:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:05:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[17:05:24] [Server thread/INFO]: Mob Spawn Range: 6
+[17:05:24] [Server thread/INFO]: Experience Merge Radius: 6.0
+[17:05:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:05:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:05:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:05:24] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
+[17:05:24] [Server thread/INFO]: Max TNT Explosions: 100
+[17:05:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:05:24] [Server thread/INFO]: Preparing start region for dimension 'kuangjie'/minecraft:overworld
+[17:05:24] [Server thread/INFO]: Loaded 0 spawn chunks for world kuangjie
+[17:05:24] [Server thread/INFO]: Time elapsed: 34 ms
+[17:05:24] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[17:05:25] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[17:05:25] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[17:05:25] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[17:05:25] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v9.9.9-SNAPSHOT
+[17:05:25] [Server thread/INFO]: [LibsDisguises] Discovered nms version: v1_15_R1
+[17:05:25] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #465
+[17:05:25] [Server thread/INFO]: [LibsDisguises] Build Date: 01/04/2020 08:41
+[17:05:25] [Server thread/WARN]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[17:05:25] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[17:05:27] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
+[17:05:27] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
+[17:05:27] [Server thread/INFO]: [SQLibrary] Enabling SQLibrary v7.1*
+[17:05:27] [Server thread/INFO]: SQLibrary loaded.
+[17:05:27] [Server thread/INFO]: [ScoreBoard] Enabling ScoreBoard v1.1
+[17:05:27] [Server thread/INFO]: Found PlaceholderAPI
+[17:05:27] [Server thread/INFO]: [ScoreBoard] º«∑÷∞ÂœµÕ≥º”‘ÿÕÍ≥…
+[17:05:27] [Server thread/INFO]: [Item2Chat] Enabling Item2Chat v4.2.3
+[17:05:27] [Server thread/INFO]: [Item2Chat] Item2Chat version 4.2.3 is Enabled
+[17:05:27] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.1
+[17:05:28] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[17:05:28] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v2.1.4*
+[17:05:28] [Server thread/WARN]: Thu Apr 23 17:05:28 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:28] [Server thread/INFO]: [VipSystem] Enabling VipSystem v1.2
+[17:05:28] [Server thread/INFO]: [vipSystem] ª·‘±œµÕ≥º”‘ÿÕÍ±œ
+[17:05:28] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world) Lighters are blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world) All fire spread is disabled.
+[17:05:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world_nether) All fire spread is disabled.
+[17:05:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (world_the_end) All fire spread is disabled.
+[17:05:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[17:05:32] [Server thread/INFO]: [WorldGuard] (shengcun) TNT ignition is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (shengcun) Lighters are blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (shengcun) Lava fire is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (shengcun) All fire spread is disabled.
+[17:05:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'shengcun'
+[17:05:32] [Server thread/INFO]: [WorldGuard] (kuangjie) TNT ignition is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (kuangjie) Lighters are blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (kuangjie) Lava fire is blocked.
+[17:05:32] [Server thread/INFO]: [WorldGuard] (kuangjie) All fire spread is disabled.
+[17:05:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'kuangjie'
+[17:05:32] [Server thread/INFO]: [WorldGuard] Loading region data...
+[17:05:32] [Server thread/INFO]: [AntiXray] Enabling AntiXray v1.8.1
+[17:05:32] [Server thread/WARN]: [AntiXray] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.10.5 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:33] [Server thread/INFO]: [AntiXray] œﬁ÷∆Õ⁄øÛœµÕ≥º”‘ÿÕÍ±œ
+[17:05:33] [Server thread/INFO]: [AntiXray] ÷∆◊˜’ﬂQQ:920157557
+[17:05:33] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v4.9.0-3255
+[17:05:33] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.15.2)...[0m
+[17:05:33] [Server thread/INFO]: [MythicMobs] The server is running PaperSpigot; enabled PaperSpigot exclusive functionality[0m
+[17:05:33] [Server thread/WARN]: [MythicMobs] Loaded class javassist.bytecode.ClassFile from IALibs v1.0 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:33] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 86 ms to scan 1 urls, producing 3 keys and 21 values 
+[17:05:33] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 3 keys and 18 values 
+[17:05:33] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 59 ms to scan 16 urls, producing 0 keys and 0 values 
+[17:05:33] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 3 keys and 9 values 
+[17:05:33] [Server thread/INFO]: [MythicMobs] MythicMobs HolographicDisplays Support has been enabled![0m
+[17:05:33] [Server thread/INFO]: [MythicMobs] MythicMobs LibsDisguises Support has been enabled![0m
+[17:05:33] [Server thread/INFO]: [MythicMobs] MythicMobs PlaceholderAPI Support has been enabled![0m
+[17:05:33] [Server thread/INFO]: [MythicMobs] Loaded ProtocolLib packet handlers[0m
+[17:05:33] [Server thread/INFO]: [LumineUtils] (io.lumine.xikage.mythicmobs.utils.) is bound to plugin MythicMobs - io.lumine.xikage.mythicmobs.MythicMobs
+[17:05:33] [Server thread/INFO]: [MythicMobs] MythicMobs ProtocolLib Support has been enabled![0m
+[17:05:33] [Server thread/INFO]: [MythicMobs] MythicMobs Vault Support has been enabled![0m
+[17:05:33] [Server thread/INFO]: [MythicMobs] MythicMobs WorldGuard Support has been enabled![0m
+[17:05:33] [Server thread/INFO]: [MythicMobs] Loading Mob Registry...[0m
+[17:05:33] [Server thread/INFO]: [MythicMobs] Loading Mob Registry...[0m
+[17:05:33] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 17 ms to scan 1 urls, producing 10 keys and 280 values 
+[17:05:35] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 1342 ms to scan 1 urls, producing 24 keys and 552 values 
+[17:05:35] [Server thread/INFO]: [io.lumine.xikage.mythicmobs.util.reflections.Reflections] Reflections took 15 ms to scan 1 urls, producing 6 keys and 71 values 
+[17:05:35] [Server thread/INFO]: [MythicMobs] [36mLOADED[0m
+[17:05:35] [Server thread/INFO]: [MythicMobs] [36mLOADED[0m
+[17:05:36] [Server thread/WARN]: [MythicMobs] Failed to parse Placeholder '3,repeatInterval=1': Math and variables in numeric values require premium! Consider getting MythicMobs Premium at www.mythicmobs.net.[0m[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 135 mobs.[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 34 vanilla mob overrides.[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob stacks.[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 23 skills.[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 random spawns.[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 70 mythic items.[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 2 drop tables.[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob spawners.[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[17:05:36] [Server thread/INFO]: [MythicMobs] [32m? MythicMobs v4.9.0 (build 3255) has been successfully loaded![0m[0m
+[17:05:36] [Server thread/INFO]: [PixelPay] Enabling PixelPay v4.1*
+[17:05:36] [Server thread/INFO]: [VexRMB] /***
+[17:05:36] [Server thread/INFO]: [VexRMB] > ≤Âº˛’˝‘⁄Œ™∆Ù∂Ø VexRMB ◊ˆ◊º±∏...
+[17:05:38] [Server thread/INFO]: [VexRMB] > SID”√ªß: 2124
+[17:05:38] [Server thread/INFO]: [VexRMB] > ø™ ºªÒ»°“—ø™∆Ùø®√‹÷÷¿‡º∞±»¿˝:
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_20] ∑Ω Ω: æ©∂´Eø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_21] ∑Ω Ω: »´π˙ Ø”Õø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: alipay_all] ∑Ω Ω: ÷ß∏∂±¶ ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: tencent_all] ∑Ω Ω: ≤∆∏∂Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: wechat_all] ∑Ω Ω: Œ¢–≈«Æ∞¸ ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_10] ∑Ω Ω: µÁ–≈≥‰÷µø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_11] ∑Ω Ω: …Ò÷›––≥‰÷µø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: bank_all] ∑Ω Ω: Õ¯“¯ ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_16] ∑Ω Ω:  ¢∏∂Õ®ø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_17] ∑Ω Ω: ¥Û∂Ó“∆∂Øø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_18] ∑Ω Ω: ¥Û∂Ó¡™Õ®ø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_19] ∑Ω Ω: ¥Û∂ÓµÁ–≈ø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_12] ∑Ω Ω: ¡™Õ®≥‰÷µø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_7] ∑Ω Ω: ’˜Õæ”Œœ∑ø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_8] ∑Ω Ω: æ√”Œ“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_13] ∑Ω Ω: ◊›”Œ“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_9] ∑Ω Ω: Õ¯“◊“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_14] ∑Ω Ω: ÃÏœ¬“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_15] ∑Ω Ω: π‚”Ó“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_3] ∑Ω Ω: ø•Õ¯“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_4] ∑Ω Ω: ÕÍ√¿“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_5] ∑Ω Ω: ÃÏ∫Í“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_6] ∑Ω Ω: À—∫¸“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_1] ∑Ω Ω: QQ≥‰÷µø® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB]  - [±‡∫≈: card_2] ∑Ω Ω:  ¢¥Û“ªø®Õ® ’€À„±»¿˝: 1‘™=100µ„»Ø
+[17:05:38] [Server thread/INFO]: [VexRMB] > 
+[17:05:38] [Server thread/INFO]: [VexRMB] > ∆ÊœÌÕ¯¬Á(∆Û“µ»œ÷§) VPS,√Ê∞Â,‘∆¥Ê¥¢
+[17:05:38] [Server thread/INFO]: [VexRMB] > ª˘”⁄”√ªß–Ë«Û£¨Ã·π©∑·∏ª°¢∞≤»´°¢“◊”√µƒ‘∆º∆À„≤˙∆∑
+[17:05:38] [Server thread/INFO]: [VexRMB] > Ã‘±¶µÍ∆ÃÕ¯÷∑£∫tb.i8mc.cn
+[17:05:38] [Server thread/INFO]: [VexRMB] > 
+[17:05:38] [Server thread/INFO]: [VexRMB] > ≤Âº˛º”‘ÿÕÍ≥…, ∏––ªƒ˙∂‘±æ≤Âº˛µƒ÷ß≥÷
+[17:05:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[17:05:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:05:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:05:39] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[17:05:39] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[17:05:39] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[17:05:39] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
+[17:05:39] [Server thread/INFO]: [Essentials] Using locale zh_CN
+[17:05:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:05:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:05:39] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[17:05:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[17:05:39] [Server thread/INFO]: [PixelPayGUI] Enabling PixelPayGUI v1.0
+[17:05:39] [Server thread/INFO]: [PixelPayGUI] PixelPayGUIº”‘ÿÕÍ±œ
+[17:05:39] [Server thread/INFO]: [ChatBubble] Enabling ChatBubble v1.1
+[17:05:39] [Server thread/INFO]: [ChatBubble] ¡ƒÃÏ∆¯≈›º”‘ÿÕÍ±œ
+[17:05:39] [Server thread/INFO]: [LevelSystem] Enabling LevelSystem v1.0
+[17:05:39] [Server thread/INFO]: [LevelSystem] µ»º∂œµÕ≥º”‘ÿÕÍ±œ
+[17:05:39] [Server thread/INFO]: [Elevator] Enabling Elevator v3.0.1
+[17:05:39] [Server thread/INFO]: ___________ __                       __                
+[17:05:39] [Server thread/INFO]: \_   _____/|  |   _______  _______ _/  |_  ___________ 
+[17:05:39] [Server thread/INFO]:  |    __)_ |  | _/ __ \  \/ /\__  \\   __\/  _ \_  __ \
+[17:05:39] [Server thread/INFO]:  |        \|  |_\  ___/\   /  / __ \|  | (  <_> )  | \/
+[17:05:39] [Server thread/INFO]: /_______  /|____/\___  >\_/  (____  /__|  \____/|__|   
+[17:05:39] [Server thread/INFO]:         \/           \/           \/                   
+[17:05:39] [Server thread/INFO]: 
+[17:05:39] [Server thread/INFO]: Elevator v3.0.1
+[17:05:39] [Server thread/INFO]: Running on Paper
+[17:05:39] [Server thread/INFO]: Authors: Baktus_79 and Synnelele
+[17:05:39] [Server thread/INFO]: 
+[17:05:39] [Server thread/INFO]: [Elevator] Enabling particles for elevators
+[17:05:39] [Server thread/INFO]: [Elevator] Using SPELL WITCH as particle for elevators
+[17:05:39] [Server thread/INFO]: [Elevator] Enabling particles for teleporters
+[17:05:39] [Server thread/INFO]: [Elevator] Using IRON BLOCK as elevator block
+[17:05:39] [Server thread/INFO]: [Elevator] Using SEA LANTERN as teleporter block
+[17:05:39] [Server thread/INFO]: [Elevator] Using the sound entity.player.levelup on activate elevator
+[17:05:39] [Server thread/INFO]: [Elevator] Using the sound entity.enderman.teleport when using elevator
+[17:05:39] [Server thread/INFO]: [Elevator] Using the sound entity.enderman.teleport when using teleporters
+[17:05:39] [Server thread/INFO]: [Elevator] Successfully hooked into WorldGuard
+[17:05:39] [Server thread/INFO]: [newtShop] Enabling newtShop v2.0.1
+[17:05:40] [Server thread/INFO]: An update was found! New version: 2.0.3 download: https://www.spigotmc.org/resources/74348
+[17:05:40] [Server thread/INFO]: [newtShop] Found Essentials! Support for worth.yml prices enabled
+[17:05:40] [Server thread/INFO]: [SafeTrade] Enabling SafeTrade v1.1.0
+[17:05:40] [Server thread/INFO]: [SafeTrade] Using Essentials Economy
+[17:05:40] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.4.6*
+[17:05:40] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.26-SNAPSHOT (build 1852)
+[17:05:41] [Server thread/INFO]: [CheckInSystem] Enabling CheckInSystem v1.1
+[17:05:41] [Server thread/INFO]: [CheckInSystem] «©µΩœµÕ≥º”‘ÿÕÍ±œ
+[17:05:41] [Server thread/INFO]: [Residence] Enabling Residence v4.9.0.5
+[17:05:42] [Server thread/INFO]: [Residence] Found Vault using permissions plugin:LuckPerms
+[17:05:43] [Server thread/INFO]: [Residence] Scanning for economy systems...
+[17:05:43] [Server thread/INFO]: [Residence] Found Vault using economy system: Essentials Economy
+[17:05:43] [Server thread/INFO]: [Residence] Loading save data for world world...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded world data. (3 ms)
+[17:05:43] [Server thread/INFO]: [Residence] Loading save data for world world_nether...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded world_nether data. (0 ms)
+[17:05:43] [Server thread/INFO]: [Residence] Loading save data for world world_the_end...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded world_the_end data. (35 ms)
+[17:05:43] [Server thread/INFO]: [Residence] Loading save data for world shengcun...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded shengcun data. (1 ms)
+[17:05:43] [Server thread/INFO]: [Residence] Loading save data for world kuangjie...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded kuangjie data. (1 ms)
+[17:05:43] [Server thread/INFO]: [Residence] Loading world data into memory...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded world data into memory. (0 ms) -> 0 residences
+[17:05:43] [Server thread/INFO]: [Residence] Loading world_nether data into memory...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded world_nether data into memory. (0 ms) -> 0 residences
+[17:05:43] [Server thread/INFO]: [Residence] Loading world_the_end data into memory...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded world_the_end data into memory. (0 ms) -> 0 residences
+[17:05:43] [Server thread/INFO]: [Residence] Loading shengcun data into memory...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded shengcun data into memory. (0 ms) -> 0 residences
+[17:05:43] [Server thread/INFO]: [Residence] Loading kuangjie data into memory...
+[17:05:43] [Server thread/INFO]: [Residence] Loaded kuangjie data into memory. (0 ms) -> 0 residences
+[17:05:43] [Server thread/INFO]: [Residence] Found WorldEdit 7.1.0;8e55131
+[17:05:43] [Server thread/INFO]: [Residence] Found WorldGuard 7.0.2-SNAPSHOT;bf2593e
+[17:05:43] [Server thread/INFO]: [Residence] PlaceholderAPI hooked.
+[17:05:43] [Server thread/INFO]: [Residence] PlaceholderAPI was found - Enabling capabilities.
+[17:05:43] [Server thread/INFO]: [Residence] Enabled! Version 4.9.0.5 by Zrips
+[17:05:43] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
+[17:05:43] [Server thread/INFO]: [ClockGUI] Enabling ClockGUI v1.8.1
+[17:05:43] [Server thread/INFO]: [ClockGUI] ÷”±Ì≤Àµ•º”‘ÿÕÍ±œ
+[17:05:43] [Server thread/INFO]: [ClockGUI] ÷∆◊˜’ﬂQQ:920157557
+[17:05:43] [Server thread/INFO]: [DailyQuest] Enabling DailyQuest v1.1
+[17:05:43] [Server thread/INFO]: [»’≥£»ŒŒÒ] ”Ô—‘Œƒº˛º”‘ÿÕÍ±œ
+[17:05:44] [Server thread/INFO]: [»’≥£»ŒŒÒ] “—º”‘ÿŒÔ∆∑79∏ˆ
+[17:05:44] [Server thread/INFO]: [»’≥£»ŒŒÒ] “—º”‘ÿ184∏ˆŒÔ∆∑»ŒŒÒ
+[17:05:44] [Server thread/INFO]: [»’≥£»ŒŒÒ] “—º”‘ÿ60∏ˆπ÷ŒÔ»ŒŒÒ
+[17:05:44] [Server thread/INFO]: [»’≥£»ŒŒÒ] “ªπ≤º”‘ÿ244∏ˆ»ŒŒÒ
+[17:05:44] [Server thread/INFO]: [DailyQuest] »’≥£»ŒŒÒœµÕ≥º”‘ÿÕÍ±œ
+[17:05:44] [Server thread/INFO]: [PVPSwitch] Enabling PVPSwitch v1.3.3
+[17:05:44] [Server thread/INFO]: [PVPSwitch] PVPœµÕ≥º”‘ÿÕÍ±œ
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.10-RELEASE
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loading the Messages.yml
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Successfully loaded Messages.yml
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loading the Locations.yml
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Successfully loaded Locations.yml
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loading custom files.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/æ≈—°“ª.yml.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/øÏÀŸ.yml.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/—Ãª®.yml.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/∑ËøÒ.yml.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/¿œª¢ª˙.yml.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/≈‹¬Ìµ∆.yml.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
+[17:05:44] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_15_R1! Trying to find NMS support
+[17:05:44] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_15_R1' loaded!
+[17:05:44] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] All physical crate locations have been loaded.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] classic.nbt was successfully found and loaded.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] nether.nbt was successfully found and loaded.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] outdoors.nbt was successfully found and loaded.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] sea.nbt was successfully found and loaded.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] soul.nbt was successfully found and loaded.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] wooden.nbt was successfully found and loaded.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
+[17:05:44] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
+[17:05:44] [Server thread/INFO]: [DungeonsXL] Enabling DungeonsXL v0.18-SNAPSHOT-819
+[17:05:44] [Server thread/INFO]: [##########[DungeonsXL]##########]
+[17:05:44] [Server thread/INFO]: Internals: [v1_15_R1]
+[17:05:44] [Server thread/INFO]: Spigot API: [true]
+[17:05:44] [Server thread/INFO]: Paper API: [true]
+[17:05:44] [Server thread/INFO]: Economy: [true]
+[17:05:44] [Server thread/INFO]: Permissions: [true]
+[17:05:44] [Server thread/INFO]: Metrics: [https://bstats.org/plugin/bukkit/DungeonsXL]
+[17:05:44] [Server thread/INFO]: SpigotMC ID: [9488]
+[17:05:44] [Server thread/INFO]: [###############################]
+[17:05:45] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material BEEHIVE. Please update your implementation if possible.
+[17:05:45] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material BEE_NEST. Please update your implementation if possible.
+[17:05:45] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material BEE_SPAWN_EGG. Please update your implementation if possible.
+[17:05:45] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material HONEYCOMB. Please update your implementation if possible.
+[17:05:45] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material HONEYCOMB_BLOCK. Please update your implementation if possible.
+[17:05:45] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material HONEY_BLOCK. Please update your implementation if possible.
+[17:05:45] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the material HONEY_BOTTLE. Please update your implementation if possible.
+[17:05:45] [Server thread/INFO]: [WARNING] Caliburn lacks a built-in representation of the entity BEE. Please update your implementation if possible!
+[17:05:45] [Server thread/INFO]: Could not find compatible Factions plugin. The game type PVP_FACTIONS_BATTLEFIELD will not get enabled...
+[17:05:46] [Server thread/INFO]: [DungeonsXL] Successfully loaded Vignette module "Inventory".
+[17:05:46] [Server thread/INFO]: [MangoQuest] Enabling MangoQuest v1.9.1
+[17:05:46] [Server thread/INFO]: [MangoQuest] Using default locale.
+[17:05:46] [Server thread/INFO]: [MangoQuest]  π”√÷–µƒ”Ôœµµµ∞∏£∫ zh_CN
+[17:05:46] [Server thread/INFO]: [MangoQuest] Citizens - NPC≤Âº˛“—æ≠¡¨Ω”≥…π¶£°
+[17:05:46] [Server thread/INFO]: [MangoQuest] Vault - Ω«ÆAPI≤Âº˛“—æ≠¡¨Ω”≥…π¶£°
+[17:05:46] [Server thread/INFO]: [MangoQuest] MythicMobs - ◊‘∂©π÷ŒÔ≤Âº˛“—æ≠¡¨Ω·≥…π¶£°
+[17:05:46] [Server thread/INFO]: [MangoQuest] æ≠º√≤Âº˛“—æ≠¡¨Ω·≥…π¶°£
+[17:05:46] [Server thread/WARN]: [MangoQuest] «Î◊¢“‚£¨ π”√≤‚ ‘∞Ê±æ ±Ωœ”–ø…ƒ‹≥ˆœ÷«±‘⁄µƒBUG£¨»Ù”ˆµΩ¿‡À∆Œ Ã‚«Îªÿ±®∏¯ø™∑¢’ﬂ“‘±„¥¶¿Ì°£
+[17:05:46] [Server thread/INFO]: [MangoQuest] ∂¡»°À≈∑˛∆˜∞Ê±æ∫≈Œ™£∫NMS v1_15_R1°£
+[17:05:46] [Server thread/INFO]: [ItemsAdder] Enabling ItemsAdder v2.0.13
+[17:05:46] [Server thread/INFO]: ------ ItemsAdder ------
+[17:05:46] [Server thread/INFO]:   _____ _                                 _     _           
+[17:05:46] [Server thread/INFO]:  |_   _| |                       /\      | |   | |          
+[17:05:46] [Server thread/INFO]:    | | | |_ ___ _ __ ___  ___   /  \   __| | __| | ___ _ __ 
+[17:05:46] [Server thread/INFO]:    | | | __/ _ \ '_ ` _ \/ __| / /\ \ / _` |/ _` |/ _ \ '__|
+[17:05:46] [Server thread/INFO]:   _| |_| ||  __/ | | | | \__ \/ ____ \ (_| | (_| |  __/ |   
+[17:05:46] [Server thread/INFO]:  |_____|\__\___|_| |_| |_|___/_/    \_\__,_|\__,_|\___|_|   
+[17:05:46] [Server thread/INFO]:                                                             
+[17:05:46] [Server thread/INFO]:                                                             
+[17:05:46] [Server thread/INFO]: Loading data...
+[17:05:46] [Server thread/INFO]: Found resourcepack folder: F:\Œ“µƒ ¿ΩÁJava≤ƒ¡œ\Project0Server\plugins\ItemsAdder\data\resource_pack
+[17:05:46] [Server thread/INFO]: [WorldBoss] Enabling WorldBoss v1.1.1
+[17:05:46] [Server thread/INFO]: [ ¿ΩÁBoss] “—º”‘ÿ3∏ˆBoss∂”ŒÈ
+[17:05:46] [Server thread/INFO]: [ ¿ΩÁBoss] WorldBoss loaded
+[17:05:46] [Server thread/INFO]: [MoreFish] Enabling MoreFish v3.0.3-SNAPSHOT
+[17:05:47] [Server thread/INFO]: [MoreFish] Loaded 5 rarities and 26 fish types
+[17:05:47] [Server thread/INFO]: [MoreFish] [ACF] Enabled Asynchronous Tab Completion Support!
+[17:05:47] [Server thread/INFO]: [MoreFish] Plugin has been enabled.
+[17:05:47] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.2.0
+[17:05:47] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[17:05:47] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.17.2.0
+[17:05:47] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
+[17:05:47] [Server thread/INFO]: [Dps] Enabling Dps v1.5.1
+[17:05:47] [Server thread/INFO]: [Dps] “—º”‘ÿ13∏ˆ∏±±æ,π≤128∏ˆΩ±¿¯
+[17:05:47] [Server thread/INFO]: [Dps] “—º”‘ÿ∆’Õ®Ω±¿¯ŒÔ∆∑69∏ˆ
+[17:05:47] [Server thread/INFO]: [Dps] Dps“—º”‘ÿ
+[17:05:47] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mEnabling MyPet v3.1[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mNo Update available.[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mCustom entity registry found: net.citizensnpcs.nms.v1_15_R1.util.CustomEntityRegistry[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mCompat mode for v1_15_R1 loaded.[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mExp calculation mode: MyPet[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mLoading WorldGroups...[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mworld[m' to 'default'[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mworld_nether[m' to 'default'[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mworld_the_end[m' to 'default'[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mshengcun[m' to 'default'[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [m   added '[0;33;22mkuangjie[m' to 'default'[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mConnect to MySQL database...[m
+[17:05:49] [Server thread/WARN]: Thu Apr 23 17:05:49 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:49] [HikariPool-1 connection adder/WARN]: Thu Apr 23 17:05:49 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mMySQL connection successful.[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mCitizens (2.0.26-SNAPSHOT (build 1852)) hook activated.[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mMythicMobs (4.9.0-3255) hook activated.[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mPlaceholderAPI (2.10.5) hook activated.[m
+[17:05:49] [HikariPool-1 connection adder/WARN]: Thu Apr 23 17:05:49 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:49] [HikariPool-1 connection adder/WARN]: Thu Apr 23 17:05:49 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mProtocolLib (4.5.0) hook activated.[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mResidence (4.9.0.5) hook activated.[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mVault (1.7.2-b107) (Economy: Essentials Economy) (Permissions: LuckPerms) hook activated.[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mWorldGuard (7.0.2-SNAPSHOT;bf2593e) hook activated.[m
+[17:05:49] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mVersion 3.10-b1542[0;32;1m ENABLED[m
+[17:05:49] [HikariPool-1 connection adder/WARN]: Thu Apr 23 17:05:49 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:49] [Server thread/INFO]: [PeterHelper] Enabling PeterHelper v1.2.0
+[17:05:49] [Server thread/INFO]: [PeterHelper] “—’“µΩItemsAdderµƒ¬∑æ∂!
+[17:05:49] [HikariPool-1 connection adder/WARN]: Thu Apr 23 17:05:49 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:50] [HikariPool-1 connection adder/WARN]: Thu Apr 23 17:05:50 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:50] [HikariPool-1 connection adder/WARN]: Thu Apr 23 17:05:50 MDT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:05:50] [Server thread/INFO]: [PeterHelper] π≤∂¡»°117∏ˆ◊‘∂®“ÂŒÔ∆∑!
+[17:05:50] [Server thread/INFO]: [PeterHelper] PeterHelperº”‘ÿÕÍ±œ
+[17:05:50] [Server thread/INFO]: [DungeonManager] Enabling DungeonManager v1.2.1
+[17:05:50] [Server thread/INFO]: [DungeonManager] “—º”‘ÿ10∏ˆ∏±±æ
+[17:05:50] [Server thread/INFO]: [DungeonManager] DungeonManager loaded
+[17:05:51] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:05:51] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.ess3.api.IEssentials from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: essentials
+[17:05:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[17:05:51] [Server thread/WARN]: [PlaceholderAPI] Loaded class org.black_ixx.playerpoints.PlayerPoints from PlayerPoints v2.1.4 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerpoints
+[17:05:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[17:05:51] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[17:05:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[17:05:51] [Server thread/INFO]: Done (32.629s)! For help, type "help"
+[17:05:51] [Server thread/INFO]: Starting remote control listener
+[17:05:51] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:25575
+[17:05:51] [Server thread/INFO]: Timings Reset
+[17:05:51] [Server thread/INFO]: [AsyncWorldEdit] Loading plugins...
+[17:05:51] [Craft Scheduler Thread - 21/INFO]: [ItemsAdder] Resourcepack initialization...
+[17:05:51] [Craft Scheduler Thread - 21/INFO]: [ItemsAdder]     Checking for online default resourcepack updates...
+[17:05:52] [Craft Scheduler Thread - 21/INFO]: [ItemsAdder]     Found cached default resourcepack
+[17:05:52] [Craft Scheduler Thread - 21/INFO]:     Extracting resources from default resourcepack
+[17:05:52] [Craft Scheduler Thread - 21/INFO]:     DONE extracting resources from default resourcepack
+[17:05:53] [Craft Scheduler Thread - 5/INFO]: [PlaceholderAPI] 173 placeholder expansions are available on the cloud.
+[17:05:53] [Craft Scheduler Thread - 5/INFO]: [PlaceholderAPI] 1 installed expansions have updates available.
+[17:05:53] [Craft Scheduler Thread - 20/INFO]: [DungeonsXL] A new version of DungeonsXL is available (0.18-SNAPSHOT-909). Download it here: https://spigotmc.org/resources/dungeonsxl.9488/download?version=324689
+[17:05:54] [Server thread/INFO]: [MythicMobs] [32m?Using HolographicDisplays plugin for holograms[0m
+[17:05:54] [Server thread/INFO]: [MythicMobs] [32m?Using HolographicDisplays plugin for holograms[0m
+[17:05:54] [Server thread/INFO]: [Citizens] “—‘ÿ»Î 15 ∏ˆNPC.
+[17:05:54] [Server thread/INFO]: [LibsDisguises] There is a new build of Lib's Disguises! You are using #465, the latest build is #528!
 https://ci.md-5.net/job/LibsDisguises/lastSuccessfulBuild/
-[14:49:19] [Craft Scheduler Thread - 21/INFO]: [ItemsAdder]     Downloaded default resourcepack
-[14:49:19] [Craft Scheduler Thread - 21/INFO]:     Extracting resources from default resourcepack
-[14:49:19] [Craft Scheduler Thread - 21/INFO]:     DONE extracting resources from default resourcepack
-[14:49:19] [Server thread/INFO]: - Extracting default items from .jar
-[14:49:19] [Server thread/INFO]:   - DONE extracting default items from .jar
-[14:49:21] [Server thread/INFO]: Used 558/6608 available max font images. 
-[14:49:23] [Server thread/INFO]: Loaded 601 items
-[14:49:23] [Server thread/INFO]: Used 29/191 REAL block IDs. 
-[14:49:23] [Server thread/INFO]: [ItemsAdder] Checking resourcepack url... http://154.8.194.127/pack.zip
-[14:49:24] [Server thread/INFO]: Loaded 39 categories (ia_gui.yml)
-[14:49:25] [Server thread/INFO]: [ItemsAdder] Loaded items and stuff in 16981ms
-[14:49:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9014ms or 180 ticks behind
-[14:49:27] [Craft Scheduler Thread - 22/INFO]: [ItemsAdder] Resourcepack URL is valid. Type: application/zip
-[14:49:39] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-211 (MC: 1.15.2) ---
-[14:49:39] [Paper Watchdog Thread/ERROR]: The server has not responded for -1 seconds! Creating thread dump
-[14:49:39] [Paper Watchdog Thread/ERROR]: ------------------------------
-[14:49:39] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[14:49:39] [Paper Watchdog Thread/ERROR]: ------------------------------
-[14:49:39] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[14:49:39] [Paper Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
-[14:49:39] [Paper Watchdog Thread/ERROR]: 	Stack:
-[14:49:39] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.yield(Native Method)
-[14:49:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.IAsyncTaskHandler.bl(IAsyncTaskHandler.java:130)
-[14:49:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:120)
-[14:49:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1143)
-[14:49:39] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946)
-[14:49:39] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
-[14:49:39] [Paper Watchdog Thread/ERROR]: ------------------------------
-[14:49:39] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[14:49:39] [Paper Watchdog Thread/ERROR]: ------------------------------
-[14:49:50] [User Authenticator #1/INFO]: UUID of player BiShop is 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
-[14:49:52] [Server thread/INFO]: BiShop joined the game
-[14:49:52] [Server thread/INFO]: BiShop[/127.0.0.1:55960] logged in with entity id 527 at ([world]107.5, 31.0, -107.5)
-[14:49:52] [Server thread/WARN]: [Essentials] Permissions lag notice with (ModernVaultHandler). Response took 169.526400ms. Summary: Getting prefix for BiShop
-[14:50:03] [Server thread/INFO]: VexRMB // ≤Âº˛∏¸–¬ºÏ≤È ß∞‹
-[14:50:49] [Server thread/INFO]: BiShop lost connection: Disconnected
-[14:50:50] [Server thread/INFO]: BiShop left the game
-[14:50:52] [Server thread/INFO]: Stopping the server
-[14:50:52] [Server thread/INFO]: Stopping server
-[14:50:52] [Server thread/INFO]: [DungeonManager] Disabling DungeonManager v1.2.1
-[14:50:52] [Server thread/INFO]: [DungeonManager] DungeonManager unloaded
-[14:50:52] [Server thread/INFO]: [PeterHelper] Disabling PeterHelper v1.2.0
-[14:50:52] [Server thread/INFO]: [PeterHelper] PeterHelper–∂‘ÿÕÍ±œ
-[14:50:52] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mDisabling MyPet v3.1[m
-[14:50:52] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: mypet
-[14:50:52] [Server thread/INFO]: [Dps] Disabling Dps v1.5.1
-[14:50:52] [Server thread/INFO]: [Dps] Dps“—–∂‘ÿ
-[14:50:52] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.2.0
-[14:50:52] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.17.2.0
-[14:50:52] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.2.0
-[14:50:52] [Server thread/INFO]: [MoreFish] Disabling MoreFish v3.0.3-SNAPSHOT
-[14:50:52] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: moreFish
-[14:50:52] [Server thread/INFO]: [MoreFish] Plugin has been disabled.
-[14:50:52] [Server thread/INFO]: [WorldBoss] Disabling WorldBoss v1.1.1
-[14:50:52] [Server thread/INFO]: [ ¿ΩÁBoss] WorldBoss unloaded
-[14:50:52] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v2.0.13
-[14:50:52] [Server thread/INFO]: [MangoQuest] Disabling MangoQuest v1.9.1
-[14:50:52] [Server thread/INFO]: [DungeonsXL] Disabling DungeonsXL v0.18-SNAPSHOT-819
-[14:50:52] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: dxl
-[14:50:52] [Server thread/INFO]: [CrazyCrates] Disabling CrazyCrates v1.10-RELEASE
-[14:50:52] [Server thread/INFO]: [PVPSwitch] Disabling PVPSwitch v1.3.3
-[14:50:52] [Server thread/INFO]: [PVPSwitch] PVPœµÕ≥–∂‘ÿÕÍ±œ
-[14:50:52] [Server thread/INFO]: [DailyQuest] Disabling DailyQuest v1.1
-[14:50:53] [Server thread/INFO]: [DailyQuest] »’≥£»ŒŒÒœµÕ≥–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [ClockGUI] Disabling ClockGUI v1.8.1
-[14:50:53] [Server thread/INFO]: [ClockGUI] ÷”±Ì≤Àµ•–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [ClockGUI] ÷∆◊˜’ﬂQQ:920157557
-[14:50:53] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.0
-[14:50:53] [Server thread/INFO]: [Residence] Disabling Residence v4.9.0.5
-[14:50:53] [Server thread/INFO]: [Residence] Disabled!
-[14:50:53] [Server thread/INFO]: [CheckInSystem] Disabling CheckInSystem v1.1
-[14:50:53] [Server thread/INFO]: [CheckInSystem] «©µΩœµÕ≥–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.26-SNAPSHOT (build 1852)
-[14:50:53] [Server thread/INFO]: [ActionHealth] Disabling ActionHealth v3.4.6
-[14:50:53] [Server thread/INFO]: [SafeTrade] Disabling SafeTrade v1.1.0
-[14:50:53] [Server thread/INFO]: [newtShop] Disabling newtShop v2.0.1
-[14:50:53] [Server thread/INFO]: [Elevator] Disabling Elevator v3.0.1
-[14:50:53] [Server thread/INFO]: [LevelSystem] Disabling LevelSystem v1.0
-[14:50:53] [Server thread/INFO]: [LevelSystem] µ»º∂œµÕ≥–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [ChatBubble] Disabling ChatBubble v1.1
-[14:50:53] [Server thread/INFO]: [ChatBubble] ¡ƒÃÏ∆¯≈›–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [PixelPayGUI] Disabling PixelPayGUI v1.0
-[14:50:53] [Server thread/INFO]: [PixelPayGUI] PixelPayGUI–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
-[14:50:53] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[14:50:53] [Server thread/INFO]: [PixelPay] Disabling PixelPay v4.1
-[14:50:53] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v4.9.0-3255
-[14:50:53] [Server thread/INFO]: [MythicMobs] Disabling Mythic Mobs...[0m
-[14:50:53] [Server thread/INFO]: [MythicMobs] All active settings have been saved.[0m
-[14:50:53] [Server thread/INFO]: [MythicMobs] v4.9.0-3255 has been Disabled![0m
-[14:50:53] [Server thread/INFO]: [AntiXray] Disabling AntiXray v1.8.1
-[14:50:53] [Server thread/INFO]: [AntiXray] œﬁ÷∆Õ⁄øÛœµÕ≥–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [AntiXray] ÷∆◊˜’ﬂQQ:920157557
-[14:50:53] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[14:50:53] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[14:50:53] [Server thread/INFO]: [VipSystem] Disabling VipSystem v1.2
-[14:50:53] [Server thread/INFO]: [vipSystem] ª·‘±œµÕ≥–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v2.1.4
-[14:50:53] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: playerpoints
-[14:50:53] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.1
-[14:50:53] [Server thread/INFO]: [Item2Chat] Disabling Item2Chat v4.2.3
-[14:50:53] [Server thread/INFO]: [Item2Chat] Item2Chat version 4.2.3 is Disabled
-[14:50:53] [Server thread/INFO]: [ScoreBoard] Disabling ScoreBoard v1.1
-[14:50:53] [Server thread/INFO]: [ScoreBoard] º«∑÷∞ÂœµÕ≥–∂‘ÿÕÍ≥…
-[14:50:53] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[14:50:53] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[14:50:53] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: vault
-[14:50:53] [Server thread/INFO]: [SQLibrary] Disabling SQLibrary v7.1
-[14:50:53] [Server thread/INFO]: SQLibrary stopped.
-[14:50:53] [Server thread/INFO]: [VoidGenerator] Disabling VoidGenerator v1.5.6
-[14:50:53] [Server thread/INFO]: [AsyncWorldEdit] Disabling AsyncWorldEdit v3.6.19
-[14:50:53] [Server thread/INFO]: [AsyncWorldEdit] Unloading plugins...
-[14:50:53] [Server thread/INFO]: [AsyncWorldEdit] Disable
-[14:50:53] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v9.9.9-SNAPSHOT
-[14:50:53] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.5.0
-[14:50:53] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
-[14:50:53] [Server thread/INFO]: [MiRespawn] Disabling MiRespawn v1.5.1
-[14:50:53] [Server thread/INFO]: [MiRespawn] [MiRespawn] 1.5.1 has been disabled!
-[14:50:53] [Server thread/INFO]: [PeterUtil] Disabling PeterUtil v1.0.1
-[14:50:53] [Server thread/INFO]: [PeterUtil] PeterUtil–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [MessageAnnouncer] Disabling MessageAnnouncer v1.11.0
-[14:50:53] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
-[14:50:53] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[14:50:53] [Server thread/INFO]: [ArmorEquipEvent] Disabling ArmorEquipEvent v1.7.2
-[14:50:53] [Server thread/INFO]: [CrazyAuctionsPlus] Disabling CrazyAuctionsPlus v1.1.4
-[14:50:53] [Server thread/INFO]: [»´«Ú –≥°] “—±£¥ÊÀ˘”–µƒ MySQL  ˝æ›ø‚ ˝æ›°£
-[14:50:53] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
-[14:50:53] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:50:53] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.0.72
-[14:50:53] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:50:53] [Server thread/INFO]: [LuckPerms] Closing messaging service...
-[14:50:53] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:50:53] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Shutdown initiated...
-[14:50:53] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Shutdown completed.
-[14:50:53] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:50:53] [Server thread/INFO]: [OpenVirtualBook] Disabling OpenVirtualBook v1.0
-[14:50:53] [Server thread/INFO]: [OpenVirtualBook] –Èƒ‚ ÈºÆ–∂‘ÿÕÍ±œ
-[14:50:53] [Server thread/INFO]: [AutoReload] Disabling AutoReload v1.02
-[14:50:53] [Server thread/INFO]: [LightAPI] Disabling LightAPI v3.4.2
-[14:50:53] [Server thread/INFO]: [newtLib] Disabling newtLib v1.5.0
-[14:50:53] [Server thread/INFO]: [PlugMan] Disabling PlugMan v2.1.7
-[14:50:53] [Server thread/INFO]: [IALibs] Disabling IALibs v1.0
-[14:50:53] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.5
-[14:50:53] [Server thread/INFO]: Saving players
-[14:50:53] [Server thread/INFO]: Saving worlds
-[14:50:53] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[14:50:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:50:55] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[14:50:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:50:55] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[14:50:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:50:56] [Server thread/INFO]: Saving chunks for level 'shengcun'/minecraft:shengcun
-[14:50:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (shengcun): All chunks are saved
-[14:50:56] [Server thread/INFO]: Saving chunks for level 'kuangjie'/minecraft:kuangjie
-[14:50:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (kuangjie): All chunks are saved
-[14:50:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:50:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:50:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:50:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (shengcun): All chunks are saved
-[14:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (kuangjie): All chunks are saved
-[14:51:00] [Server thread/INFO]: Flushing Chunk IO
-[14:51:00] [Server thread/INFO]: Closing Thread Pool
-[14:51:00] [Server thread/INFO]: Closing Server
+[17:05:54] [Server thread/INFO]: [MangoQuest] ∑≠“Îµµ∞∏∂¡»°ÕÍ≥…£°
+[17:05:54] [Server thread/INFO]: [MangoQuest] —°‘Ò“—æ≠∂¡»°ÕÍ≥…£°∂¡»°¡À 0 ∏ˆ—°‘Ò£°
+[17:05:55] [Server thread/INFO]: [MangoQuest] »ŒŒÒ“—æ≠∂¡»°ÕÍ±œ°£∂¡»°¡À 15 ∏ˆ»ŒŒÒ°£
+[17:05:55] [Server thread/INFO]: [MangoQuest] ∂‘ª∞“—æ≠∂¡»°ÕÍ≥…£°∂¡»°¡À 0 ∏ˆ∂‘ª∞£°
+[17:05:55] [Server thread/INFO]: [MangoQuest] NPC◊ ¡œ∂¡»°ÕÍ±œ°£≥…π¶∂¡»°¡À 0 ∏ˆNPC∂‘ª∞◊ ¡œ°£
+[17:05:55] [Server thread/INFO]: - Extracting default items from .jar
+[17:05:55] [Server thread/INFO]:   - DONE extracting default items from .jar
+[17:05:58] [Server thread/INFO]: Used 558/6608 available max font images. 
+[17:06:00] [Server thread/INFO]: Loaded 601 items
+[17:06:00] [Server thread/INFO]: Used 29/191 REAL block IDs. 
+[17:06:00] [Server thread/INFO]: [ItemsAdder] Checking resourcepack url... http://154.8.194.127/pack.zip
+[17:06:00] [Server thread/INFO]: Loaded 39 categories (ia_gui.yml)
+[17:06:01] [Server thread/INFO]: [ItemsAdder] Loaded items and stuff in 14845ms
+[17:06:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9978ms or 199 ticks behind
+[17:06:15] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-211 (MC: 1.15.2) ---
+[17:06:15] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:06:15] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:06:15] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:06:16] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:06:16] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:06:16] [Craft Scheduler Thread - 10/INFO]: [ItemsAdder] Resourcepack URL is valid. Type: application/zip
+[17:06:16] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[17:06:16] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[17:06:16] [Paper Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[17:06:16] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:06:16] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:598)
+[17:06:16] [Paper Watchdog Thread/ERROR]: 		org.bukkit.event.Event.callEvent(Event.java:45)
+[17:06:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1148)
+[17:06:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:946)
+[17:06:16] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[17:06:16] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:06:16] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:06:16] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:06:16] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[17:06:18] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[17:06:18] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[17:06:18] [RCON Listener #1/INFO]: Rcon connection from: /0:0:0:0:0:0:0:1
+[17:06:23] [Server thread/INFO]: [VexRMB] > 
+[17:06:23] [Server thread/INFO]: [VexRMB] > ∆ÊœÌ‘∆|∆ÊœÌÕ¯¬Á”–œﬁπ´Àæ
+[17:06:23] [Server thread/INFO]: [VexRMB] > ª˘”⁄”√ªß–Ë«Û£¨Ã·π©∑·∏ª°¢∞≤»´°¢“◊”√µƒ‘∆º∆À„≤˙∆∑
+[17:06:23] [Server thread/INFO]: [VexRMB] > “µŒÒ∑∂Œß: 
+[17:06:23] [Server thread/INFO]: [VexRMB] > VPS◊¿√Ê,√Ê∞Â∑˛,∂¿¡¢ª˙,Õ–π‹,”Ú√˚◊¢≤·
+[17:06:23] [Server thread/INFO]: [VexRMB] > Ã‘±¶∆Û“µµÍ∆Ã: tb.i8mc.cn
+[17:06:23] [Server thread/INFO]: [VexRMB] > ◊‘∂ØªØπŸÕ¯: yun.i8mc.cn
+[17:06:23] [Server thread/INFO]: [VexRMB] > œ÷π∫‘∆≤˙∆∑ø……Í«Î≥˝µ⁄»˝∑Ω≥È≥…Õ‚0∑—¬  π”√VEXRMB
+[17:06:23] [Server thread/INFO]: [VexRMB] > 
+[17:06:23] [Server thread/INFO]: [VexRMB] > µ±«∞ π”√∞Ê±æ: 4.1 “— «◊Ó–¬∞Ê±æ
+[17:06:51] [User Authenticator #1/INFO]: UUID of player BiShop is 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+[17:06:52] [Server thread/INFO]: BiShop joined the game
+[17:06:52] [Server thread/INFO]: BiShop[/127.0.0.1:59035] logged in with entity id 527 at ([world]107.5, 31.0, -107.5)
+[17:06:52] [Server thread/WARN]: [Essentials] Permissions lag notice with (ModernVaultHandler). Response took 69.080000ms. Summary: Getting prefix for BiShop
+[17:07:16] [Server thread/INFO]: BiShop lost connection: Disconnected
+[17:07:16] [Server thread/INFO]: BiShop left the game
+[17:07:18] [User Authenticator #1/INFO]: UUID of player BiShop is 9754b8e3-52ad-3c33-b44a-a5ed356ad6f2
+[17:07:18] [Server thread/INFO]: BiShop joined the game
+[17:07:18] [Server thread/INFO]: BiShop[/127.0.0.1:59055] logged in with entity id 528 at ([world]107.5, 31.0, -107.5)
+[17:08:11] [Server thread/INFO]: BiShop lost connection: Disconnected
+[17:08:11] [Server thread/INFO]: BiShop left the game
+[17:08:22] [Server thread/INFO]: Stopping the server
+[17:08:22] [Server thread/INFO]: Stopping server
+[17:08:22] [Server thread/INFO]: [DungeonManager] Disabling DungeonManager v1.2.1
+[17:08:22] [Server thread/INFO]: [DungeonManager] DungeonManager unloaded
+[17:08:22] [Server thread/INFO]: [PeterHelper] Disabling PeterHelper v1.2.0
+[17:08:22] [Server thread/INFO]: [PeterHelper] PeterHelper–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [[0;32;22mMyPet[m] [mDisabling MyPet v3.1[m
+[17:08:22] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: mypet
+[17:08:22] [Server thread/INFO]: [Dps] Disabling Dps v1.5.1
+[17:08:22] [Server thread/INFO]: [Dps] Dps“—–∂‘ÿ
+[17:08:22] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.2.0
+[17:08:22] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.17.2.0
+[17:08:22] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.2.0
+[17:08:22] [Server thread/INFO]: [MoreFish] Disabling MoreFish v3.0.3-SNAPSHOT
+[17:08:22] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: moreFish
+[17:08:22] [Server thread/INFO]: [MoreFish] Plugin has been disabled.
+[17:08:22] [Server thread/INFO]: [WorldBoss] Disabling WorldBoss v1.1.1
+[17:08:22] [Server thread/INFO]: [ ¿ΩÁBoss] WorldBoss unloaded
+[17:08:22] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v2.0.13
+[17:08:22] [Server thread/INFO]: [MangoQuest] Disabling MangoQuest v1.9.1
+[17:08:22] [Server thread/INFO]: [DungeonsXL] Disabling DungeonsXL v0.18-SNAPSHOT-819
+[17:08:22] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: dxl
+[17:08:22] [Server thread/INFO]: [CrazyCrates] Disabling CrazyCrates v1.10-RELEASE
+[17:08:22] [Server thread/INFO]: [PVPSwitch] Disabling PVPSwitch v1.3.3
+[17:08:22] [Server thread/INFO]: [PVPSwitch] PVPœµÕ≥–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [DailyQuest] Disabling DailyQuest v1.1
+[17:08:22] [Server thread/INFO]: [DailyQuest] »’≥£»ŒŒÒœµÕ≥–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [ClockGUI] Disabling ClockGUI v1.8.1
+[17:08:22] [Server thread/INFO]: [ClockGUI] ÷”±Ì≤Àµ•–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [ClockGUI] ÷∆◊˜’ﬂQQ:920157557
+[17:08:22] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.0
+[17:08:22] [Server thread/INFO]: [Residence] Disabling Residence v4.9.0.5
+[17:08:22] [Server thread/INFO]: [Residence] Disabled!
+[17:08:22] [Server thread/INFO]: [CheckInSystem] Disabling CheckInSystem v1.1
+[17:08:22] [Server thread/INFO]: [CheckInSystem] «©µΩœµÕ≥–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.26-SNAPSHOT (build 1852)
+[17:08:22] [Server thread/INFO]: [ActionHealth] Disabling ActionHealth v3.4.6
+[17:08:22] [Server thread/INFO]: [SafeTrade] Disabling SafeTrade v1.1.0
+[17:08:22] [Server thread/INFO]: [newtShop] Disabling newtShop v2.0.1
+[17:08:22] [Server thread/INFO]: [Elevator] Disabling Elevator v3.0.1
+[17:08:22] [Server thread/INFO]: [LevelSystem] Disabling LevelSystem v1.0
+[17:08:22] [Server thread/INFO]: [LevelSystem] µ»º∂œµÕ≥–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [ChatBubble] Disabling ChatBubble v1.1
+[17:08:22] [Server thread/INFO]: [ChatBubble] ¡ƒÃÏ∆¯≈›–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [PixelPayGUI] Disabling PixelPayGUI v1.0
+[17:08:22] [Server thread/INFO]: [PixelPayGUI] PixelPayGUI–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
+[17:08:22] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[17:08:22] [Server thread/INFO]: [PixelPay] Disabling PixelPay v4.1
+[17:08:22] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v4.9.0-3255
+[17:08:22] [Server thread/INFO]: [MythicMobs] Disabling Mythic Mobs...[0m
+[17:08:22] [Server thread/INFO]: [MythicMobs] All active settings have been saved.[0m
+[17:08:22] [Server thread/INFO]: [MythicMobs] v4.9.0-3255 has been Disabled![0m
+[17:08:22] [Server thread/INFO]: [AntiXray] Disabling AntiXray v1.8.1
+[17:08:22] [Server thread/INFO]: [AntiXray] œﬁ÷∆Õ⁄øÛœµÕ≥–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [AntiXray] ÷∆◊˜’ﬂQQ:920157557
+[17:08:22] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[17:08:22] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[17:08:22] [Server thread/INFO]: [VipSystem] Disabling VipSystem v1.2
+[17:08:22] [Server thread/INFO]: [vipSystem] ª·‘±œµÕ≥–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v2.1.4
+[17:08:22] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: playerpoints
+[17:08:22] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.1
+[17:08:22] [Server thread/INFO]: [Item2Chat] Disabling Item2Chat v4.2.3
+[17:08:22] [Server thread/INFO]: [Item2Chat] Item2Chat version 4.2.3 is Disabled
+[17:08:22] [Server thread/INFO]: [ScoreBoard] Disabling ScoreBoard v1.1
+[17:08:22] [Server thread/INFO]: [ScoreBoard] º«∑÷∞ÂœµÕ≥–∂‘ÿÕÍ≥…
+[17:08:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[17:08:22] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:08:22] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: vault
+[17:08:22] [Server thread/INFO]: [SQLibrary] Disabling SQLibrary v7.1
+[17:08:22] [Server thread/INFO]: SQLibrary stopped.
+[17:08:22] [Server thread/INFO]: [VoidGenerator] Disabling VoidGenerator v1.5.6
+[17:08:22] [Server thread/INFO]: [AsyncWorldEdit] Disabling AsyncWorldEdit v3.6.19
+[17:08:22] [Server thread/INFO]: [AsyncWorldEdit] Unloading plugins...
+[17:08:22] [Server thread/INFO]: [AsyncWorldEdit] Disable
+[17:08:22] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v9.9.9-SNAPSHOT
+[17:08:22] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.5.0
+[17:08:22] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
+[17:08:22] [Server thread/INFO]: [MiRespawn] Disabling MiRespawn v1.5.1
+[17:08:22] [Server thread/INFO]: [MiRespawn] [MiRespawn] 1.5.1 has been disabled!
+[17:08:22] [Server thread/INFO]: [PeterUtil] Disabling PeterUtil v1.0.1
+[17:08:22] [Server thread/INFO]: [PeterUtil] PeterUtil–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [MessageAnnouncer] Disabling MessageAnnouncer v1.11.0
+[17:08:22] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.10 (beta)
+[17:08:22] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[17:08:22] [Server thread/INFO]: [ArmorEquipEvent] Disabling ArmorEquipEvent v1.7.2
+[17:08:22] [Server thread/INFO]: [CrazyAuctionsPlus] Disabling CrazyAuctionsPlus v1.1.4
+[17:08:22] [Server thread/INFO]: [»´«Ú –≥°] “—±£¥ÊÀ˘”–µƒ MySQL  ˝æ›ø‚ ˝æ›°£
+[17:08:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[17:08:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:08:22] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.0.72
+[17:08:22] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:08:22] [Server thread/INFO]: [LuckPerms] Closing messaging service...
+[17:08:22] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:08:22] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Shutdown initiated...
+[17:08:22] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Shutdown completed.
+[17:08:22] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:08:22] [Server thread/INFO]: [OpenVirtualBook] Disabling OpenVirtualBook v1.0
+[17:08:22] [Server thread/INFO]: [OpenVirtualBook] –Èƒ‚ ÈºÆ–∂‘ÿÕÍ±œ
+[17:08:22] [Server thread/INFO]: [AutoReload] Disabling AutoReload v1.02
+[17:08:22] [Server thread/INFO]: [LightAPI] Disabling LightAPI v3.4.2
+[17:08:22] [Server thread/INFO]: [newtLib] Disabling newtLib v1.5.0
+[17:08:22] [Server thread/INFO]: [PlugMan] Disabling PlugMan v2.1.7
+[17:08:22] [Server thread/INFO]: [IALibs] Disabling IALibs v1.0
+[17:08:22] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.5
+[17:08:22] [Server thread/INFO]: Saving players
+[17:08:23] [Server thread/INFO]: Saving worlds
+[17:08:23] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[17:08:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:08:24] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[17:08:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:08:24] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[17:08:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:08:25] [Server thread/INFO]: Saving chunks for level 'shengcun'/minecraft:shengcun
+[17:08:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (shengcun): All chunks are saved
+[17:08:26] [Server thread/INFO]: Saving chunks for level 'kuangjie'/minecraft:kuangjie
+[17:08:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (kuangjie): All chunks are saved
+[17:08:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:08:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:08:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:08:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (shengcun): All chunks are saved
+[17:08:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (kuangjie): All chunks are saved
+[17:08:29] [Server thread/INFO]: Flushing Chunk IO
+[17:08:29] [Server thread/INFO]: Closing Thread Pool
+[17:08:29] [Server thread/INFO]: Closing Server
